@@ -1,6 +1,6 @@
 [![Paper](https://img.shields.io/badge/paper-arXiv%3A2601.18879-B31B1B.svg)](https://arxiv.org/abs/2601.18879)
 
-# Multivariate Multicycle Codes For Complete Single Shot Decoding
+# Multivariate Multicycle Codes For Complete Single-Shot Decoding
 
 **Authors:**
 
