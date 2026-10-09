@@ -1,0 +1,5 @@
+matrix_convention = "QuantumClifford matrices saved with this entry"
+sector = "z"
+support_one_based = [287, 288, 454, 455, 456, 457, 458, 519, 520, 521, 522, 523, 524, 525, 526, 595]
+verified = true
+weight = 16

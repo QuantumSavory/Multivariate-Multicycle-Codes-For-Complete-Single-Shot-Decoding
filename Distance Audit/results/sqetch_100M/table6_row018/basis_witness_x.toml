@@ -1,0 +1,5 @@
+matrix_convention = "QuantumClifford matrices saved with this entry"
+sector = "x"
+support_one_based = [42, 83, 90, 96, 102, 108, 113, 120, 125, 165, 166, 167, 174, 177, 180, 186, 192, 196, 197, 204, 208, 209, 213, 214, 218, 219, 220, 225, 226, 231, 232, 236, 243, 244, 248]
+verified = true
+weight = 35
