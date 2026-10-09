@@ -1,0 +1,3934 @@
+# Actual Python GF(2) reconstruction, not randomized distance estimates.
+["table2_row001"]
+n = 96
+k = 12
+rank_x = 42
+rank_z = 42
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row002"]
+n = 144
+k = 6
+rank_x = 69
+rank_z = 69
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row003"]
+n = 192
+k = 6
+rank_x = 93
+rank_z = 93
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row004"]
+n = 216
+k = 6
+rank_x = 105
+rank_z = 105
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row005"]
+n = 240
+k = 12
+rank_x = 114
+rank_z = 114
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row006"]
+n = 240
+k = 6
+rank_x = 117
+rank_z = 117
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row007"]
+n = 288
+k = 6
+rank_x = 141
+rank_z = 141
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row008"]
+n = 288
+k = 12
+rank_x = 138
+rank_z = 138
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row009"]
+n = 324
+k = 6
+rank_x = 159
+rank_z = 159
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row010"]
+n = 336
+k = 6
+rank_x = 165
+rank_z = 165
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row011"]
+n = 360
+k = 6
+rank_x = 177
+rank_z = 177
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row012"]
+n = 360
+k = 12
+rank_x = 174
+rank_z = 174
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row013"]
+n = 384
+k = 6
+rank_x = 189
+rank_z = 189
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row014"]
+n = 384
+k = 12
+rank_x = 186
+rank_z = 186
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row015"]
+n = 432
+k = 12
+rank_x = 210
+rank_z = 210
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row016"]
+n = 432
+k = 6
+rank_x = 213
+rank_z = 213
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row017"]
+n = 480
+k = 6
+rank_x = 237
+rank_z = 237
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row018"]
+n = 480
+k = 12
+rank_x = 234
+rank_z = 234
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row019"]
+n = 480
+k = 24
+rank_x = 228
+rank_z = 228
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row020"]
+n = 504
+k = 6
+rank_x = 249
+rank_z = 249
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row021"]
+n = 504
+k = 12
+rank_x = 246
+rank_z = 246
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row022"]
+n = 528
+k = 6
+rank_x = 261
+rank_z = 261
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row023"]
+n = 528
+k = 12
+rank_x = 258
+rank_z = 258
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row024"]
+n = 540
+k = 6
+rank_x = 267
+rank_z = 267
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row025"]
+n = 540
+k = 18
+rank_x = 261
+rank_z = 261
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row026"]
+n = 576
+k = 12
+rank_x = 282
+rank_z = 282
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row027"]
+n = 576
+k = 6
+rank_x = 285
+rank_z = 285
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row028"]
+n = 576
+k = 18
+rank_x = 279
+rank_z = 279
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row029"]
+n = 600
+k = 6
+rank_x = 297
+rank_z = 297
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row030"]
+n = 600
+k = 24
+rank_x = 288
+rank_z = 288
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row031"]
+n = 600
+k = 12
+rank_x = 294
+rank_z = 294
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row032"]
+n = 624
+k = 6
+rank_x = 309
+rank_z = 309
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row033"]
+n = 624
+k = 12
+rank_x = 306
+rank_z = 306
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row034"]
+n = 648
+k = 6
+rank_x = 321
+rank_z = 321
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row035"]
+n = 648
+k = 12
+rank_x = 318
+rank_z = 318
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row036"]
+n = 672
+k = 6
+rank_x = 333
+rank_z = 333
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row037"]
+n = 672
+k = 12
+rank_x = 330
+rank_z = 330
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row038"]
+n = 672
+k = 24
+rank_x = 324
+rank_z = 324
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row039"]
+n = 720
+k = 6
+rank_x = 357
+rank_z = 357
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row040"]
+n = 720
+k = 12
+rank_x = 354
+rank_z = 354
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row041"]
+n = 720
+k = 12
+rank_x = 354
+rank_z = 354
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row042"]
+n = 756
+k = 6
+rank_x = 375
+rank_z = 375
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row043"]
+n = 756
+k = 18
+rank_x = 369
+rank_z = 369
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row044"]
+n = 768
+k = 12
+rank_x = 378
+rank_z = 378
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row045"]
+n = 768
+k = 6
+rank_x = 381
+rank_z = 381
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row046"]
+n = 792
+k = 6
+rank_x = 393
+rank_z = 393
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row047"]
+n = 792
+k = 12
+rank_x = 390
+rank_z = 390
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row048"]
+n = 792
+k = 12
+rank_x = 390
+rank_z = 390
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row049"]
+n = 810
+k = 18
+rank_x = 396
+rank_z = 396
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row050"]
+n = 810
+k = 6
+rank_x = 402
+rank_z = 402
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row051"]
+n = 816
+k = 6
+rank_x = 405
+rank_z = 405
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row052"]
+n = 816
+k = 12
+rank_x = 402
+rank_z = 402
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row053"]
+n = 816
+k = 24
+rank_x = 396
+rank_z = 396
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row054"]
+n = 840
+k = 6
+rank_x = 417
+rank_z = 417
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row055"]
+n = 840
+k = 24
+rank_x = 408
+rank_z = 408
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row056"]
+n = 840
+k = 12
+rank_x = 414
+rank_z = 414
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row057"]
+n = 864
+k = 6
+rank_x = 429
+rank_z = 429
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row058"]
+n = 864
+k = 12
+rank_x = 426
+rank_z = 426
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row059"]
+n = 864
+k = 18
+rank_x = 423
+rank_z = 423
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row060"]
+n = 864
+k = 24
+rank_x = 420
+rank_z = 420
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row061"]
+n = 900
+k = 6
+rank_x = 447
+rank_z = 447
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row062"]
+n = 900
+k = 12
+rank_x = 444
+rank_z = 444
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row063"]
+n = 912
+k = 12
+rank_x = 450
+rank_z = 450
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row064"]
+n = 936
+k = 6
+rank_x = 465
+rank_z = 465
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row065"]
+n = 936
+k = 12
+rank_x = 462
+rank_z = 462
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row066"]
+n = 960
+k = 6
+rank_x = 477
+rank_z = 477
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row067"]
+n = 960
+k = 12
+rank_x = 474
+rank_z = 474
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row068"]
+n = 960
+k = 24
+rank_x = 468
+rank_z = 468
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row069"]
+n = 972
+k = 36
+rank_x = 468
+rank_z = 468
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row070"]
+n = 972
+k = 18
+rank_x = 477
+rank_z = 477
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table2_row071"]
+n = 972
+k = 6
+rank_x = 483
+rank_z = 483
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table3_row001"]
+n = 144
+k = 12
+rank_x = 66
+rank_z = 66
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row002"]
+n = 144
+k = 12
+rank_x = 66
+rank_z = 66
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row003"]
+n = 216
+k = 12
+rank_x = 102
+rank_z = 102
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row004"]
+n = 216
+k = 24
+rank_x = 96
+rank_z = 96
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row005"]
+n = 288
+k = 0
+rank_x = 144
+rank_z = 144
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row006"]
+n = 324
+k = 12
+rank_x = 156
+rank_z = 156
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row007"]
+n = 336
+k = 18
+rank_x = 159
+rank_z = 159
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row008"]
+n = 432
+k = 12
+rank_x = 210
+rank_z = 210
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row009"]
+n = 432
+k = 24
+rank_x = 204
+rank_z = 204
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row010"]
+n = 486
+k = 12
+rank_x = 237
+rank_z = 237
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row011"]
+n = 486
+k = 24
+rank_x = 231
+rank_z = 231
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row012"]
+n = 504
+k = 12
+rank_x = 246
+rank_z = 246
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row013"]
+n = 504
+k = 12
+rank_x = 246
+rank_z = 246
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row014"]
+n = 540
+k = 12
+rank_x = 264
+rank_z = 264
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row015"]
+n = 576
+k = 12
+rank_x = 282
+rank_z = 282
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row016"]
+n = 648
+k = 12
+rank_x = 318
+rank_z = 318
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row017"]
+n = 648
+k = 12
+rank_x = 318
+rank_z = 318
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row018"]
+n = 648
+k = 12
+rank_x = 318
+rank_z = 318
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row019"]
+n = 672
+k = 18
+rank_x = 327
+rank_z = 327
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row020"]
+n = 720
+k = 12
+rank_x = 354
+rank_z = 354
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row021"]
+n = 720
+k = 12
+rank_x = 354
+rank_z = 354
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row022"]
+n = 756
+k = 12
+rank_x = 372
+rank_z = 372
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row023"]
+n = 756
+k = 12
+rank_x = 372
+rank_z = 372
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row024"]
+n = 810
+k = 12
+rank_x = 399
+rank_z = 399
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row025"]
+n = 840
+k = 18
+rank_x = 411
+rank_z = 411
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row026"]
+n = 864
+k = 12
+rank_x = 426
+rank_z = 426
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row027"]
+n = 864
+k = 12
+rank_x = 426
+rank_z = 426
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row028"]
+n = 972
+k = 12
+rank_x = 480
+rank_z = 480
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row029"]
+n = 972
+k = 24
+rank_x = 474
+rank_z = 474
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table3_row030"]
+n = 972
+k = 24
+rank_x = 474
+rank_z = 474
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table4_row001"]
+n = 96
+k = 44
+rank_x = 26
+rank_z = 26
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row002"]
+n = 144
+k = 12
+rank_x = 66
+rank_z = 66
+row_min_x = 8
+row_max_x = 10
+row_min_z = 8
+row_max_z = 10
+["table4_row003"]
+n = 192
+k = 12
+rank_x = 90
+rank_z = 90
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row004"]
+n = 216
+k = 12
+rank_x = 102
+rank_z = 102
+row_min_x = 8
+row_max_x = 10
+row_min_z = 8
+row_max_z = 10
+["table4_row005"]
+n = 216
+k = 12
+rank_x = 102
+rank_z = 102
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row006"]
+n = 240
+k = 6
+rank_x = 117
+rank_z = 117
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row007"]
+n = 240
+k = 12
+rank_x = 114
+rank_z = 114
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row008"]
+n = 240
+k = 18
+rank_x = 111
+rank_z = 111
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row009"]
+n = 288
+k = 24
+rank_x = 132
+rank_z = 132
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row010"]
+n = 324
+k = 6
+rank_x = 159
+rank_z = 159
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row011"]
+n = 324
+k = 18
+rank_x = 153
+rank_z = 153
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row012"]
+n = 336
+k = 6
+rank_x = 165
+rank_z = 165
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row013"]
+n = 336
+k = 12
+rank_x = 162
+rank_z = 162
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row014"]
+n = 384
+k = 24
+rank_x = 180
+rank_z = 180
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row015"]
+n = 432
+k = 12
+rank_x = 210
+rank_z = 210
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row016"]
+n = 480
+k = 12
+rank_x = 234
+rank_z = 234
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row017"]
+n = 486
+k = 24
+rank_x = 231
+rank_z = 231
+row_min_x = 9
+row_max_x = 9
+row_min_z = 9
+row_max_z = 9
+["table4_row018"]
+n = 486
+k = 66
+rank_x = 210
+rank_z = 210
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row019"]
+n = 480
+k = 12
+rank_x = 234
+rank_z = 234
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row020"]
+n = 576
+k = 64
+rank_x = 256
+rank_z = 256
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row021"]
+n = 624
+k = 12
+rank_x = 306
+rank_z = 306
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row022"]
+n = 648
+k = 60
+rank_x = 294
+rank_z = 294
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row023"]
+n = 672
+k = 12
+rank_x = 330
+rank_z = 330
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row024"]
+n = 720
+k = 12
+rank_x = 354
+rank_z = 354
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table4_row025"]
+n = 768
+k = 12
+rank_x = 378
+rank_z = 378
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table4_row026"]
+n = 768
+k = 12
+rank_x = 378
+rank_z = 378
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table5_row001"]
+n = 96
+k = 12
+rank_x = 42
+rank_z = 42
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table5_row002"]
+n = 96
+k = 12
+rank_x = 42
+rank_z = 42
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table5_row003"]
+n = 144
+k = 6
+rank_x = 69
+rank_z = 69
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table5_row004"]
+n = 144
+k = 6
+rank_x = 69
+rank_z = 69
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table5_row005"]
+n = 144
+k = 6
+rank_x = 69
+rank_z = 69
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table5_row006"]
+n = 144
+k = 6
+rank_x = 69
+rank_z = 69
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table5_row007"]
+n = 144
+k = 12
+rank_x = 66
+rank_z = 66
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table5_row008"]
+n = 144
+k = 12
+rank_x = 66
+rank_z = 66
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table5_row009"]
+n = 144
+k = 12
+rank_x = 66
+rank_z = 66
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table5_row010"]
+n = 144
+k = 12
+rank_x = 66
+rank_z = 66
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table5_row011"]
+n = 144
+k = 18
+rank_x = 63
+rank_z = 63
+row_min_x = 12
+row_max_x = 12
+row_min_z = 12
+row_max_z = 12
+["table6_row001"]
+n = 156
+k = 6
+rank_x = 75
+rank_z = 75
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row002"]
+n = 162
+k = 6
+rank_x = 78
+rank_z = 78
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row003"]
+n = 168
+k = 6
+rank_x = 81
+rank_z = 81
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row004"]
+n = 168
+k = 12
+rank_x = 78
+rank_z = 78
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row005"]
+n = 174
+k = 6
+rank_x = 84
+rank_z = 84
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row006"]
+n = 180
+k = 6
+rank_x = 87
+rank_z = 87
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row007"]
+n = 186
+k = 6
+rank_x = 90
+rank_z = 90
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row008"]
+n = 192
+k = 6
+rank_x = 93
+rank_z = 93
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row009"]
+n = 198
+k = 6
+rank_x = 96
+rank_z = 96
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row010"]
+n = 204
+k = 6
+rank_x = 99
+rank_z = 99
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row011"]
+n = 210
+k = 6
+rank_x = 102
+rank_z = 102
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row012"]
+n = 216
+k = 6
+rank_x = 105
+rank_z = 105
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row013"]
+n = 222
+k = 6
+rank_x = 108
+rank_z = 108
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row014"]
+n = 228
+k = 6
+rank_x = 111
+rank_z = 111
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row015"]
+n = 234
+k = 6
+rank_x = 114
+rank_z = 114
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row016"]
+n = 240
+k = 6
+rank_x = 117
+rank_z = 117
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row017"]
+n = 246
+k = 6
+rank_x = 120
+rank_z = 120
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row018"]
+n = 252
+k = 6
+rank_x = 123
+rank_z = 123
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row019"]
+n = 258
+k = 6
+rank_x = 126
+rank_z = 126
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row020"]
+n = 264
+k = 6
+rank_x = 129
+rank_z = 129
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row021"]
+n = 270
+k = 6
+rank_x = 132
+rank_z = 132
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row022"]
+n = 276
+k = 6
+rank_x = 135
+rank_z = 135
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row023"]
+n = 282
+k = 6
+rank_x = 138
+rank_z = 138
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row024"]
+n = 288
+k = 6
+rank_x = 141
+rank_z = 141
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row025"]
+n = 294
+k = 6
+rank_x = 144
+rank_z = 144
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row026"]
+n = 300
+k = 6
+rank_x = 147
+rank_z = 147
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row027"]
+n = 306
+k = 6
+rank_x = 150
+rank_z = 150
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row028"]
+n = 312
+k = 6
+rank_x = 153
+rank_z = 153
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row029"]
+n = 318
+k = 6
+rank_x = 156
+rank_z = 156
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row030"]
+n = 324
+k = 6
+rank_x = 159
+rank_z = 159
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row031"]
+n = 330
+k = 6
+rank_x = 162
+rank_z = 162
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row032"]
+n = 336
+k = 6
+rank_x = 165
+rank_z = 165
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row033"]
+n = 342
+k = 6
+rank_x = 168
+rank_z = 168
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row034"]
+n = 348
+k = 6
+rank_x = 171
+rank_z = 171
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row035"]
+n = 354
+k = 6
+rank_x = 174
+rank_z = 174
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row036"]
+n = 360
+k = 6
+rank_x = 177
+rank_z = 177
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row037"]
+n = 366
+k = 6
+rank_x = 180
+rank_z = 180
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row038"]
+n = 372
+k = 6
+rank_x = 183
+rank_z = 183
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row039"]
+n = 378
+k = 6
+rank_x = 186
+rank_z = 186
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row040"]
+n = 384
+k = 6
+rank_x = 189
+rank_z = 189
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row041"]
+n = 390
+k = 6
+rank_x = 192
+rank_z = 192
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row042"]
+n = 396
+k = 6
+rank_x = 195
+rank_z = 195
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row043"]
+n = 402
+k = 6
+rank_x = 198
+rank_z = 198
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row044"]
+n = 408
+k = 6
+rank_x = 201
+rank_z = 201
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row045"]
+n = 414
+k = 6
+rank_x = 204
+rank_z = 204
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row046"]
+n = 420
+k = 6
+rank_x = 207
+rank_z = 207
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row047"]
+n = 426
+k = 6
+rank_x = 210
+rank_z = 210
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row048"]
+n = 432
+k = 6
+rank_x = 213
+rank_z = 213
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row049"]
+n = 438
+k = 6
+rank_x = 216
+rank_z = 216
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row050"]
+n = 444
+k = 6
+rank_x = 219
+rank_z = 219
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row051"]
+n = 450
+k = 6
+rank_x = 222
+rank_z = 222
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row052"]
+n = 456
+k = 6
+rank_x = 225
+rank_z = 225
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row053"]
+n = 462
+k = 6
+rank_x = 228
+rank_z = 228
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row054"]
+n = 468
+k = 6
+rank_x = 231
+rank_z = 231
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row055"]
+n = 474
+k = 6
+rank_x = 234
+rank_z = 234
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row056"]
+n = 480
+k = 6
+rank_x = 237
+rank_z = 237
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row057"]
+n = 486
+k = 6
+rank_x = 240
+rank_z = 240
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row058"]
+n = 492
+k = 6
+rank_x = 243
+rank_z = 243
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row059"]
+n = 498
+k = 6
+rank_x = 246
+rank_z = 246
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row060"]
+n = 504
+k = 6
+rank_x = 249
+rank_z = 249
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row061"]
+n = 510
+k = 6
+rank_x = 252
+rank_z = 252
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row062"]
+n = 516
+k = 6
+rank_x = 255
+rank_z = 255
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table6_row063"]
+n = 522
+k = 6
+rank_x = 258
+rank_z = 258
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["table7_row001"]
+n = 60
+k = 10
+rank_x = 20
+rank_z = 30
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row002"]
+n = 70
+k = 10
+rank_x = 24
+rank_z = 36
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row003"]
+n = 80
+k = 10
+rank_x = 28
+rank_z = 42
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row004"]
+n = 80
+k = 10
+rank_x = 28
+rank_z = 42
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row005"]
+n = 90
+k = 10
+rank_x = 32
+rank_z = 48
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row006"]
+n = 90
+k = 10
+rank_x = 32
+rank_z = 48
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row007"]
+n = 100
+k = 10
+rank_x = 36
+rank_z = 54
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row008"]
+n = 110
+k = 10
+rank_x = 40
+rank_z = 60
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row009"]
+n = 120
+k = 10
+rank_x = 44
+rank_z = 66
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row010"]
+n = 130
+k = 10
+rank_x = 48
+rank_z = 72
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row011"]
+n = 140
+k = 10
+rank_x = 52
+rank_z = 78
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row012"]
+n = 150
+k = 10
+rank_x = 56
+rank_z = 84
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row013"]
+n = 150
+k = 10
+rank_x = 56
+rank_z = 84
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row014"]
+n = 160
+k = 10
+rank_x = 60
+rank_z = 90
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row015"]
+n = 160
+k = 10
+rank_x = 60
+rank_z = 90
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row016"]
+n = 170
+k = 10
+rank_x = 64
+rank_z = 96
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row017"]
+n = 170
+k = 10
+rank_x = 64
+rank_z = 96
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row018"]
+n = 180
+k = 10
+rank_x = 68
+rank_z = 102
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row019"]
+n = 180
+k = 10
+rank_x = 68
+rank_z = 102
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row020"]
+n = 190
+k = 10
+rank_x = 72
+rank_z = 108
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row021"]
+n = 190
+k = 10
+rank_x = 72
+rank_z = 108
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row022"]
+n = 200
+k = 10
+rank_x = 76
+rank_z = 114
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row023"]
+n = 200
+k = 10
+rank_x = 76
+rank_z = 114
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row024"]
+n = 210
+k = 10
+rank_x = 80
+rank_z = 120
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row025"]
+n = 210
+k = 10
+rank_x = 80
+rank_z = 120
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row026"]
+n = 220
+k = 10
+rank_x = 84
+rank_z = 126
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row027"]
+n = 220
+k = 10
+rank_x = 84
+rank_z = 126
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row028"]
+n = 230
+k = 10
+rank_x = 88
+rank_z = 132
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row029"]
+n = 230
+k = 10
+rank_x = 88
+rank_z = 132
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row030"]
+n = 240
+k = 10
+rank_x = 92
+rank_z = 138
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row031"]
+n = 240
+k = 10
+rank_x = 92
+rank_z = 138
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row032"]
+n = 250
+k = 10
+rank_x = 96
+rank_z = 144
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row033"]
+n = 250
+k = 10
+rank_x = 96
+rank_z = 144
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row034"]
+n = 250
+k = 10
+rank_x = 96
+rank_z = 144
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row035"]
+n = 250
+k = 10
+rank_x = 96
+rank_z = 144
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row036"]
+n = 260
+k = 10
+rank_x = 100
+rank_z = 150
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row037"]
+n = 260
+k = 10
+rank_x = 100
+rank_z = 150
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row038"]
+n = 260
+k = 10
+rank_x = 100
+rank_z = 150
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row039"]
+n = 270
+k = 10
+rank_x = 104
+rank_z = 156
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row040"]
+n = 270
+k = 10
+rank_x = 104
+rank_z = 156
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row041"]
+n = 270
+k = 10
+rank_x = 104
+rank_z = 156
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row042"]
+n = 280
+k = 10
+rank_x = 108
+rank_z = 162
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row043"]
+n = 280
+k = 10
+rank_x = 108
+rank_z = 162
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row044"]
+n = 290
+k = 10
+rank_x = 112
+rank_z = 168
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row045"]
+n = 300
+k = 10
+rank_x = 116
+rank_z = 174
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row046"]
+n = 310
+k = 10
+rank_x = 120
+rank_z = 180
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row047"]
+n = 320
+k = 10
+rank_x = 124
+rank_z = 186
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row048"]
+n = 330
+k = 10
+rank_x = 128
+rank_z = 192
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row049"]
+n = 340
+k = 10
+rank_x = 132
+rank_z = 198
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row050"]
+n = 350
+k = 10
+rank_x = 136
+rank_z = 204
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row051"]
+n = 360
+k = 10
+rank_x = 140
+rank_z = 210
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row052"]
+n = 370
+k = 10
+rank_x = 144
+rank_z = 216
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row053"]
+n = 380
+k = 10
+rank_x = 148
+rank_z = 222
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row054"]
+n = 390
+k = 10
+rank_x = 152
+rank_z = 228
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row055"]
+n = 400
+k = 10
+rank_x = 156
+rank_z = 234
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row056"]
+n = 410
+k = 10
+rank_x = 160
+rank_z = 240
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row057"]
+n = 420
+k = 10
+rank_x = 164
+rank_z = 246
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row058"]
+n = 430
+k = 10
+rank_x = 168
+rank_z = 252
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row059"]
+n = 440
+k = 10
+rank_x = 172
+rank_z = 258
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row060"]
+n = 450
+k = 10
+rank_x = 176
+rank_z = 264
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row061"]
+n = 460
+k = 10
+rank_x = 180
+rank_z = 270
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row062"]
+n = 470
+k = 10
+rank_x = 184
+rank_z = 276
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row063"]
+n = 480
+k = 10
+rank_x = 188
+rank_z = 282
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row064"]
+n = 490
+k = 10
+rank_x = 192
+rank_z = 288
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row065"]
+n = 500
+k = 10
+rank_x = 196
+rank_z = 294
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row066"]
+n = 510
+k = 10
+rank_x = 200
+rank_z = 300
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row067"]
+n = 520
+k = 10
+rank_x = 204
+rank_z = 306
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row068"]
+n = 530
+k = 10
+rank_x = 208
+rank_z = 312
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row069"]
+n = 540
+k = 10
+rank_x = 212
+rank_z = 318
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row070"]
+n = 550
+k = 10
+rank_x = 216
+rank_z = 324
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row071"]
+n = 560
+k = 10
+rank_x = 220
+rank_z = 330
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row072"]
+n = 570
+k = 10
+rank_x = 224
+rank_z = 336
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row073"]
+n = 580
+k = 10
+rank_x = 228
+rank_z = 342
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row074"]
+n = 590
+k = 10
+rank_x = 232
+rank_z = 348
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row075"]
+n = 600
+k = 10
+rank_x = 236
+rank_z = 354
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row076"]
+n = 610
+k = 10
+rank_x = 240
+rank_z = 360
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row077"]
+n = 620
+k = 10
+rank_x = 244
+rank_z = 366
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row078"]
+n = 630
+k = 10
+rank_x = 248
+rank_z = 372
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row079"]
+n = 640
+k = 10
+rank_x = 252
+rank_z = 378
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row080"]
+n = 650
+k = 10
+rank_x = 256
+rank_z = 384
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row081"]
+n = 660
+k = 10
+rank_x = 260
+rank_z = 390
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row082"]
+n = 670
+k = 10
+rank_x = 264
+rank_z = 396
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row083"]
+n = 680
+k = 10
+rank_x = 268
+rank_z = 402
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row084"]
+n = 690
+k = 10
+rank_x = 272
+rank_z = 408
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row085"]
+n = 700
+k = 10
+rank_x = 276
+rank_z = 414
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row086"]
+n = 710
+k = 10
+rank_x = 280
+rank_z = 420
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row087"]
+n = 720
+k = 10
+rank_x = 284
+rank_z = 426
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row088"]
+n = 730
+k = 10
+rank_x = 288
+rank_z = 432
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row089"]
+n = 740
+k = 10
+rank_x = 292
+rank_z = 438
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row090"]
+n = 750
+k = 10
+rank_x = 296
+rank_z = 444
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row091"]
+n = 760
+k = 10
+rank_x = 300
+rank_z = 450
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row092"]
+n = 770
+k = 10
+rank_x = 304
+rank_z = 456
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row093"]
+n = 780
+k = 10
+rank_x = 308
+rank_z = 462
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row094"]
+n = 790
+k = 10
+rank_x = 312
+rank_z = 468
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row095"]
+n = 800
+k = 10
+rank_x = 316
+rank_z = 474
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row096"]
+n = 810
+k = 10
+rank_x = 320
+rank_z = 480
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row097"]
+n = 820
+k = 10
+rank_x = 324
+rank_z = 486
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row098"]
+n = 830
+k = 10
+rank_x = 328
+rank_z = 492
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row099"]
+n = 840
+k = 10
+rank_x = 332
+rank_z = 498
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row100"]
+n = 850
+k = 10
+rank_x = 336
+rank_z = 504
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row101"]
+n = 860
+k = 10
+rank_x = 340
+rank_z = 510
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row102"]
+n = 870
+k = 10
+rank_x = 344
+rank_z = 516
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row103"]
+n = 880
+k = 10
+rank_x = 348
+rank_z = 522
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row104"]
+n = 890
+k = 10
+rank_x = 352
+rank_z = 528
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row105"]
+n = 900
+k = 10
+rank_x = 356
+rank_z = 534
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row106"]
+n = 910
+k = 10
+rank_x = 360
+rank_z = 540
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row107"]
+n = 920
+k = 10
+rank_x = 364
+rank_z = 546
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table7_row108"]
+n = 930
+k = 10
+rank_x = 368
+rank_z = 552
+row_min_x = 8
+row_max_x = 8
+row_min_z = 6
+row_max_z = 6
+["table8_row001"]
+n = 140
+k = 20
+rank_x = 60
+rank_z = 60
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row002"]
+n = 160
+k = 20
+rank_x = 70
+rank_z = 70
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row003"]
+n = 180
+k = 20
+rank_x = 80
+rank_z = 80
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row004"]
+n = 200
+k = 20
+rank_x = 90
+rank_z = 90
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row005"]
+n = 220
+k = 20
+rank_x = 100
+rank_z = 100
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row006"]
+n = 240
+k = 20
+rank_x = 110
+rank_z = 110
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row007"]
+n = 260
+k = 20
+rank_x = 120
+rank_z = 120
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row008"]
+n = 280
+k = 20
+rank_x = 130
+rank_z = 130
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row009"]
+n = 300
+k = 20
+rank_x = 140
+rank_z = 140
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row010"]
+n = 320
+k = 20
+rank_x = 150
+rank_z = 150
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row011"]
+n = 340
+k = 20
+rank_x = 160
+rank_z = 160
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row012"]
+n = 360
+k = 20
+rank_x = 170
+rank_z = 170
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row013"]
+n = 380
+k = 20
+rank_x = 180
+rank_z = 180
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row014"]
+n = 380
+k = 20
+rank_x = 180
+rank_z = 180
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row015"]
+n = 400
+k = 20
+rank_x = 190
+rank_z = 190
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row016"]
+n = 400
+k = 20
+rank_x = 190
+rank_z = 190
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row017"]
+n = 400
+k = 20
+rank_x = 190
+rank_z = 190
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row018"]
+n = 420
+k = 20
+rank_x = 200
+rank_z = 200
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row019"]
+n = 440
+k = 20
+rank_x = 210
+rank_z = 210
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row020"]
+n = 460
+k = 20
+rank_x = 220
+rank_z = 220
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row021"]
+n = 480
+k = 20
+rank_x = 230
+rank_z = 230
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row022"]
+n = 520
+k = 20
+rank_x = 250
+rank_z = 250
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row023"]
+n = 540
+k = 20
+rank_x = 260
+rank_z = 260
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row024"]
+n = 560
+k = 20
+rank_x = 270
+rank_z = 270
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row025"]
+n = 580
+k = 20
+rank_x = 280
+rank_z = 280
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row026"]
+n = 600
+k = 20
+rank_x = 290
+rank_z = 290
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row027"]
+n = 620
+k = 20
+rank_x = 300
+rank_z = 300
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row028"]
+n = 640
+k = 20
+rank_x = 310
+rank_z = 310
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row029"]
+n = 660
+k = 20
+rank_x = 320
+rank_z = 320
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row030"]
+n = 680
+k = 20
+rank_x = 330
+rank_z = 330
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row031"]
+n = 700
+k = 20
+rank_x = 340
+rank_z = 340
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row032"]
+n = 720
+k = 20
+rank_x = 350
+rank_z = 350
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row033"]
+n = 740
+k = 20
+rank_x = 360
+rank_z = 360
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row034"]
+n = 760
+k = 20
+rank_x = 370
+rank_z = 370
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row035"]
+n = 780
+k = 20
+rank_x = 380
+rank_z = 380
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row036"]
+n = 800
+k = 20
+rank_x = 390
+rank_z = 390
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row037"]
+n = 820
+k = 20
+rank_x = 400
+rank_z = 400
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row038"]
+n = 840
+k = 20
+rank_x = 410
+rank_z = 410
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row039"]
+n = 860
+k = 20
+rank_x = 420
+rank_z = 420
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row040"]
+n = 880
+k = 20
+rank_x = 430
+rank_z = 430
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row041"]
+n = 900
+k = 20
+rank_x = 440
+rank_z = 440
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row042"]
+n = 920
+k = 20
+rank_x = 450
+rank_z = 450
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row043"]
+n = 940
+k = 20
+rank_x = 460
+rank_z = 460
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row044"]
+n = 960
+k = 20
+rank_x = 470
+rank_z = 470
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row045"]
+n = 980
+k = 20
+rank_x = 480
+rank_z = 480
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row046"]
+n = 1000
+k = 20
+rank_x = 490
+rank_z = 490
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row047"]
+n = 1020
+k = 20
+rank_x = 500
+rank_z = 500
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row048"]
+n = 1040
+k = 20
+rank_x = 510
+rank_z = 510
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row049"]
+n = 1060
+k = 20
+rank_x = 520
+rank_z = 520
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row050"]
+n = 1080
+k = 20
+rank_x = 530
+rank_z = 530
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row051"]
+n = 1100
+k = 20
+rank_x = 540
+rank_z = 540
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row052"]
+n = 1120
+k = 20
+rank_x = 550
+rank_z = 550
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row053"]
+n = 1140
+k = 20
+rank_x = 560
+rank_z = 560
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row054"]
+n = 1160
+k = 20
+rank_x = 570
+rank_z = 570
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row055"]
+n = 1180
+k = 20
+rank_x = 580
+rank_z = 580
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row056"]
+n = 1200
+k = 20
+rank_x = 590
+rank_z = 590
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row057"]
+n = 1220
+k = 20
+rank_x = 600
+rank_z = 600
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row058"]
+n = 1240
+k = 20
+rank_x = 610
+rank_z = 610
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row059"]
+n = 1260
+k = 20
+rank_x = 620
+rank_z = 620
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row060"]
+n = 1280
+k = 20
+rank_x = 630
+rank_z = 630
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row061"]
+n = 1300
+k = 20
+rank_x = 640
+rank_z = 640
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table8_row062"]
+n = 1320
+k = 20
+rank_x = 650
+rank_z = 650
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["table9_row001"]
+n = 280
+k = 35
+rank_x = 105
+rank_z = 140
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row002"]
+n = 315
+k = 35
+rank_x = 120
+rank_z = 160
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row003"]
+n = 350
+k = 35
+rank_x = 135
+rank_z = 180
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row004"]
+n = 385
+k = 35
+rank_x = 150
+rank_z = 200
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row005"]
+n = 420
+k = 35
+rank_x = 165
+rank_z = 220
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row006"]
+n = 455
+k = 35
+rank_x = 180
+rank_z = 240
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row007"]
+n = 455
+k = 35
+rank_x = 180
+rank_z = 240
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row008"]
+n = 490
+k = 35
+rank_x = 195
+rank_z = 260
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row009"]
+n = 490
+k = 35
+rank_x = 195
+rank_z = 260
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row010"]
+n = 525
+k = 35
+rank_x = 210
+rank_z = 280
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row011"]
+n = 525
+k = 35
+rank_x = 210
+rank_z = 280
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row012"]
+n = 560
+k = 35
+rank_x = 225
+rank_z = 300
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row013"]
+n = 595
+k = 35
+rank_x = 240
+rank_z = 320
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row014"]
+n = 630
+k = 35
+rank_x = 255
+rank_z = 340
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row015"]
+n = 665
+k = 35
+rank_x = 270
+rank_z = 360
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row016"]
+n = 700
+k = 35
+rank_x = 285
+rank_z = 380
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row017"]
+n = 735
+k = 35
+rank_x = 300
+rank_z = 400
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row018"]
+n = 770
+k = 35
+rank_x = 315
+rank_z = 420
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row019"]
+n = 805
+k = 35
+rank_x = 330
+rank_z = 440
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row020"]
+n = 840
+k = 35
+rank_x = 345
+rank_z = 460
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row021"]
+n = 875
+k = 35
+rank_x = 360
+rank_z = 480
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row022"]
+n = 910
+k = 35
+rank_x = 375
+rank_z = 500
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row023"]
+n = 945
+k = 35
+rank_x = 390
+rank_z = 520
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row024"]
+n = 980
+k = 35
+rank_x = 405
+rank_z = 540
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row025"]
+n = 1015
+k = 35
+rank_x = 420
+rank_z = 560
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table9_row026"]
+n = 1050
+k = 35
+rank_x = 435
+rank_z = 580
+row_min_x = 10
+row_max_x = 10
+row_min_z = 8
+row_max_z = 8
+["table10_row001"]
+n = 630
+k = 70
+rank_x = 280
+rank_z = 280
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row002"]
+n = 700
+k = 70
+rank_x = 315
+rank_z = 315
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row003"]
+n = 770
+k = 70
+rank_x = 350
+rank_z = 350
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row004"]
+n = 840
+k = 70
+rank_x = 385
+rank_z = 385
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row005"]
+n = 910
+k = 70
+rank_x = 420
+rank_z = 420
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row006"]
+n = 980
+k = 70
+rank_x = 455
+rank_z = 455
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row007"]
+n = 1050
+k = 70
+rank_x = 490
+rank_z = 490
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row008"]
+n = 1120
+k = 70
+rank_x = 525
+rank_z = 525
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row009"]
+n = 1190
+k = 70
+rank_x = 560
+rank_z = 560
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row010"]
+n = 1260
+k = 70
+rank_x = 595
+rank_z = 595
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row011"]
+n = 1330
+k = 70
+rank_x = 630
+rank_z = 630
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row012"]
+n = 1400
+k = 70
+rank_x = 665
+rank_z = 665
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row013"]
+n = 1470
+k = 70
+rank_x = 700
+rank_z = 700
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row014"]
+n = 1540
+k = 70
+rank_x = 735
+rank_z = 735
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row015"]
+n = 1610
+k = 70
+rank_x = 770
+rank_z = 770
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row016"]
+n = 1680
+k = 70
+rank_x = 805
+rank_z = 805
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row017"]
+n = 1750
+k = 70
+rank_x = 840
+rank_z = 840
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row018"]
+n = 1820
+k = 70
+rank_x = 875
+rank_z = 875
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row019"]
+n = 1890
+k = 70
+rank_x = 910
+rank_z = 910
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row020"]
+n = 1960
+k = 70
+rank_x = 945
+rank_z = 945
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table10_row021"]
+n = 2030
+k = 70
+rank_x = 980
+rank_z = 980
+row_min_x = 10
+row_max_x = 10
+row_min_z = 10
+row_max_z = 10
+["table11_row001"]
+n = 1260
+k = 126
+rank_x = 504
+rank_z = 630
+row_min_x = 12
+row_max_x = 12
+row_min_z = 10
+row_max_z = 10
+["table11_row002"]
+n = 1386
+k = 126
+rank_x = 560
+rank_z = 700
+row_min_x = 12
+row_max_x = 12
+row_min_z = 10
+row_max_z = 10
+["table11_row003"]
+n = 1512
+k = 126
+rank_x = 616
+rank_z = 770
+row_min_x = 12
+row_max_x = 12
+row_min_z = 10
+row_max_z = 10
+["table11_row004"]
+n = 1638
+k = 126
+rank_x = 672
+rank_z = 840
+row_min_x = 12
+row_max_x = 12
+row_min_z = 10
+row_max_z = 10
+["table11_row005"]
+n = 1764
+k = 126
+rank_x = 728
+rank_z = 910
+row_min_x = 12
+row_max_x = 12
+row_min_z = 10
+row_max_z = 10
+["example_AMC96"]
+n = 96
+k = 6
+rank_x = 45
+rank_z = 45
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["example_BB144"]
+n = 144
+k = 12
+rank_x = 66
+rank_z = 66
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["example_TT72"]
+n = 72
+k = 6
+rank_x = 22
+rank_z = 44
+row_min_x = 9
+row_max_x = 9
+row_min_z = 6
+row_max_z = 6
+["example_Toric96"]
+n = 96
+k = 6
+rank_x = 45
+rank_z = 45
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["example_LaCross98"]
+n = 98
+k = 18
+rank_x = 40
+rank_z = 40
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["example_MB48"]
+n = 48
+k = 4
+rank_x = 22
+rank_z = 22
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["example_GB30"]
+n = 30
+k = 8
+rank_x = 11
+rank_z = 11
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["example_2BGA16"]
+n = 16
+k = 2
+rank_x = 7
+rank_z = 7
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["example_C2_450"]
+n = 450
+k = 32
+rank_x = 209
+rank_z = 209
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6
+["example_CxR240"]
+n = 240
+k = 8
+rank_x = 116
+rank_z = 116
+row_min_x = 5
+row_max_x = 5
+row_min_z = 5
+row_max_z = 5
+["example_2BGA56"]
+n = 56
+k = 28
+rank_x = 14
+rank_z = 14
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["example_GB70"]
+n = 70
+k = 8
+rank_x = 31
+rank_z = 31
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["example_Haah1024"]
+n = 1024
+k = 30
+rank_x = 497
+rank_z = 497
+row_min_x = 8
+row_max_x = 8
+row_min_z = 8
+row_max_z = 8
+["example_BB756"]
+n = 756
+k = 16
+rank_x = 370
+rank_z = 370
+row_min_x = 6
+row_max_x = 6
+row_min_z = 6
+row_max_z = 6

@@ -1,0 +1,422 @@
+audit_id,table,status_in_tex,printed_entry,n,k,sQetch100M_dX,sQetch100M_dZ,sQetch150M_dX,sQetch150M_dZ,distm4ri_dX,distm4ri_dZ,final_dX,final_dZ,both_sectors_witnessed,printed_matches_final,orig_manuscript_dX,orig_manuscript_dZ,note
+table2_row001,Table II,in table,"[[96, 12, (<=4,<=4)]]",96,12,4,4,,,4,4,4,4,True,yes,4,4,d<=6 kept: used in main text
+table2_row002,Table II,in table,"[[144, 6, (<=8,<=8)]]",144,6,8,8,,,8,8,8,8,True,yes,8,8,
+table2_row003,Table II,removed (commented out),"[[192, 6, (<=6,<=6)]]",192,6,6,6,,,,,6,6,,yes,8,8,removed: d<=6
+table2_row004,Table II,in table,"[[216, 6, (<=12,<=12)]]",216,6,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row005,Table II,in table,"[[240, 12, (<=7,<=7)]]",240,12,7,7,,,7,7,7,7,True,yes,7,7,
+table2_row006,Table II,in table,"[[240, 6, (<=12,<=12)]]",240,6,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row007,Table II,in table,"[[288, 6, (<=12,<=12)]]",288,6,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row008,Table II,in table,"[[288, 12, (<=8,<=8)]]",288,12,8,8,,,8,8,8,8,True,yes,8,8,
+table2_row009,Table II,in table,"[[324, 6, (<=12,<=12)]]",324,6,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row010,Table II,in table,"[[336, 6, (<=12,<=12)]]",336,6,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row011,Table II,in table,"[[360, 6, (<=12,<=12)]]",360,6,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row012,Table II,in table,"[[360, 12, (<=11,<=11)]]",360,12,11,11,,,11,11,11,11,True,yes,11,11,
+table2_row013,Table II,removed (commented out),"[[384, 6, (<=6,<=6)]]",384,6,6,6,,,,,6,6,,yes,12,12,removed: d<=6
+table2_row014,Table II,removed (commented out),"[[384, 12, (<=6,<=6)]]",384,12,6,6,,,,,6,6,,yes,8,8,removed: d<=6
+table2_row015,Table II,in table,"[[432, 12, (<=12,<=12)]]",432,12,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row016,Table II,in table,"[[432, 6, (<=18,<=18)]]",432,6,18,18,,,18,18,18,18,True,yes,18,19,
+table2_row017,Table II,in table,"[[480, 6, (<=16,<=16)]]",480,6,16,16,,,16,16,16,16,True,yes,16,16,
+table2_row018,Table II,in table,"[[480, 12, (<=12,<=12)]]",480,12,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row019,Table II,in table,"[[480, 24, (<=8,<=8)]]",480,24,8,8,,,8,8,8,8,True,yes,8,8,
+table2_row020,Table II,in table,"[[504, 6, (<=17,<=17)]]",504,6,17,17,,,17,17,17,17,True,yes,17,17,
+table2_row021,Table II,in table,"[[504, 12, (<=10,<=10)]]",504,12,10,10,,,10,10,10,10,True,yes,10,10,
+table2_row022,Table II,in table,"[[528, 6, (<=16,<=16)]]",528,6,16,16,,,16,16,16,16,True,yes,16,16,
+table2_row023,Table II,in table,"[[528, 12, (<=12,<=12)]]",528,12,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row024,Table II,in table,"[[540, 6, (<=18,<=18)]]",540,6,18,18,,,18,18,18,18,True,yes,18,18,
+table2_row025,Table II,in table,"[[540, 18, (<=7,<=7)]]",540,18,7,7,,,7,7,7,7,True,yes,7,7,
+table2_row026,Table II,removed (commented out),"[[576, 12, (<=6,<=6)]]",576,12,6,6,,,,,6,6,,yes,12,12,removed: d<=6
+table2_row027,Table II,removed (commented out),"[[576, 6, (<=6,<=6)]]",576,6,6,6,,,,,6,6,,yes,16,16,removed: d<=6
+table2_row028,Table II,removed (commented out),"[[576, 18, (<=6,<=6)]]",576,18,6,6,,,,,6,6,,yes,8,8,removed: d<=6
+table2_row029,Table II,in table,"[[600, 6, (<=17,<=17)]]",600,6,17,17,,,17,17,17,17,True,yes,17,17,
+table2_row030,Table II,in table,"[[600, 24, (<=9,<=9)]]",600,24,9,9,,,9,9,9,9,True,yes,9,9,
+table2_row031,Table II,in table,"[[600, 12, (<=10,<=10)]]",600,12,10,10,,,10,10,10,10,True,yes,10,10,
+table2_row032,Table II,in table,"[[624, 6, (<=18,<=18)]]",624,6,18,18,,,18,18,18,18,True,yes,18,18,
+table2_row033,Table II,in table,"[[624, 12, (<=14,<=14)]]",624,12,14,14,,,14,14,14,14,True,yes,14,14,
+table2_row034,Table II,in table,"[[648, 6, (<=18,<=18)]]",648,6,18,18,,,18,18,18,18,True,yes,21,21,
+table2_row035,Table II,in table,"[[648, 12, (<=12,<=12)]]",648,12,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row036,Table II,in table,"[[672, 6, (<=18,<=18)]]",672,6,18,20,18,20,18,18,18,18,True,yes,18,18,lowered by verified dist-m4ri witness
+table2_row037,Table II,in table,"[[672, 12, (<=12,<=12)]]",672,12,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row038,Table II,in table,"[[672, 24, (<=11,<=11)]]",672,24,11,11,,,11,11,11,11,True,yes,11,11,
+table2_row039,Table II,in table,"[[720, 6, (<=20,<=20)]]",720,6,20,20,,,20,20,20,20,True,yes,22,22,
+table2_row040,Table II,in table,"[[720, 12, (<=13,<=13)]]",720,12,13,13,,,13,13,13,13,True,yes,13,13,
+table2_row041,Table II,in table,"[[720, 12, (<=15,<=15)]]",720,12,15,15,,,15,15,15,15,True,yes,15,15,
+table2_row042,Table II,in table,"[[756, 6, (<=18,<=18)]]",756,6,18,18,,,18,18,18,18,True,yes,18,18,
+table2_row043,Table II,in table,"[[756, 18, (<=13,<=13)]]",756,18,13,13,,,13,13,13,13,True,yes,13,13,
+table2_row044,Table II,removed (commented out),"[[768, 12, (<=6,<=6)]]",768,12,6,6,,,,,6,6,,yes,14,14,removed: d<=6
+table2_row045,Table II,removed (commented out),"[[768, 6, (<=6,<=6)]]",768,6,6,6,,,,,6,6,,yes,16,16,removed: d<=6
+table2_row046,Table II,in table,"[[792, 6, (<=22,<=22)]]",792,6,22,24,22,24,22,22,22,22,True,yes,22,22,lowered by verified dist-m4ri witness
+table2_row047,Table II,in table,"[[792, 12, (<=14,<=14)]]",792,12,14,14,,,14,14,14,14,True,yes,14,14,
+table2_row048,Table II,in table,"[[792, 12, (<=15,<=15)]]",792,12,15,15,,,15,15,15,15,True,yes,15,15,
+table2_row049,Table II,in table,"[[810, 18, (<=12,<=12)]]",810,18,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row050,Table II,in table,"[[810, 6, (<=21,<=21)]]",810,6,24,21,24,21,21,21,21,21,True,yes,21,21,lowered by verified dist-m4ri witness
+table2_row051,Table II,in table,"[[816, 6, (<=20,<=20)]]",816,6,22,20,22,20,20,20,20,20,True,yes,20,20,lowered by verified dist-m4ri witness
+table2_row052,Table II,in table,"[[816, 12, (<=12,<=12)]]",816,12,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row053,Table II,in table,"[[816, 24, (<=10,<=10)]]",816,24,10,10,,,10,10,10,10,True,yes,10,10,
+table2_row054,Table II,in table,"[[840, 6, (<=20,<=20)]]",840,6,22,20,,,20,20,20,20,True,yes,22,22,lowered by verified dist-m4ri witness
+table2_row055,Table II,in table,"[[840, 24, (<=10,<=10)]]",840,24,10,10,,,10,10,10,10,True,yes,10,10,
+table2_row056,Table II,in table,"[[840, 12, (<=14,<=14)]]",840,12,14,14,,,14,14,14,14,True,yes,14,14,
+table2_row057,Table II,in table,"[[864, 6, (<=24,<=24)]]",864,6,24,24,,,24,24,24,24,True,yes,28,28,
+table2_row058,Table II,in table,"[[864, 12, (<=14,<=14)]]",864,12,14,14,,,14,14,14,14,True,yes,14,14,
+table2_row059,Table II,in table,"[[864, 18, (<=12,<=12)]]",864,18,12,12,,,12,12,12,12,True,yes,12,12,
+table2_row060,Table II,in table,"[[864, 24, (<=10,<=10)]]",864,24,10,10,,,10,10,10,10,True,yes,10,10,
+table2_row061,Table II,in table,"[[900, 6, (<=24,<=24)]]",900,6,24,24,,,24,24,24,24,True,yes,24,24,
+table2_row062,Table II,in table,"[[900, 12, (<=11,<=11)]]",900,12,11,11,,,11,11,11,11,True,yes,11,11,
+table2_row063,Table II,in table,"[[912, 12, (<=16,<=16)]]",912,12,16,17,16,17,16,16,16,16,True,yes,16,16,lowered by verified dist-m4ri witness
+table2_row064,Table II,in table,"[[936, 6, (<=25,<=25)]]",936,6,25,25,,,25,25,25,25,True,yes,25,25,
+table2_row065,Table II,in table,"[[936, 12, (<=16,<=16)]]",936,12,16,16,,,16,16,16,16,True,yes,16,16,
+table2_row066,Table II,removed (commented out),"[[960, 6, (<=6,<=6)]]",960,6,6,6,,,,,6,6,,yes,24,24,removed: d<=6
+table2_row067,Table II,removed (commented out),"[[960, 12, (<=6,<=6)]]",960,12,6,6,,,,,6,6,,yes,16,16,removed: d<=6
+table2_row068,Table II,removed (commented out),"[[960, 24, (<=6,<=6)]]",960,24,6,6,,,,,6,6,,yes,10,10,removed: d<=6
+table2_row069,Table II,in table,"[[972, 36, (<=9,<=9)]]",972,36,9,9,,,9,9,9,9,True,yes,9,9,
+table2_row070,Table II,in table,"[[972, 18, (<=13,<=13)]]",972,18,13,13,,,13,13,13,13,True,yes,13,13,
+table2_row071,Table II,in table,"[[972, 6, (<=24,<=24)]]",972,6,27,24,27,24,24,24,24,24,True,yes,24,24,lowered by verified dist-m4ri witness
+table3_row001,Table III,in table,"[[144, 12, (<=8,<=8)]]",144,12,8,8,,,8,8,8,8,True,yes,8,8,
+table3_row002,Table III,in table,"[[144, 12, (<=12,<=12)]]",144,12,12,12,,,12,12,12,12,True,yes,12,12,
+table3_row003,Table III,in table,"[[216, 12, (<=12,<=12)]]",216,12,12,12,,,12,12,12,12,True,yes,12,12,
+table3_row004,Table III,in table,"[[216, 24, (<=9,<=9)]]",216,24,9,9,,,9,9,9,9,True,yes,9,9,
+table3_row006,Table III,in table,"[[324, 12, (<=18,<=18)]]",324,12,18,18,,,18,18,18,18,True,yes,20,20,
+table3_row007,Table III,in table,"[[336, 18, (<=12,<=12)]]",336,18,12,12,,,12,12,12,12,True,yes,12,12,
+table3_row008,Table III,in table,"[[432, 12, (<=21,<=21)]]",432,12,21,25,,,21,21,21,21,True,yes,27,27,
+table3_row009,Table III,in table,"[[432, 24, (<=18,<=18)]]",432,24,18,18,,,18,18,18,18,True,yes,18,18,
+table3_row010,Table III,in table,"[[486, 12, (<=18,<=18)]]",486,12,21,18,,,18,18,18,18,True,yes,25,25,lowered by verified dist-m4ri witness
+table3_row011,Table III,in table,"[[486, 24, (<=12,<=12)]]",486,24,12,12,,,12,12,12,12,True,yes,12,12,
+table3_row012,Table III,in table,"[[504, 12, (<=18,<=18)]]",504,12,18,18,,,18,18,18,18,True,yes,18,18,
+table3_row013,Table III,in table,"[[504, 12, (<=28,<=28)]]",504,12,28,28,,,28,28,28,28,True,yes,53,75,
+table3_row014,Table III,in table,"[[540, 12, (<=30,<=30)]]",540,12,30,30,,,31,31,30,30,False,yes,79,79,
+table3_row015,Table III,in table,"[[576, 12, (<=9,<=9)]]",576,12,9,9,,,24,24,9,9,False,yes,58,35,
+table3_row016,Table III,in table,"[[648, 12, (<=22,<=22)]]",648,12,22,22,,,22,22,22,22,True,yes,23,23,
+table3_row017,Table III,in table,"[[648, 12, (<=24,<=24)]]",648,12,24,30,,,24,24,24,24,True,yes,96,44,lowered by verified dist-m4ri witness
+table3_row018,Table III,in table,"[[648, 12, (<=31,<=32)]]",648,12,31,38,,,31,32,31,32,True,yes,102,102,lowered by verified dist-m4ri witness
+table3_row019,Table III,in table,"[[672, 18, (<=20,<=20)]]",672,18,24,20,24,20,20,20,20,20,True,yes,21,21,lowered by verified dist-m4ri witness
+table3_row020,Table III,in table,"[[720, 12, (<=22,<=22)]]",720,12,22,22,,,22,22,22,22,True,yes,22,22,
+table3_row021,Table III,in table,"[[720, 12, (<=30,<=34)]]",720,12,30,34,,,42,40,30,34,False,yes,114,110,
+table3_row022,Table III,in table,"[[756, 12, (<=22,<=22)]]",756,12,26,23,28,23,22,22,22,22,True,yes,22,22,lowered by verified dist-m4ri witness
+table3_row023,Table III,in table,"[[756, 12, (<=30,<=46)]]",756,12,30,46,,,37,47,30,46,False,yes,128,124,
+table3_row024,Table III,in table,"[[810, 12, (<=44,<=33)]]",810,12,48,33,,,44,38,44,33,False,yes,122,136,lowered by verified dist-m4ri witness
+table3_row025,Table III,in table,"[[840, 18, (<=42,<=37)]]",840,18,42,37,,,121,121,42,37,False,yes,141,144,
+table3_row026,Table III,in table,"[[864, 12, (<=18,<=18)]]",864,12,18,42,18,42,18,18,18,18,True,yes,18,18,lowered by verified dist-m4ri witness
+table3_row027,Table III,in table,"[[864, 12, (<=36,<=48)]]",864,12,36,48,,,132,126,36,48,False,yes,151,149,
+table3_row028,Table III,in table,"[[972, 12, (<=24,<=24)]]",972,12,24,36,,,24,24,24,24,True,yes,167,167,lowered by verified dist-m4ri witness
+table3_row029,Table III,in table,"[[972, 24, (<=24,<=24)]]",972,24,24,24,,,24,24,24,24,True,yes,27,26,
+table3_row030,Table III,in table,"[[972, 24, (<=24,<=24)]]",972,24,24,24,,,24,24,24,24,True,yes,27,162,
+table4_row001,Table IV,in table,"[[96, 44, (<=4,<=4)]]",96,44,4,4,,,4,4,4,4,True,yes,4,4,d<=6 kept: used in main text
+table4_row002,Table IV,in table,"[[144, 12, (<=8,<=8)]]",144,12,8,8,,,8,8,8,8,True,yes,8,8,
+table4_row003,Table IV,in table,"[[192, 12, (<=8,<=8)]]",192,12,8,8,,,12,12,8,8,False,yes,12,12,
+table4_row004,Table IV,in table,"[[216, 12, (<=12,<=12)]]",216,12,12,12,,,12,12,12,12,True,yes,12,12,
+table4_row005,Table IV,in table,"[[216, 12, (<=14,<=14)]]",216,12,14,14,,,14,14,14,14,True,yes,14,14,
+table4_row006,Table IV,in table,"[[240, 6, (<=20,<=20)]]",240,6,20,20,,,20,20,20,20,True,yes,24,24,
+table4_row007,Table IV,in table,"[[240, 12, (<=16,<=16)]]",240,12,16,16,,,16,16,16,16,True,yes,16,16,
+table4_row008,Table IV,in table,"[[240, 18, (<=10,<=10)]]",240,18,10,10,,,10,10,10,10,True,yes,10,10,
+table4_row009,Table IV,in table,"[[288, 24, (<=12,<=12)]]",288,24,12,12,,,12,12,12,12,True,yes,12,12,
+table4_row010,Table IV,in table,"[[324, 6, (<=18,<=18)]]",324,6,18,18,,,18,18,18,18,True,yes,51,49,
+table4_row011,Table IV,in table,"[[324, 18, (<=18,<=18)]]",324,18,18,18,,,18,18,18,18,True,yes,18,18,
+table4_row012,Table IV,in table,"[[336, 6, (<=28,<=28)]]",336,6,28,28,,,28,28,28,28,True,yes,54,54,
+table4_row013,Table IV,in table,"[[336, 12, (<=24,<=24)]]",336,12,24,24,,,24,24,24,24,True,yes,49,49,
+table4_row014,Table IV,in table,"[[384, 24, (<=12,<=12)]]",384,24,12,12,,,16,16,12,12,False,yes,16,16,
+table4_row015,Table IV,in table,"[[432, 12, (<=18,<=18)]]",432,12,24,18,,,18,18,18,18,True,yes,70,70,
+table4_row016,Table IV,in table,"[[480, 12, (<=20,<=20)]]",480,12,32,20,,,20,20,20,20,True,yes,80,80,
+table4_row017,Table IV,in table,"[[486, 24, (<=12,<=12)]]",486,24,12,12,,,12,12,12,12,True,yes,12,12,
+table4_row018,Table IV,in table,"[[486, 66, (<=9,<=9)]]",486,66,9,9,,,9,9,9,9,True,yes,9,9,
+table4_row019,Table IV,in table,"[[480, 12, (<=20,<=20)]]",480,12,20,20,,,20,20,20,20,True,yes,100,100,
+table4_row020,Table IV,in table,"[[576, 64, (<=6,<=6)]]",576,64,6,6,,,6,6,6,6,True,yes,6,6,d<=6 kept: used in main text
+table4_row021,Table IV,in table,"[[624, 12, (<=28,<=28)]]",624,12,38,28,,,28,28,28,28,True,yes,110,110,lowered by verified dist-m4ri witness
+table4_row022,Table IV,in table,"[[648, 60, (<=9,<=9)]]",648,60,9,9,,,9,9,9,9,True,yes,9,9,
+table4_row023,Table IV,in table,"[[672, 12, (<=28,<=28)]]",672,12,44,28,,,112,36,28,28,False,yes,122,122,
+table4_row024,Table IV,in table,"[[720, 12, (<=27,<=27)]]",720,12,34,27,,,27,27,27,27,True,yes,131,131,lowered by verified dist-m4ri witness
+table4_row025,Table IV,removed (commented out),"[[768, 12, (<=6,<=6)]]",768,12,6,6,,,,,6,6,,yes,12,12,removed: d<=6
+table4_row026,Table IV,in table,"[[768, 12, (<=12,<=12)]]",768,12,12,12,,,34,90,12,12,False,yes,144,144,
+table5_row001,Table V,removed (commented out),"[[96, 12, (<=6,<=6)]]",96,12,6,6,,,,,6,6,,yes,6,6,removed: d<=6
+table5_row002,Table V,in table,"[[96, 12, (<=8,<=8)]]",96,12,8,8,,,8,8,8,8,True,yes,8,8,
+table5_row003,Table V,removed (commented out),"[[144, 6, (<=6,<=6)]]",144,6,6,6,,,,,6,6,,yes,6,6,removed: d<=6
+table5_row004,Table V,in table,"[[144, 6, (<=8,<=8)]]",144,6,8,8,,,8,8,8,8,True,yes,8,8,
+table5_row005,Table V,in table,"[[144, 6, (<=10,<=10)]]",144,6,10,10,,,10,10,10,10,True,yes,10,10,
+table5_row006,Table V,in table,"[[144, 6, (<=12,<=12)]]",144,6,12,12,,,12,12,12,12,True,yes,12,12,
+table5_row007,Table V,removed (commented out),"[[144, 12, (<=6,<=6)]]",144,12,6,6,,,,,6,6,,yes,6,6,removed: d<=6
+table5_row008,Table V,in table,"[[144, 12, (<=8,<=8)]]",144,12,8,8,,,8,8,8,8,True,yes,8,8,
+table5_row009,Table V,in table,"[[144, 12, (<=10,<=10)]]",144,12,10,10,,,10,10,10,10,True,yes,10,10,
+table5_row010,Table V,in table,"[[144, 12, (<=12,<=12)]]",144,12,12,12,,,12,12,12,12,True,yes,12,12,
+table5_row011,Table V,removed (commented out),"[[144, 18, (<=6,<=6)]]",144,18,6,6,,,,,6,6,,yes,6,6,removed: d<=6
+table6_row001,Table VI,removed (commented out),"[[156, 6, (<=6,<=6)]]",156,6,6,6,,,,,6,6,,yes,10,10,removed: d<=6
+table6_row002,Table VI,in table,"[[162, 6, (<=9,<=9)]]",162,6,9,9,,,9,9,9,9,True,yes,9,9,
+table6_row003,Table VI,in table,"[[168, 6, (<=9,<=9)]]",168,6,9,9,,,9,9,9,9,True,yes,9,9,
+table6_row004,Table VI,in table,"[[168, 12, (<=7,<=7)]]",168,12,7,7,,,7,7,7,7,True,yes,7,7,
+table6_row005,Table VI,in table,"[[174, 6, (<=11,<=11)]]",174,6,11,11,,,11,11,11,11,True,yes,11,11,
+table6_row006,Table VI,in table,"[[180, 6, (<=10,<=10)]]",180,6,10,10,,,10,10,10,10,True,yes,10,10,
+table6_row007,Table VI,in table,"[[186, 6, (<=11,<=11)]]",186,6,11,11,,,11,11,11,11,True,yes,11,11,
+table6_row008,Table VI,removed (commented out),"[[192, 6, (<=6,<=6)]]",192,6,6,6,,,,,6,6,,yes,11,11,removed: d<=6
+table6_row009,Table VI,in table,"[[198, 6, (<=10,<=10)]]",198,6,10,10,,,10,10,10,10,True,yes,10,10,
+table6_row010,Table VI,in table,"[[204, 6, (<=12,<=12)]]",204,6,12,12,,,12,12,12,12,True,yes,12,12,
+table6_row011,Table VI,in table,"[[210, 6, (<=11,<=11)]]",210,6,11,11,,,11,11,11,11,True,yes,11,11,
+table6_row012,Table VI,in table,"[[216, 6, (<=12,<=12)]]",216,6,12,12,,,12,12,12,12,True,yes,12,12,
+table6_row013,Table VI,in table,"[[222, 6, (<=11,<=11)]]",222,6,11,11,,,11,11,11,11,True,yes,11,11,
+table6_row014,Table VI,in table,"[[228, 6, (<=12,<=12)]]",228,6,12,12,,,12,12,12,12,True,yes,12,12,
+table6_row015,Table VI,in table,"[[234, 6, (<=13,<=13)]]",234,6,13,13,,,13,13,13,13,True,yes,13,13,
+table6_row016,Table VI,in table,"[[240, 6, (<=12,<=12)]]",240,6,12,12,,,12,12,12,12,True,yes,12,12,
+table6_row017,Table VI,in table,"[[246, 6, (<=12,<=12)]]",246,6,12,12,,,12,12,12,12,True,yes,12,12,
+table6_row018,Table VI,in table,"[[252, 6, (<=12,<=12)]]",252,6,12,12,,,12,12,12,12,True,yes,12,12,
+table6_row019,Table VI,in table,"[[258, 6, (<=12,<=12)]]",258,6,12,12,,,12,12,12,12,True,yes,12,12,
+table6_row020,Table VI,in table,"[[264, 6, (<=13,<=13)]]",264,6,13,13,,,13,13,13,13,True,yes,13,13,
+table6_row021,Table VI,in table,"[[270, 6, (<=14,<=14)]]",270,6,14,14,,,14,14,14,14,True,yes,14,14,
+table6_row022,Table VI,in table,"[[276, 6, (<=14,<=14)]]",276,6,14,14,,,14,14,14,14,True,yes,14,14,
+table6_row023,Table VI,in table,"[[282, 6, (<=13,<=13)]]",282,6,13,13,,,13,13,13,13,True,yes,13,13,
+table6_row024,Table VI,in table,"[[288, 6, (<=13,<=13)]]",288,6,13,13,,,13,13,13,13,True,yes,13,13,
+table6_row025,Table VI,in table,"[[294, 6, (<=14,<=14)]]",294,6,14,14,,,14,14,14,14,True,yes,14,14,
+table6_row026,Table VI,in table,"[[300, 6, (<=13,<=13)]]",300,6,13,13,,,13,13,13,13,True,yes,13,13,
+table6_row027,Table VI,in table,"[[306, 6, (<=14,<=14)]]",306,6,14,14,,,14,14,14,14,True,yes,14,14,
+table6_row028,Table VI,in table,"[[312, 6, (<=13,<=13)]]",312,6,13,13,,,13,13,13,13,True,yes,13,13,
+table6_row029,Table VI,in table,"[[318, 6, (<=13,<=13)]]",318,6,13,13,,,13,13,13,13,True,yes,13,13,
+table6_row030,Table VI,in table,"[[324, 6, (<=14,<=14)]]",324,6,14,14,,,14,14,14,14,True,yes,14,14,
+table6_row031,Table VI,in table,"[[330, 6, (<=14,<=14)]]",330,6,14,14,,,14,14,14,14,True,yes,14,14,
+table6_row032,Table VI,removed (commented out),"[[336, 6, (<=6,<=6)]]",336,6,6,6,,,,,6,6,,yes,14,14,removed: d<=6
+table6_row033,Table VI,in table,"[[342, 6, (<=14,<=14)]]",342,6,14,14,,,14,14,14,14,True,yes,14,14,
+table6_row034,Table VI,in table,"[[348, 6, (<=15,<=15)]]",348,6,15,15,,,15,15,15,15,True,yes,15,15,
+table6_row035,Table VI,in table,"[[354, 6, (<=15,<=15)]]",354,6,15,15,,,15,15,15,15,True,yes,15,15,
+table6_row036,Table VI,in table,"[[360, 6, (<=15,<=15)]]",360,6,15,15,,,15,15,15,15,True,yes,15,15,
+table6_row037,Table VI,in table,"[[366, 6, (<=15,<=15)]]",366,6,15,15,,,15,15,15,15,True,yes,15,15,
+table6_row038,Table VI,in table,"[[372, 6, (<=16,<=16)]]",372,6,16,16,,,16,16,16,16,True,yes,16,16,
+table6_row039,Table VI,in table,"[[378, 6, (<=17,<=17)]]",378,6,17,17,,,17,17,17,17,True,yes,17,17,
+table6_row040,Table VI,removed (commented out),"[[384, 6, (<=6,<=6)]]",384,6,6,6,,,,,6,6,,yes,17,17,removed: d<=6
+table6_row041,Table VI,in table,"[[390, 6, (<=15,<=15)]]",390,6,15,15,,,15,15,15,15,True,yes,15,15,
+table6_row042,Table VI,in table,"[[396, 6, (<=15,<=15)]]",396,6,15,15,,,15,15,15,15,True,yes,15,15,
+table6_row043,Table VI,in table,"[[402, 6, (<=16,<=16)]]",402,6,16,16,,,16,16,16,16,True,yes,16,16,
+table6_row044,Table VI,in table,"[[408, 6, (<=15,<=15)]]",408,6,15,15,,,15,15,15,15,True,yes,15,15,
+table6_row045,Table VI,in table,"[[414, 6, (<=16,<=16)]]",414,6,17,16,17,16,16,16,16,16,True,yes,16,16,lowered by verified dist-m4ri witness
+table6_row046,Table VI,in table,"[[420, 6, (<=15,<=15)]]",420,6,15,15,,,15,15,15,15,True,yes,15,15,
+table6_row047,Table VI,in table,"[[426, 6, (<=17,<=17)]]",426,6,17,17,,,17,17,17,17,True,yes,17,17,
+table6_row048,Table VI,in table,"[[432, 6, (<=16,<=16)]]",432,6,16,16,,,16,16,16,16,True,yes,16,16,
+table6_row049,Table VI,in table,"[[438, 6, (<=17,<=17)]]",438,6,17,17,,,17,17,17,17,True,yes,17,17,
+table6_row050,Table VI,in table,"[[444, 6, (<=17,<=17)]]",444,6,17,17,,,17,17,17,17,True,yes,17,17,
+table6_row051,Table VI,in table,"[[450, 6, (<=16,<=16)]]",450,6,16,16,,,16,16,16,16,True,yes,16,16,
+table6_row052,Table VI,in table,"[[456, 6, (<=16,<=16)]]",456,6,16,16,,,16,16,16,16,True,yes,16,16,
+table6_row053,Table VI,in table,"[[462, 6, (<=17,<=17)]]",462,6,17,17,,,17,17,17,17,True,yes,17,17,
+table6_row054,Table VI,in table,"[[468, 6, (<=17,<=17)]]",468,6,17,17,,,17,17,17,17,True,yes,17,17,
+table6_row055,Table VI,in table,"[[474, 6, (<=17,<=17)]]",474,6,17,17,,,17,17,17,17,True,yes,17,17,
+table6_row056,Table VI,in table,"[[480, 6, (<=16,<=16)]]",480,6,16,16,,,16,16,16,16,True,yes,16,16,
+table6_row057,Table VI,in table,"[[486, 6, (<=17,<=17)]]",486,6,17,17,,,17,17,17,17,True,yes,17,17,
+table6_row058,Table VI,in table,"[[492, 6, (<=16,<=16)]]",492,6,16,16,,,16,16,16,16,True,yes,16,16,
+table6_row059,Table VI,in table,"[[498, 6, (<=18,<=18)]]",498,6,18,18,,,18,18,18,18,True,yes,18,18,
+table6_row060,Table VI,in table,"[[504, 6, (<=18,<=18)]]",504,6,18,18,,,18,18,18,18,True,yes,18,18,
+table6_row061,Table VI,in table,"[[510, 6, (<=17,<=17)]]",510,6,17,17,,,17,17,17,17,True,yes,17,17,
+table6_row062,Table VI,in table,"[[516, 6, (<=18,<=18)]]",516,6,18,18,,,18,18,18,18,True,yes,20,20,
+table6_row063,Table VI,in table,"[[522, 6, (<=20,<=20)]]",522,6,20,20,,,20,20,20,20,True,yes,20,20,
+table7_row001,Table VII,removed (commented out),"[[60, 10, (<=6,<=3)]]",60,10,6,3,,,,,6,3,,yes,6,3,removed: d<=6
+table7_row002,Table VII,removed (commented out),"[[70, 10, (<=6,<=4)]]",70,10,6,4,,,,,6,4,,yes,6,4,removed: d<=6
+table7_row003,Table VII,removed (commented out),"[[80, 10, (<=6,<=4)]]",80,10,6,4,,,,,6,4,,yes,6,4,removed: d<=6
+table7_row004,Table VII,removed (commented out),"[[80, 10, (<=7,<=4)]]",80,10,7,4,,,,,7,4,,yes,7,4,removed: d<=6
+table7_row005,Table VII,removed (commented out),"[[90, 10, (<=6,<=4)]]",90,10,6,4,,,,,6,4,,yes,6,4,removed: d<=6
+table7_row006,Table VII,removed (commented out),"[[90, 10, (<=7,<=4)]]",90,10,7,4,,,,,7,4,,yes,7,4,removed: d<=6
+table7_row007,Table VII,removed (commented out),"[[100, 10, (<=8,<=4)]]",100,10,8,4,,,,,8,4,,yes,8,4,removed: d<=6
+table7_row008,Table VII,removed (commented out),"[[110, 10, (<=10,<=6)]]",110,10,10,6,,,,,10,6,,yes,10,6,removed: d<=6
+table7_row009,Table VII,removed (commented out),"[[120, 10, (<=9,<=6)]]",120,10,9,6,,,,,9,6,,yes,9,6,removed: d<=6
+table7_row010,Table VII,removed (commented out),"[[130, 10, (<=10,<=6)]]",130,10,10,6,,,,,10,6,,yes,10,6,removed: d<=6
+table7_row011,Table VII,removed (commented out),"[[140, 10, (<=10,<=6)]]",140,10,10,6,,,,,10,6,,yes,10,6,removed: d<=6
+table7_row012,Table VII,removed (commented out),"[[150, 10, (<=10,<=6)]]",150,10,10,6,,,,,10,6,,yes,10,6,removed: d<=6
+table7_row013,Table VII,removed (commented out),"[[150, 10, (<=12,<=6)]]",150,10,12,6,,,,,12,6,,yes,12,6,removed: d<=6
+table7_row014,Table VII,removed (commented out),"[[160, 10, (<=10,<=6)]]",160,10,10,6,,,,,10,6,,yes,10,6,removed: d<=6
+table7_row015,Table VII,removed (commented out),"[[160, 10, (<=11,<=6)]]",160,10,11,6,,,,,11,6,,yes,11,6,removed: d<=6
+table7_row016,Table VII,removed (commented out),"[[170, 10, (<=10,<=5)]]",170,10,10,5,,,,,10,5,,yes,10,5,removed: d<=6
+table7_row017,Table VII,removed (commented out),"[[170, 10, (<=12,<=6)]]",170,10,12,6,,,,,12,6,,yes,12,6,removed: d<=6
+table7_row018,Table VII,in table,"[[180, 10, (<=12,<=7)]]",180,10,12,7,,,12,7,12,7,True,yes,12,7,
+table7_row020,Table VII,in table,"[[190, 10, (<=12,<=7)]]",190,10,12,7,,,12,7,12,7,True,yes,12,7,
+table7_row021,Table VII,in table,"[[190, 10, (<=13,<=7)]]",190,10,13,7,,,13,7,13,7,True,yes,13,7,
+table7_row022,Table VII,in table,"[[200, 10, (<=12,<=7)]]",200,10,12,7,,,12,7,12,7,True,yes,12,7,
+table7_row023,Table VII,removed (commented out),"[[200, 10, (<=13,<=6)]]",200,10,13,6,,,,,13,6,,yes,13,6,removed: d<=6
+table7_row024,Table VII,removed (commented out),"[[210, 10, (<=13,<=6)]]",210,10,13,6,,,,,13,6,,yes,13,6,removed: d<=6
+table7_row025,Table VII,in table,"[[210, 10, (<=14,<=7)]]",210,10,14,7,,,14,7,14,7,True,yes,14,7,
+table7_row026,Table VII,removed (commented out),"[[220, 10, (<=13,<=6)]]",220,10,13,6,,,,,13,6,,yes,13,6,removed: d<=6
+table7_row027,Table VII,in table,"[[220, 10, (<=14,<=7)]]",220,10,14,7,,,14,7,14,7,True,yes,14,7,
+table7_row028,Table VII,in table,"[[230, 10, (<=13,<=7)]]",230,10,13,7,,,13,7,13,7,True,yes,13,7,
+table7_row029,Table VII,removed (commented out),"[[230, 10, (<=14,<=6)]]",230,10,14,6,,,,,14,6,,yes,14,6,removed: d<=6
+table7_row030,Table VII,in table,"[[240, 10, (<=13,<=7)]]",240,10,13,7,,,13,7,13,7,True,yes,13,7,
+table7_row031,Table VII,in table,"[[240, 10, (<=14,<=7)]]",240,10,14,7,,,14,7,14,7,True,yes,14,7,
+table7_row032,Table VII,in table,"[[250, 10, (<=13,<=7)]]",250,10,13,7,,,13,7,13,7,True,yes,13,7,
+table7_row033,Table VII,in table,"[[250, 10, (<=14,<=7)]]",250,10,14,7,,,14,7,14,7,True,yes,14,7,
+table7_row034,Table VII,in table,"[[250, 10, (<=15,<=8)]]",250,10,15,8,,,15,8,15,8,True,yes,15,8,
+table7_row035,Table VII,in table,"[[250, 10, (<=16,<=8)]]",250,10,16,8,,,16,8,16,8,True,yes,16,8,
+table7_row036,Table VII,in table,"[[260, 10, (<=13,<=7)]]",260,10,13,7,,,13,7,13,7,True,yes,13,7,
+table7_row037,Table VII,in table,"[[260, 10, (<=14,<=7)]]",260,10,14,7,,,14,7,14,7,True,yes,14,7,
+table7_row038,Table VII,in table,"[[260, 10, (<=15,<=8)]]",260,10,15,8,,,15,8,15,8,True,yes,15,8,
+table7_row039,Table VII,in table,"[[270, 10, (<=13,<=7)]]",270,10,13,7,,,13,7,13,7,True,yes,13,7,
+table7_row040,Table VII,removed (commented out),"[[270, 10, (<=15,<=6)]]",270,10,15,6,,,,,15,6,,yes,15,6,removed: d<=6
+table7_row041,Table VII,in table,"[[270, 10, (<=16,<=7)]]",270,10,16,7,,,16,7,16,7,True,yes,16,7,
+table7_row042,Table VII,removed (commented out),"[[280, 10, (<=10,<=6)]]",280,10,10,6,,,,,10,6,,yes,14,7,removed: d<=6
+table7_row043,Table VII,in table,"[[280, 10, (<=15,<=7)]]",280,10,15,7,,,15,7,15,7,True,yes,15,7,
+table7_row044,Table VII,in table,"[[290, 10, (<=15,<=8)]]",290,10,15,8,,,15,8,15,8,True,yes,15,8,
+table7_row045,Table VII,in table,"[[300, 10, (<=15,<=9)]]",300,10,15,9,,,15,9,15,9,True,yes,15,9,
+table7_row046,Table VII,in table,"[[310, 10, (<=15,<=8)]]",310,10,15,8,,,15,8,15,8,True,yes,15,8,
+table7_row047,Table VII,removed (commented out),"[[320, 10, (<=8,<=6)]]",320,10,8,6,,,,,8,6,,yes,16,9,removed: d<=6
+table7_row048,Table VII,in table,"[[330, 10, (<=18,<=9)]]",330,10,18,9,,,18,9,18,9,True,yes,18,9,
+table7_row049,Table VII,in table,"[[340, 10, (<=20,<=9)]]",340,10,20,9,,,20,9,20,9,True,yes,20,9,
+table7_row050,Table VII,in table,"[[350, 10, (<=18,<=9)]]",350,10,18,9,,,18,9,18,9,True,yes,18,9,
+table7_row051,Table VII,in table,"[[360, 10, (<=20,<=8)]]",360,10,20,8,,,20,8,20,8,True,yes,20,8,
+table7_row052,Table VII,in table,"[[370, 10, (<=16,<=8)]]",370,10,16,8,,,16,8,16,8,True,yes,20,9,
+table7_row053,Table VII,in table,"[[380, 10, (<=20,<=8)]]",380,10,20,8,,,20,8,20,8,True,yes,20,8,
+table7_row054,Table VII,in table,"[[390, 10, (<=21,<=9)]]",390,10,21,9,,,21,9,21,9,True,yes,21,9,
+table7_row055,Table VII,in table,"[[400, 10, (<=21,<=9)]]",400,10,21,9,,,21,9,21,9,True,yes,21,9,
+table7_row056,Table VII,in table,"[[410, 10, (<=21,<=10)]]",410,10,23,10,23,10,21,10,21,10,True,yes,21,10,lowered by verified dist-m4ri witness
+table7_row057,Table VII,in table,"[[420, 10, (<=22,<=9)]]",420,10,22,10,22,10,22,9,22,9,True,yes,22,9,lowered by verified dist-m4ri witness
+table7_row058,Table VII,in table,"[[430, 10, (<=22,<=10)]]",430,10,22,10,,,22,10,22,10,True,yes,22,10,
+table7_row059,Table VII,in table,"[[440, 10, (<=22,<=10)]]",440,10,22,10,,,22,10,22,10,True,yes,22,10,
+table7_row060,Table VII,in table,"[[450, 10, (<=20,<=9)]]",450,10,20,9,,,20,9,20,9,True,yes,24,10,
+table7_row061,Table VII,in table,"[[460, 10, (<=22,<=10)]]",460,10,22,10,,,22,10,22,10,True,yes,22,10,
+table7_row062,Table VII,in table,"[[470, 10, (<=21,<=9)]]",470,10,21,9,,,21,9,21,9,True,yes,21,9,
+table7_row063,Table VII,in table,"[[480, 10, (<=24,<=10)]]",480,10,24,10,,,24,10,24,10,True,yes,24,10,
+table7_row064,Table VII,in table,"[[490, 10, (<=24,<=10)]]",490,10,24,10,,,24,10,24,10,True,yes,24,10,
+table7_row065,Table VII,in table,"[[500, 10, (<=23,<=11)]]",500,10,23,12,23,12,23,11,23,11,True,yes,23,11,lowered by verified dist-m4ri witness
+table7_row066,Table VII,in table,"[[510, 10, (<=25,<=11)]]",510,10,25,11,,,25,11,25,11,True,yes,25,11,
+table7_row067,Table VII,in table,"[[520, 10, (<=24,<=10)]]",520,10,24,10,,,24,10,24,10,True,yes,24,10,
+table7_row068,Table VII,in table,"[[530, 10, (<=13,<=7)]]",530,10,13,7,,,13,7,13,7,True,yes,27,12,
+table7_row069,Table VII,in table,"[[540, 10, (<=25,<=12)]]",540,10,25,12,,,25,12,25,12,True,yes,25,12,
+table7_row070,Table VII,in table,"[[550, 10, (<=26,<=10)]]",550,10,27,10,27,10,26,10,26,10,True,yes,26,10,lowered by verified dist-m4ri witness
+table7_row071,Table VII,in table,"[[560, 10, (<=25,<=11)]]",560,10,25,11,,,25,11,25,11,True,yes,25,11,
+table7_row072,Table VII,in table,"[[570, 10, (<=28,<=11)]]",570,10,28,11,,,28,11,28,11,True,yes,30,11,
+table7_row073,Table VII,in table,"[[580, 10, (<=28,<=12)]]",580,10,29,12,29,12,28,12,28,12,True,yes,28,12,lowered by verified dist-m4ri witness
+table7_row074,Table VII,in table,"[[590, 10, (<=25,<=11)]]",590,10,29,12,29,11,25,11,25,11,True,yes,27,11,lowered by verified dist-m4ri witness
+table7_row075,Table VII,in table,"[[600, 10, (<=24,<=10)]]",600,10,24,10,,,24,10,24,10,True,yes,28,10,
+table7_row076,Table VII,in table,"[[610, 10, (<=26,<=11)]]",610,10,26,11,,,26,11,26,11,True,yes,28,12,
+table7_row077,Table VII,in table,"[[620, 10, (<=26,<=11)]]",620,10,26,11,,,26,11,26,11,True,yes,28,11,
+table7_row078,Table VII,in table,"[[630, 10, (<=28,<=12)]]",630,10,28,12,,,28,12,28,12,True,yes,30,12,
+table7_row079,Table VII,removed (commented out),"[[640, 10, (<=8,<=6)]]",640,10,8,6,,,,,8,6,,yes,28,13,removed: d<=6
+table7_row080,Table VII,in table,"[[650, 10, (<=28,<=10)]]",650,10,28,10,,,28,10,28,10,True,yes,28,10,
+table7_row081,Table VII,in table,"[[660, 10, (<=30,<=11)]]",660,10,30,11,,,30,11,30,11,True,yes,30,11,
+table7_row082,Table VII,in table,"[[670, 10, (<=30,<=12)]]",670,10,33,12,,,30,12,30,12,True,yes,35,12,lowered by verified dist-m4ri witness
+table7_row083,Table VII,in table,"[[680, 10, (<=30,<=11)]]",680,10,32,11,32,11,30,11,30,11,True,yes,30,11,lowered by verified dist-m4ri witness
+table7_row084,Table VII,in table,"[[690, 10, (<=23,<=12)]]",690,10,23,14,23,14,23,12,23,12,True,yes,35,12,lowered by verified dist-m4ri witness
+table7_row085,Table VII,in table,"[[700, 10, (<=27,<=11)]]",700,10,30,11,,,27,11,27,11,True,yes,30,11,lowered by verified dist-m4ri witness
+table7_row086,Table VII,in table,"[[710, 10, (<=30,<=13)]]",710,10,30,13,,,30,13,30,13,True,yes,33,13,
+table7_row087,Table VII,in table,"[[720, 10, (<=30,<=12)]]",720,10,30,12,,,30,12,30,12,True,yes,31,12,
+table7_row088,Table VII,in table,"[[730, 10, (<=29,<=12)]]",730,10,29,12,,,29,12,29,12,True,yes,31,12,
+table7_row089,Table VII,in table,"[[740, 10, (<=28,<=10)]]",740,10,28,10,,,28,10,28,10,True,yes,34,10,
+table7_row090,Table VII,in table,"[[750, 10, (<=32,<=13)]]",750,10,32,13,,,32,13,32,13,True,yes,37,13,
+table7_row091,Table VII,in table,"[[760, 10, (<=24,<=8)]]",760,10,24,8,,,24,8,24,8,True,yes,33,12,
+table7_row092,Table VII,in table,"[[770, 10, (<=32,<=13)]]",770,10,32,13,,,32,13,32,13,True,yes,32,13,
+table7_row093,Table VII,in table,"[[780, 10, (<=26,<=11)]]",780,10,31,11,,,26,11,26,11,True,yes,31,11,lowered by verified dist-m4ri witness
+table7_row094,Table VII,in table,"[[790, 10, (<=34,<=12)]]",790,10,34,15,34,15,34,12,34,12,True,yes,39,12,lowered by verified dist-m4ri witness
+table7_row095,Table VII,in table,"[[800, 10, (<=32,<=12)]]",800,10,33,12,,,32,12,32,12,True,yes,37,12,lowered by verified dist-m4ri witness
+table7_row096,Table VII,in table,"[[810, 10, (<=27,<=12)]]",810,10,27,12,,,27,12,27,12,True,yes,35,12,
+table7_row097,Table VII,in table,"[[820, 10, (<=31,<=11)]]",820,10,31,11,,,31,11,31,11,True,yes,31,11,
+table7_row098,Table VII,in table,"[[830, 10, (<=28,<=13)]]",830,10,31,13,,,28,13,28,13,True,yes,34,13,lowered by verified dist-m4ri witness
+table7_row099,Table VII,in table,"[[840, 10, (<=29,<=12)]]",840,10,37,12,,,29,12,29,12,True,yes,39,12,lowered by verified dist-m4ri witness
+table7_row100,Table VII,in table,"[[850, 10, (<=35,<=14)]]",850,10,36,14,,,35,14,35,14,True,yes,37,14,lowered by verified dist-m4ri witness
+table7_row101,Table VII,in table,"[[860, 10, (<=28,<=12)]]",860,10,28,13,28,13,28,12,28,12,True,yes,36,12,lowered by verified dist-m4ri witness
+table7_row102,Table VII,in table,"[[870, 10, (<=33,<=14)]]",870,10,33,14,,,33,14,33,14,True,yes,39,14,
+table7_row103,Table VII,in table,"[[880, 10, (<=33,<=13)]]",880,10,33,13,,,34,13,33,13,False,yes,34,13,
+table7_row104,Table VII,in table,"[[890, 10, (<=34,<=14)]]",890,10,40,14,40,14,34,14,34,14,True,yes,36,14,lowered by verified dist-m4ri witness
+table7_row105,Table VII,in table,"[[900, 10, (<=30,<=13)]]",900,10,30,13,,,30,13,30,13,True,yes,39,13,
+table7_row106,Table VII,in table,"[[910, 10, (<=38,<=16)]]",910,10,40,16,,,38,16,38,16,True,yes,44,16,lowered by verified dist-m4ri witness
+table7_row107,Table VII,in table,"[[920, 10, (<=34,<=12)]]",920,10,40,12,,,34,12,34,12,True,yes,43,12,lowered by verified dist-m4ri witness
+table7_row108,Table VII,in table,"[[930, 10, (<=33,<=13)]]",930,10,35,13,,,33,13,33,13,True,yes,45,13,lowered by verified dist-m4ri witness
+table8_row001,Table VIII,removed (commented out),"[[140, 20, (<=6,<=6)]]",140,20,6,6,,,,,6,6,,yes,6,6,removed: d<=6
+table8_row002,Table VIII,removed (commented out),"[[160, 20, (<=6,<=6)]]",160,20,6,6,,,,,6,6,,yes,6,6,removed: d<=6
+table8_row003,Table VIII,removed (commented out),"[[180, 20, (<=6,<=6)]]",180,20,6,6,,,,,6,6,,yes,6,6,removed: d<=6
+table8_row004,Table VIII,in table,"[[200, 20, (<=7,<=7)]]",200,20,7,7,,,7,7,7,7,True,yes,7,7,
+table8_row005,Table VIII,in table,"[[220, 20, (<=8,<=8)]]",220,20,8,8,,,8,8,8,8,True,yes,8,8,
+table8_row006,Table VIII,in table,"[[240, 20, (<=8,<=8)]]",240,20,8,8,,,8,8,8,8,True,yes,8,8,
+table8_row007,Table VIII,in table,"[[260, 20, (<=10,<=10)]]",260,20,10,10,,,10,10,10,10,True,yes,10,10,
+table8_row008,Table VIII,in table,"[[280, 20, (<=9,<=9)]]",280,20,9,9,,,9,9,9,9,True,yes,9,9,
+table8_row009,Table VIII,in table,"[[300, 20, (<=9,<=9)]]",300,20,9,9,,,9,9,9,9,True,yes,9,9,
+table8_row010,Table VIII,in table,"[[320, 20, (<=8,<=8)]]",320,20,8,8,,,9,9,8,8,False,yes,9,9,
+table8_row011,Table VIII,in table,"[[340, 20, (<=10,<=10)]]",340,20,10,10,,,10,10,10,10,True,yes,10,10,
+table8_row012,Table VIII,in table,"[[360, 20, (<=10,<=10)]]",360,20,10,10,,,10,10,10,10,True,yes,10,10,
+table8_row013,Table VIII,in table,"[[380, 20, (<=10,<=10)]]",380,20,10,10,,,10,10,10,10,True,yes,10,10,
+table8_row014,Table VIII,in table,"[[380, 20, (<=11,<=11)]]",380,20,11,11,,,11,11,11,11,True,yes,11,11,
+table8_row015,Table VIII,in table,"[[400, 20, (<=10,<=10)]]",400,20,10,10,,,10,10,10,10,True,yes,10,10,
+table8_row016,Table VIII,in table,"[[400, 20, (<=12,<=12)]]",400,20,12,12,12,12,12,12,12,12,True,yes,11,11,
+table8_row017,Table VIII,in table,"[[400, 20, (<=11,<=11)]]",400,20,11,11,,,11,11,11,11,True,yes,12,12,
+table8_row018,Table VIII,in table,"[[420, 20, (<=12,<=12)]]",420,20,12,12,,,12,12,12,12,True,yes,12,12,
+table8_row019,Table VIII,in table,"[[440, 20, (<=11,<=11)]]",440,20,11,11,,,11,11,11,11,True,yes,11,11,
+table8_row020,Table VIII,in table,"[[460, 20, (<=12,<=12)]]",460,20,12,12,,,12,12,12,12,True,yes,12,12,
+table8_row021,Table VIII,in table,"[[480, 20, (<=12,<=12)]]",480,20,12,12,,,12,12,12,12,True,yes,12,12,
+table8_row022,Table VIII,in table,"[[520, 20, (<=14,<=14)]]",520,20,14,14,,,14,14,14,14,True,yes,14,14,
+table8_row023,Table VIII,in table,"[[540, 20, (<=13,<=13)]]",540,20,13,13,,,13,13,13,13,True,yes,13,13,
+table8_row024,Table VIII,in table,"[[560, 20, (<=14,<=14)]]",560,20,14,14,,,14,14,14,14,True,yes,14,14,
+table8_row025,Table VIII,in table,"[[580, 20, (<=14,<=14)]]",580,20,14,15,14,15,14,14,14,14,True,yes,14,14,lowered by verified dist-m4ri witness
+table8_row026,Table VIII,in table,"[[600, 20, (<=14,<=14)]]",600,20,14,14,,,14,14,14,14,True,yes,14,14,
+table8_row027,Table VIII,in table,"[[620, 20, (<=15,<=15)]]",620,20,15,15,,,15,15,15,15,True,yes,15,15,
+table8_row028,Table VIII,in table,"[[640, 20, (<=8,<=8)]]",640,20,8,8,,,15,15,8,8,False,yes,15,15,
+table8_row029,Table VIII,in table,"[[660, 20, (<=15,<=15)]]",660,20,15,15,,,15,15,15,15,True,yes,15,15,
+table8_row030,Table VIII,in table,"[[680, 20, (<=15,<=15)]]",680,20,15,15,,,15,15,15,15,True,yes,15,15,
+table8_row031,Table VIII,in table,"[[700, 20, (<=15,<=15)]]",700,20,15,15,,,15,15,15,15,True,yes,15,15,
+table8_row032,Table VIII,in table,"[[720, 20, (<=15,<=15)]]",720,20,15,15,,,15,15,15,15,True,yes,15,15,
+table8_row033,Table VIII,in table,"[[740, 20, (<=18,<=18)]]",740,20,18,18,,,18,18,18,18,True,yes,18,18,
+table8_row034,Table VIII,in table,"[[760, 20, (<=18,<=18)]]",760,20,18,18,,,18,18,18,18,True,yes,18,18,
+table8_row035,Table VIII,in table,"[[780, 20, (<=18,<=18)]]",780,20,18,18,,,18,18,18,18,True,yes,18,18,
+table8_row036,Table VIII,in table,"[[800, 20, (<=15,<=15)]]",800,20,15,15,,,15,15,15,15,True,yes,15,15,
+table8_row037,Table VIII,in table,"[[820, 20, (<=18,<=18)]]",820,20,18,18,,,18,18,18,18,True,yes,18,18,
+table8_row038,Table VIII,in table,"[[840, 20, (<=18,<=18)]]",840,20,18,18,,,18,18,18,18,True,yes,18,18,
+table8_row039,Table VIII,in table,"[[860, 20, (<=20,<=20)]]",860,20,20,20,,,20,20,20,20,True,yes,20,20,
+table8_row040,Table VIII,in table,"[[880, 20, (<=15,<=15)]]",880,20,15,15,,,15,15,15,15,True,yes,15,15,
+table8_row041,Table VIII,in table,"[[900, 20, (<=18,<=18)]]",900,20,18,18,,,18,18,18,18,True,yes,18,18,
+table8_row042,Table VIII,in table,"[[920, 20, (<=18,<=18)]]",920,20,18,18,,,18,18,18,18,True,yes,18,18,
+table8_row043,Table VIII,in table,"[[940, 20, (<=18,<=18)]]",940,20,18,18,,,18,18,18,18,True,yes,18,18,
+table8_row044,Table VIII,in table,"[[960, 20, (<=8,<=8)]]",960,20,8,8,,,19,19,8,8,False,yes,19,19,
+table8_row045,Table VIII,in table,"[[980, 20, (<=19,<=19)]]",980,20,19,21,19,21,19,19,19,19,True,yes,19,19,lowered by verified dist-m4ri witness
+table8_row046,Table VIII,in table,"[[1000, 20, (<=20,<=20)]]",1000,20,20,20,,,20,20,20,20,True,yes,20,20,
+table8_row047,Table VIII,in table,"[[1020, 20, (<=19,<=19)]]",1020,20,20,19,19,19,19,19,19,19,True,yes,19,19,
+table8_row048,Table VIII,in table,"[[1040, 20, (<=18,<=18)]]",1040,20,18,18,,,18,18,18,18,True,yes,18,18,
+table8_row049,Table VIII,in table,"[[1060, 20, (<=20,<=20)]]",1060,20,21,20,21,20,20,20,20,20,True,yes,20,20,lowered by verified dist-m4ri witness
+table8_row050,Table VIII,in table,"[[1080, 20, (<=20,<=20)]]",1080,20,20,21,20,21,20,20,20,20,True,yes,20,20,lowered by verified dist-m4ri witness
+table8_row051,Table VIII,in table,"[[1100, 20, (<=21,<=21)]]",1100,20,21,22,,,21,21,21,21,True,yes,22,22,lowered by verified dist-m4ri witness
+table8_row052,Table VIII,in table,"[[1120, 20, (<=20,<=20)]]",1120,20,24,24,24,24,20,20,20,20,True,yes,20,20,lowered by verified dist-m4ri witness
+table8_row053,Table VIII,in table,"[[1140, 20, (<=21,<=21)]]",1140,20,21,21,,,21,21,21,21,True,yes,21,21,
+table8_row054,Table VIII,in table,"[[1160, 20, (<=21,<=21)]]",1160,20,21,21,,,21,21,21,21,True,yes,21,21,
+table8_row055,Table VIII,in table,"[[1180, 20, (<=22,<=22)]]",1180,20,22,22,,,22,22,22,22,True,yes,22,22,
+table8_row056,Table VIII,in table,"[[1200, 20, (<=20,<=20)]]",1200,20,20,20,,,20,20,20,20,True,yes,20,20,
+table8_row057,Table VIII,in table,"[[1220, 20, (<=20,<=20)]]",1220,20,20,22,20,22,20,20,20,20,True,yes,20,20,lowered by verified dist-m4ri witness
+table8_row058,Table VIII,in table,"[[1240, 20, (<=24,<=24)]]",1240,20,24,24,,,24,24,24,24,True,yes,24,24,
+table8_row059,Table VIII,in table,"[[1260, 20, (<=21,<=21)]]",1260,20,23,21,,,21,21,21,21,True,yes,24,24,lowered by verified dist-m4ri witness
+table8_row060,Table VIII,in table,"[[1280, 20, (<=8,<=8)]]",1280,20,8,8,,,23,23,8,8,False,yes,23,23,
+table8_row061,Table VIII,in table,"[[1300, 20, (<=23,<=23)]]",1300,20,23,24,,,23,23,23,23,True,yes,24,24,lowered by verified dist-m4ri witness
+table8_row062,Table VIII,in table,"[[1320, 20, (<=22,<=22)]]",1320,20,22,26,22,26,22,22,22,22,True,yes,22,22,lowered by verified dist-m4ri witness
+table9_row001,Table IX,removed (commented out),"[[280, 35, (<=8,<=4)]]",280,35,8,4,,,,,8,4,,yes,8,4,removed: d<=6
+table9_row002,Table IX,removed (commented out),"[[315, 35, (<=9,<=6)]]",315,35,9,6,,,,,9,6,,yes,9,6,removed: d<=6
+table9_row003,Table IX,removed (commented out),"[[350, 35, (<=10,<=6)]]",350,35,10,6,,,,,10,6,,yes,10,6,removed: d<=6
+table9_row004,Table IX,in table,"[[385, 35, (<=10,<=7)]]",385,35,10,7,,,10,7,10,7,True,yes,10,7,
+table9_row005,Table IX,removed (commented out),"[[420, 35, (<=10,<=6)]]",420,35,10,6,,,,,10,6,,yes,10,6,removed: d<=6
+table9_row006,Table IX,in table,"[[455, 35, (<=10,<=7)]]",455,35,10,7,,,10,7,10,7,True,yes,10,7,
+table9_row007,Table IX,in table,"[[455, 35, (<=11,<=7)]]",455,35,11,7,,,11,7,11,7,True,yes,11,7,
+table9_row008,Table IX,in table,"[[490, 35, (<=11,<=7)]]",490,35,11,7,,,11,7,11,7,True,yes,11,7,
+table9_row009,Table IX,in table,"[[490, 35, (<=12,<=7)]]",490,35,12,7,,,12,7,12,7,True,yes,12,7,
+table9_row010,Table IX,in table,"[[525, 35, (<=12,<=8)]]",525,35,12,8,,,12,8,12,8,True,yes,12,8,
+table9_row011,Table IX,in table,"[[525, 35, (<=15,<=9)]]",525,35,15,9,,,15,9,15,9,True,yes,15,9,
+table9_row012,Table IX,in table,"[[560, 35, (<=15,<=8)]]",560,35,15,8,,,15,8,15,8,True,yes,15,8,
+table9_row013,Table IX,in table,"[[595, 35, (<=15,<=10)]]",595,35,15,10,,,15,10,15,10,True,yes,15,10,
+table9_row014,Table IX,in table,"[[630, 35, (<=15,<=9)]]",630,35,15,9,,,15,9,15,9,True,yes,15,9,
+table9_row015,Table IX,in table,"[[665, 35, (<=15,<=10)]]",665,35,15,10,,,15,10,15,10,True,yes,15,10,
+table9_row016,Table IX,in table,"[[700, 35, (<=16,<=10)]]",700,35,16,10,,,16,10,16,10,True,yes,16,10,
+table9_row017,Table IX,in table,"[[735, 35, (<=15,<=10)]]",735,35,15,10,,,15,10,15,10,True,yes,15,10,
+table9_row018,Table IX,in table,"[[770, 35, (<=17,<=10)]]",770,35,17,10,,,17,10,17,10,True,yes,17,10,
+table9_row019,Table IX,in table,"[[805, 35, (<=18,<=11)]]",805,35,18,12,18,12,18,11,18,11,True,yes,18,11,lowered by verified dist-m4ri witness
+table9_row020,Table IX,in table,"[[840, 35, (<=19,<=12)]]",840,35,19,12,,,19,12,19,12,True,yes,19,12,
+table9_row021,Table IX,in table,"[[875, 35, (<=18,<=11)]]",875,35,18,11,,,18,11,18,11,True,yes,18,11,
+table9_row022,Table IX,in table,"[[910, 35, (<=19,<=11)]]",910,35,19,12,19,12,19,11,19,11,True,yes,19,11,lowered by verified dist-m4ri witness
+table9_row023,Table IX,in table,"[[945, 35, (<=18,<=9)]]",945,35,18,12,18,12,18,9,18,9,True,yes,18,9,lowered by verified dist-m4ri witness
+table9_row024,Table IX,in table,"[[980, 35, (<=20,<=12)]]",980,35,21,12,21,12,20,12,20,12,True,yes,20,12,lowered by verified dist-m4ri witness
+table9_row025,Table IX,in table,"[[1015, 35, (<=22,<=13)]]",1015,35,22,13,,,22,13,22,13,True,yes,22,13,
+table9_row026,Table IX,in table,"[[1050, 35, (<=20,<=13)]]",1050,35,21,13,,,20,13,20,13,True,yes,21,13,lowered by verified dist-m4ri witness
+table10_row001,Table X,in table,"[[630, 70, (<=9,<=9)]]",630,70,9,9,,,9,9,9,9,True,yes,9,9,
+table10_row002,Table X,in table,"[[700, 70, (<=8,<=8)]]",700,70,8,8,,,8,8,8,8,True,yes,8,8,
+table10_row003,Table X,in table,"[[770, 70, (<=9,<=9)]]",770,70,9,9,,,9,9,9,9,True,yes,9,9,
+table10_row004,Table X,in table,"[[840, 70, (<=10,<=10)]]",840,70,10,10,,,10,10,10,10,True,yes,10,10,
+table10_row005,Table X,in table,"[[910, 70, (<=11,<=11)]]",910,70,11,11,,,11,11,11,11,True,yes,11,11,
+table10_row006,Table X,in table,"[[980, 70, (<=10,<=10)]]",980,70,10,10,,,10,10,10,10,True,yes,10,10,
+table10_row007,Table X,in table,"[[1050, 70, (<=11,<=11)]]",1050,70,11,11,,,11,11,11,11,True,yes,11,11,
+table10_row008,Table X,in table,"[[1120, 70, (<=11,<=11)]]",1120,70,11,11,,,11,11,11,11,True,yes,11,11,
+table10_row009,Table X,in table,"[[1190, 70, (<=13,<=13)]]",1190,70,13,13,,,13,13,13,13,True,yes,13,13,
+table10_row010,Table X,in table,"[[1260, 70, (<=12,<=12)]]",1260,70,13,14,13,14,12,12,12,12,True,yes,12,12,lowered by verified dist-m4ri witness
+table10_row011,Table X,in table,"[[1330, 70, (<=13,<=13)]]",1330,70,13,13,,,13,13,13,13,True,yes,13,13,
+table10_row012,Table X,in table,"[[1400, 70, (<=10,<=10)]]",1400,70,10,10,,,10,10,10,10,True,yes,10,10,
+table10_row013,Table X,in table,"[[1470, 70, (<=13,<=13)]]",1470,70,13,14,13,14,13,13,13,13,True,yes,13,13,lowered by verified dist-m4ri witness
+table10_row014,Table X,in table,"[[1540, 70, (<=12,<=12)]]",1540,70,13,12,13,12,12,12,12,12,True,yes,12,12,lowered by verified dist-m4ri witness
+table10_row015,Table X,in table,"[[1610, 70, (<=16,<=16)]]",1610,70,16,16,,,16,16,16,16,True,yes,16,16,
+table10_row016,Table X,in table,"[[1680, 70, (<=15,<=15)]]",1680,70,15,15,,,15,15,15,15,True,yes,15,15,
+table10_row017,Table X,in table,"[[1750, 70, (<=17,<=17)]]",1750,70,19,17,19,17,17,17,17,17,True,yes,17,17,lowered by verified dist-m4ri witness
+table10_row018,Table X,in table,"[[1820, 70, (<=13,<=13)]]",1820,70,15,13,,,13,13,13,13,True,yes,13,13,
+table10_row019,Table X,in table,"[[1890, 70, (<=15,<=15)]]",1890,70,15,15,,,15,15,15,15,True,yes,15,15,
+table10_row020,Table X,in table,"[[1960, 70, (<=14,<=14)]]",1960,70,16,14,,,14,14,14,14,True,yes,14,14,
+table10_row021,Table X,in table,"[[2030, 70, (<=18,<=18)]]",2030,70,18,18,,,18,18,18,18,True,yes,18,18,
+table11_row001,Table XI,removed (commented out),"[[1260, 126, (<=10,<=5)]]",1260,126,10,5,,,,,10,5,,yes,10,5,removed: d<=6
+table11_row002,Table XI,in table,"[[1386, 126, (<=11,<=9)]]",1386,126,11,9,,,11,9,11,9,True,yes,11,9,
+table11_row003,Table XI,in table,"[[1512, 126, (<=12,<=9)]]",1512,126,12,9,,,12,9,12,9,True,yes,12,9,
+table11_row004,Table XI,in table,"[[1638, 126, (<=13,<=10)]]",1638,126,13,10,,,13,10,13,10,True,yes,13,10,
+table11_row005,Table XI,in table,"[[1764, 126, (<=14,<=10)]]",1764,126,14,10,,,14,10,14,10,True,yes,14,10,
