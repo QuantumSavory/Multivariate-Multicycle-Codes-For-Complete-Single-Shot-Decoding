@@ -1,0 +1,7 @@
+[
+ {"name": "MM [[144,12,12]] W9", "hx": "qc_matrices/MM_144_12_12_HX.mtx", "hz": "qc_matrices/MM_144_12_12_HZ.mtx",
+  "mx": "qc_matrices/MM_144_12_12_MX.mtx", "mz": "qc_matrices/MM_144_12_12_MZ.mtx"},
+ {"name": "TT [[135,12,6]]", "hx": "qc_matrices/TT_135_12_6_HX.mtx", "hz": "qc_matrices/TT_135_12_6_HZ.mtx",
+  "mz": "qc_matrices/TT_135_12_6_MZ.mtx"},
+ {"name": "BB [[144,12,12]]", "hx": "qc_matrices/BB_144_12_12_HX.mtx", "hz": "qc_matrices/BB_144_12_12_HZ.mtx"}
+]

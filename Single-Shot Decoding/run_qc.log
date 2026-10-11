@@ -1,0 +1,220 @@
+== MM [[144,12,12]] W9: n=144 k=12  H_X (96, 144)  H_Z (96, 144)  M_X (24, 96)  M_Z (24, 96)
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/python-3.11.7-fykk2xdfj47lpvrqnin4azhka2pvxc2o/lib/python3.11/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/python-3.11.7-fykk2xdfj47lpvrqnin4azhka2pvxc2o/lib/python3.11/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+           ^^^^^^^^^^^^^^^^
+  File "/home/fmian_umass_edu/mm_repo/Single-Shot Decoding/single_shot_metachecks.py", line 225, in worker
+    dec_final = make_decoder(H, [p_data] * n, cfg)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fmian_umass_edu/mm_repo/Single-Shot Decoding/single_shot_metachecks.py", line 178, in make_decoder
+    from ldpc import BpOsdDecoder
+ModuleNotFoundError: No module named 'ldpc'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fmian_umass_edu/mm_repo/Single-Shot Decoding/single_shot_metachecks.py", line 384, in <module>
+    main()
+  File "/home/fmian_umass_edu/mm_repo/Single-Shot Decoding/single_shot_metachecks.py", line 365, in main
+    for f_, s_, st, mc in pool.map(worker, jobs):
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/python-3.11.7-fykk2xdfj47lpvrqnin4azhka2pvxc2o/lib/python3.11/multiprocessing/pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/python-3.11.7-fykk2xdfj47lpvrqnin4azhka2pvxc2o/lib/python3.11/multiprocessing/pool.py", line 774, in get
+    raise self._value
+ModuleNotFoundError: No module named 'ldpc'
+resuming: 0 finished points found in results_qc.csv
+== MM [[144,12,12]] W9: n=144 k=12  H_X (96, 144)  H_Z (96, 144)  M_X (24, 96)  M_Z (24, 96)
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/python-3.11.7-fykk2xdfj47lpvrqnin4azhka2pvxc2o/lib/python3.11/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/python-3.11.7-fykk2xdfj47lpvrqnin4azhka2pvxc2o/lib/python3.11/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+           ^^^^^^^^^^^^^^^^
+  File "/home/fmian_umass_edu/mm_repo/Single-Shot Decoding/single_shot_metachecks.py", line 225, in worker
+    dec_final = make_decoder(H, [p_data] * n, cfg)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fmian_umass_edu/mm_repo/Single-Shot Decoding/single_shot_metachecks.py", line 178, in make_decoder
+    from ldpc import BpOsdDecoder
+ModuleNotFoundError: No module named 'ldpc'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fmian_umass_edu/mm_repo/Single-Shot Decoding/single_shot_metachecks.py", line 384, in <module>
+    main()
+  File "/home/fmian_umass_edu/mm_repo/Single-Shot Decoding/single_shot_metachecks.py", line 365, in main
+    for f_, s_, st, mc in pool.map(worker, jobs):
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/python-3.11.7-fykk2xdfj47lpvrqnin4azhka2pvxc2o/lib/python3.11/multiprocessing/pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/python-3.11.7-fykk2xdfj47lpvrqnin4azhka2pvxc2o/lib/python3.11/multiprocessing/pool.py", line 774, in get
+    raise self._value
+ModuleNotFoundError: No module named 'ldpc'
+resuming: 0 finished points found in results_qc.csv
+== MM [[144,12,12]] W9: n=144 k=12  H_X (96, 144)  H_Z (96, 144)  M_X (24, 96)  M_Z (24, 96)
+   X meta   N=  8 p=0.0050: 0/2000000  P_L=0.000e+00  p_L/round=0.000e+00  (94s)
+   X meta   N=  8 p=0.0075: 5/2000000  P_L=2.500e-06  p_L/round=3.125e-07  (97s)
+   X meta   N=  8 p=0.0100: 45/2000000  P_L=2.250e-05  p_L/round=2.813e-06  (106s)
+   X meta   N=  8 p=0.0125: 182/2000000  P_L=9.100e-05  p_L/round=1.138e-05  (106s)
+   X meta   N=  8 p=0.0150: 562/2000000  P_L=2.810e-04  p_L/round=3.513e-05  (112s)
+   X meta   N=  8 p=0.0175: 1019/1344000  P_L=7.582e-04  p_L/round=9.480e-05  (79s)
+   X meta   N=  8 p=0.0200: 1087/528000  P_L=2.059e-03  p_L/round=2.576e-04  (31s)
+   X meta   N=  8 p=0.0250: 1038/96000  P_L=1.081e-02  p_L/round=1.358e-03  (7s)
+   X meta   N=  8 p=0.0300: 1919/48000  P_L=3.998e-02  p_L/round=5.087e-03  (5s)
+   X meta   N=  8 p=0.0350: 5451/48000  P_L=1.136e-01  p_L/round=1.496e-02  (8s)
+   X meta   N=  8 p=0.0400: 12383/48000  P_L=2.580e-01  p_L/round=3.661e-02  (16s)
+   X meta   N=  8 p=0.0450: 22442/48000  P_L=4.675e-01  p_L/round=7.576e-02  (30s)
+   X meta   N=  8 p=0.0500: 33314/48000  P_L=6.940e-01  p_L/round=1.376e-01  (49s)
+   X nometa N=  8 p=0.0050: 4/2000000  P_L=2.000e-06  p_L/round=2.500e-07  (84s)
+   X nometa N=  8 p=0.0075: 17/2000000  P_L=8.500e-06  p_L/round=1.063e-06  (92s)
+   X nometa N=  8 p=0.0100: 117/2000000  P_L=5.850e-05  p_L/round=7.313e-06  (100s)
+   X nometa N=  8 p=0.0125: 393/2000000  P_L=1.965e-04  p_L/round=2.456e-05  (106s)
+   X nometa N=  8 p=0.0150: 1024/1728000  P_L=5.926e-04  p_L/round=7.409e-05  (93s)
+   X nometa N=  8 p=0.0175: 1030/624000  P_L=1.651e-03  p_L/round=2.065e-04  (38s)
+   X nometa N=  8 p=0.0200: 1143/288000  P_L=3.969e-03  p_L/round=4.970e-04  (20s)
+   X nometa N=  8 p=0.0250: 1696/96000  P_L=1.767e-02  p_L/round=2.226e-03  (11s)
+   X nometa N=  8 p=0.0300: 2882/48000  P_L=6.004e-02  p_L/round=7.710e-03  (9s)
+   X nometa N=  8 p=0.0350: 7373/48000  P_L=1.536e-01  p_L/round=2.063e-02  (18s)
+   X nometa N=  8 p=0.0400: 15204/48000  P_L=3.167e-01  p_L/round=4.650e-02  (32s)
+   X nometa N=  8 p=0.0450: 25962/48000  P_L=5.409e-01  p_L/round=9.272e-02  (53s)
+   X nometa N=  8 p=0.0500: 35887/48000  P_L=7.476e-01  p_L/round=1.581e-01  (79s)
+   Z meta   N=  8 p=0.0050: 0/2000000  P_L=0.000e+00  p_L/round=0.000e+00  (93s)
+   Z meta   N=  8 p=0.0075: 6/2000000  P_L=3.000e-06  p_L/round=3.750e-07  (99s)
+   Z meta   N=  8 p=0.0100: 28/2000000  P_L=1.400e-05  p_L/round=1.750e-06  (106s)
+   Z meta   N=  8 p=0.0125: 151/2000000  P_L=7.550e-05  p_L/round=9.438e-06  (110s)
+   Z meta   N=  8 p=0.0150: 488/2000000  P_L=2.440e-04  p_L/round=3.050e-05  (111s)
+   Z meta   N=  8 p=0.0175: 1018/1200000  P_L=8.483e-04  p_L/round=1.061e-04  (68s)
+   Z meta   N=  8 p=0.0200: 1053/480000  P_L=2.194e-03  p_L/round=2.745e-04  (29s)
+   Z meta   N=  8 p=0.0250: 1463/144000  P_L=1.016e-02  p_L/round=1.276e-03  (11s)
+   Z meta   N=  8 p=0.0300: 1872/48000  P_L=3.900e-02  p_L/round=4.960e-03  (5s)
+   Z meta   N=  8 p=0.0350: 5464/48000  P_L=1.138e-01  p_L/round=1.499e-02  (8s)
+   Z meta   N=  8 p=0.0400: 12303/48000  P_L=2.563e-01  p_L/round=3.634e-02  (16s)
+   Z meta   N=  8 p=0.0450: 22343/48000  P_L=4.655e-01  p_L/round=7.531e-02  (32s)
+   Z meta   N=  8 p=0.0500: 33193/48000  P_L=6.915e-01  p_L/round=1.367e-01  (51s)
+   Z nometa N=  8 p=0.0050: 0/2000000  P_L=0.000e+00  p_L/round=0.000e+00  (83s)
+   Z nometa N=  8 p=0.0075: 18/2000000  P_L=9.000e-06  p_L/round=1.125e-06  (92s)
+   Z nometa N=  8 p=0.0100: 80/2000000  P_L=4.000e-05  p_L/round=5.000e-06  (98s)
+   Z nometa N=  8 p=0.0125: 405/2000000  P_L=2.025e-04  p_L/round=2.531e-05  (108s)
+   Z nometa N=  8 p=0.0150: 1034/1776000  P_L=5.822e-04  p_L/round=7.279e-05  (107s)
+   Z nometa N=  8 p=0.0175: 1015/624000  P_L=1.627e-03  p_L/round=2.035e-04  (42s)
+   Z nometa N=  8 p=0.0200: 1116/288000  P_L=3.875e-03  p_L/round=4.852e-04  (22s)
+   Z nometa N=  8 p=0.0250: 1656/96000  P_L=1.725e-02  p_L/round=2.173e-03  (11s)
+   Z nometa N=  8 p=0.0300: 2797/48000  P_L=5.827e-02  p_L/round=7.477e-03  (10s)
+   Z nometa N=  8 p=0.0350: 7406/48000  P_L=1.543e-01  p_L/round=2.073e-02  (18s)
+   Z nometa N=  8 p=0.0400: 15413/48000  P_L=3.211e-01  p_L/round=4.726e-02  (34s)
+   Z nometa N=  8 p=0.0450: 25832/48000  P_L=5.382e-01  p_L/round=9.205e-02  (57s)
+   Z nometa N=  8 p=0.0500: 35795/48000  P_L=7.457e-01  p_L/round=1.573e-01  (77s)
+== TT [[135,12,6]]: n=135 k=12  H_X (45, 135)  H_Z (135, 135)  M_X None  M_Z (45, 135)
+   X: no metachecks, skipping 'meta'
+   X nometa N=  8 p=0.0050: 1403/96000  P_L=1.461e-02  p_L/round=1.839e-03  (5s)
+   X nometa N=  8 p=0.0075: 2452/48000  P_L=5.108e-02  p_L/round=6.533e-03  (4s)
+   X nometa N=  8 p=0.0100: 6032/48000  P_L=1.257e-01  p_L/round=1.665e-02  (7s)
+   X nometa N=  8 p=0.0125: 11393/48000  P_L=2.374e-01  p_L/round=3.330e-02  (11s)
+   X nometa N=  8 p=0.0150: 18181/48000  P_L=3.788e-01  p_L/round=5.777e-02  (14s)
+   X nometa N=  8 p=0.0175: 25665/48000  P_L=5.347e-01  p_L/round=9.120e-02  (19s)
+   X nometa N=  8 p=0.0200: 32676/48000  P_L=6.807e-01  p_L/round=1.330e-01  (21s)
+   X nometa N=  8 p=0.0250: 42462/48000  P_L=8.846e-01  p_L/round=2.366e-01  (30s)
+   X nometa N=  8 p=0.0300: 46670/48000  P_L=9.723e-01  p_L/round=3.613e-01  (36s)
+   X nometa N=  8 p=0.0350: 47736/48000  P_L=9.945e-01  p_L/round=4.782e-01  (37s)
+   X nometa N=  8 p=0.0400: 47955/48000  P_L=9.991e-01  p_L/round=5.817e-01  (40s)
+   X nometa N=  8 p=0.0450: 47983/48000  P_L=9.996e-01  p_L/round=6.296e-01  (43s)
+   X nometa N=  8 p=0.0500: 47984/48000  P_L=9.997e-01  p_L/round=6.324e-01  (43s)
+   Z meta   N=  8 p=0.0050: 0/2000000  P_L=0.000e+00  p_L/round=0.000e+00  (116s)
+   Z meta   N=  8 p=0.0075: 1/2000000  P_L=5.000e-07  p_L/round=6.250e-08  (120s)
+   Z meta   N=  8 p=0.0100: 0/2000000  P_L=0.000e+00  p_L/round=0.000e+00  (122s)
+   Z meta   N=  8 p=0.0125: 0/2000000  P_L=0.000e+00  p_L/round=0.000e+00  (126s)
+   Z meta   N=  8 p=0.0150: 0/2000000  P_L=0.000e+00  p_L/round=0.000e+00  (129s)
+   Z meta   N=  8 p=0.0175: 6/2000000  P_L=3.000e-06  p_L/round=3.750e-07  (132s)
+   Z meta   N=  8 p=0.0200: 17/2000000  P_L=8.500e-06  p_L/round=1.063e-06  (133s)
+   Z meta   N=  8 p=0.0250: 83/2000000  P_L=4.150e-05  p_L/round=5.188e-06  (138s)
+   Z meta   N=  8 p=0.0300: 411/2000000  P_L=2.055e-04  p_L/round=2.569e-05  (142s)
+   Z meta   N=  8 p=0.0350: 1038/1344000  P_L=7.723e-04  p_L/round=9.657e-05  (100s)
+   Z meta   N=  8 p=0.0400: 1006/432000  P_L=2.329e-03  p_L/round=2.914e-04  (33s)
+   Z meta   N=  8 p=0.0450: 1273/192000  P_L=6.630e-03  p_L/round=8.312e-04  (16s)
+   Z meta   N=  8 p=0.0500: 1731/96000  P_L=1.803e-02  p_L/round=2.272e-03  (9s)
+   Z nometa N=  8 p=0.0050: 0/2000000  P_L=0.000e+00  p_L/round=0.000e+00  (100s)
+   Z nometa N=  8 p=0.0075: 0/2000000  P_L=0.000e+00  p_L/round=0.000e+00  (106s)
+   Z nometa N=  8 p=0.0100: 0/2000000  P_L=0.000e+00  p_L/round=0.000e+00  (114s)
+   Z nometa N=  8 p=0.0125: 1/2000000  P_L=5.000e-07  p_L/round=6.250e-08  (120s)
+   Z nometa N=  8 p=0.0150: 3/2000000  P_L=1.500e-06  p_L/round=1.875e-07  (132s)
+   Z nometa N=  8 p=0.0175: 13/2000000  P_L=6.500e-06  p_L/round=8.125e-07  (143s)
+   Z nometa N=  8 p=0.0200: 20/2000000  P_L=1.000e-05  p_L/round=1.250e-06  (160s)
+   Z nometa N=  8 p=0.0250: 154/2000000  P_L=7.700e-05  p_L/round=9.625e-06  (196s)
+   Z nometa N=  8 p=0.0300: 636/2000000  P_L=3.180e-04  p_L/round=3.976e-05  (272s)
+   Z nometa N=  8 p=0.0350: 1013/1008000  P_L=1.005e-03  p_L/round=1.257e-04  (182s)
+   Z nometa N=  8 p=0.0400: 1012/336000  P_L=3.012e-03  p_L/round=3.770e-04  (80s)
+   Z nometa N=  8 p=0.0450: 1246/144000  P_L=8.653e-03  p_L/round=1.086e-03  (46s)
+   Z nometa N=  8 p=0.0500: 1157/48000  P_L=2.410e-02  p_L/round=3.045e-03  (20s)
+== BB [[144,12,12]]: n=144 k=12  H_X (72, 144)  H_Z (72, 144)  M_X None  M_Z None
+   X: no metachecks, skipping 'meta'
+   X nometa N=  8 p=0.0050: 45/2000000  P_L=2.250e-05  p_L/round=2.813e-06  (110s)
+   X nometa N=  8 p=0.0075: 489/2000000  P_L=2.445e-04  p_L/round=3.057e-05  (183s)
+   X nometa N=  8 p=0.0100: 1006/864000  P_L=1.164e-03  p_L/round=1.456e-04  (115s)
+   X nometa N=  8 p=0.0125: 1032/240000  P_L=4.300e-03  p_L/round=5.385e-04  (42s)
+   X nometa N=  8 p=0.0150: 1273/96000  P_L=1.326e-02  p_L/round=1.667e-03  (22s)
+   X nometa N=  8 p=0.0175: 1446/48000  P_L=3.012e-02  p_L/round=3.816e-03  (14s)
+   X nometa N=  8 p=0.0200: 2979/48000  P_L=6.206e-02  p_L/round=7.977e-03  (18s)
+   X nometa N=  8 p=0.0250: 9331/48000  P_L=1.944e-01  p_L/round=2.666e-02  (25s)
+   X nometa N=  8 p=0.0300: 19764/48000  P_L=4.118e-01  p_L/round=6.417e-02  (32s)
+   X nometa N=  8 p=0.0350: 31571/48000  P_L=6.577e-01  p_L/round=1.254e-01  (38s)
+   X nometa N=  8 p=0.0400: 40623/48000  P_L=8.463e-01  p_L/round=2.087e-01  (44s)
+   X nometa N=  8 p=0.0450: 45431/48000  P_L=9.465e-01  p_L/round=3.065e-01  (47s)
+   X nometa N=  8 p=0.0500: 47366/48000  P_L=9.868e-01  p_L/round=4.178e-01  (62s)
+   Z: no metachecks, skipping 'meta'
+   Z nometa N=  8 p=0.0050: 62/2000000  P_L=3.100e-05  p_L/round=3.875e-06  (118s)
+   Z nometa N=  8 p=0.0075: 485/2000000  P_L=2.425e-04  p_L/round=3.032e-05  (180s)
+   Z nometa N=  8 p=0.0100: 1067/912000  P_L=1.170e-03  p_L/round=1.463e-04  (124s)
+   Z nometa N=  8 p=0.0125: 1043/240000  P_L=4.346e-03  p_L/round=5.443e-04  (44s)
+   Z nometa N=  8 p=0.0150: 1232/96000  P_L=1.283e-02  p_L/round=1.613e-03  (26s)
+   Z nometa N=  8 p=0.0175: 1461/48000  P_L=3.044e-02  p_L/round=3.856e-03  (17s)
+   Z nometa N=  8 p=0.0200: 3110/48000  P_L=6.479e-02  p_L/round=8.338e-03  (21s)
+   Z nometa N=  8 p=0.0250: 9276/48000  P_L=1.933e-01  p_L/round=2.649e-02  (29s)
+   Z nometa N=  8 p=0.0300: 19791/48000  P_L=4.123e-01  p_L/round=6.429e-02  (38s)
+   Z nometa N=  8 p=0.0350: 31607/48000  P_L=6.585e-01  p_L/round=1.257e-01  (44s)
+   Z nometa N=  8 p=0.0400: 40602/48000  P_L=8.459e-01  p_L/round=2.084e-01  (50s)
+   Z nometa N=  8 p=0.0450: 45495/48000  P_L=9.478e-01  p_L/round=3.087e-01  (53s)
+   Z nometa N=  8 p=0.0500: 47349/48000  P_L=9.864e-01  p_L/round=4.158e-01  (56s)
+resuming: 117 finished points found in results_qc.csv
+== MM [[144,12,12]] W9: n=144 k=12  H_X (96, 144)  H_Z (96, 144)  M_X (24, 96)  M_Z (24, 96)
+   X twostage N=  8 p=0.0050: 1002/432000  P_L=2.319e-03  p_L/round=2.902e-04  (28s)
+   X twostage N=  8 p=0.0075: 1361/144000  P_L=9.451e-03  p_L/round=1.186e-03  (13s)
+   X twostage N=  8 p=0.0100: 1231/48000  P_L=2.565e-02  p_L/round=3.242e-03  (7s)
+   X twostage N=  8 p=0.0125: 2650/48000  P_L=5.521e-02  p_L/round=7.074e-03  (9s)
+   X twostage N=  8 p=0.0150: 4997/48000  P_L=1.041e-01  p_L/round=1.365e-02  (12s)
+   X twostage N=  8 p=0.0175: 7989/48000  P_L=1.664e-01  p_L/round=2.250e-02  (16s)
+   X twostage N=  8 p=0.0200: 11603/48000  P_L=2.417e-01  p_L/round=3.400e-02  (23s)
+   X twostage N=  8 p=0.0250: 21012/48000  P_L=4.377e-01  p_L/round=6.945e-02  (33s)
+   X twostage N=  8 p=0.0300: 30666/48000  P_L=6.389e-01  p_L/round=1.195e-01  (47s)
+   X twostage N=  8 p=0.0350: 38775/48000  P_L=8.078e-01  p_L/round=1.863e-01  (64s)
+   X twostage N=  8 p=0.0400: 44134/48000  P_L=9.195e-01  p_L/round=2.701e-01  (81s)
+   X twostage N=  8 p=0.0450: 46676/48000  P_L=9.724e-01  p_L/round=3.616e-01  (99s)
+   X twostage N=  8 p=0.0500: 47628/48000  P_L=9.922e-01  p_L/round=4.553e-01  (120s)
+   Z twostage N=  8 p=0.0050: 1022/432000  P_L=2.366e-03  p_L/round=2.960e-04  (27s)
+   Z twostage N=  8 p=0.0075: 1410/144000  P_L=9.792e-03  p_L/round=1.229e-03  (12s)
+   Z twostage N=  8 p=0.0100: 1253/48000  P_L=2.610e-02  p_L/round=3.301e-03  (6s)
+   Z twostage N=  8 p=0.0125: 2667/48000  P_L=5.556e-02  p_L/round=7.120e-03  (9s)
+   Z twostage N=  8 p=0.0150: 4828/48000  P_L=1.006e-01  p_L/round=1.316e-02  (12s)
+   Z twostage N=  8 p=0.0175: 7662/48000  P_L=1.596e-01  p_L/round=2.150e-02  (15s)
+   Z twostage N=  8 p=0.0200: 11745/48000  P_L=2.447e-01  p_L/round=3.447e-02  (20s)
+   Z twostage N=  8 p=0.0250: 20717/48000  P_L=4.316e-01  p_L/round=6.818e-02  (33s)
+   Z twostage N=  8 p=0.0300: 30547/48000  P_L=6.364e-01  p_L/round=1.188e-01  (44s)
+   Z twostage N=  8 p=0.0350: 38825/48000  P_L=8.089e-01  p_L/round=1.869e-01  (55s)
+   Z twostage N=  8 p=0.0400: 44088/48000  P_L=9.185e-01  p_L/round=2.690e-01  (69s)
+   Z twostage N=  8 p=0.0450: 46634/48000  P_L=9.715e-01  p_L/round=3.591e-01  (84s)
+   Z twostage N=  8 p=0.0500: 47621/48000  P_L=9.921e-01  p_L/round=4.540e-01  (98s)
+wrote qc_single_shot_main.pdf/.png
+wrote qc_single_shot_decoders.pdf/.png
+done: results_qc.csv qc_single_shot_main.pdf qc_single_shot_decoders.pdf
