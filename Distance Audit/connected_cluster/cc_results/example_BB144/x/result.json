@@ -1,0 +1,87 @@
+{
+  "id": "example_BB144",
+  "n": 144,
+  "k": 12,
+  "hx_sha256": "90f99a33cdb8e27242241f6ab29b9c96c2bb3dc04c8b12acd89e781a7e233970",
+  "hz_sha256": "72f06c8f2d385d868ce6b7aa1274e2cd0f7375076ec92406945cde5899a489ad",
+  "sector": "x",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 12,
+  "witness_support_one_based": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    20,
+    23,
+    92,
+    95,
+    98,
+    101
+  ],
+  "verified_upper_bound": 12,
+  "search_estimate": 12,
+  "status": "EXACT",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "example_BB144/x/w001_20261015T133855161501Z/stderr.log",
+      "stderr_sha256": "3e52593156662f29dcc0c0849d957b935c610ad502abc49f3a58fbae03fcd372"
+    },
+    {
+      "weight": 2,
+      "stderr": "example_BB144/x/w002_20261015T133855427002Z/stderr.log",
+      "stderr_sha256": "19878467b512eff94ee680b6eb164a23ebe7c9174d922b9c83e054d60726878a"
+    },
+    {
+      "weight": 3,
+      "stderr": "example_BB144/x/w003_20261015T133855705735Z/stderr.log",
+      "stderr_sha256": "a14e750da16a77afc8ffc6efa7fe064dadcc9fe3abed0357f7ddbae4a382eede"
+    },
+    {
+      "weight": 4,
+      "stderr": "example_BB144/x/w004_20261015T133855943605Z/stderr.log",
+      "stderr_sha256": "50861d0209c3aa5e4c64f8e9913bfcf0076f3cbba86fc0c1e4b41529d13b9dbf"
+    },
+    {
+      "weight": 5,
+      "stderr": "example_BB144/x/w005_20261015T133856192226Z/stderr.log",
+      "stderr_sha256": "2d4d8ec1b6b666f8919d45807f464d601f16be4f15726600f9c0405ed2d9f044"
+    },
+    {
+      "weight": 6,
+      "stderr": "example_BB144/x/w006_20261015T133856443968Z/stderr.log",
+      "stderr_sha256": "b74d1eb2f2d6241787e823cfc2c61e47ad6eece12be809c848612bb32fc31799"
+    },
+    {
+      "weight": 7,
+      "stderr": "example_BB144/x/w007_20261015T133856678377Z/stderr.log",
+      "stderr_sha256": "5440483a51c4cd4ac42eeb8d9803f19ae37026fdc6a7b7aeacd5aa190c408901"
+    },
+    {
+      "weight": 8,
+      "stderr": "example_BB144/x/w008_20261015T133856907643Z/stderr.log",
+      "stderr_sha256": "b293e3c7c00250dd348f5182d23bdf53b960a42943da5d5059f2376f0d97a61b"
+    },
+    {
+      "weight": 9,
+      "stderr": "example_BB144/x/w009_20261015T133857137563Z/stderr.log",
+      "stderr_sha256": "640e7e9f2c351f62b77528b554a3dca79360544854e940dad70e3b8715fbccf8"
+    },
+    {
+      "weight": 10,
+      "stderr": "example_BB144/x/w010_20261015T133857578737Z/stderr.log",
+      "stderr_sha256": "6794fc2e38ce5ccc6e366b24e72c824118d4c9a17bca036c0351b786454191f5"
+    },
+    {
+      "weight": 11,
+      "stderr": "example_BB144/x/w011_20261015T133859418538Z/stderr.log",
+      "stderr_sha256": "b8fbdbd59b60defcdba18045c4ba1bd3c8462c89cb29388bc01a78947e21024b"
+    }
+  ],
+  "last_run": "example_BB144/x/w012_20261015T133904881501Z",
+  "witness_source": "example_BB144/x/w012_20261015T133904881501Z/witness.nz",
+  "updated_utc": "2026-10-15T13:39:05.126252+00:00"
+}

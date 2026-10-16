@@ -1,0 +1,38 @@
+{
+  "id": "example_LaCross98",
+  "n": 98,
+  "k": 18,
+  "hx_sha256": "785efdb5e91d85cd51d476f5155db25dc37dabcc028e5aa9508f841651e81013",
+  "hz_sha256": "0a756fc91bb2c05c4fc8c96af1992fab24678ed910f7607cd9826e5d89f41acc",
+  "sector": "z",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 4,
+  "witness_support_one_based": [
+    29,
+    31,
+    32,
+    33
+  ],
+  "verified_upper_bound": 4,
+  "search_estimate": 4,
+  "status": "EXACT",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "example_LaCross98/z/w001_20261015T133644440554Z/stderr.log",
+      "stderr_sha256": "67ae63abeb950f535ef1cf17c1e2d68ed8e7dcea543f859dfd6d57d19268d500"
+    },
+    {
+      "weight": 2,
+      "stderr": "example_LaCross98/z/w002_20261015T133644675655Z/stderr.log",
+      "stderr_sha256": "1ab689ddf762a9db2ccbd89f6e86a37f46850b8e09eec5e13defa1fe14685ab5"
+    },
+    {
+      "weight": 3,
+      "stderr": "example_LaCross98/z/w003_20261015T133644921834Z/stderr.log",
+      "stderr_sha256": "acbba3615544cc02bd403db98b9811746cc4ee1d0d873d7bc19438e2001ccd5c"
+    }
+  ],
+  "last_run": "example_LaCross98/z/w003_20261015T133644921834Z",
+  "updated_utc": "2026-10-15T13:36:45.180980+00:00"
+}

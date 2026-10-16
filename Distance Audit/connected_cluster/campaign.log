@@ -1,0 +1,1639 @@
+RUN example_2BGA56 dX: weight 1, budget 899s
+RUN example_2BGA56 dZ: weight 1, budget 899s
+RUN table4_row022 dX: weight 1, budget 899s
+RUN table4_row022 dZ: weight 1, budget 899s
+RUN example_2BGA56 dX: weight 2, budget 899s
+RUN example_2BGA56 dZ: weight 2, budget 899s
+RUN table4_row022 dX: weight 2, budget 899s
+RUN table4_row022 dZ: weight 2, budget 899s
+EXACT example_2BGA56 dX: 2 <= d <= 2
+EXACT example_2BGA56 dZ: 2 <= d <= 2
+RUN table4_row022 dX: weight 3, budget 899s
+RUN example_2BGA16 dZ: weight 1, budget 899s
+RUN example_2BGA16 dX: weight 1, budget 899s
+RUN table4_row022 dZ: weight 3, budget 899s
+RUN table4_row022 dX: weight 4, budget 899s
+RUN example_2BGA16 dZ: weight 2, budget 899s
+RUN example_2BGA16 dX: weight 2, budget 899s
+RUN table4_row022 dZ: weight 4, budget 899s
+RUN table4_row022 dX: weight 5, budget 899s
+RUN example_2BGA16 dX: weight 3, budget 899s
+RUN example_2BGA16 dZ: weight 3, budget 899s
+RUN table4_row022 dZ: weight 5, budget 899s
+RUN table4_row022 dX: weight 6, budget 898s
+EXACT example_2BGA16 dX: 4 <= d <= 4
+EXACT example_2BGA16 dZ: 4 <= d <= 4
+RUN example_GB30 dZ: weight 1, budget 899s
+RUN example_GB30 dX: weight 1, budget 899s
+RUN table4_row022 dZ: weight 6, budget 898s
+RUN example_GB30 dZ: weight 2, budget 899s
+RUN example_GB30 dX: weight 2, budget 899s
+RUN example_GB30 dZ: weight 3, budget 899s
+RUN example_GB30 dX: weight 3, budget 899s
+EXACT example_GB30 dX: 4 <= d <= 4
+EXACT example_GB30 dZ: 4 <= d <= 4
+RUN example_Toric96 dZ: weight 1, budget 899s
+RUN example_Toric96 dX: weight 1, budget 899s
+RUN example_Toric96 dZ: weight 2, budget 899s
+RUN table4_row022 dX: weight 7, budget 897s
+RUN example_Toric96 dX: weight 2, budget 899s
+RUN table4_row022 dZ: weight 7, budget 897s
+RUN example_Toric96 dX: weight 3, budget 899s
+RUN example_Toric96 dZ: weight 3, budget 899s
+EXACT example_Toric96 dX: 4 <= d <= 4
+EXACT example_Toric96 dZ: 4 <= d <= 4
+RUN table2_row001 dZ: weight 1, budget 899s
+RUN table2_row001 dX: weight 1, budget 899s
+RUN table2_row001 dZ: weight 2, budget 899s
+RUN table2_row001 dX: weight 2, budget 899s
+RUN table2_row001 dZ: weight 3, budget 899s
+RUN table2_row001 dX: weight 3, budget 899s
+EXACT table2_row001 dZ: 4 <= d <= 4
+RUN table4_row001 dZ: weight 1, budget 899s
+EXACT table2_row001 dX: 4 <= d <= 4
+RUN table4_row001 dX: weight 1, budget 899s
+RUN table4_row001 dZ: weight 2, budget 899s
+RUN table4_row001 dX: weight 2, budget 899s
+RUN table4_row001 dZ: weight 3, budget 899s
+RUN table4_row001 dX: weight 3, budget 899s
+EXACT table4_row001 dZ: 4 <= d <= 4
+RUN example_LaCross98 dZ: weight 1, budget 899s
+EXACT table4_row001 dX: 4 <= d <= 4
+RUN example_LaCross98 dX: weight 1, budget 899s
+RUN example_LaCross98 dZ: weight 2, budget 899s
+RUN example_LaCross98 dX: weight 2, budget 899s
+RUN example_LaCross98 dZ: weight 3, budget 899s
+RUN example_LaCross98 dX: weight 3, budget 899s
+EXACT example_LaCross98 dZ: 4 <= d <= 4
+EXACT example_LaCross98 dX: 4 <= d <= 4
+RUN example_MB48 dZ: weight 1, budget 899s
+RUN example_MB48 dX: weight 1, budget 899s
+RUN example_MB48 dX: weight 2, budget 899s
+RUN example_MB48 dZ: weight 2, budget 899s
+RUN example_MB48 dX: weight 3, budget 899s
+RUN example_MB48 dZ: weight 3, budget 899s
+RUN example_MB48 dX: weight 4, budget 899s
+RUN example_MB48 dZ: weight 4, budget 899s
+RUN example_MB48 dX: weight 5, budget 899s
+RUN example_MB48 dZ: weight 5, budget 899s
+RUN example_MB48 dX: weight 6, budget 898s
+RUN example_MB48 dZ: weight 6, budget 898s
+EXACT example_MB48 dX: 6 <= d <= 6
+EXACT example_MB48 dZ: 6 <= d <= 6
+RUN table5_row001 dZ: weight 1, budget 899s
+RUN table5_row001 dX: weight 1, budget 899s
+RUN table5_row001 dZ: weight 2, budget 899s
+RUN table5_row001 dX: weight 2, budget 899s
+RUN table5_row001 dZ: weight 3, budget 899s
+RUN table5_row001 dX: weight 3, budget 899s
+RUN table5_row001 dZ: weight 4, budget 899s
+RUN table5_row001 dX: weight 4, budget 899s
+RUN table5_row001 dZ: weight 5, budget 899s
+RUN table5_row001 dX: weight 5, budget 899s
+RUN table5_row001 dZ: weight 6, budget 898s
+RUN table5_row001 dX: weight 6, budget 898s
+EXACT table5_row001 dZ: 6 <= d <= 6
+EXACT table5_row001 dX: 6 <= d <= 6
+RUN table5_row007 dZ: weight 1, budget 899s
+RUN table5_row007 dX: weight 1, budget 899s
+RUN table5_row007 dZ: weight 2, budget 899s
+RUN table5_row007 dX: weight 2, budget 899s
+RUN table5_row007 dZ: weight 3, budget 899s
+RUN table5_row007 dX: weight 3, budget 899s
+RUN table5_row007 dZ: weight 4, budget 899s
+RUN table5_row007 dX: weight 4, budget 899s
+RUN table5_row007 dZ: weight 5, budget 898s
+RUN table5_row007 dX: weight 5, budget 898s
+RUN table5_row007 dZ: weight 6, budget 898s
+EXACT table5_row007 dX: 6 <= d <= 6
+RUN table4_row020 dZ: weight 1, budget 899s
+RUN table4_row020 dZ: weight 2, budget 899s
+EXACT table5_row007 dZ: 6 <= d <= 6
+RUN table4_row020 dX: weight 1, budget 899s
+RUN table4_row020 dZ: weight 3, budget 899s
+RUN table4_row020 dX: weight 2, budget 899s
+RUN table4_row020 dZ: weight 4, budget 899s
+RUN table4_row020 dX: weight 3, budget 899s
+RUN table4_row020 dZ: weight 5, budget 898s
+RUN table4_row020 dX: weight 4, budget 899s
+EXACT table4_row020 dZ: 6 <= d <= 6
+RUN example_AMC96 dZ: weight 1, budget 899s
+RUN table4_row020 dX: weight 5, budget 899s
+RUN example_AMC96 dZ: weight 2, budget 899s
+EXACT table4_row020 dX: 6 <= d <= 6
+RUN example_AMC96 dX: weight 1, budget 899s
+RUN example_AMC96 dZ: weight 3, budget 899s
+RUN example_AMC96 dX: weight 2, budget 899s
+RUN example_AMC96 dZ: weight 4, budget 899s
+RUN example_AMC96 dX: weight 3, budget 899s
+RUN table4_row022 dZ: weight 8, budget 888s
+RUN example_AMC96 dZ: weight 5, budget 899s
+RUN example_AMC96 dX: weight 4, budget 899s
+RUN example_AMC96 dZ: weight 6, budget 898s
+RUN example_AMC96 dX: weight 5, budget 898s
+RUN example_AMC96 dZ: weight 7, budget 898s
+RUN example_AMC96 dX: weight 6, budget 898s
+RUN example_AMC96 dZ: weight 8, budget 898s
+RUN example_AMC96 dX: weight 7, budget 898s
+RUN table4_row022 dX: weight 8, budget 886s
+EXACT example_AMC96 dZ: 8 <= d <= 8
+RUN table5_row002 dZ: weight 1, budget 899s
+RUN example_AMC96 dX: weight 8, budget 898s
+RUN table5_row002 dZ: weight 2, budget 899s
+EXACT example_AMC96 dX: 8 <= d <= 8
+RUN table5_row002 dX: weight 1, budget 899s
+RUN table5_row002 dZ: weight 3, budget 899s
+RUN table5_row002 dX: weight 2, budget 899s
+RUN table5_row002 dZ: weight 4, budget 899s
+RUN table5_row002 dX: weight 3, budget 899s
+RUN table5_row002 dZ: weight 5, budget 899s
+RUN table5_row002 dX: weight 4, budget 899s
+RUN table5_row002 dZ: weight 6, budget 898s
+RUN table5_row002 dX: weight 5, budget 899s
+RUN table5_row002 dX: weight 6, budget 898s
+RUN table5_row002 dZ: weight 7, budget 898s
+RUN table5_row002 dX: weight 7, budget 898s
+EXACT table5_row002 dZ: 8 <= d <= 8
+RUN table3_row001 dZ: weight 1, budget 899s
+RUN table3_row001 dZ: weight 2, budget 899s
+EXACT table5_row002 dX: 8 <= d <= 8
+RUN table3_row001 dZ: weight 3, budget 899s
+RUN table3_row001 dX: weight 1, budget 899s
+RUN table3_row001 dZ: weight 4, budget 899s
+RUN table3_row001 dX: weight 2, budget 899s
+RUN table3_row001 dZ: weight 5, budget 898s
+RUN table3_row001 dX: weight 3, budget 899s
+RUN table3_row001 dZ: weight 6, budget 898s
+RUN table3_row001 dX: weight 4, budget 899s
+RUN table3_row001 dZ: weight 7, budget 898s
+RUN table3_row001 dX: weight 5, budget 898s
+RUN table3_row001 dX: weight 6, budget 898s
+RUN table3_row001 dX: weight 7, budget 898s
+EXACT table3_row001 dZ: 8 <= d <= 8
+RUN table4_row002 dZ: weight 1, budget 899s
+RUN table4_row002 dZ: weight 2, budget 899s
+EXACT table3_row001 dX: 8 <= d <= 8
+RUN table4_row002 dZ: weight 3, budget 899s
+RUN table4_row002 dX: weight 1, budget 899s
+RUN table4_row002 dZ: weight 4, budget 899s
+RUN table4_row002 dX: weight 2, budget 899s
+RUN table4_row002 dZ: weight 5, budget 899s
+RUN table4_row002 dX: weight 3, budget 899s
+RUN table4_row002 dZ: weight 6, budget 898s
+RUN table4_row002 dX: weight 4, budget 899s
+RUN table4_row002 dZ: weight 7, budget 898s
+RUN table4_row002 dX: weight 5, budget 899s
+RUN table4_row002 dX: weight 6, budget 898s
+EXACT table4_row002 dZ: 8 <= d <= 8
+RUN table5_row008 dZ: weight 1, budget 899s
+RUN table4_row002 dX: weight 7, budget 898s
+RUN table5_row008 dZ: weight 2, budget 899s
+RUN table5_row008 dZ: weight 3, budget 899s
+EXACT table4_row002 dX: 8 <= d <= 8
+RUN table5_row008 dX: weight 1, budget 899s
+RUN table5_row008 dZ: weight 4, budget 899s
+RUN table5_row008 dX: weight 2, budget 899s
+RUN table5_row008 dZ: weight 5, budget 898s
+RUN table5_row008 dZ: weight 6, budget 898s
+RUN table5_row008 dX: weight 3, budget 899s
+RUN table5_row008 dX: weight 4, budget 899s
+RUN table5_row008 dZ: weight 7, budget 898s
+RUN table5_row008 dX: weight 5, budget 898s
+RUN table5_row008 dX: weight 6, budget 898s
+RUN table5_row008 dX: weight 7, budget 897s
+EXACT table5_row008 dZ: 8 <= d <= 8
+RUN example_CxR240 dZ: weight 1, budget 899s
+RUN example_CxR240 dZ: weight 2, budget 899s
+RUN example_CxR240 dZ: weight 3, budget 899s
+EXACT table5_row008 dX: 8 <= d <= 8
+RUN example_CxR240 dX: weight 1, budget 899s
+RUN example_CxR240 dZ: weight 4, budget 898s
+RUN example_CxR240 dX: weight 2, budget 899s
+RUN example_CxR240 dZ: weight 5, budget 898s
+RUN example_CxR240 dX: weight 3, budget 899s
+RUN example_CxR240 dZ: weight 6, budget 898s
+RUN example_CxR240 dX: weight 4, budget 899s
+RUN example_CxR240 dZ: weight 7, budget 898s
+RUN example_CxR240 dX: weight 5, budget 899s
+EXACT example_CxR240 dZ: 8 <= d <= 8
+RUN table2_row008 dZ: weight 1, budget 899s
+RUN example_CxR240 dX: weight 6, budget 898s
+RUN table2_row008 dZ: weight 2, budget 899s
+RUN example_CxR240 dX: weight 7, budget 898s
+RUN table2_row008 dZ: weight 3, budget 899s
+EXACT example_CxR240 dX: 8 <= d <= 8
+RUN table2_row008 dX: weight 1, budget 899s
+RUN table2_row008 dZ: weight 4, budget 899s
+RUN table2_row008 dX: weight 2, budget 899s
+RUN table2_row008 dZ: weight 5, budget 899s
+RUN table2_row008 dX: weight 3, budget 899s
+RUN table2_row008 dZ: weight 6, budget 898s
+RUN table2_row008 dX: weight 4, budget 899s
+RUN table2_row008 dZ: weight 7, budget 898s
+RUN table2_row008 dX: weight 5, budget 899s
+EXACT table2_row008 dZ: 8 <= d <= 8
+RUN example_C2_450 dZ: weight 1, budget 899s
+RUN table2_row008 dX: weight 6, budget 898s
+RUN example_C2_450 dZ: weight 2, budget 899s
+RUN table2_row008 dX: weight 7, budget 898s
+RUN example_C2_450 dZ: weight 3, budget 899s
+EXACT table2_row008 dX: 8 <= d <= 8
+RUN example_C2_450 dX: weight 1, budget 899s
+RUN example_C2_450 dZ: weight 4, budget 899s
+RUN example_C2_450 dX: weight 2, budget 899s
+RUN example_C2_450 dZ: weight 5, budget 898s
+RUN example_C2_450 dX: weight 3, budget 899s
+RUN example_C2_450 dZ: weight 6, budget 898s
+RUN example_C2_450 dX: weight 4, budget 899s
+RUN example_C2_450 dZ: weight 7, budget 898s
+RUN example_C2_450 dX: weight 5, budget 899s
+EXACT example_C2_450 dZ: 8 <= d <= 8
+RUN example_Haah1024 dZ: weight 1, budget 899s
+RUN example_C2_450 dX: weight 6, budget 898s
+RUN example_Haah1024 dZ: weight 2, budget 899s
+RUN example_C2_450 dX: weight 7, budget 898s
+RUN example_Haah1024 dZ: weight 3, budget 899s
+EXACT example_C2_450 dX: 8 <= d <= 8
+RUN example_Haah1024 dX: weight 1, budget 899s
+RUN example_Haah1024 dZ: weight 4, budget 899s
+RUN example_Haah1024 dX: weight 2, budget 899s
+RUN example_Haah1024 dZ: weight 5, budget 898s
+RUN example_Haah1024 dX: weight 3, budget 899s
+RUN example_Haah1024 dZ: weight 6, budget 898s
+RUN example_Haah1024 dX: weight 4, budget 898s
+RUN example_Haah1024 dZ: weight 7, budget 898s
+RUN example_Haah1024 dX: weight 5, budget 898s
+RUN example_Haah1024 dX: weight 6, budget 898s
+RUN example_Haah1024 dZ: weight 8, budget 897s
+RUN example_Haah1024 dX: weight 7, budget 898s
+RUN example_Haah1024 dX: weight 8, budget 897s
+LOWER_BOUND_ONLY example_Haah1024 dZ: 9 <= d <= 102
+RUN table4_row018 dZ: weight 1, budget 899s
+LOWER_BOUND_ONLY example_Haah1024 dX: 9 <= d <= 60
+RUN table4_row018 dX: weight 1, budget 899s
+RUN table4_row018 dZ: weight 2, budget 899s
+RUN table4_row018 dX: weight 2, budget 899s
+RUN table4_row018 dZ: weight 3, budget 899s
+RUN table4_row018 dX: weight 3, budget 899s
+RUN table4_row018 dZ: weight 4, budget 899s
+RUN table4_row018 dX: weight 4, budget 899s
+RUN table4_row018 dZ: weight 5, budget 899s
+RUN table4_row018 dX: weight 5, budget 899s
+RUN table4_row018 dZ: weight 6, budget 898s
+RUN table4_row018 dX: weight 6, budget 898s
+RUN table4_row018 dZ: weight 7, budget 897s
+RUN table4_row018 dX: weight 7, budget 897s
+RUN table4_row018 dZ: weight 8, budget 890s
+RUN table4_row018 dX: weight 8, budget 889s
+EXACT table4_row022 dZ: 9 <= d <= 9
+RUN table10_row001 dZ: weight 1, budget 899s
+RUN table10_row001 dZ: weight 2, budget 899s
+RUN table10_row001 dZ: weight 3, budget 899s
+RUN table10_row001 dZ: weight 4, budget 899s
+RUN table10_row001 dZ: weight 5, budget 898s
+RUN table10_row001 dZ: weight 6, budget 898s
+RUN table10_row001 dZ: weight 7, budget 897s
+RUN table10_row001 dZ: weight 8, budget 896s
+EXACT table10_row001 dZ: 9 <= d <= 9
+RUN table10_row001 dX: weight 1, budget 899s
+RUN table10_row001 dX: weight 2, budget 899s
+RUN table10_row001 dX: weight 3, budget 899s
+RUN table10_row001 dX: weight 4, budget 899s
+RUN table10_row001 dX: weight 5, budget 898s
+RUN table10_row001 dX: weight 6, budget 898s
+RUN table10_row001 dX: weight 7, budget 898s
+RUN table10_row001 dX: weight 8, budget 897s
+EXACT table4_row018 dZ: 9 <= d <= 9
+RUN example_GB70 dZ: weight 1, budget 899s
+RUN example_GB70 dZ: weight 2, budget 899s
+RUN example_GB70 dZ: weight 3, budget 899s
+RUN example_GB70 dZ: weight 4, budget 899s
+RUN example_GB70 dZ: weight 5, budget 898s
+RUN example_GB70 dZ: weight 6, budget 898s
+EXACT table4_row022 dX: 9 <= d <= 9
+RUN example_GB70 dX: weight 1, budget 899s
+RUN example_GB70 dZ: weight 7, budget 898s
+RUN example_GB70 dX: weight 2, budget 899s
+RUN example_GB70 dZ: weight 8, budget 898s
+RUN example_GB70 dX: weight 3, budget 899s
+RUN example_GB70 dX: weight 4, budget 899s
+RUN example_GB70 dX: weight 5, budget 899s
+RUN example_GB70 dZ: weight 9, budget 897s
+RUN example_GB70 dX: weight 6, budget 898s
+RUN example_GB70 dX: weight 7, budget 898s
+RUN example_GB70 dX: weight 8, budget 898s
+RUN example_GB70 dX: weight 9, budget 897s
+EXACT table10_row001 dX: 9 <= d <= 9
+RUN example_GB70 dZ: weight 10, budget 895s
+RUN table5_row009 dZ: weight 1, budget 899s
+EXACT example_GB70 dZ: 10 <= d <= 10
+RUN table5_row009 dX: weight 1, budget 899s
+RUN table5_row009 dZ: weight 2, budget 899s
+RUN table5_row009 dX: weight 2, budget 899s
+RUN table5_row009 dZ: weight 3, budget 899s
+RUN table5_row009 dX: weight 3, budget 899s
+RUN table5_row009 dZ: weight 4, budget 899s
+RUN table5_row009 dX: weight 4, budget 899s
+RUN table5_row009 dZ: weight 5, budget 898s
+RUN table5_row009 dX: weight 5, budget 898s
+RUN table5_row009 dZ: weight 6, budget 898s
+RUN table5_row009 dX: weight 6, budget 898s
+RUN table5_row009 dZ: weight 7, budget 897s
+RUN table5_row009 dX: weight 7, budget 897s
+RUN example_GB70 dX: weight 10, budget 892s
+EXACT example_GB70 dX: 10 <= d <= 10
+RUN table6_row006 dZ: weight 1, budget 899s
+RUN table6_row006 dZ: weight 2, budget 899s
+EXACT table4_row018 dX: 9 <= d <= 9
+RUN table6_row006 dX: weight 1, budget 899s
+RUN table6_row006 dZ: weight 3, budget 899s
+RUN table6_row006 dX: weight 2, budget 899s
+RUN table5_row009 dZ: weight 8, budget 894s
+RUN table6_row006 dZ: weight 4, budget 899s
+RUN table6_row006 dX: weight 3, budget 899s
+RUN table6_row006 dZ: weight 5, budget 898s
+RUN table6_row006 dX: weight 4, budget 898s
+RUN table6_row006 dZ: weight 6, budget 898s
+RUN table6_row006 dX: weight 5, budget 898s
+RUN table6_row006 dZ: weight 7, budget 898s
+RUN table6_row006 dX: weight 6, budget 898s
+RUN table6_row006 dZ: weight 8, budget 898s
+RUN table5_row009 dX: weight 8, budget 893s
+RUN table6_row006 dX: weight 7, budget 898s
+RUN table6_row006 dZ: weight 9, budget 897s
+RUN table6_row006 dX: weight 8, budget 897s
+RUN table6_row006 dX: weight 9, budget 897s
+EXACT table6_row006 dZ: 10 <= d <= 10
+RUN example_TT72 dZ: weight 1, budget 899s
+RUN example_TT72 dZ: weight 2, budget 899s
+EXACT table6_row006 dX: 10 <= d <= 10
+RUN example_TT72 dX: weight 1, budget 899s
+RUN example_TT72 dZ: weight 3, budget 899s
+RUN example_TT72 dX: weight 2, budget 899s
+RUN example_TT72 dZ: weight 4, budget 899s
+RUN example_TT72 dX: weight 3, budget 899s
+RUN example_TT72 dZ: weight 5, budget 899s
+RUN example_TT72 dX: weight 4, budget 899s
+RUN example_TT72 dZ: weight 6, budget 898s
+RUN example_TT72 dX: weight 5, budget 899s
+EXACT example_TT72 dZ: 6 <= d <= 6
+RUN example_BB144 dZ: weight 1, budget 899s
+RUN example_TT72 dX: weight 6, budget 898s
+RUN example_BB144 dZ: weight 2, budget 899s
+RUN example_TT72 dX: weight 7, budget 898s
+RUN example_BB144 dZ: weight 3, budget 899s
+RUN example_TT72 dX: weight 8, budget 898s
+RUN example_BB144 dZ: weight 4, budget 899s
+RUN example_TT72 dX: weight 9, budget 898s
+RUN example_BB144 dZ: weight 5, budget 898s
+RUN example_BB144 dZ: weight 6, budget 898s
+RUN example_TT72 dX: weight 10, budget 897s
+RUN example_BB144 dZ: weight 7, budget 898s
+RUN example_BB144 dZ: weight 8, budget 898s
+RUN example_BB144 dZ: weight 9, budget 897s
+RUN example_TT72 dX: weight 11, budget 896s
+RUN example_BB144 dZ: weight 10, budget 897s
+RUN example_BB144 dZ: weight 11, budget 895s
+RUN example_TT72 dX: weight 12, budget 892s
+EXACT example_TT72 dX: 12 <= d <= 12
+RUN example_BB144 dX: weight 1, budget 899s
+RUN example_BB144 dX: weight 2, budget 899s
+RUN example_BB144 dX: weight 3, budget 899s
+RUN example_BB144 dX: weight 4, budget 899s
+RUN example_BB144 dX: weight 5, budget 898s
+RUN example_BB144 dX: weight 6, budget 898s
+RUN example_BB144 dX: weight 7, budget 898s
+RUN example_BB144 dX: weight 8, budget 898s
+RUN example_BB144 dX: weight 9, budget 898s
+RUN example_BB144 dX: weight 10, budget 897s
+RUN example_BB144 dX: weight 11, budget 895s
+RUN example_BB144 dZ: weight 12, budget 888s
+EXACT example_BB144 dZ: 12 <= d <= 12
+RUN simulation_BB_144_12_12 dZ: weight 1, budget 899s
+RUN simulation_BB_144_12_12 dZ: weight 2, budget 899s
+RUN simulation_BB_144_12_12 dZ: weight 3, budget 899s
+RUN simulation_BB_144_12_12 dZ: weight 4, budget 899s
+RUN simulation_BB_144_12_12 dZ: weight 5, budget 899s
+RUN simulation_BB_144_12_12 dZ: weight 6, budget 898s
+RUN simulation_BB_144_12_12 dZ: weight 7, budget 898s
+RUN simulation_BB_144_12_12 dZ: weight 8, budget 898s
+RUN simulation_BB_144_12_12 dZ: weight 9, budget 897s
+RUN simulation_BB_144_12_12 dZ: weight 10, budget 897s
+RUN example_BB144 dX: weight 12, budget 890s
+RUN simulation_BB_144_12_12 dZ: weight 11, budget 895s
+EXACT example_BB144 dX: 12 <= d <= 12
+RUN simulation_BB_144_12_12 dX: weight 1, budget 899s
+RUN simulation_BB_144_12_12 dX: weight 2, budget 899s
+RUN simulation_BB_144_12_12 dX: weight 3, budget 899s
+RUN simulation_BB_144_12_12 dX: weight 4, budget 899s
+RUN simulation_BB_144_12_12 dX: weight 5, budget 899s
+RUN simulation_BB_144_12_12 dX: weight 6, budget 898s
+RUN simulation_BB_144_12_12 dX: weight 7, budget 898s
+RUN simulation_BB_144_12_12 dX: weight 8, budget 898s
+RUN simulation_BB_144_12_12 dX: weight 9, budget 898s
+RUN simulation_BB_144_12_12 dX: weight 10, budget 897s
+RUN table5_row009 dZ: weight 9, budget 870s
+RUN simulation_BB_144_12_12 dX: weight 11, budget 896s
+RUN simulation_BB_144_12_12 dZ: weight 12, budget 888s
+EXACT simulation_BB_144_12_12 dZ: 12 <= d <= 12
+RUN simulation_MM_144_12_12 dZ: weight 1, budget 899s
+RUN simulation_MM_144_12_12 dZ: weight 2, budget 899s
+RUN simulation_MM_144_12_12 dZ: weight 3, budget 899s
+RUN simulation_MM_144_12_12 dZ: weight 4, budget 899s
+RUN simulation_MM_144_12_12 dZ: weight 5, budget 899s
+RUN simulation_MM_144_12_12 dZ: weight 6, budget 898s
+RUN simulation_MM_144_12_12 dZ: weight 7, budget 898s
+RUN simulation_MM_144_12_12 dZ: weight 8, budget 897s
+RUN simulation_BB_144_12_12 dX: weight 12, budget 890s
+EXACT simulation_BB_144_12_12 dX: 12 <= d <= 12
+RUN simulation_MM_144_12_12 dX: weight 1, budget 899s
+RUN simulation_MM_144_12_12 dX: weight 2, budget 899s
+RUN simulation_MM_144_12_12 dX: weight 3, budget 899s
+RUN simulation_MM_144_12_12 dX: weight 4, budget 899s
+RUN simulation_MM_144_12_12 dX: weight 5, budget 899s
+RUN simulation_MM_144_12_12 dX: weight 6, budget 898s
+RUN simulation_MM_144_12_12 dX: weight 7, budget 898s
+RUN table5_row009 dX: weight 9, budget 862s
+RUN simulation_MM_144_12_12 dZ: weight 9, budget 894s
+RUN simulation_MM_144_12_12 dX: weight 8, budget 897s
+RUN simulation_MM_144_12_12 dX: weight 9, budget 893s
+RUN simulation_MM_144_12_12 dZ: weight 10, budget 875s
+RUN simulation_MM_144_12_12 dX: weight 10, budget 874s
+RUN simulation_MM_144_12_12 dX: weight 11, budget 744s
+RUN simulation_MM_144_12_12 dZ: weight 11, budget 740s
+EXACT table5_row009 dZ: 10 <= d <= 10
+RUN table3_row002 dZ: weight 1, budget 899s
+RUN table3_row002 dZ: weight 2, budget 899s
+RUN table3_row002 dZ: weight 3, budget 899s
+RUN table3_row002 dZ: weight 4, budget 899s
+RUN table3_row002 dZ: weight 5, budget 898s
+RUN table3_row002 dZ: weight 6, budget 898s
+RUN table3_row002 dZ: weight 7, budget 898s
+RUN table3_row002 dZ: weight 8, budget 897s
+RUN table3_row002 dZ: weight 9, budget 894s
+RUN table3_row002 dZ: weight 10, budget 874s
+EXACT table5_row009 dX: 10 <= d <= 10
+RUN table3_row002 dX: weight 1, budget 899s
+RUN table3_row002 dX: weight 2, budget 899s
+RUN table3_row002 dX: weight 3, budget 899s
+RUN table3_row002 dX: weight 4, budget 899s
+RUN table3_row002 dX: weight 5, budget 899s
+RUN table3_row002 dX: weight 6, budget 898s
+RUN table3_row002 dX: weight 7, budget 898s
+RUN table3_row002 dX: weight 8, budget 897s
+RUN table3_row002 dX: weight 9, budget 894s
+RUN table3_row002 dX: weight 10, budget 874s
+RUN table3_row002 dZ: weight 11, budget 740s
+RUN table3_row002 dX: weight 11, budget 746s
+PARTIAL simulation_MM_144_12_12 dZ: 11 <= d <= ?
+RUN table5_row010 dZ: weight 1, budget 899s
+RUN table5_row010 dZ: weight 2, budget 899s
+RUN table5_row010 dZ: weight 3, budget 899s
+RUN table5_row010 dZ: weight 4, budget 898s
+PARTIAL simulation_MM_144_12_12 dX: 11 <= d <= ?
+RUN table5_row010 dZ: weight 5, budget 896s
+RUN table5_row010 dX: weight 1, budget 899s
+RUN table5_row010 dZ: weight 6, budget 896s
+RUN table5_row010 dX: weight 2, budget 899s
+RUN table5_row010 dX: weight 3, budget 899s
+RUN table5_row010 dX: weight 4, budget 898s
+RUN table5_row010 dZ: weight 7, budget 895s
+RUN table5_row010 dX: weight 5, budget 898s
+RUN table5_row010 dX: weight 6, budget 898s
+RUN table5_row010 dX: weight 7, budget 897s
+RUN table5_row010 dZ: weight 8, budget 891s
+RUN table5_row010 dX: weight 8, budget 893s
+RUN table5_row010 dZ: weight 9, budget 856s
+RUN table5_row010 dX: weight 9, budget 856s
+PARTIAL table3_row002 dZ: 11 <= d <= 12
+RUN table3_row003 dZ: weight 1, budget 899s
+RUN table3_row003 dZ: weight 2, budget 899s
+RUN table3_row003 dZ: weight 3, budget 899s
+RUN table3_row003 dZ: weight 4, budget 899s
+RUN table3_row003 dZ: weight 5, budget 899s
+RUN table3_row003 dZ: weight 6, budget 898s
+RUN table3_row003 dZ: weight 7, budget 898s
+RUN table3_row003 dZ: weight 8, budget 897s
+RUN table3_row003 dZ: weight 9, budget 892s
+RUN table3_row003 dZ: weight 10, budget 862s
+PARTIAL table3_row002 dX: 11 <= d <= 12
+RUN table3_row003 dX: weight 1, budget 899s
+RUN table3_row003 dX: weight 2, budget 899s
+RUN table3_row003 dX: weight 3, budget 899s
+RUN table3_row003 dX: weight 4, budget 899s
+RUN table3_row003 dX: weight 5, budget 899s
+RUN table3_row003 dX: weight 6, budget 898s
+RUN table3_row003 dX: weight 7, budget 898s
+RUN table3_row003 dX: weight 8, budget 897s
+RUN table3_row003 dX: weight 9, budget 890s
+RUN table3_row003 dX: weight 10, budget 851s
+RUN table5_row010 dZ: weight 10, budget 551s
+RUN table5_row010 dX: weight 10, budget 537s
+RUN table3_row003 dZ: weight 11, budget 677s
+RUN table3_row003 dX: weight 11, budget 573s
+PARTIAL table5_row010 dZ: 10 <= d <= 12
+RUN table4_row004 dZ: weight 1, budget 899s
+RUN table4_row004 dZ: weight 2, budget 899s
+RUN table4_row004 dZ: weight 3, budget 899s
+RUN table4_row004 dZ: weight 4, budget 899s
+RUN table4_row004 dZ: weight 5, budget 899s
+RUN table4_row004 dZ: weight 6, budget 898s
+RUN table4_row004 dZ: weight 7, budget 898s
+RUN table4_row004 dZ: weight 8, budget 897s
+PARTIAL table5_row010 dX: 10 <= d <= 12
+RUN table4_row004 dX: weight 1, budget 899s
+RUN table4_row004 dX: weight 2, budget 899s
+RUN table4_row004 dX: weight 3, budget 899s
+RUN table4_row004 dX: weight 4, budget 899s
+RUN table4_row004 dX: weight 5, budget 899s
+RUN table4_row004 dX: weight 6, budget 898s
+RUN table4_row004 dX: weight 7, budget 898s
+RUN table4_row004 dZ: weight 9, budget 895s
+RUN table4_row004 dX: weight 8, budget 897s
+RUN table4_row004 dX: weight 9, budget 891s
+RUN table4_row004 dZ: weight 10, budget 880s
+RUN table4_row004 dX: weight 10, budget 848s
+RUN table4_row004 dZ: weight 11, budget 789s
+PARTIAL table3_row003 dZ: 11 <= d <= 12
+RUN table2_row015 dZ: weight 1, budget 899s
+RUN table2_row015 dZ: weight 2, budget 899s
+RUN table2_row015 dZ: weight 3, budget 899s
+RUN table2_row015 dZ: weight 4, budget 899s
+RUN table2_row015 dZ: weight 5, budget 899s
+RUN table2_row015 dZ: weight 6, budget 898s
+RUN table2_row015 dZ: weight 7, budget 898s
+RUN table2_row015 dZ: weight 8, budget 898s
+RUN table2_row015 dZ: weight 9, budget 897s
+RUN table2_row015 dZ: weight 10, budget 896s
+RUN table2_row015 dZ: weight 11, budget 890s
+EXACT table2_row015 dZ: 12 <= d <= 12
+RUN table2_row015 dX: weight 1, budget 899s
+RUN table2_row015 dX: weight 2, budget 899s
+RUN table2_row015 dX: weight 3, budget 899s
+RUN table2_row015 dX: weight 4, budget 899s
+RUN table2_row015 dX: weight 5, budget 899s
+RUN table2_row015 dX: weight 6, budget 898s
+RUN table2_row015 dX: weight 7, budget 898s
+RUN table2_row015 dX: weight 8, budget 898s
+RUN table2_row015 dX: weight 9, budget 897s
+RUN table2_row015 dX: weight 10, budget 896s
+RUN table2_row015 dX: weight 11, budget 890s
+EXACT table2_row015 dX: 12 <= d <= 12
+RUN table3_row011 dZ: weight 1, budget 899s
+RUN table3_row011 dZ: weight 2, budget 899s
+RUN table3_row011 dZ: weight 3, budget 899s
+RUN table3_row011 dZ: weight 4, budget 899s
+RUN table3_row011 dZ: weight 5, budget 899s
+RUN table3_row011 dZ: weight 6, budget 898s
+RUN table3_row011 dZ: weight 7, budget 898s
+RUN table3_row011 dZ: weight 8, budget 895s
+RUN table3_row011 dZ: weight 9, budget 881s
+PARTIAL table3_row003 dX: 11 <= d <= 12
+RUN table3_row011 dX: weight 1, budget 899s
+RUN table3_row011 dX: weight 2, budget 899s
+RUN table3_row011 dX: weight 3, budget 899s
+RUN table3_row011 dX: weight 4, budget 899s
+RUN table3_row011 dX: weight 5, budget 899s
+RUN table3_row011 dX: weight 6, budget 898s
+RUN table3_row011 dX: weight 7, budget 898s
+RUN table3_row011 dX: weight 8, budget 896s
+RUN table3_row011 dX: weight 9, budget 888s
+RUN table3_row011 dX: weight 10, budget 835s
+RUN table4_row004 dX: weight 11, budget 532s
+RUN table3_row011 dZ: weight 10, budget 770s
+EXACT table4_row004 dZ: 12 <= d <= 12
+RUN table4_row017 dZ: weight 1, budget 899s
+RUN table4_row017 dZ: weight 2, budget 899s
+RUN table4_row017 dZ: weight 3, budget 899s
+RUN table4_row017 dZ: weight 4, budget 899s
+RUN table4_row017 dZ: weight 5, budget 899s
+RUN table4_row017 dZ: weight 6, budget 898s
+RUN table4_row017 dZ: weight 7, budget 898s
+RUN table4_row017 dZ: weight 8, budget 897s
+RUN table4_row017 dZ: weight 9, budget 890s
+RUN table3_row011 dX: weight 11, budget 474s
+RUN table4_row017 dZ: weight 10, budget 845s
+PARTIAL table4_row004 dX: 11 <= d <= 12
+RUN table4_row017 dX: weight 1, budget 899s
+RUN table4_row017 dX: weight 2, budget 899s
+RUN table4_row017 dX: weight 3, budget 899s
+RUN table4_row017 dX: weight 4, budget 899s
+RUN table4_row017 dX: weight 5, budget 899s
+RUN table4_row017 dX: weight 6, budget 898s
+RUN table4_row017 dX: weight 7, budget 898s
+RUN table4_row017 dX: weight 8, budget 897s
+RUN table4_row017 dX: weight 9, budget 889s
+RUN table4_row017 dX: weight 10, budget 846s
+RUN table4_row017 dZ: weight 11, budget 538s
+PARTIAL table3_row011 dZ: 10 <= d <= 12
+RUN table2_row035 dZ: weight 1, budget 899s
+RUN table2_row035 dZ: weight 2, budget 899s
+RUN table2_row035 dZ: weight 3, budget 899s
+RUN table2_row035 dZ: weight 4, budget 899s
+RUN table2_row035 dZ: weight 5, budget 898s
+RUN table2_row035 dZ: weight 6, budget 898s
+RUN table2_row035 dZ: weight 7, budget 898s
+RUN table2_row035 dZ: weight 8, budget 898s
+RUN table2_row035 dZ: weight 9, budget 897s
+RUN table2_row035 dZ: weight 10, budget 895s
+RUN table2_row035 dZ: weight 11, budget 886s
+PARTIAL table3_row011 dX: 11 <= d <= 12
+RUN table2_row035 dX: weight 1, budget 899s
+RUN table2_row035 dX: weight 2, budget 899s
+RUN table2_row035 dX: weight 3, budget 899s
+RUN table2_row035 dX: weight 4, budget 899s
+RUN table2_row035 dX: weight 5, budget 899s
+RUN table2_row035 dX: weight 6, budget 898s
+RUN table2_row035 dX: weight 7, budget 898s
+RUN table2_row035 dX: weight 8, budget 898s
+RUN table2_row035 dX: weight 9, budget 897s
+RUN table2_row035 dX: weight 10, budget 896s
+RUN table2_row035 dX: weight 11, budget 889s
+EXACT table2_row035 dZ: 12 <= d <= 12
+RUN simulation_TT_135_12_6 dZ: weight 1, budget 899s
+RUN simulation_TT_135_12_6 dZ: weight 2, budget 899s
+RUN simulation_TT_135_12_6 dZ: weight 3, budget 899s
+RUN simulation_TT_135_12_6 dZ: weight 4, budget 899s
+RUN simulation_TT_135_12_6 dZ: weight 5, budget 899s
+RUN simulation_TT_135_12_6 dZ: weight 6, budget 898s
+EXACT simulation_TT_135_12_6 dZ: 6 <= d <= 6
+RUN simulation_TT_135_12_6 dX: weight 1, budget 899s
+RUN simulation_TT_135_12_6 dX: weight 2, budget 899s
+RUN simulation_TT_135_12_6 dX: weight 3, budget 899s
+RUN simulation_TT_135_12_6 dX: weight 4, budget 899s
+RUN simulation_TT_135_12_6 dX: weight 5, budget 899s
+RUN simulation_TT_135_12_6 dX: weight 6, budget 898s
+RUN simulation_TT_135_12_6 dX: weight 7, budget 898s
+RUN simulation_TT_135_12_6 dX: weight 8, budget 898s
+RUN simulation_TT_135_12_6 dX: weight 9, budget 897s
+RUN simulation_TT_135_12_6 dX: weight 10, budget 897s
+RUN simulation_TT_135_12_6 dX: weight 11, budget 894s
+EXACT table2_row035 dX: 12 <= d <= 12
+RUN table4_row005 dZ: weight 1, budget 899s
+RUN table4_row005 dZ: weight 2, budget 899s
+RUN table4_row005 dZ: weight 3, budget 899s
+RUN table4_row005 dZ: weight 4, budget 899s
+RUN table4_row005 dZ: weight 5, budget 899s
+RUN table4_row005 dZ: weight 6, budget 898s
+RUN table4_row005 dZ: weight 7, budget 897s
+RUN simulation_TT_135_12_6 dX: weight 12, budget 883s
+RUN table4_row005 dZ: weight 8, budget 891s
+RUN table4_row017 dX: weight 11, budget 541s
+RUN simulation_TT_135_12_6 dX: weight 13, budget 841s
+RUN table4_row005 dZ: weight 9, budget 832s
+RUN simulation_TT_135_12_6 dX: weight 14, budget 668s
+EXACT simulation_TT_135_12_6 dX: 14 <= d <= 14
+RUN table4_row005 dX: weight 1, budget 899s
+RUN table4_row005 dX: weight 2, budget 899s
+RUN table4_row005 dX: weight 3, budget 899s
+RUN table4_row005 dX: weight 4, budget 899s
+RUN table4_row005 dX: weight 5, budget 899s
+RUN table4_row005 dX: weight 6, budget 898s
+RUN table4_row005 dX: weight 7, budget 897s
+RUN table4_row005 dX: weight 8, budget 889s
+RUN table4_row005 dX: weight 9, budget 819s
+PARTIAL table4_row017 dZ: 11 <= d <= 12
+RUN table3_row006 dZ: weight 1, budget 899s
+RUN table3_row006 dZ: weight 2, budget 899s
+RUN table3_row006 dZ: weight 3, budget 899s
+RUN table3_row006 dZ: weight 4, budget 899s
+RUN table3_row006 dZ: weight 5, budget 899s
+RUN table3_row006 dZ: weight 6, budget 898s
+RUN table3_row006 dZ: weight 7, budget 898s
+RUN table3_row006 dZ: weight 8, budget 896s
+RUN table3_row006 dZ: weight 9, budget 886s
+RUN table3_row006 dZ: weight 10, budget 823s
+PARTIAL table4_row017 dX: 11 <= d <= 12
+RUN table3_row006 dX: weight 1, budget 899s
+RUN table3_row006 dX: weight 2, budget 899s
+RUN table3_row006 dX: weight 3, budget 899s
+RUN table3_row006 dX: weight 4, budget 899s
+RUN table3_row006 dX: weight 5, budget 899s
+RUN table3_row006 dX: weight 6, budget 898s
+RUN table3_row006 dX: weight 7, budget 898s
+RUN table3_row006 dX: weight 8, budget 897s
+RUN table3_row006 dX: weight 9, budget 889s
+RUN table3_row006 dX: weight 10, budget 843s
+RUN table4_row005 dZ: weight 10, budget 239s
+RUN table3_row006 dZ: weight 11, budget 388s
+PARTIAL table4_row005 dZ: 10 <= d <= 14
+RUN table4_row015 dZ: weight 1, budget 899s
+RUN table4_row015 dZ: weight 2, budget 899s
+RUN table4_row015 dZ: weight 3, budget 899s
+RUN table4_row015 dZ: weight 4, budget 899s
+RUN table4_row015 dZ: weight 5, budget 898s
+RUN table4_row015 dZ: weight 6, budget 898s
+RUN table4_row015 dZ: weight 7, budget 897s
+RUN table4_row015 dZ: weight 8, budget 885s
+RUN table3_row006 dX: weight 11, budget 521s
+RUN table4_row005 dX: weight 10, budget 158s
+RUN table4_row015 dZ: weight 9, budget 763s
+PARTIAL table4_row005 dX: 10 <= d <= 14
+RUN table4_row015 dX: weight 1, budget 899s
+RUN table4_row015 dX: weight 2, budget 899s
+RUN table4_row015 dX: weight 3, budget 899s
+RUN table4_row015 dX: weight 4, budget 899s
+RUN table4_row015 dX: weight 5, budget 898s
+RUN table4_row015 dX: weight 6, budget 898s
+RUN table4_row015 dX: weight 7, budget 896s
+RUN table4_row015 dX: weight 8, budget 883s
+PARTIAL table3_row006 dZ: 11 <= d <= 18
+RUN table3_row008 dZ: weight 1, budget 899s
+RUN table3_row008 dZ: weight 2, budget 899s
+RUN table3_row008 dZ: weight 3, budget 899s
+RUN table3_row008 dZ: weight 4, budget 899s
+RUN table3_row008 dZ: weight 5, budget 898s
+RUN table3_row008 dZ: weight 6, budget 898s
+RUN table3_row008 dZ: weight 7, budget 898s
+RUN table3_row008 dZ: weight 8, budget 896s
+RUN table3_row008 dZ: weight 9, budget 884s
+RUN table4_row015 dX: weight 9, budget 779s
+RUN table3_row008 dZ: weight 10, budget 805s
+PARTIAL table3_row006 dX: 11 <= d <= 18
+RUN table3_row008 dX: weight 1, budget 899s
+RUN table3_row008 dX: weight 2, budget 899s
+RUN table3_row008 dX: weight 3, budget 899s
+RUN table3_row008 dX: weight 4, budget 899s
+RUN table3_row008 dX: weight 5, budget 898s
+RUN table3_row008 dX: weight 6, budget 898s
+RUN table3_row008 dX: weight 7, budget 898s
+RUN table3_row008 dX: weight 8, budget 896s
+RUN table3_row008 dX: weight 9, budget 886s
+RUN table3_row008 dX: weight 10, budget 823s
+PARTIAL table4_row015 dZ: 9 <= d <= 18
+RUN table3_row016 dZ: weight 1, budget 899s
+RUN table3_row016 dZ: weight 2, budget 899s
+RUN table3_row016 dZ: weight 3, budget 899s
+RUN table3_row016 dZ: weight 4, budget 899s
+RUN table3_row016 dZ: weight 5, budget 898s
+RUN table3_row016 dZ: weight 6, budget 898s
+RUN table3_row016 dZ: weight 7, budget 898s
+RUN table3_row016 dZ: weight 8, budget 896s
+RUN table3_row016 dZ: weight 9, budget 883s
+RUN table3_row008 dZ: weight 11, budget 256s
+RUN table3_row016 dZ: weight 10, budget 799s
+RUN table3_row008 dX: weight 11, budget 352s
+PARTIAL table4_row015 dX: 9 <= d <= 18
+RUN table3_row016 dX: weight 1, budget 899s
+RUN table3_row016 dX: weight 2, budget 899s
+RUN table3_row016 dX: weight 3, budget 899s
+RUN table3_row016 dX: weight 4, budget 899s
+RUN table3_row016 dX: weight 5, budget 898s
+RUN table3_row016 dX: weight 6, budget 898s
+RUN table3_row016 dX: weight 7, budget 898s
+RUN table3_row016 dX: weight 8, budget 895s
+RUN table3_row016 dX: weight 9, budget 877s
+PARTIAL table3_row008 dZ: 11 <= d <= 21
+RUN table3_row017 dZ: weight 1, budget 899s
+RUN table3_row017 dZ: weight 2, budget 899s
+RUN table3_row017 dZ: weight 3, budget 899s
+RUN table3_row017 dZ: weight 4, budget 899s
+RUN table3_row017 dZ: weight 5, budget 898s
+RUN table3_row017 dZ: weight 6, budget 898s
+RUN table3_row017 dZ: weight 7, budget 898s
+RUN table3_row017 dZ: weight 8, budget 896s
+RUN table3_row017 dZ: weight 9, budget 884s
+RUN table3_row016 dX: weight 10, budget 749s
+RUN table3_row017 dZ: weight 10, budget 808s
+PARTIAL table3_row008 dX: 11 <= d <= 21
+RUN table3_row017 dX: weight 1, budget 899s
+RUN table3_row017 dX: weight 2, budget 899s
+RUN table3_row017 dX: weight 3, budget 899s
+RUN table3_row017 dX: weight 4, budget 899s
+RUN table3_row017 dX: weight 5, budget 899s
+RUN table3_row017 dX: weight 6, budget 898s
+RUN table3_row017 dX: weight 7, budget 898s
+RUN table3_row017 dX: weight 8, budget 895s
+RUN table3_row017 dX: weight 9, budget 879s
+RUN table3_row016 dZ: weight 11, budget 220s
+RUN table3_row017 dX: weight 10, budget 772s
+PARTIAL table3_row016 dZ: 11 <= d <= 22
+RUN example_QC_R5_30 dZ: weight 1, budget 899s
+RUN example_QC_R5_30 dZ: weight 2, budget 899s
+RUN example_QC_R5_30 dZ: weight 3, budget 899s
+RUN example_QC_R5_30 dZ: weight 4, budget 899s
+EXACT example_QC_R5_30 dZ: 4 <= d <= 4
+RUN example_QC_R5_30 dX: weight 1, budget 899s
+RUN example_QC_R5_30 dX: weight 2, budget 899s
+RUN example_QC_R5_30 dX: weight 3, budget 899s
+RUN example_QC_R5_30 dX: weight 4, budget 899s
+EXACT example_QC_R5_30 dX: 4 <= d <= 4
+RUN table3_row018 dZ: weight 1, budget 899s
+RUN table3_row018 dZ: weight 2, budget 899s
+RUN table3_row018 dZ: weight 3, budget 899s
+RUN table3_row018 dZ: weight 4, budget 899s
+RUN table3_row018 dZ: weight 5, budget 899s
+RUN table3_row018 dZ: weight 6, budget 898s
+RUN table3_row018 dZ: weight 7, budget 898s
+RUN table3_row018 dZ: weight 8, budget 895s
+RUN table3_row018 dZ: weight 9, budget 878s
+RUN table3_row017 dZ: weight 11, budget 280s
+RUN table3_row018 dZ: weight 10, budget 763s
+PARTIAL table3_row016 dX: 10 <= d <= 22
+RUN table3_row018 dX: weight 1, budget 899s
+RUN table3_row018 dX: weight 2, budget 899s
+RUN table3_row018 dX: weight 3, budget 899s
+RUN table3_row018 dX: weight 4, budget 899s
+RUN table3_row018 dX: weight 5, budget 899s
+RUN table3_row018 dX: weight 6, budget 898s
+RUN table3_row018 dX: weight 7, budget 898s
+RUN table3_row018 dX: weight 8, budget 895s
+RUN table3_row018 dX: weight 9, budget 879s
+PARTIAL table3_row017 dZ: 11 <= d <= 24
+RUN example_BB756 dZ: weight 1, budget 899s
+RUN example_BB756 dZ: weight 2, budget 899s
+RUN example_BB756 dZ: weight 3, budget 899s
+RUN example_BB756 dZ: weight 4, budget 899s
+RUN example_BB756 dZ: weight 5, budget 899s
+RUN example_BB756 dZ: weight 6, budget 898s
+RUN example_BB756 dZ: weight 7, budget 898s
+RUN example_BB756 dZ: weight 8, budget 898s
+RUN example_BB756 dZ: weight 9, budget 897s
+RUN example_BB756 dZ: weight 10, budget 895s
+RUN example_BB756 dZ: weight 11, budget 887s
+RUN table3_row018 dX: weight 10, budget 768s
+RUN example_BB756 dZ: weight 12, budget 854s
+RUN example_BB756 dZ: weight 13, budget 707s
+RUN table3_row017 dX: weight 11, budget 3s
+PARTIAL table3_row017 dX: 11 <= d <= 24
+RUN example_BB756 dX: weight 1, budget 899s
+RUN example_BB756 dX: weight 2, budget 899s
+RUN example_BB756 dX: weight 3, budget 899s
+RUN example_BB756 dX: weight 4, budget 899s
+RUN example_BB756 dX: weight 5, budget 899s
+RUN example_BB756 dX: weight 6, budget 898s
+RUN example_BB756 dX: weight 7, budget 898s
+RUN example_BB756 dX: weight 8, budget 898s
+RUN example_BB756 dX: weight 9, budget 897s
+RUN example_BB756 dX: weight 10, budget 896s
+RUN example_BB756 dX: weight 11, budget 889s
+RUN example_BB756 dX: weight 12, budget 861s
+RUN example_BB756 dX: weight 13, budget 740s
+PARTIAL table3_row018 dZ: 10 <= d <= 32
+RUN table7_row001 dZ: weight 1, budget 899s
+RUN table7_row001 dZ: weight 2, budget 899s
+RUN table7_row001 dZ: weight 3, budget 899s
+EXACT table7_row001 dZ: 3 <= d <= 3
+RUN table7_row001 dX: weight 1, budget 899s
+RUN table7_row001 dX: weight 2, budget 899s
+RUN table7_row001 dX: weight 3, budget 899s
+RUN table7_row001 dX: weight 4, budget 899s
+RUN table7_row001 dX: weight 5, budget 899s
+EXACT table7_row001 dX: 6 <= d <= 6
+RUN table7_row002 dZ: weight 1, budget 899s
+RUN table7_row002 dZ: weight 2, budget 899s
+RUN table7_row002 dZ: weight 3, budget 899s
+EXACT table7_row002 dZ: 4 <= d <= 4
+RUN table7_row002 dX: weight 1, budget 899s
+RUN table7_row002 dX: weight 2, budget 899s
+RUN table7_row002 dX: weight 3, budget 899s
+RUN table7_row002 dX: weight 4, budget 899s
+RUN table7_row002 dX: weight 5, budget 899s
+RUN table7_row002 dX: weight 6, budget 898s
+EXACT table7_row002 dX: 6 <= d <= 6
+RUN table7_row003 dZ: weight 1, budget 899s
+RUN table7_row003 dZ: weight 2, budget 899s
+RUN table7_row003 dZ: weight 3, budget 899s
+EXACT table7_row003 dZ: 4 <= d <= 4
+RUN table7_row003 dX: weight 1, budget 899s
+RUN table7_row003 dX: weight 2, budget 899s
+RUN table7_row003 dX: weight 3, budget 899s
+RUN table7_row003 dX: weight 4, budget 899s
+RUN table7_row003 dX: weight 5, budget 899s
+RUN table7_row003 dX: weight 6, budget 898s
+EXACT table7_row003 dX: 6 <= d <= 6
+RUN table7_row005 dZ: weight 1, budget 899s
+RUN table7_row005 dZ: weight 2, budget 899s
+RUN table7_row005 dZ: weight 3, budget 899s
+EXACT table7_row005 dZ: 4 <= d <= 4
+RUN table7_row005 dX: weight 1, budget 899s
+RUN table7_row005 dX: weight 2, budget 899s
+RUN table7_row005 dX: weight 3, budget 899s
+RUN table7_row005 dX: weight 4, budget 899s
+RUN table7_row005 dX: weight 5, budget 899s
+RUN table7_row005 dX: weight 6, budget 898s
+EXACT table7_row005 dX: 6 <= d <= 6
+RUN table8_row001 dZ: weight 1, budget 899s
+RUN table8_row001 dZ: weight 2, budget 899s
+RUN table8_row001 dZ: weight 3, budget 899s
+RUN table8_row001 dZ: weight 4, budget 899s
+RUN table8_row001 dZ: weight 5, budget 898s
+RUN table8_row001 dZ: weight 6, budget 898s
+EXACT table8_row001 dZ: 6 <= d <= 6
+RUN table8_row001 dX: weight 1, budget 899s
+RUN table8_row001 dX: weight 2, budget 899s
+RUN table8_row001 dX: weight 3, budget 899s
+RUN table8_row001 dX: weight 4, budget 899s
+RUN table8_row001 dX: weight 5, budget 899s
+RUN table8_row001 dX: weight 6, budget 898s
+EXACT table8_row001 dX: 6 <= d <= 6
+RUN table5_row003 dZ: weight 1, budget 899s
+RUN table5_row003 dZ: weight 2, budget 899s
+RUN table5_row003 dZ: weight 3, budget 899s
+RUN table5_row003 dZ: weight 4, budget 899s
+RUN table5_row003 dZ: weight 5, budget 899s
+RUN table5_row003 dZ: weight 6, budget 898s
+EXACT table5_row003 dZ: 6 <= d <= 6
+RUN table5_row003 dX: weight 1, budget 899s
+RUN table5_row003 dX: weight 2, budget 899s
+RUN table5_row003 dX: weight 3, budget 899s
+RUN table5_row003 dX: weight 4, budget 899s
+RUN table5_row003 dX: weight 5, budget 899s
+EXACT table5_row003 dX: 6 <= d <= 6
+RUN table5_row011 dZ: weight 1, budget 899s
+RUN table5_row011 dZ: weight 2, budget 899s
+RUN table5_row011 dZ: weight 3, budget 899s
+RUN table5_row011 dZ: weight 4, budget 899s
+RUN table5_row011 dZ: weight 5, budget 899s
+RUN table5_row011 dZ: weight 6, budget 898s
+EXACT table5_row011 dZ: 6 <= d <= 6
+RUN table5_row011 dX: weight 1, budget 899s
+RUN table5_row011 dX: weight 2, budget 899s
+RUN table5_row011 dX: weight 3, budget 899s
+RUN table5_row011 dX: weight 4, budget 899s
+RUN table5_row011 dX: weight 5, budget 899s
+RUN table5_row011 dX: weight 6, budget 898s
+EXACT table5_row011 dX: 6 <= d <= 6
+RUN table6_row001 dZ: weight 1, budget 899s
+RUN table6_row001 dZ: weight 2, budget 899s
+RUN table6_row001 dZ: weight 3, budget 899s
+RUN table6_row001 dZ: weight 4, budget 899s
+RUN table6_row001 dZ: weight 5, budget 899s
+RUN table6_row001 dZ: weight 6, budget 898s
+EXACT table6_row001 dZ: 6 <= d <= 6
+RUN table6_row001 dX: weight 1, budget 899s
+RUN table6_row001 dX: weight 2, budget 899s
+RUN table6_row001 dX: weight 3, budget 899s
+RUN table6_row001 dX: weight 4, budget 899s
+RUN table6_row001 dX: weight 5, budget 899s
+RUN table6_row001 dX: weight 6, budget 898s
+EXACT table6_row001 dX: 6 <= d <= 6
+RUN table8_row002 dZ: weight 1, budget 899s
+RUN table8_row002 dZ: weight 2, budget 899s
+RUN table8_row002 dZ: weight 3, budget 899s
+RUN table8_row002 dZ: weight 4, budget 899s
+RUN table8_row002 dZ: weight 5, budget 899s
+RUN table8_row002 dZ: weight 6, budget 898s
+EXACT table8_row002 dZ: 6 <= d <= 6
+RUN table8_row002 dX: weight 1, budget 899s
+RUN table8_row002 dX: weight 2, budget 899s
+RUN table8_row002 dX: weight 3, budget 899s
+RUN table8_row002 dX: weight 4, budget 899s
+RUN table8_row002 dX: weight 5, budget 899s
+RUN table8_row002 dX: weight 6, budget 898s
+EXACT table8_row002 dX: 6 <= d <= 6
+RUN table8_row003 dZ: weight 1, budget 899s
+RUN table8_row003 dZ: weight 2, budget 899s
+RUN table8_row003 dZ: weight 3, budget 899s
+RUN table8_row003 dZ: weight 4, budget 899s
+RUN table8_row003 dZ: weight 5, budget 899s
+RUN table8_row003 dZ: weight 6, budget 898s
+EXACT table8_row003 dZ: 6 <= d <= 6
+RUN table8_row003 dX: weight 1, budget 899s
+RUN table8_row003 dX: weight 2, budget 899s
+RUN table8_row003 dX: weight 3, budget 899s
+RUN table8_row003 dX: weight 4, budget 899s
+RUN table8_row003 dX: weight 5, budget 899s
+RUN table8_row003 dX: weight 6, budget 898s
+EXACT table8_row003 dX: 6 <= d <= 6
+RUN table2_row003 dZ: weight 1, budget 899s
+RUN table2_row003 dZ: weight 2, budget 899s
+RUN table2_row003 dZ: weight 3, budget 899s
+RUN table2_row003 dZ: weight 4, budget 899s
+RUN table2_row003 dZ: weight 5, budget 899s
+RUN table2_row003 dZ: weight 6, budget 898s
+LOWER_BOUND_ONLY table2_row003 dZ: 7 <= d <= 30
+RUN table2_row003 dX: weight 1, budget 899s
+RUN table2_row003 dX: weight 2, budget 899s
+RUN table2_row003 dX: weight 3, budget 899s
+RUN table2_row003 dX: weight 4, budget 899s
+RUN table2_row003 dX: weight 5, budget 899s
+RUN table2_row003 dX: weight 6, budget 898s
+LOWER_BOUND_ONLY table2_row003 dX: 7 <= d <= 24
+RUN table6_row008 dZ: weight 1, budget 899s
+RUN table6_row008 dZ: weight 2, budget 899s
+RUN table6_row008 dZ: weight 3, budget 899s
+RUN table6_row008 dZ: weight 4, budget 899s
+RUN table6_row008 dZ: weight 5, budget 899s
+RUN table6_row008 dZ: weight 6, budget 898s
+LOWER_BOUND_ONLY table6_row008 dZ: 7 <= d <= 11
+RUN table6_row008 dX: weight 1, budget 899s
+RUN table6_row008 dX: weight 2, budget 899s
+RUN table6_row008 dX: weight 3, budget 899s
+RUN table6_row008 dX: weight 4, budget 899s
+RUN table6_row008 dX: weight 5, budget 899s
+RUN table6_row008 dX: weight 6, budget 898s
+LOWER_BOUND_ONLY table6_row008 dX: 7 <= d <= 25
+RUN table7_row004 dZ: weight 1, budget 899s
+RUN table7_row004 dZ: weight 2, budget 899s
+RUN table7_row004 dZ: weight 3, budget 899s
+RUN table7_row004 dZ: weight 4, budget 899s
+EXACT table7_row004 dZ: 4 <= d <= 4
+RUN table7_row004 dX: weight 1, budget 899s
+RUN table7_row004 dX: weight 2, budget 899s
+RUN table7_row004 dX: weight 3, budget 899s
+RUN table7_row004 dX: weight 4, budget 899s
+RUN table7_row004 dX: weight 5, budget 899s
+RUN table7_row004 dX: weight 6, budget 898s
+RUN table7_row004 dX: weight 7, budget 898s
+EXACT table7_row004 dX: 7 <= d <= 7
+RUN table7_row006 dZ: weight 1, budget 899s
+RUN table7_row006 dZ: weight 2, budget 899s
+RUN table7_row006 dZ: weight 3, budget 899s
+EXACT table7_row006 dZ: 4 <= d <= 4
+RUN table7_row006 dX: weight 1, budget 899s
+RUN table7_row006 dX: weight 2, budget 899s
+RUN table7_row006 dX: weight 3, budget 899s
+RUN table7_row006 dX: weight 4, budget 899s
+RUN table7_row006 dX: weight 5, budget 899s
+RUN table7_row006 dX: weight 6, budget 898s
+EXACT table7_row006 dX: 7 <= d <= 7
+RUN table6_row004 dZ: weight 1, budget 899s
+RUN table6_row004 dZ: weight 2, budget 899s
+RUN table6_row004 dZ: weight 3, budget 899s
+RUN table6_row004 dZ: weight 4, budget 899s
+RUN table6_row004 dZ: weight 5, budget 899s
+RUN table6_row004 dZ: weight 6, budget 898s
+EXACT table6_row004 dZ: 7 <= d <= 7
+RUN table6_row004 dX: weight 1, budget 899s
+RUN table6_row004 dX: weight 2, budget 899s
+RUN table6_row004 dX: weight 3, budget 899s
+RUN table6_row004 dX: weight 4, budget 899s
+RUN table6_row004 dX: weight 5, budget 898s
+RUN table6_row004 dX: weight 6, budget 898s
+EXACT table6_row004 dX: 7 <= d <= 7
+RUN table7_row007 dZ: weight 1, budget 899s
+RUN table7_row007 dZ: weight 2, budget 899s
+RUN table7_row007 dZ: weight 3, budget 899s
+RUN table7_row007 dZ: weight 4, budget 899s
+EXACT table7_row007 dZ: 4 <= d <= 4
+RUN table7_row007 dX: weight 1, budget 899s
+RUN table7_row007 dX: weight 2, budget 899s
+RUN table7_row007 dX: weight 3, budget 899s
+RUN table7_row007 dX: weight 4, budget 899s
+RUN table7_row007 dX: weight 5, budget 899s
+RUN table7_row007 dX: weight 6, budget 898s
+RUN table7_row007 dX: weight 7, budget 898s
+RUN table7_row007 dX: weight 8, budget 898s
+EXACT table7_row007 dX: 8 <= d <= 8
+RUN table2_row002 dZ: weight 1, budget 899s
+RUN table2_row002 dZ: weight 2, budget 899s
+RUN table2_row002 dZ: weight 3, budget 899s
+RUN table2_row002 dZ: weight 4, budget 899s
+RUN table2_row002 dZ: weight 5, budget 899s
+RUN table2_row002 dZ: weight 6, budget 898s
+RUN table2_row002 dZ: weight 7, budget 898s
+EXACT table2_row002 dZ: 8 <= d <= 8
+RUN table2_row002 dX: weight 1, budget 899s
+RUN table2_row002 dX: weight 2, budget 899s
+RUN table2_row002 dX: weight 3, budget 899s
+RUN table2_row002 dX: weight 4, budget 899s
+RUN table2_row002 dX: weight 5, budget 899s
+RUN table2_row002 dX: weight 6, budget 898s
+RUN table2_row002 dX: weight 7, budget 898s
+EXACT table2_row002 dX: 8 <= d <= 8
+RUN table5_row004 dZ: weight 1, budget 899s
+RUN table5_row004 dZ: weight 2, budget 899s
+RUN table5_row004 dZ: weight 3, budget 899s
+RUN table5_row004 dZ: weight 4, budget 899s
+RUN table5_row004 dZ: weight 5, budget 899s
+RUN table5_row004 dZ: weight 6, budget 898s
+RUN table5_row004 dZ: weight 7, budget 898s
+EXACT table5_row004 dZ: 8 <= d <= 8
+RUN table5_row004 dX: weight 1, budget 899s
+RUN table5_row004 dX: weight 2, budget 899s
+RUN table5_row004 dX: weight 3, budget 899s
+RUN table5_row004 dX: weight 4, budget 899s
+RUN table5_row004 dX: weight 5, budget 899s
+RUN table5_row004 dX: weight 6, budget 898s
+RUN table5_row004 dX: weight 7, budget 898s
+EXACT table5_row004 dX: 8 <= d <= 8
+RUN table4_row003 dZ: weight 1, budget 899s
+RUN table4_row003 dZ: weight 2, budget 899s
+RUN table4_row003 dZ: weight 3, budget 899s
+RUN table4_row003 dZ: weight 4, budget 899s
+RUN table4_row003 dZ: weight 5, budget 899s
+RUN table4_row003 dZ: weight 6, budget 898s
+RUN table4_row003 dZ: weight 7, budget 897s
+RUN table4_row003 dZ: weight 8, budget 892s
+LOWER_BOUND_ONLY table4_row003 dZ: 9 <= d <= 12
+RUN table4_row003 dX: weight 1, budget 899s
+RUN table4_row003 dX: weight 2, budget 899s
+RUN table4_row003 dX: weight 3, budget 899s
+RUN table4_row003 dX: weight 4, budget 899s
+RUN table4_row003 dX: weight 5, budget 899s
+RUN table4_row003 dX: weight 6, budget 898s
+RUN table4_row003 dX: weight 7, budget 897s
+RUN table4_row003 dX: weight 8, budget 891s
+LOWER_BOUND_ONLY table4_row003 dX: 9 <= d <= 12
+RUN table7_row009 dZ: weight 1, budget 899s
+RUN table7_row009 dZ: weight 2, budget 899s
+RUN table7_row009 dZ: weight 3, budget 899s
+RUN table7_row009 dZ: weight 4, budget 899s
+RUN table7_row009 dZ: weight 5, budget 899s
+RUN table7_row009 dZ: weight 6, budget 898s
+EXACT table7_row009 dZ: 6 <= d <= 6
+RUN table7_row009 dX: weight 1, budget 899s
+RUN table7_row009 dX: weight 2, budget 899s
+RUN table7_row009 dX: weight 3, budget 899s
+RUN table7_row009 dX: weight 4, budget 899s
+RUN table7_row009 dX: weight 5, budget 899s
+RUN table7_row009 dX: weight 6, budget 898s
+RUN table7_row009 dX: weight 7, budget 898s
+RUN table7_row009 dX: weight 8, budget 898s
+RUN table7_row009 dX: weight 9, budget 898s
+EXACT table7_row009 dX: 9 <= d <= 9
+RUN table6_row002 dZ: weight 1, budget 899s
+RUN table6_row002 dZ: weight 2, budget 899s
+RUN table6_row002 dZ: weight 3, budget 899s
+RUN table6_row002 dZ: weight 4, budget 899s
+RUN table6_row002 dZ: weight 5, budget 899s
+RUN table6_row002 dZ: weight 6, budget 898s
+RUN table6_row002 dZ: weight 7, budget 898s
+RUN table6_row002 dZ: weight 8, budget 898s
+EXACT table6_row002 dZ: 9 <= d <= 9
+RUN table6_row002 dX: weight 1, budget 899s
+RUN table6_row002 dX: weight 2, budget 899s
+RUN table6_row002 dX: weight 3, budget 899s
+RUN table6_row002 dX: weight 4, budget 899s
+RUN table6_row002 dX: weight 5, budget 899s
+RUN table6_row002 dX: weight 6, budget 898s
+RUN table6_row002 dX: weight 7, budget 898s
+RUN table6_row002 dX: weight 8, budget 898s
+EXACT table6_row002 dX: 9 <= d <= 9
+RUN table6_row003 dZ: weight 1, budget 899s
+RUN table6_row003 dZ: weight 2, budget 899s
+RUN table6_row003 dZ: weight 3, budget 899s
+RUN table6_row003 dZ: weight 4, budget 899s
+RUN table6_row003 dZ: weight 5, budget 898s
+RUN table6_row003 dZ: weight 6, budget 898s
+RUN table6_row003 dZ: weight 7, budget 898s
+RUN table6_row003 dZ: weight 8, budget 898s
+EXACT table6_row003 dZ: 9 <= d <= 9
+RUN table6_row003 dX: weight 1, budget 899s
+RUN table6_row003 dX: weight 2, budget 899s
+RUN table6_row003 dX: weight 3, budget 899s
+RUN table6_row003 dX: weight 4, budget 899s
+RUN table6_row003 dX: weight 5, budget 898s
+RUN table6_row003 dX: weight 6, budget 898s
+RUN table6_row003 dX: weight 7, budget 898s
+RUN table6_row003 dX: weight 8, budget 898s
+EXACT table6_row003 dX: 9 <= d <= 9
+RUN table7_row008 dZ: weight 1, budget 899s
+RUN table7_row008 dZ: weight 2, budget 899s
+RUN table7_row008 dZ: weight 3, budget 899s
+RUN table7_row008 dZ: weight 4, budget 899s
+RUN table7_row008 dZ: weight 5, budget 899s
+RUN table7_row008 dZ: weight 6, budget 898s
+EXACT table7_row008 dZ: 6 <= d <= 6
+RUN table7_row008 dX: weight 1, budget 899s
+RUN table7_row008 dX: weight 2, budget 899s
+RUN table7_row008 dX: weight 3, budget 899s
+RUN table7_row008 dX: weight 4, budget 899s
+RUN table7_row008 dX: weight 5, budget 899s
+RUN table7_row008 dX: weight 6, budget 898s
+RUN table7_row008 dX: weight 7, budget 898s
+RUN table7_row008 dX: weight 8, budget 898s
+RUN table7_row008 dX: weight 9, budget 898s
+RUN table7_row008 dX: weight 10, budget 897s
+EXACT table7_row008 dX: 10 <= d <= 10
+RUN table7_row010 dZ: weight 1, budget 899s
+RUN table7_row010 dZ: weight 2, budget 899s
+RUN table7_row010 dZ: weight 3, budget 899s
+RUN table7_row010 dZ: weight 4, budget 899s
+RUN table7_row010 dZ: weight 5, budget 899s
+RUN table7_row010 dZ: weight 6, budget 898s
+EXACT table7_row010 dZ: 6 <= d <= 6
+RUN table7_row010 dX: weight 1, budget 899s
+RUN table7_row010 dX: weight 2, budget 899s
+RUN table7_row010 dX: weight 3, budget 899s
+RUN table7_row010 dX: weight 4, budget 899s
+RUN table7_row010 dX: weight 5, budget 899s
+RUN table7_row010 dX: weight 6, budget 898s
+RUN table7_row010 dX: weight 7, budget 898s
+RUN table7_row010 dX: weight 8, budget 898s
+RUN table7_row010 dX: weight 9, budget 898s
+RUN table7_row010 dX: weight 10, budget 897s
+EXACT table7_row010 dX: 10 <= d <= 10
+RUN table7_row011 dZ: weight 1, budget 899s
+RUN table7_row011 dZ: weight 2, budget 899s
+RUN table7_row011 dZ: weight 3, budget 899s
+RUN table7_row011 dZ: weight 4, budget 899s
+RUN table7_row011 dZ: weight 5, budget 898s
+RUN table7_row011 dZ: weight 6, budget 898s
+EXACT table7_row011 dZ: 6 <= d <= 6
+RUN table7_row011 dX: weight 1, budget 899s
+RUN table7_row011 dX: weight 2, budget 899s
+RUN table7_row011 dX: weight 3, budget 899s
+RUN table7_row011 dX: weight 4, budget 899s
+RUN table7_row011 dX: weight 5, budget 899s
+RUN table7_row011 dX: weight 6, budget 898s
+RUN table7_row011 dX: weight 7, budget 898s
+RUN table7_row011 dX: weight 8, budget 898s
+RUN table7_row011 dX: weight 9, budget 898s
+RUN table7_row011 dX: weight 10, budget 897s
+EXACT table7_row011 dX: 10 <= d <= 10
+RUN table5_row005 dZ: weight 1, budget 899s
+RUN table5_row005 dZ: weight 2, budget 899s
+RUN table5_row005 dZ: weight 3, budget 899s
+RUN table5_row005 dZ: weight 4, budget 899s
+RUN table5_row005 dZ: weight 5, budget 899s
+RUN table5_row005 dZ: weight 6, budget 898s
+RUN table5_row005 dZ: weight 7, budget 898s
+RUN table5_row005 dZ: weight 8, budget 894s
+RUN table3_row018 dX: weight 11, budget 11s
+RUN table5_row005 dZ: weight 9, budget 865s
+PARTIAL table3_row018 dX: 11 <= d <= 31
+RUN table5_row005 dX: weight 1, budget 899s
+RUN table5_row005 dX: weight 2, budget 899s
+RUN table5_row005 dX: weight 3, budget 899s
+RUN table5_row005 dX: weight 4, budget 899s
+RUN table5_row005 dX: weight 5, budget 899s
+RUN table5_row005 dX: weight 6, budget 898s
+RUN table5_row005 dX: weight 7, budget 898s
+RUN table5_row005 dX: weight 8, budget 893s
+RUN example_BB756 dZ: weight 14, budget 77s
+RUN table5_row005 dX: weight 9, budget 858s
+PARTIAL example_BB756 dZ: 14 <= d <= 168
+RUN table7_row012 dZ: weight 1, budget 899s
+RUN table7_row012 dZ: weight 2, budget 899s
+RUN table7_row012 dZ: weight 3, budget 899s
+RUN table7_row012 dZ: weight 4, budget 899s
+RUN table7_row012 dZ: weight 5, budget 899s
+RUN table7_row012 dZ: weight 6, budget 898s
+EXACT table7_row012 dZ: 6 <= d <= 6
+RUN table7_row012 dX: weight 1, budget 899s
+RUN table7_row012 dX: weight 2, budget 899s
+RUN table7_row012 dX: weight 3, budget 899s
+RUN table7_row012 dX: weight 4, budget 899s
+RUN table7_row012 dX: weight 5, budget 899s
+RUN table7_row012 dX: weight 6, budget 898s
+RUN table7_row012 dX: weight 7, budget 898s
+RUN table7_row012 dX: weight 8, budget 898s
+RUN table7_row012 dX: weight 9, budget 898s
+RUN table7_row012 dX: weight 10, budget 897s
+EXACT table7_row012 dX: 10 <= d <= 10
+RUN table7_row014 dZ: weight 1, budget 899s
+RUN table7_row014 dZ: weight 2, budget 899s
+RUN table7_row014 dZ: weight 3, budget 899s
+RUN table7_row014 dZ: weight 4, budget 899s
+RUN table7_row014 dZ: weight 5, budget 899s
+RUN table7_row014 dZ: weight 6, budget 898s
+EXACT table7_row014 dZ: 6 <= d <= 6
+RUN table7_row014 dX: weight 1, budget 899s
+RUN table7_row014 dX: weight 2, budget 899s
+RUN table7_row014 dX: weight 3, budget 899s
+RUN table7_row014 dX: weight 4, budget 899s
+RUN table7_row014 dX: weight 5, budget 899s
+RUN table7_row014 dX: weight 6, budget 898s
+RUN table7_row014 dX: weight 7, budget 898s
+RUN table7_row014 dX: weight 8, budget 898s
+RUN table7_row014 dX: weight 9, budget 898s
+RUN table7_row014 dX: weight 10, budget 897s
+RUN example_BB756 dX: weight 14, budget 218s
+EXACT table7_row014 dX: 10 <= d <= 10
+RUN table7_row016 dZ: weight 1, budget 899s
+RUN table7_row016 dZ: weight 2, budget 899s
+RUN table7_row016 dZ: weight 3, budget 899s
+RUN table7_row016 dZ: weight 4, budget 899s
+RUN table7_row016 dZ: weight 5, budget 899s
+EXACT table7_row016 dZ: 5 <= d <= 5
+RUN table7_row016 dX: weight 1, budget 899s
+RUN table7_row016 dX: weight 2, budget 899s
+RUN table7_row016 dX: weight 3, budget 899s
+RUN table7_row016 dX: weight 4, budget 899s
+RUN table7_row016 dX: weight 5, budget 899s
+RUN table7_row016 dX: weight 6, budget 898s
+RUN table7_row016 dX: weight 7, budget 898s
+RUN table7_row016 dX: weight 8, budget 898s
+RUN table7_row016 dX: weight 9, budget 898s
+RUN table7_row016 dX: weight 10, budget 897s
+EXACT table7_row016 dX: 10 <= d <= 10
+RUN table6_row009 dZ: weight 1, budget 899s
+RUN table6_row009 dZ: weight 2, budget 899s
+RUN table6_row009 dZ: weight 3, budget 899s
+RUN table6_row009 dZ: weight 4, budget 899s
+RUN table6_row009 dZ: weight 5, budget 899s
+RUN table6_row009 dZ: weight 6, budget 898s
+RUN table6_row009 dZ: weight 7, budget 898s
+RUN table6_row009 dZ: weight 8, budget 898s
+RUN table6_row009 dZ: weight 9, budget 898s
+EXACT table6_row009 dZ: 10 <= d <= 10
+RUN table6_row009 dX: weight 1, budget 899s
+RUN table6_row009 dX: weight 2, budget 899s
+RUN table6_row009 dX: weight 3, budget 899s
+RUN table6_row009 dX: weight 4, budget 899s
+RUN table6_row009 dX: weight 5, budget 899s
+RUN table6_row009 dX: weight 6, budget 898s
+RUN table6_row009 dX: weight 7, budget 898s
+RUN table6_row009 dX: weight 8, budget 898s
+RUN table6_row009 dX: weight 9, budget 898s
+EXACT table6_row009 dX: 10 <= d <= 10
+RUN table7_row015 dZ: weight 1, budget 899s
+RUN table7_row015 dZ: weight 2, budget 899s
+RUN table7_row015 dZ: weight 3, budget 899s
+RUN table7_row015 dZ: weight 4, budget 899s
+RUN table7_row015 dZ: weight 5, budget 899s
+RUN table7_row015 dZ: weight 6, budget 898s
+EXACT table7_row015 dZ: 6 <= d <= 6
+RUN table7_row015 dX: weight 1, budget 899s
+RUN table7_row015 dX: weight 2, budget 899s
+RUN table7_row015 dX: weight 3, budget 899s
+RUN table7_row015 dX: weight 4, budget 899s
+RUN table7_row015 dX: weight 5, budget 899s
+RUN table7_row015 dX: weight 6, budget 898s
+RUN table7_row015 dX: weight 7, budget 898s
+RUN table7_row015 dX: weight 8, budget 898s
+RUN table7_row015 dX: weight 9, budget 898s
+RUN table7_row015 dX: weight 10, budget 897s
+RUN table7_row015 dX: weight 11, budget 896s
+EXACT table7_row015 dX: 11 <= d <= 11
+RUN table6_row005 dZ: weight 1, budget 899s
+RUN table6_row005 dZ: weight 2, budget 899s
+RUN table6_row005 dZ: weight 3, budget 899s
+RUN table6_row005 dZ: weight 4, budget 899s
+RUN table6_row005 dZ: weight 5, budget 899s
+RUN table6_row005 dZ: weight 6, budget 898s
+RUN table6_row005 dZ: weight 7, budget 898s
+RUN table6_row005 dZ: weight 8, budget 898s
+RUN table6_row005 dZ: weight 9, budget 898s
+RUN table6_row005 dZ: weight 10, budget 897s
+EXACT table6_row005 dZ: 11 <= d <= 11
+RUN table6_row005 dX: weight 1, budget 899s
+RUN table6_row005 dX: weight 2, budget 899s
+RUN table6_row005 dX: weight 3, budget 899s
+RUN table6_row005 dX: weight 4, budget 899s
+RUN table6_row005 dX: weight 5, budget 899s
+RUN table6_row005 dX: weight 6, budget 898s
+RUN table6_row005 dX: weight 7, budget 898s
+RUN table6_row005 dX: weight 8, budget 898s
+RUN table6_row005 dX: weight 9, budget 898s
+RUN table6_row005 dX: weight 10, budget 897s
+EXACT table6_row005 dX: 11 <= d <= 11
+RUN table6_row007 dZ: weight 1, budget 899s
+RUN table6_row007 dZ: weight 2, budget 899s
+RUN table6_row007 dZ: weight 3, budget 899s
+RUN table6_row007 dZ: weight 4, budget 899s
+RUN table6_row007 dZ: weight 5, budget 899s
+RUN table6_row007 dZ: weight 6, budget 898s
+RUN table6_row007 dZ: weight 7, budget 898s
+RUN table6_row007 dZ: weight 8, budget 898s
+RUN table6_row007 dZ: weight 9, budget 898s
+RUN table6_row007 dZ: weight 10, budget 897s
+EXACT table6_row007 dZ: 11 <= d <= 11
+RUN table6_row007 dX: weight 1, budget 899s
+RUN table6_row007 dX: weight 2, budget 899s
+RUN table6_row007 dX: weight 3, budget 899s
+RUN table6_row007 dX: weight 4, budget 899s
+RUN table6_row007 dX: weight 5, budget 899s
+RUN table6_row007 dX: weight 6, budget 898s
+RUN table6_row007 dX: weight 7, budget 898s
+RUN table6_row007 dX: weight 8, budget 898s
+RUN table6_row007 dX: weight 9, budget 898s
+RUN table6_row007 dX: weight 10, budget 897s
+EXACT table6_row007 dX: 11 <= d <= 11
+RUN table5_row006 dZ: weight 1, budget 899s
+RUN table5_row006 dZ: weight 2, budget 899s
+RUN table5_row006 dZ: weight 3, budget 899s
+RUN table5_row006 dZ: weight 4, budget 899s
+RUN table5_row006 dZ: weight 5, budget 899s
+RUN table5_row006 dZ: weight 6, budget 898s
+RUN table5_row006 dZ: weight 7, budget 898s
+RUN table5_row006 dZ: weight 8, budget 894s
+RUN table5_row006 dZ: weight 9, budget 863s
+EXACT table5_row005 dZ: 10 <= d <= 10
+RUN table5_row006 dX: weight 1, budget 899s
+RUN table5_row006 dX: weight 2, budget 899s
+RUN table5_row006 dX: weight 3, budget 899s
+RUN table5_row006 dX: weight 4, budget 899s
+RUN table5_row006 dX: weight 5, budget 899s
+RUN table5_row006 dX: weight 6, budget 898s
+RUN table5_row006 dX: weight 7, budget 898s
+RUN table5_row006 dX: weight 8, budget 894s
+RUN table5_row006 dX: weight 9, budget 865s
+PARTIAL example_BB756 dX: 14 <= d <= 158
+RUN table7_row013 dZ: weight 1, budget 899s
+RUN table7_row013 dZ: weight 2, budget 899s
+RUN table7_row013 dZ: weight 3, budget 899s
+RUN table7_row013 dZ: weight 4, budget 899s
+RUN table7_row013 dZ: weight 5, budget 899s
+RUN table7_row013 dZ: weight 6, budget 898s
+EXACT table7_row013 dZ: 6 <= d <= 6
+RUN table7_row013 dX: weight 1, budget 899s
+RUN table7_row013 dX: weight 2, budget 899s
+RUN table7_row013 dX: weight 3, budget 899s
+RUN table7_row013 dX: weight 4, budget 899s
+RUN table7_row013 dX: weight 5, budget 899s
+RUN table7_row013 dX: weight 6, budget 898s
+RUN table7_row013 dX: weight 7, budget 898s
+RUN table7_row013 dX: weight 8, budget 898s
+RUN table7_row013 dX: weight 9, budget 898s
+RUN table7_row013 dX: weight 10, budget 897s
+RUN table7_row013 dX: weight 11, budget 896s
+RUN table7_row013 dX: weight 12, budget 890s
+EXACT table7_row013 dX: 12 <= d <= 12
+RUN table7_row017 dZ: weight 1, budget 899s
+RUN table7_row017 dZ: weight 2, budget 899s
+RUN table7_row017 dZ: weight 3, budget 899s
+EXACT table5_row005 dX: 10 <= d <= 10
+RUN table7_row017 dX: weight 1, budget 899s
+RUN table7_row017 dZ: weight 4, budget 899s
+RUN table7_row017 dX: weight 2, budget 899s
+RUN table7_row017 dZ: weight 5, budget 899s
+RUN table7_row017 dX: weight 3, budget 899s
+RUN table7_row017 dZ: weight 6, budget 898s
+RUN table7_row017 dX: weight 4, budget 899s
+EXACT table7_row017 dZ: 6 <= d <= 6
+RUN table7_row018 dZ: weight 1, budget 899s
+RUN table7_row017 dX: weight 5, budget 899s
+RUN table7_row018 dZ: weight 2, budget 899s
+RUN table7_row017 dX: weight 6, budget 898s
+RUN table7_row018 dZ: weight 3, budget 899s
+RUN table7_row017 dX: weight 7, budget 898s
+RUN table7_row018 dZ: weight 4, budget 899s
+RUN table7_row017 dX: weight 8, budget 898s
+RUN table7_row018 dZ: weight 5, budget 899s
+RUN table7_row017 dX: weight 9, budget 898s
+RUN table7_row018 dZ: weight 6, budget 898s
+EXACT table7_row018 dZ: 7 <= d <= 7
+RUN table7_row018 dX: weight 1, budget 899s
+RUN table7_row017 dX: weight 10, budget 897s
+RUN table7_row018 dX: weight 2, budget 899s
+RUN table7_row018 dX: weight 3, budget 899s
+RUN table7_row018 dX: weight 4, budget 899s
+RUN table7_row018 dX: weight 5, budget 899s
+RUN table7_row018 dX: weight 6, budget 898s
+RUN table7_row017 dX: weight 11, budget 896s
+RUN table7_row018 dX: weight 7, budget 898s
+RUN table7_row018 dX: weight 8, budget 898s
+RUN table7_row018 dX: weight 9, budget 898s
+RUN table7_row018 dX: weight 10, budget 897s
+RUN table7_row018 dX: weight 11, budget 895s
+RUN table7_row017 dX: weight 12, budget 891s
+EXACT table7_row018 dX: 12 <= d <= 12
+RUN table7_row019 dZ: weight 1, budget 899s
+RUN table7_row019 dZ: weight 2, budget 899s
+RUN table7_row019 dZ: weight 3, budget 899s
+RUN table7_row019 dZ: weight 4, budget 899s
+RUN table7_row019 dZ: weight 5, budget 899s
+RUN table7_row019 dZ: weight 6, budget 898s
+RUN table7_row019 dZ: weight 7, budget 898s
+EXACT table7_row019 dZ: 7 <= d <= 7
+RUN table7_row019 dX: weight 1, budget 899s
+RUN table7_row019 dX: weight 2, budget 899s
+RUN table7_row019 dX: weight 3, budget 899s
+RUN table7_row019 dX: weight 4, budget 899s
+RUN table7_row019 dX: weight 5, budget 899s
+RUN table7_row019 dX: weight 6, budget 898s
+RUN table7_row019 dX: weight 7, budget 898s
+RUN table7_row019 dX: weight 8, budget 898s
+RUN table7_row019 dX: weight 9, budget 898s
+RUN table7_row019 dX: weight 10, budget 897s
+RUN table7_row019 dX: weight 11, budget 895s
+RUN table7_row019 dX: weight 12, budget 889s
+EXACT table7_row017 dX: 12 <= d <= 12
+RUN table7_row020 dZ: weight 1, budget 899s
+RUN table7_row020 dZ: weight 2, budget 899s
+RUN table7_row020 dZ: weight 3, budget 899s
+RUN table7_row020 dZ: weight 4, budget 899s
+EXACT table7_row019 dX: 12 <= d <= 12
+RUN table7_row020 dX: weight 1, budget 899s
+RUN table7_row020 dZ: weight 5, budget 899s
+RUN table7_row020 dX: weight 2, budget 899s
+RUN table7_row020 dZ: weight 6, budget 898s
+RUN table7_row020 dX: weight 3, budget 899s
+EXACT table7_row020 dZ: 7 <= d <= 7
+RUN table7_row021 dZ: weight 1, budget 899s
+RUN table7_row020 dX: weight 4, budget 899s
+RUN table7_row021 dZ: weight 2, budget 899s
+RUN table7_row020 dX: weight 5, budget 899s
+RUN table7_row021 dZ: weight 3, budget 899s
+RUN table7_row020 dX: weight 6, budget 898s
+RUN table7_row021 dZ: weight 4, budget 899s
+RUN table7_row020 dX: weight 7, budget 898s
+RUN table7_row021 dZ: weight 5, budget 899s
+RUN table7_row020 dX: weight 8, budget 898s
+RUN table7_row021 dZ: weight 6, budget 898s
+RUN table7_row020 dX: weight 9, budget 898s
+EXACT table7_row021 dZ: 7 <= d <= 7
+RUN table7_row021 dX: weight 1, budget 899s
+RUN table7_row021 dX: weight 2, budget 899s
+RUN table7_row020 dX: weight 10, budget 897s
+RUN table7_row021 dX: weight 3, budget 899s
+RUN table7_row021 dX: weight 4, budget 899s
+RUN table7_row021 dX: weight 5, budget 899s
+RUN table7_row021 dX: weight 6, budget 898s
+RUN table7_row021 dX: weight 7, budget 898s
+RUN table7_row021 dX: weight 8, budget 898s
+RUN table7_row021 dX: weight 9, budget 898s
+RUN table7_row020 dX: weight 11, budget 895s
+RUN table7_row021 dX: weight 10, budget 897s
+RUN table7_row021 dX: weight 11, budget 895s
+EXACT table7_row020 dX: 12 <= d <= 12
+RUN table7_row021 dX: weight 12, budget 887s
+RUN table5_row006 dZ: weight 10, budget 635s
+EXACT table7_row021 dX: 13 <= d <= 13
+RUN table5_row006 dX: weight 10, budget 646s
+PARTIAL table5_row006 dZ: 10 <= d <= 12
+PARTIAL table5_row006 dX: 10 <= d <= 12
+Saved /home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/mm_cc_priority/cc_results/summary.csv. Rerun the same command to resume.
+SKIP example_2BGA56 dZ=2 (already certified)
+SKIP example_2BGA56 dX=2 (already certified)
+SKIP table4_row022 dX=9 (already certified)
+SKIP example_2BGA16 dZ=4 (already certified)
+SKIP example_2BGA16 dX=4 (already certified)
+SKIP table4_row022 dZ=9 (already certified)
+SKIP example_GB30 dZ=4 (already certified)
+SKIP example_GB30 dX=4 (already certified)
+SKIP table2_row001 dZ=4 (already certified)
+SKIP table2_row001 dX=4 (already certified)
+SKIP example_Toric96 dZ=4 (already certified)
+SKIP example_Toric96 dX=4 (already certified)
+SKIP table4_row001 dX=4 (already certified)
+SKIP example_LaCross98 dZ=4 (already certified)
+SKIP table4_row001 dZ=4 (already certified)
+SKIP example_LaCross98 dX=4 (already certified)
+SKIP example_MB48 dZ=6 (already certified)
+SKIP table5_row001 dZ=6 (already certified)
+SKIP example_MB48 dX=6 (already certified)
+SKIP table5_row001 dX=6 (already certified)
+SKIP table5_row007 dZ=6 (already certified)
+SKIP table5_row007 dX=6 (already certified)
+SKIP table4_row020 dZ=6 (already certified)
+SKIP table4_row020 dX=6 (already certified)
+SKIP example_AMC96 dZ=8 (already certified)
+SKIP example_AMC96 dX=8 (already certified)
+SKIP table5_row002 dZ=8 (already certified)
+SKIP table5_row002 dX=8 (already certified)
+SKIP table3_row001 dZ=8 (already certified)
+SKIP table4_row002 dZ=8 (already certified)
+SKIP table3_row001 dX=8 (already certified)
+SKIP table4_row002 dX=8 (already certified)
+SKIP example_CxR240 dZ=8 (already certified)
+SKIP table5_row008 dZ=8 (already certified)
+SKIP table5_row008 dX=8 (already certified)
+SKIP example_CxR240 dX=8 (already certified)
+SKIP table2_row008 dZ=8 (already certified)
+SKIP example_C2_450 dZ=8 (already certified)
+SKIP table2_row008 dX=8 (already certified)
+SKIP example_C2_450 dX=8 (already certified)
+SKIP table4_row018 dZ=9 (already certified)
+LOWER_BOUND_ONLY example_Haah1024 dZ: 9 <= d <= 102
+SKIP table4_row018 dX=9 (already certified)
+LOWER_BOUND_ONLY example_Haah1024 dX: 9 <= d <= 60
+SKIP example_GB70 dZ=10 (already certified)
+SKIP table10_row001 dZ=9 (already certified)
+SKIP table10_row001 dX=9 (already certified)
+SKIP example_GB70 dX=10 (already certified)
+SKIP table5_row009 dZ=10 (already certified)
+SKIP table5_row009 dX=10 (already certified)
+SKIP table6_row006 dZ=10 (already certified)
+SKIP table6_row006 dX=10 (already certified)
+SKIP example_TT72 dZ=6 (already certified)
+SKIP example_TT72 dX=12 (already certified)
+SKIP example_BB144 dX=12 (already certified)
+SKIP simulation_BB_144_12_12 dZ=12 (already certified)
+SKIP example_BB144 dZ=12 (already certified)
+SKIP simulation_BB_144_12_12 dX=12 (already certified)
+RUN simulation_MM_144_12_12 dZ: weight 11, budget 3599s
+RUN simulation_MM_144_12_12 dX: weight 11, budget 3599s
+RUN table3_row002 dZ: weight 11, budget 3599s
+RUN table3_row002 dX: weight 11, budget 3599s
+EXACT table3_row002 dX: 12 <= d <= 12
+RUN table5_row010 dZ: weight 10, budget 3599s
+RUN simulation_MM_144_12_12 dX: weight 12, budget 2683s
+EXACT simulation_MM_144_12_12 dX: 12 <= d <= 12
+RUN table5_row010 dX: weight 10, budget 3599s
+EXACT table3_row002 dZ: 12 <= d <= 12
+RUN table3_row003 dZ: weight 11, budget 3599s
+RUN simulation_MM_144_12_12 dZ: weight 12, budget 2651s
+EXACT simulation_MM_144_12_12 dZ: 12 <= d <= 12
+RUN table3_row003 dX: weight 11, budget 3599s
+EXACT table3_row003 dZ: 12 <= d <= 12
+SKIP table4_row004 dZ=12 (already certified)
+RUN table4_row004 dX: weight 11, budget 3599s
+EXACT table3_row003 dX: 12 <= d <= 12
+SKIP table2_row015 dZ=12 (already certified)
+SKIP table2_row015 dX=12 (already certified)
+RUN table3_row011 dZ: weight 10, budget 3599s
+RUN table5_row010 dZ: weight 11, budget 514s
+RUN table3_row011 dZ: weight 11, budget 2682s
+RUN table5_row010 dX: weight 11, budget 363s
+PARTIAL table5_row010 dZ: 11 <= d <= 12
+RUN table3_row011 dX: weight 11, budget 3599s
+PARTIAL table5_row010 dX: 11 <= d <= 12
+RUN table4_row017 dZ: weight 11, budget 3599s
+EXACT table4_row004 dX: 12 <= d <= 12
+RUN table4_row017 dX: weight 11, budget 3599s
+PARTIAL table3_row011 dZ: 11 <= d <= 12
+SKIP table2_row035 dZ=12 (already certified)
+SKIP table2_row035 dX=12 (already certified)
+SKIP simulation_TT_135_12_6 dZ=6 (already certified)
+SKIP simulation_TT_135_12_6 dX=14 (already certified)
+RUN table4_row005 dZ: weight 10, budget 3599s
+EXACT table4_row017 dZ: 12 <= d <= 12
+RUN table4_row005 dX: weight 10, budget 3599s
+EXACT table3_row011 dX: 12 <= d <= 12
+RUN table3_row006 dZ: weight 11, budget 3599s
+EXACT table4_row017 dX: 12 <= d <= 12
+RUN table3_row006 dX: weight 11, budget 3599s

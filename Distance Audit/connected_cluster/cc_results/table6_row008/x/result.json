@@ -1,0 +1,74 @@
+{
+  "id": "table6_row008",
+  "n": 192,
+  "k": 6,
+  "hx_sha256": "257d57139ed38c4e984cda8ec8314c0afc95a1792fbfe46ed4691d405d381826",
+  "hz_sha256": "2f65ef1cf8ef7ae18a4a33bfd0b44a710bf446c66dc14cc80fba49cb628cf11b",
+  "sector": "x",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 7,
+  "witness_support_one_based": [
+    32,
+    64,
+    66,
+    69,
+    72,
+    75,
+    78,
+    81,
+    84,
+    87,
+    90,
+    92,
+    95,
+    128,
+    139,
+    142,
+    145,
+    148,
+    151,
+    154,
+    162,
+    165,
+    168,
+    188,
+    191
+  ],
+  "verified_upper_bound": 25,
+  "search_estimate": 6,
+  "status": "LOWER_BOUND_ONLY",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "table6_row008/x/w001_20261015T153020298005Z/stderr.log",
+      "stderr_sha256": "e51c4196fd6903073b36d52fae43f3ded4086d7e3dbfa104a8580aa52b226903"
+    },
+    {
+      "weight": 2,
+      "stderr": "table6_row008/x/w002_20261015T153020535150Z/stderr.log",
+      "stderr_sha256": "3ce1fb37e2b4a66d262db98fbd418170cacd7f04581d0cf68909e21d78323bfb"
+    },
+    {
+      "weight": 3,
+      "stderr": "table6_row008/x/w003_20261015T153020764272Z/stderr.log",
+      "stderr_sha256": "a729d9552775b010006789b731d8b199c422734e81dc8137e16267361afe5876"
+    },
+    {
+      "weight": 4,
+      "stderr": "table6_row008/x/w004_20261015T153020996450Z/stderr.log",
+      "stderr_sha256": "5cd2c4cc1cc421ceb039b3c7ae64a0a47daf4db2e64cb44deec2e88bc374e1dd"
+    },
+    {
+      "weight": 5,
+      "stderr": "table6_row008/x/w005_20261015T153021234962Z/stderr.log",
+      "stderr_sha256": "83d9e0ffd56fa790be6d3820120cae56d90048e02f9113f7d8b58470c4d7863b"
+    },
+    {
+      "weight": 6,
+      "stderr": "table6_row008/x/w006_20261015T153021470813Z/stderr.log",
+      "stderr_sha256": "3942b7bddd35c099d68c9b4c0b0f9ea8fd23eafbab6cd5937d46d5f647db6907"
+    }
+  ],
+  "last_run": "table6_row008/x/w006_20261015T153021470813Z",
+  "updated_utc": "2026-10-15T15:30:21.707950+00:00"
+}

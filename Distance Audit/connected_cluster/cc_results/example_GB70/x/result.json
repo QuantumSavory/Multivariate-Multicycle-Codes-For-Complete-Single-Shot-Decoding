@@ -1,0 +1,75 @@
+{
+  "id": "example_GB70",
+  "n": 70,
+  "k": 8,
+  "hx_sha256": "661ec73f53e597aa8af440d903815cf010a3653201799c47ad30e05b0cd6b268",
+  "hz_sha256": "0d4b16230306fd5d59e6e1477df0bdd805179145fb3d6ab9183fca89879b06cd",
+  "sector": "x",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 10,
+  "witness_support_one_based": [
+    1,
+    14,
+    16,
+    17,
+    18,
+    31,
+    43,
+    54,
+    55,
+    64
+  ],
+  "verified_upper_bound": 10,
+  "search_estimate": 10,
+  "status": "EXACT",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "example_GB70/x/w001_20261015T133835963923Z/stderr.log",
+      "stderr_sha256": "4cb97c66768f7cf4d99081bae28b2edf31502be1a0e8e5aa646dd8c76152a088"
+    },
+    {
+      "weight": 2,
+      "stderr": "example_GB70/x/w002_20261015T133836207712Z/stderr.log",
+      "stderr_sha256": "4ab8c3a00b1d33ede7ae7f5e5ced1c8a1532b94c91565ac25beeaf69f3d276cb"
+    },
+    {
+      "weight": 3,
+      "stderr": "example_GB70/x/w003_20261015T133836449291Z/stderr.log",
+      "stderr_sha256": "68ff93b823926fe13675c26b30c2e09016dafd8238580674cbf301ad4c737170"
+    },
+    {
+      "weight": 4,
+      "stderr": "example_GB70/x/w004_20261015T133836679238Z/stderr.log",
+      "stderr_sha256": "25c822cde47e9fe923e3b3c03da863f2c6245a4e8fe191d1df2b0d1e3641baa7"
+    },
+    {
+      "weight": 5,
+      "stderr": "example_GB70/x/w005_20261015T133836909914Z/stderr.log",
+      "stderr_sha256": "b144e22740a39cbd08b2697b4f78a09af945ca92c6656a94633507adc22bb684"
+    },
+    {
+      "weight": 6,
+      "stderr": "example_GB70/x/w006_20261015T133837144573Z/stderr.log",
+      "stderr_sha256": "d95311f5048f0493a1c58a0b58ddd0c014cc7895021aebcb2fc623b2fa534a31"
+    },
+    {
+      "weight": 7,
+      "stderr": "example_GB70/x/w007_20261015T133837390686Z/stderr.log",
+      "stderr_sha256": "cdcb544bb15c874ae4c3df7d6468c850016104db04c53d1b55cdb8dfa807f6bc"
+    },
+    {
+      "weight": 8,
+      "stderr": "example_GB70/x/w008_20261015T133837621517Z/stderr.log",
+      "stderr_sha256": "8b2be73ffb7431ba0486860dd9719d2e4fff0b8ca7e4a2d99a4c56ab57f76d95"
+    },
+    {
+      "weight": 9,
+      "stderr": "example_GB70/x/w009_20261015T133838853365Z/stderr.log",
+      "stderr_sha256": "019b5caef9d792c9afbb271edc082614fb0579383bfa7536b12d2eba537c42d6"
+    }
+  ],
+  "last_run": "example_GB70/x/w010_20261015T133843690958Z",
+  "witness_source": "example_GB70/x/w010_20261015T133843690958Z/witness.nz",
+  "updated_utc": "2026-10-15T13:38:43.924067+00:00"
+}

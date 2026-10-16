@@ -1,0 +1,75 @@
+{
+  "id": "example_GB70",
+  "n": 70,
+  "k": 8,
+  "hx_sha256": "661ec73f53e597aa8af440d903815cf010a3653201799c47ad30e05b0cd6b268",
+  "hz_sha256": "0d4b16230306fd5d59e6e1477df0bdd805179145fb3d6ab9183fca89879b06cd",
+  "sector": "z",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 10,
+  "witness_support_one_based": [
+    1,
+    2,
+    3,
+    16,
+    27,
+    34,
+    42,
+    49,
+    62,
+    66
+  ],
+  "verified_upper_bound": 10,
+  "search_estimate": 10,
+  "status": "EXACT",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "example_GB70/z/w001_20261015T133834497371Z/stderr.log",
+      "stderr_sha256": "89a135855eaa1e40da598b1083a14535dfad07e2ea2a4b98738a63f9ee735bbf"
+    },
+    {
+      "weight": 2,
+      "stderr": "example_GB70/z/w002_20261015T133834835195Z/stderr.log",
+      "stderr_sha256": "609b7856fb90c33a3b06514b7e4358105fb73d52815f82cd2e7089bff55a6335"
+    },
+    {
+      "weight": 3,
+      "stderr": "example_GB70/z/w003_20261015T133835165682Z/stderr.log",
+      "stderr_sha256": "68bc4d03e6f8ee40bb598c11e184744f61fb22db0f607a8c11a05cb96872b1d7"
+    },
+    {
+      "weight": 4,
+      "stderr": "example_GB70/z/w004_20261015T133835396553Z/stderr.log",
+      "stderr_sha256": "041b0560b1b41464ba9d9470c57e78b60877ca5ab982cface322baf96a3923ba"
+    },
+    {
+      "weight": 5,
+      "stderr": "example_GB70/z/w005_20261015T133835629399Z/stderr.log",
+      "stderr_sha256": "39860005a4bfa772614a11ffe703d21e340d8e5f87c20f198e45023387265dc7"
+    },
+    {
+      "weight": 6,
+      "stderr": "example_GB70/z/w006_20261015T133835867850Z/stderr.log",
+      "stderr_sha256": "ffcd477219b6b11a5dfab89d0143286a0409805c01444c71e5ba409fa7c3dc22"
+    },
+    {
+      "weight": 7,
+      "stderr": "example_GB70/z/w007_20261015T133836123917Z/stderr.log",
+      "stderr_sha256": "57760ddc4b1b31d95a9d43bd24b584a8580fd433ba560f49aad1e31ea5df65e1"
+    },
+    {
+      "weight": 8,
+      "stderr": "example_GB70/z/w008_20261015T133836363286Z/stderr.log",
+      "stderr_sha256": "46a368c23436de4081fae1c570ca65bae082c7e409e60773ca618e7847d6b675"
+    },
+    {
+      "weight": 9,
+      "stderr": "example_GB70/z/w009_20261015T133837000715Z/stderr.log",
+      "stderr_sha256": "d0a6fe7a132c8900a3a3111a811fb81e0210f3d82da3cc754722504ecc923db9"
+    }
+  ],
+  "last_run": "example_GB70/z/w010_20261015T133839433896Z",
+  "witness_source": "example_GB70/z/w010_20261015T133839433896Z/witness.nz",
+  "updated_utc": "2026-10-15T13:38:39.675065+00:00"
+}

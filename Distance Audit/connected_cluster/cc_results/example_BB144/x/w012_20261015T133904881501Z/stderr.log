@@ -1,0 +1,3 @@
+# read H <- file '/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/mm_cc_priority/matrices/example_BB144/HZ.mtx'
+# read G <- file '/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/mm_cc_priority/matrices/example_BB144/HX.mtx'
+# CC found min-weight codeword: d=12 (using 1 CC threads, total 1 cws)

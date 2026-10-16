@@ -1,0 +1,63 @@
+{
+  "id": "table7_row007",
+  "n": 100,
+  "k": 10,
+  "hx_sha256": "5a1b123676447f3c90fbccd2e71406c862245c3b29f17548dae2aac98d9347f1",
+  "hz_sha256": "a346cd04a16d0bd06052410269faa1eb01510abf7513f6bcf977707b22a3ba99",
+  "sector": "x",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 8,
+  "witness_support_one_based": [
+    1,
+    6,
+    11,
+    14,
+    16,
+    19,
+    61,
+    66
+  ],
+  "verified_upper_bound": 8,
+  "search_estimate": 8,
+  "status": "EXACT",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "table7_row007/x/w001_20261015T153030510823Z/stderr.log",
+      "stderr_sha256": "b804f963a25763675ed68077db1ccbac5808de22fb605d54abc1e12f7f221709"
+    },
+    {
+      "weight": 2,
+      "stderr": "table7_row007/x/w002_20261015T153030743913Z/stderr.log",
+      "stderr_sha256": "04b7238a8ad6cac346aa9b6f7780be738321e7021d07810c4b7364aa1c4ffd62"
+    },
+    {
+      "weight": 3,
+      "stderr": "table7_row007/x/w003_20261015T153030979357Z/stderr.log",
+      "stderr_sha256": "a609d3d4c0fca8c681affda82e6ee646a5fe05c6b5fd1b942b5b3b87335ce6ca"
+    },
+    {
+      "weight": 4,
+      "stderr": "table7_row007/x/w004_20261015T153031216721Z/stderr.log",
+      "stderr_sha256": "0cfa0f12435aa9b7f15d3bced83a8b58d68dc4f3d697a0ba0092fcf40aac8cdc"
+    },
+    {
+      "weight": 5,
+      "stderr": "table7_row007/x/w005_20261015T153031456636Z/stderr.log",
+      "stderr_sha256": "b88c756335355efeab7d3a1259af4b2ea95a950aa9de41fe225ce29366aecdc5"
+    },
+    {
+      "weight": 6,
+      "stderr": "table7_row007/x/w006_20261015T153031708719Z/stderr.log",
+      "stderr_sha256": "fd34ed3e31bddd0b36ba75a8c6e540b1419199f922e2263b960ea587333e4be1"
+    },
+    {
+      "weight": 7,
+      "stderr": "table7_row007/x/w007_20261015T153031968700Z/stderr.log",
+      "stderr_sha256": "cd0cabc5480b51049582a72a962370a1bee0c38669ae477d540b4376e0879111"
+    }
+  ],
+  "last_run": "table7_row007/x/w008_20261015T153032207408Z",
+  "witness_source": "table7_row007/x/w008_20261015T153032207408Z/witness.nz",
+  "updated_utc": "2026-10-15T15:30:32.494688+00:00"
+}

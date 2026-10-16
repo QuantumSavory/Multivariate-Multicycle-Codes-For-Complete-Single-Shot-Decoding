@@ -1,0 +1,63 @@
+{
+  "id": "example_AMC96",
+  "n": 96,
+  "k": 6,
+  "hx_sha256": "8b093fec061e9edc563041a6db573851934a76b15db8d1703cb7e0c66b9bc4df",
+  "hz_sha256": "f2d9e2b186895c8eafb276dae242601ba412e77a30c574a41f03ac79dc7118b2",
+  "sector": "z",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 8,
+  "witness_support_one_based": [
+    1,
+    9,
+    20,
+    28,
+    66,
+    74,
+    85,
+    93
+  ],
+  "verified_upper_bound": 8,
+  "search_estimate": 8,
+  "status": "EXACT",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "example_AMC96/z/w001_20261015T133650988660Z/stderr.log",
+      "stderr_sha256": "b6683e5b7265129ac77b38c8370c30ba29b04befcd680297de04cfb690a8734f"
+    },
+    {
+      "weight": 2,
+      "stderr": "example_AMC96/z/w002_20261015T133651225203Z/stderr.log",
+      "stderr_sha256": "fec4da8761bc1eac742dff09493b431af1a105b4c52e6e8f654b2007326b715b"
+    },
+    {
+      "weight": 3,
+      "stderr": "example_AMC96/z/w003_20261015T133651468694Z/stderr.log",
+      "stderr_sha256": "ac2326a23724377385b758a1dcad2e55765a286defbd2c3c5d8eee5b8f16c65e"
+    },
+    {
+      "weight": 4,
+      "stderr": "example_AMC96/z/w004_20261015T133651706162Z/stderr.log",
+      "stderr_sha256": "5752d0d2191b3eb0fd47dcba292c2256dc4f7ac80d267732aafa87c1a486b047"
+    },
+    {
+      "weight": 5,
+      "stderr": "example_AMC96/z/w005_20261015T133651953975Z/stderr.log",
+      "stderr_sha256": "1f686b78f9281373d2a9182ee0ef1571876ca781d18e186c3a8d82b640cc236c"
+    },
+    {
+      "weight": 6,
+      "stderr": "example_AMC96/z/w006_20261015T133652254707Z/stderr.log",
+      "stderr_sha256": "2868a886b3c96a3ab4a1efedf6ac028cd9c1819c9faad306d2b13f95e70617cf"
+    },
+    {
+      "weight": 7,
+      "stderr": "example_AMC96/z/w007_20261015T133652620666Z/stderr.log",
+      "stderr_sha256": "5fe6afdc5ad3e008e3952ad8de43ba31de82d6ea46929710599f9197324c0ae6"
+    }
+  ],
+  "last_run": "example_AMC96/z/w008_20261015T133652857571Z",
+  "witness_source": "example_AMC96/z/w008_20261015T133652857571Z/witness.nz",
+  "updated_utc": "2026-10-15T13:36:53.092105+00:00"
+}

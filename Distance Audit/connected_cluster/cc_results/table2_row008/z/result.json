@@ -1,0 +1,62 @@
+{
+  "id": "table2_row008",
+  "n": 288,
+  "k": 12,
+  "hx_sha256": "f1bd24d952d1afc5d0d44e7bf77303192f05c5d532c19d9e746618d86d0feced",
+  "hz_sha256": "ab3c6f59369d89f963f4f3ce2afc62f4f73eedb0d7c2ce7e4b56015b8adbaa6e",
+  "sector": "z",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 8,
+  "witness_support_one_based": [
+    101,
+    111,
+    194,
+    227,
+    235,
+    237,
+    242,
+    285
+  ],
+  "verified_upper_bound": 8,
+  "search_estimate": 8,
+  "status": "EXACT",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "table2_row008/z/w001_20261015T133708653580Z/stderr.log",
+      "stderr_sha256": "cec9e1ea160aa5df259d5807f8d37b1b1cc34bafaf9688d6eb14723743edf9e9"
+    },
+    {
+      "weight": 2,
+      "stderr": "table2_row008/z/w002_20261015T133708893721Z/stderr.log",
+      "stderr_sha256": "6d445839b69d3099760eceb8933952fa9e73e702dbf528c555f0ddd7409dd647"
+    },
+    {
+      "weight": 3,
+      "stderr": "table2_row008/z/w003_20261015T133709132963Z/stderr.log",
+      "stderr_sha256": "d30ae4543d43267ca94092c536cb7b20a2f0679ab0cfdf20fd24cab6d6b0bc80"
+    },
+    {
+      "weight": 4,
+      "stderr": "table2_row008/z/w004_20261015T133709379203Z/stderr.log",
+      "stderr_sha256": "2fe64ccdc9a7337473506c0031a84a34290a906ca1a97ac0dc87c65262604150"
+    },
+    {
+      "weight": 5,
+      "stderr": "table2_row008/z/w005_20261015T133709645855Z/stderr.log",
+      "stderr_sha256": "84515d78b4c58a7b983a6a13cc82a888aa102e916e07897afd16b41b91bddc49"
+    },
+    {
+      "weight": 6,
+      "stderr": "table2_row008/z/w006_20261015T133709883672Z/stderr.log",
+      "stderr_sha256": "04e4089f873cc1777284f19ec7121336c1039cb8ca86438c717c316132c2492c"
+    },
+    {
+      "weight": 7,
+      "stderr": "table2_row008/z/w007_20261015T133710121487Z/stderr.log",
+      "stderr_sha256": "891423c1d7fbcc5430acb3373bd3f6ea446741cfb7fadadd27bc47ddc94ad654"
+    }
+  ],
+  "last_run": "table2_row008/z/w007_20261015T133710121487Z",
+  "updated_utc": "2026-10-15T13:37:10.363481+00:00"
+}

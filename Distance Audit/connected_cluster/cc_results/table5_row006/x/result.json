@@ -1,0 +1,76 @@
+{
+  "id": "table5_row006",
+  "n": 144,
+  "k": 6,
+  "hx_sha256": "4c786cdb4e39bbfa22f7bc3cef4d4e277ed5449ba7cafbb36bb9defb75e7b194",
+  "hz_sha256": "89b209533d69f66605312979f2c1c67ccbf426a25fed4e09d5ca26a0de7402c3",
+  "sector": "x",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 10,
+  "witness_support_one_based": [
+    25,
+    26,
+    27,
+    28,
+    33,
+    34,
+    35,
+    36,
+    41,
+    42,
+    43,
+    44
+  ],
+  "verified_upper_bound": 12,
+  "search_estimate": 12,
+  "status": "PARTIAL",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "table5_row006/x/w001_20261015T153734950223Z/stderr.log",
+      "stderr_sha256": "ffec89bc44aa371ce011c46c6709c537514893cae6c4fd881b4446d866ea2afb"
+    },
+    {
+      "weight": 2,
+      "stderr": "table5_row006/x/w002_20261015T153735185085Z/stderr.log",
+      "stderr_sha256": "9934c97e7f746f506142dab9569a40418571047a96374b624bc78bd97088cbe9"
+    },
+    {
+      "weight": 3,
+      "stderr": "table5_row006/x/w003_20261015T153735418992Z/stderr.log",
+      "stderr_sha256": "dfd82b48b9b343c792cabc7b2f6cc83afbda21c0572756abac01998fb2886fbc"
+    },
+    {
+      "weight": 4,
+      "stderr": "table5_row006/x/w004_20261015T153735652439Z/stderr.log",
+      "stderr_sha256": "78218346873d2b4187c3b5ba1596abf0bb6d1cdb14191a6a0368c0fb55bbc6cf"
+    },
+    {
+      "weight": 5,
+      "stderr": "table5_row006/x/w005_20261015T153735890415Z/stderr.log",
+      "stderr_sha256": "463fa604499ec35f15e24b217999695f2a3e7cff5bc002e8b7c34e3973d4c948"
+    },
+    {
+      "weight": 6,
+      "stderr": "table5_row006/x/w006_20261015T153736129396Z/stderr.log",
+      "stderr_sha256": "ca97b8521ae86a787a426af174eea77dd8fd1e6bb8f2192455a2477022eb95cc"
+    },
+    {
+      "weight": 7,
+      "stderr": "table5_row006/x/w007_20261015T153736561884Z/stderr.log",
+      "stderr_sha256": "fde88c6eae19488f418d491c2801209d3bcfccc87eec118bc9bf77d0cc24fc1e"
+    },
+    {
+      "weight": 8,
+      "stderr": "table5_row006/x/w008_20261015T153739995268Z/stderr.log",
+      "stderr_sha256": "044018df169941ad5ccec5390458a4e9a4a3d854778af60091f76d44a00cb28e"
+    },
+    {
+      "weight": 9,
+      "stderr": "table5_row006/x/w009_20261015T153809039828Z/stderr.log",
+      "stderr_sha256": "341866d8e036293c57f8bfce6f3c972c8deda4994e83be76480f9c9ad99ad5cd"
+    }
+  ],
+  "last_run": "table5_row006/x/w010_20261015T154148185011Z",
+  "updated_utc": "2026-10-15T15:52:34.369152+00:00"
+}

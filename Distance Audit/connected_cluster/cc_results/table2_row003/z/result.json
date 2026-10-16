@@ -1,0 +1,79 @@
+{
+  "id": "table2_row003",
+  "n": 192,
+  "k": 6,
+  "hx_sha256": "cb58a9e9dd48dab9dee5ecc25ed51d0e025afcb9b9dd4fa32624390c33678080",
+  "hz_sha256": "ac20b786112315d76768f7f85505239b47f53d29350287012f742e9f0f627bf3",
+  "sector": "z",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 7,
+  "witness_support_one_based": [
+    9,
+    10,
+    13,
+    16,
+    19,
+    21,
+    33,
+    36,
+    39,
+    41,
+    43,
+    46,
+    47,
+    49,
+    52,
+    53,
+    54,
+    55,
+    65,
+    67,
+    68,
+    70,
+    98,
+    109,
+    115,
+    117,
+    131,
+    133,
+    161,
+    188
+  ],
+  "verified_upper_bound": 30,
+  "search_estimate": 6,
+  "status": "LOWER_BOUND_ONLY",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "table2_row003/z/w001_20261015T153015916746Z/stderr.log",
+      "stderr_sha256": "01a43d706086f1d237dd0ccbe7d56882e80915051289e57683e1b7c419689cb6"
+    },
+    {
+      "weight": 2,
+      "stderr": "table2_row003/z/w002_20261015T153016157204Z/stderr.log",
+      "stderr_sha256": "baa6632fa79668c681561d0348327cd22083c1869889e3d162f38a30dadde966"
+    },
+    {
+      "weight": 3,
+      "stderr": "table2_row003/z/w003_20261015T153016391846Z/stderr.log",
+      "stderr_sha256": "fbcf4c0739441f05d4ed6f4c38b5c8e20225076235910746d35324e7b2c6fe92"
+    },
+    {
+      "weight": 4,
+      "stderr": "table2_row003/z/w004_20261015T153016632886Z/stderr.log",
+      "stderr_sha256": "e871527caac2769081ba23282fc16e6a3a8f7ca846268f93ef83608560c7b902"
+    },
+    {
+      "weight": 5,
+      "stderr": "table2_row003/z/w005_20261015T153016868671Z/stderr.log",
+      "stderr_sha256": "e854971b2fac6ec3f1734af624e688e3abe23269016d58c699cb699eb660f9ca"
+    },
+    {
+      "weight": 6,
+      "stderr": "table2_row003/z/w006_20261015T153017108299Z/stderr.log",
+      "stderr_sha256": "aed3c18c3a09f1c9c49c663e4df2ea7339542f0e2b2aad87dda4b082f60e15bf"
+    }
+  ],
+  "last_run": "table2_row003/z/w006_20261015T153017108299Z",
+  "updated_utc": "2026-10-15T15:30:17.344432+00:00"
+}

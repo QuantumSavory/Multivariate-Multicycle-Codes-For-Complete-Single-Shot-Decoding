@@ -1,0 +1,62 @@
+{
+  "id": "table2_row002",
+  "n": 144,
+  "k": 6,
+  "hx_sha256": "636b22de25f2316c48a073ec61ffcc808fb5ebf49d5629910cbc0bbd41d81ac7",
+  "hz_sha256": "2c00c4e974e1f6d2a71b253686c8e8e4b9db1fc319a4ffa9c223fd2b9772c600",
+  "sector": "z",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 8,
+  "witness_support_one_based": [
+    50,
+    54,
+    57,
+    64,
+    98,
+    114,
+    136,
+    139
+  ],
+  "verified_upper_bound": 8,
+  "search_estimate": 8,
+  "status": "EXACT",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "table2_row002/z/w001_20261015T153032519482Z/stderr.log",
+      "stderr_sha256": "c44380dc2336d1803c5748529a4206e182f6e799dc1d8b2346eff1ccd49a0529"
+    },
+    {
+      "weight": 2,
+      "stderr": "table2_row002/z/w002_20261015T153032774674Z/stderr.log",
+      "stderr_sha256": "71fa9d239606f31f9afc7c811cfc962a339a86de7384a109df1f6a9d20313f8a"
+    },
+    {
+      "weight": 3,
+      "stderr": "table2_row002/z/w003_20261015T153033013523Z/stderr.log",
+      "stderr_sha256": "bd9a464e4ec0b14a1ee1646dd04f8258910c104699cccef7482b7a6359dd9e0e"
+    },
+    {
+      "weight": 4,
+      "stderr": "table2_row002/z/w004_20261015T153033253817Z/stderr.log",
+      "stderr_sha256": "d619ed5c3d09224c1e82a256d50d638899e7549249f55b83a172d3c7b65f1284"
+    },
+    {
+      "weight": 5,
+      "stderr": "table2_row002/z/w005_20261015T153033517138Z/stderr.log",
+      "stderr_sha256": "6b6dca70e51d6899b944ab80b9e9c70487e550d56feea14bdeaeb9a6eb28ed2f"
+    },
+    {
+      "weight": 6,
+      "stderr": "table2_row002/z/w006_20261015T153033763852Z/stderr.log",
+      "stderr_sha256": "16f7d97140650a33f7e7c500097da05aa0e576bd09a81723e4f5f265324d14cf"
+    },
+    {
+      "weight": 7,
+      "stderr": "table2_row002/z/w007_20261015T153034015135Z/stderr.log",
+      "stderr_sha256": "820a57d6831f0fe14518f95ecd401c146e9f3b9b654a790bf98184cf2a318657"
+    }
+  ],
+  "last_run": "table2_row002/z/w007_20261015T153034015135Z",
+  "updated_utc": "2026-10-15T15:30:34.283415+00:00"
+}

@@ -1,0 +1,369 @@
+id,n,k,printed_dx,cc_lower_dx,cc_status_x,source_x,printed_dz,cc_lower_dz,cc_status_z,source_z
+table2_row001,96,12,4,4,EXACT,exact (connected_cluster certificate),4,4,EXACT,exact (connected_cluster certificate)
+table2_row002,144,6,8,8,EXACT,exact (connected_cluster certificate),8,8,EXACT,exact (connected_cluster certificate)
+table2_row004,216,6,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row005,240,12,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row006,240,6,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row007,288,6,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row008,288,12,8,8,EXACT,exact (connected_cluster certificate),8,8,EXACT,exact (connected_cluster certificate)
+table2_row009,324,6,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row010,336,6,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row011,360,6,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row012,360,12,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row015,432,12,12,12,EXACT,exact (connected_cluster certificate),12,12,EXACT,exact (connected_cluster certificate)
+table2_row016,432,6,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row017,480,6,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row018,480,12,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row019,480,24,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row020,504,6,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row021,504,12,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row022,528,6,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row023,528,12,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row024,540,6,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row025,540,18,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row029,600,6,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row030,600,24,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row031,600,12,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row032,624,6,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row033,624,12,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row034,648,6,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row035,648,12,12,12,EXACT,exact (connected_cluster certificate),12,12,EXACT,exact (connected_cluster certificate)
+table2_row036,672,6,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row037,672,12,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row038,672,24,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row039,720,6,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row040,720,12,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row041,720,12,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row042,756,6,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row043,756,18,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row046,792,6,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row047,792,12,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row048,792,12,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row049,810,18,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row050,810,6,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row051,816,6,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row052,816,12,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row053,816,24,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row054,840,6,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row055,840,24,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row056,840,12,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row057,864,6,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row058,864,12,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row059,864,18,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row060,864,24,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row061,900,6,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row062,900,12,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row063,912,12,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row064,936,6,<=25,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=25,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row065,936,12,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row069,972,36,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row070,972,18,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table2_row071,972,6,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row001,144,12,8,8,EXACT,exact (connected_cluster certificate),8,8,EXACT,exact (connected_cluster certificate)
+table3_row002,144,12,12,12,EXACT,exact (connected_cluster certificate),12,12,EXACT,exact (connected_cluster certificate)
+table3_row003,216,12,12,12,EXACT,exact (connected_cluster certificate),12,12,EXACT,exact (connected_cluster certificate)
+table3_row004,216,24,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row006,324,12,<=18,11,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml,<=18,11,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml
+table3_row007,336,18,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row008,432,12,<=21,11,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml,<=21,11,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml
+table3_row009,432,24,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row010,486,12,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row011,486,24,12,12,EXACT,exact (connected_cluster certificate),<=12,11,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml
+table3_row012,504,12,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row013,504,12,<=28,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=28,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row014,540,12,<=31,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=31,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row015,576,12,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row016,648,12,<=22,10,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml,<=22,11,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml
+table3_row017,648,12,<=24,11,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml,<=24,11,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml
+table3_row018,648,12,<=31,11,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml,<=32,10,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml
+table3_row019,672,18,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row020,720,12,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row021,720,12,<=42,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=40,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row022,756,12,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row023,756,12,<=37,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=47,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row024,810,12,<=44,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=38,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row025,840,18,<=42,,not searched,"sQetch, unverified (dagger)",<=37,,not searched,"sQetch, unverified (dagger)"
+table3_row026,864,12,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row027,864,12,<=36,,not searched,"sQetch, unverified (dagger)",<=48,,not searched,"sQetch, unverified (dagger)"
+table3_row028,972,12,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row029,972,24,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table3_row030,972,24,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row001,96,44,4,4,EXACT,exact (connected_cluster certificate),4,4,EXACT,exact (connected_cluster certificate)
+table4_row002,144,12,8,8,EXACT,exact (connected_cluster certificate),8,8,EXACT,exact (connected_cluster certificate)
+table4_row003,192,12,<=12,9,LOWER_BOUND_ONLY,verified operator in final/dist_m4ri_witnesses.toml,<=12,9,LOWER_BOUND_ONLY,verified operator in final/dist_m4ri_witnesses.toml
+table4_row004,216,12,12,12,EXACT,exact (connected_cluster certificate),12,12,EXACT,exact (connected_cluster certificate)
+table4_row005,216,12,<=14,10,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml,<=14,10,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml
+table4_row006,240,6,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row007,240,12,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row008,240,18,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row009,288,24,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row010,324,6,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row011,324,18,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row012,336,6,<=28,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=28,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row013,336,12,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row014,384,24,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row015,432,12,<=18,9,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml,<=18,9,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml
+table4_row016,480,12,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row017,486,24,12,12,EXACT,exact (connected_cluster certificate),12,12,EXACT,exact (connected_cluster certificate)
+table4_row018,486,66,9,9,EXACT,exact (connected_cluster certificate),9,9,EXACT,exact (connected_cluster certificate)
+table4_row019,480,12,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row020,576,64,6,6,EXACT,exact (connected_cluster certificate),6,6,EXACT,exact (connected_cluster certificate)
+table4_row021,624,12,<=28,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=28,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row022,648,60,9,9,EXACT,exact (connected_cluster certificate),9,9,EXACT,exact (connected_cluster certificate)
+table4_row023,672,12,<=28,,not searched,"sQetch, unverified (dagger)",<=28,,not searched,"sQetch, unverified (dagger)"
+table4_row024,720,12,<=27,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=27,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table4_row026,768,12,<=12,,not searched,"sQetch, unverified (dagger)",<=12,,not searched,"sQetch, unverified (dagger)"
+table5_row002,96,12,8,8,EXACT,exact (connected_cluster certificate),8,8,EXACT,exact (connected_cluster certificate)
+table5_row004,144,6,8,8,EXACT,exact (connected_cluster certificate),8,8,EXACT,exact (connected_cluster certificate)
+table5_row005,144,6,10,10,EXACT,exact (connected_cluster certificate),10,10,EXACT,exact (connected_cluster certificate)
+table5_row006,144,6,<=12,10,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml,<=12,10,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml
+table5_row008,144,12,8,8,EXACT,exact (connected_cluster certificate),8,8,EXACT,exact (connected_cluster certificate)
+table5_row009,144,12,10,10,EXACT,exact (connected_cluster certificate),10,10,EXACT,exact (connected_cluster certificate)
+table5_row010,144,12,<=12,11,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml,<=12,11,PARTIAL,verified operator in final/dist_m4ri_witnesses.toml
+table6_row002,162,6,9,9,EXACT,exact (connected_cluster certificate),9,9,EXACT,exact (connected_cluster certificate)
+table6_row003,168,6,9,9,EXACT,exact (connected_cluster certificate),9,9,EXACT,exact (connected_cluster certificate)
+table6_row004,168,12,7,7,EXACT,exact (connected_cluster certificate),7,7,EXACT,exact (connected_cluster certificate)
+table6_row005,174,6,11,11,EXACT,exact (connected_cluster certificate),11,11,EXACT,exact (connected_cluster certificate)
+table6_row006,180,6,10,10,EXACT,exact (connected_cluster certificate),10,10,EXACT,exact (connected_cluster certificate)
+table6_row007,186,6,11,11,EXACT,exact (connected_cluster certificate),11,11,EXACT,exact (connected_cluster certificate)
+table6_row009,198,6,10,10,EXACT,exact (connected_cluster certificate),10,10,EXACT,exact (connected_cluster certificate)
+table6_row010,204,6,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row011,210,6,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row012,216,6,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row013,222,6,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row014,228,6,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row015,234,6,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row016,240,6,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row017,246,6,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row018,252,6,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row019,258,6,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row020,264,6,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row021,270,6,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row022,276,6,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row023,282,6,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row024,288,6,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row025,294,6,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row026,300,6,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row027,306,6,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row028,312,6,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row029,318,6,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row030,324,6,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row031,330,6,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row033,342,6,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row034,348,6,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row035,354,6,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row036,360,6,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row037,366,6,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row038,372,6,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row039,378,6,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row041,390,6,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row042,396,6,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row043,402,6,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row044,408,6,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row045,414,6,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row046,420,6,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row047,426,6,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row048,432,6,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row049,438,6,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row050,444,6,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row051,450,6,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row052,456,6,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row053,462,6,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row054,468,6,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row055,474,6,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row056,480,6,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row057,486,6,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row058,492,6,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row059,498,6,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row060,504,6,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row061,510,6,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row062,516,6,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table6_row063,522,6,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row018,180,10,12,12,EXACT,exact (connected_cluster certificate),7,7,EXACT,exact (connected_cluster certificate)
+table7_row020,190,10,12,12,EXACT,exact (connected_cluster certificate),7,7,EXACT,exact (connected_cluster certificate)
+table7_row021,190,10,13,13,EXACT,exact (connected_cluster certificate),7,7,EXACT,exact (connected_cluster certificate)
+table7_row022,200,10,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row025,210,10,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row027,220,10,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row028,230,10,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row030,240,10,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row031,240,10,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row032,250,10,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row033,250,10,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row034,250,10,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row035,250,10,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row036,260,10,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row037,260,10,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row038,260,10,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row039,270,10,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row041,270,10,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row043,280,10,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row044,290,10,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row045,300,10,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row046,310,10,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row048,330,10,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row049,340,10,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row050,350,10,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row051,360,10,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row052,370,10,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row053,380,10,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row054,390,10,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row055,400,10,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row056,410,10,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row057,420,10,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row058,430,10,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row059,440,10,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row060,450,10,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row061,460,10,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row062,470,10,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row063,480,10,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row064,490,10,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row065,500,10,<=23,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row066,510,10,<=25,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row067,520,10,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row068,530,10,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row069,540,10,<=25,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row070,550,10,<=26,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row071,560,10,<=25,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row072,570,10,<=28,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row073,580,10,<=28,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row074,590,10,<=25,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row075,600,10,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row076,610,10,<=26,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row077,620,10,<=26,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row078,630,10,<=28,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row080,650,10,<=28,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row081,660,10,<=30,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row082,670,10,<=30,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row083,680,10,<=30,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row084,690,10,<=23,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row085,700,10,<=27,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row086,710,10,<=30,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row087,720,10,<=30,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row088,730,10,<=29,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row089,740,10,<=28,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row090,750,10,<=32,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row091,760,10,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row092,770,10,<=32,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row093,780,10,<=26,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row094,790,10,<=34,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row095,800,10,<=32,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row096,810,10,<=27,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row097,820,10,<=31,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row098,830,10,<=28,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row099,840,10,<=29,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row100,850,10,<=35,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row101,860,10,<=28,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row102,870,10,<=33,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row103,880,10,<=34,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row104,890,10,<=34,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row105,900,10,<=30,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row106,910,10,<=38,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row107,920,10,<=34,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table7_row108,930,10,<=33,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row004,200,20,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row005,220,20,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row006,240,20,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row007,260,20,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row008,280,20,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row009,300,20,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row010,320,20,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row011,340,20,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row012,360,20,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row013,380,20,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row014,380,20,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row015,400,20,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row016,400,20,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row017,400,20,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row018,420,20,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row019,440,20,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row020,460,20,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row021,480,20,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row022,520,20,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row023,540,20,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row024,560,20,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row025,580,20,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row026,600,20,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row027,620,20,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row028,640,20,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row029,660,20,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row030,680,20,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row031,700,20,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row032,720,20,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row033,740,20,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row034,760,20,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row035,780,20,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row036,800,20,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row037,820,20,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row038,840,20,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row039,860,20,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row040,880,20,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row041,900,20,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row042,920,20,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row043,940,20,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row044,960,20,<=19,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=19,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row045,980,20,<=19,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=19,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row046,1000,20,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row047,1020,20,<=19,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=19,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row048,1040,20,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row049,1060,20,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row050,1080,20,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row051,1100,20,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row052,1120,20,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row053,1140,20,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row054,1160,20,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row055,1180,20,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row056,1200,20,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row057,1220,20,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row058,1240,20,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=24,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row059,1260,20,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=21,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row060,1280,20,<=23,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=23,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row061,1300,20,<=23,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=23,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table8_row062,1320,20,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row004,385,35,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row006,455,35,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row007,455,35,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row008,490,35,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row009,490,35,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=7,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row010,525,35,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row011,525,35,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row012,560,35,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row013,595,35,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row014,630,35,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row015,665,35,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row016,700,35,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row017,735,35,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row018,770,35,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row019,805,35,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row020,840,35,<=19,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row021,875,35,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row022,910,35,<=19,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row023,945,35,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row024,980,35,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row025,1015,35,<=22,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table9_row026,1050,35,<=20,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row001,630,70,9,9,EXACT,exact (connected_cluster certificate),9,9,EXACT,exact (connected_cluster certificate)
+table10_row002,700,70,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=8,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row003,770,70,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row004,840,70,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row005,910,70,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row006,980,70,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row007,1050,70,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row008,1120,70,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row009,1190,70,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row010,1260,70,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row011,1330,70,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row012,1400,70,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row013,1470,70,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row014,1540,70,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row015,1610,70,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=16,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row016,1680,70,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row017,1750,70,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=17,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row018,1820,70,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row019,1890,70,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=15,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row020,1960,70,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table10_row021,2030,70,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=18,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table11_row002,1386,126,<=11,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table11_row003,1512,126,<=12,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=9,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table11_row004,1638,126,<=13,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml
+table11_row005,1764,126,<=14,,not searched,verified operator in final/dist_m4ri_witnesses.toml,<=10,,not searched,verified operator in final/dist_m4ri_witnesses.toml

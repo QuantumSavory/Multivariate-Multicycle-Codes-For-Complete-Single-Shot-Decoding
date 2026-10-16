@@ -1,0 +1,73 @@
+{
+  "id": "table2_row003",
+  "n": 192,
+  "k": 6,
+  "hx_sha256": "cb58a9e9dd48dab9dee5ecc25ed51d0e025afcb9b9dd4fa32624390c33678080",
+  "hz_sha256": "ac20b786112315d76768f7f85505239b47f53d29350287012f742e9f0f627bf3",
+  "sector": "x",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 7,
+  "witness_support_one_based": [
+    59,
+    60,
+    63,
+    64,
+    73,
+    74,
+    77,
+    78,
+    83,
+    84,
+    87,
+    88,
+    89,
+    90,
+    93,
+    94,
+    171,
+    172,
+    175,
+    176,
+    177,
+    178,
+    181,
+    182
+  ],
+  "verified_upper_bound": 24,
+  "search_estimate": 6,
+  "status": "LOWER_BOUND_ONLY",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "table2_row003/x/w001_20261015T153017360055Z/stderr.log",
+      "stderr_sha256": "90a439a30fe994f544ac0750c6e88f172e36b811b1c1e9388a7ff810477c61c4"
+    },
+    {
+      "weight": 2,
+      "stderr": "table2_row003/x/w002_20261015T153017597333Z/stderr.log",
+      "stderr_sha256": "830b126612a2f5f18f5f3748dc386b71ca83e1227bd7d9015a199d765a371a1e"
+    },
+    {
+      "weight": 3,
+      "stderr": "table2_row003/x/w003_20261015T153017839402Z/stderr.log",
+      "stderr_sha256": "0706a3eb13012aaf7415069a166c7ed03febf21a2c2134661464eed7ad7ce229"
+    },
+    {
+      "weight": 4,
+      "stderr": "table2_row003/x/w004_20261015T153018079454Z/stderr.log",
+      "stderr_sha256": "1f5f76687f0b4bc6cb8bc297b9988083a579316cc9fcd2f56d02583077a96fd0"
+    },
+    {
+      "weight": 5,
+      "stderr": "table2_row003/x/w005_20261015T153018320531Z/stderr.log",
+      "stderr_sha256": "2fdcae0ecc1ae2586b4751f712eedbcd9e5811a245a65ea87a87336373a70f80"
+    },
+    {
+      "weight": 6,
+      "stderr": "table2_row003/x/w006_20261015T153018564552Z/stderr.log",
+      "stderr_sha256": "a8a5192d073608d5b6ea48a2d1c3b8caf70d23ccb68c59e25de0e62a63130a71"
+    }
+  ],
+  "last_run": "table2_row003/x/w006_20261015T153018564552Z",
+  "updated_utc": "2026-10-15T15:30:18.802119+00:00"
+}

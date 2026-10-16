@@ -1,0 +1,62 @@
+{
+  "id": "example_C2_450",
+  "n": 450,
+  "k": 32,
+  "hx_sha256": "457d3efdc73619df4dea7723c7f00e6e6a8321e54efb66e530add572b63c5211",
+  "hz_sha256": "9b93c13905f237a65494c7d793a305b5d5f2206b9702c4ac3a0d1d612702b91e",
+  "sector": "x",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 8,
+  "witness_support_one_based": [
+    12,
+    27,
+    42,
+    57,
+    87,
+    117,
+    132,
+    177
+  ],
+  "verified_upper_bound": 8,
+  "search_estimate": 8,
+  "status": "EXACT",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "example_C2_450/x/w001_20261015T133711170925Z/stderr.log",
+      "stderr_sha256": "a30ccaf598e8029b13ba246b655a7f3ee29c24e991d333252f294727378713da"
+    },
+    {
+      "weight": 2,
+      "stderr": "example_C2_450/x/w002_20261015T133711407646Z/stderr.log",
+      "stderr_sha256": "8064005b95da7f03e54fccfe135c197bdb3556ed92d44614c76c05a0bb1f02ab"
+    },
+    {
+      "weight": 3,
+      "stderr": "example_C2_450/x/w003_20261015T133711649002Z/stderr.log",
+      "stderr_sha256": "c5e4bb7696adb7eb888dedbec6571ca033ba4c4ba0532e80c22935e9b4542730"
+    },
+    {
+      "weight": 4,
+      "stderr": "example_C2_450/x/w004_20261015T133711885920Z/stderr.log",
+      "stderr_sha256": "8f849dade3a2d2019d90432f703130f19174911afed1d9dff106be4230c16846"
+    },
+    {
+      "weight": 5,
+      "stderr": "example_C2_450/x/w005_20261015T133712133469Z/stderr.log",
+      "stderr_sha256": "6d60a4de891233ff7eab95cf1523372ae1c9c91351d251155565a754ad093f9b"
+    },
+    {
+      "weight": 6,
+      "stderr": "example_C2_450/x/w006_20261015T133712368396Z/stderr.log",
+      "stderr_sha256": "35987d1cbe2b288d169291a74a001646f8d3e58b6f45f8cd00cb3dcc91ecedf8"
+    },
+    {
+      "weight": 7,
+      "stderr": "example_C2_450/x/w007_20261015T133712606017Z/stderr.log",
+      "stderr_sha256": "9dfe6cf87cddfb87e6c45c715599081c661190a9027044177a58132672495672"
+    }
+  ],
+  "last_run": "example_C2_450/x/w007_20261015T133712606017Z",
+  "updated_utc": "2026-10-15T13:37:12.853484+00:00"
+}
