@@ -1,0 +1,18 @@
+{
+  "binary": "/home/fmian_umass_edu/distm4ri_tools/dist-m4ri/src/dist_m4ri",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "version": "dist_m4ri version 0.9.0\n",
+  "manifest_sha256": "9db83fd0ac32614e53dfb1ba838ac6347cc9cee074ca805dbebad071e8c51915",
+  "args": {
+    "binary": "/home/fmian_umass_edu/distm4ri_tools/dist-m4ri/src/dist_m4ri",
+    "out": "/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/mm_cc_priority/cc_results",
+    "jobs": 4,
+    "threads": 1,
+    "seconds": 900,
+    "session_seconds": 25200,
+    "max_weight": 0,
+    "ignore_estimates": false,
+    "ids": null,
+    "dry_run": false
+  }
+}

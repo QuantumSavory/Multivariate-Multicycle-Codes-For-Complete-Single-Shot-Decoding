@@ -77,3 +77,40 @@ cd code && julia --project=<env> -e 'include("audit_mm.jl"); MMManuscriptAudit.r
 # dist-m4ri cross-check (CPU)
 MATDIR=$PWD/results/sqetch_100M bash code/run_distm4ri.sh
 ```
+
+## Revision update: verified bounds, exact distances and Table I
+
+This section describes what the revised paper prints and where each number can be checked.
+
+**Printed bounds (Tables II–XI).** `final/distance_bounds_revised.csv` lists, for every one of the
+368 table rows, the printed value in each sector and its source:
+
+* `exact (connected_cluster certificate)`: the distance is certified exact (see below) and is
+  printed without ≤ — both sectors for 31 rows, one sector for one further row;
+* `verified operator in final/dist_m4ri_witnesses.toml`: the printed `≤ d` is the weight of a saved
+  logical operator, rechecked by `code/verify_witnesses.py`;
+* `sQetch, unverified (dagger)`: four large rows (`table3_row025`, `table3_row027`, `table4_row023`,
+  `table4_row026`) keep the sQetch value and are marked † in the paper.
+
+The 16 rows whose earlier bound came from sQetch alone now print the dist-m4ri operator weight.
+sQetch can report weights below the true distance: it reported 8 for `table4_row003` [[192,12]] and
+for `example_Haah1024`, while the connected-cluster runs below exclude every weight up to 8 for both
+(lower bound 9 in each sector; for Haah's code this agrees with the known lower bound 13).
+
+**Exact distances (`connected_cluster/`).** dist-m4ri 0.9.0 connected-cluster (method 2) runs for 88
+instances (176 sectors): all audited instances with n < 200, the table instances whose parameters
+appear in the main text, the three codes of the single-shot experiment, and the explicit examples.
+Each call searches one weight `w` (`dmin=w wmax=w`) and is started only after all smaller weights were
+excluded by completed calls. A sector is EXACT when every weight below the weight of a verified
+logical operator is excluded. Every call's command, log, exit status and any witness are kept in
+`connected_cluster/cc_results/<id>/<x|z>/wNNN_*/`; `cc_results/summary.csv` gives the status per sector.
+
+```bash
+cd connected_cluster && python3 validate_certificates.py   # standard library only
+```
+
+checks every EXACT sector independently (witness validity over GF(2), one completed log per excluded
+weight with the right command and an unchanged hash, exit status 0) and whether the matrices are
+identical to `results/sqetch_100M/<id>` or to `Single-Shot Decoding/qc_matrices`. It writes
+`validation.csv` (147 EXACT sectors, all validated; 21 PARTIAL and 8 LOWER_BOUND_ONLY sectors give
+lower bounds only). To repeat or extend the search, see `connected_cluster/README.md`.

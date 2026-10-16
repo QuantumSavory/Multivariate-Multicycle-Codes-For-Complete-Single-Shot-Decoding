@@ -1,0 +1,38 @@
+{
+  "id": "example_Toric96",
+  "n": 96,
+  "k": 6,
+  "hx_sha256": "9cc7f15383dcb00fcc92fe2e9e58e4b962e05e38b2a119f63bbce0b53237befc",
+  "hz_sha256": "bf4b95b264e687bb0e88440277fd66771b61bdefd6119bd0ef1f23eb17fe9a99",
+  "sector": "z",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 4,
+  "witness_support_one_based": [
+    13,
+    14,
+    15,
+    16
+  ],
+  "verified_upper_bound": 4,
+  "search_estimate": 4,
+  "status": "EXACT",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "example_Toric96/z/w001_20261015T133642155355Z/stderr.log",
+      "stderr_sha256": "6780686c79317def07e984a0e5886484822c3edbf835d2a4ac93665d1ddc499f"
+    },
+    {
+      "weight": 2,
+      "stderr": "example_Toric96/z/w002_20261015T133642394601Z/stderr.log",
+      "stderr_sha256": "ae36c215980137b21f1bacc863e2185b68c0fa81807b8293d59f490233a81f07"
+    },
+    {
+      "weight": 3,
+      "stderr": "example_Toric96/z/w003_20261015T133642643941Z/stderr.log",
+      "stderr_sha256": "8b12443c6d5aaeff584d0edbc5797a7868ce4a5a052a0dca7b228cb77cde3628"
+    }
+  ],
+  "last_run": "example_Toric96/z/w003_20261015T133642643941Z",
+  "updated_utc": "2026-10-15T13:36:42.883637+00:00"
+}

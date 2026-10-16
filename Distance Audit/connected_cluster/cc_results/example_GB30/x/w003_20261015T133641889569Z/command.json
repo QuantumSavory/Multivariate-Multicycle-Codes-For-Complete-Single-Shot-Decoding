@@ -1,0 +1,22 @@
+{
+  "argv": [
+    "/home/fmian_umass_edu/distm4ri_tools/dist-m4ri/src/dist_m4ri",
+    "method=2",
+    "finH=/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/mm_cc_priority/matrices/example_GB30/HZ.mtx",
+    "finG=/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/mm_cc_priority/matrices/example_GB30/HX.mtx",
+    "dmin=3",
+    "wmax=3",
+    "noscan=0",
+    "smax=0",
+    "timeout=899",
+    "threads=1",
+    "nothrottle=1",
+    "debug=1",
+    "maxC=1",
+    "outC=/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/mm_cc_priority/cc_results/example_GB30/x/w003_20261015T133641889569Z/witness.nz"
+  ],
+  "started_utc": "20261015T133641889569Z",
+  "supplied_lower_bound": 3,
+  "timeout_seconds": 899,
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164"
+}

@@ -1,0 +1,3 @@
+# read H <- file '/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/mm_cc_priority/matrices/table7_row011/HZ.mtx'
+# read G <- file '/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/mm_cc_priority/matrices/table7_row011/HX.mtx'
+# CC w=4 completed in 0.000s (1 CC threads): no codewords found -> dmin=5
