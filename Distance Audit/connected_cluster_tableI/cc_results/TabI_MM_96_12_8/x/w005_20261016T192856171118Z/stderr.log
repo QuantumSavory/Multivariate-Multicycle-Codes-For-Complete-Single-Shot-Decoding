@@ -1,0 +1,3 @@
+# read H <- file '/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/claude_repo_additions_v2/Distance Audit/connected_cluster_tableI/matrices/TabI_MM_96_12_8/HZ.mtx'
+# read G <- file '/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/claude_repo_additions_v2/Distance Audit/connected_cluster_tableI/matrices/TabI_MM_96_12_8/HX.mtx'
+# CC w=5 completed in 0.086s (1 CC threads): no codewords found -> dmin=6
