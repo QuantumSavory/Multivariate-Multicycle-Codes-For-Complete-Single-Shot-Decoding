@@ -1,0 +1,7 @@
+id,n,k,sector,status,lower_bound,verified_upper_bound,search_estimate
+TabI_MM_96_12_4_W12,96,12,x,EXACT,4,4,4
+TabI_MM_96_12_4_W12,96,12,z,EXACT,4,4,4
+TabI_MM_96_12_8,96,12,x,EXACT,8,8,8
+TabI_MM_96_12_8,96,12,z,EXACT,8,8,8
+TabI_MM_144_40_4,144,40,x,EXACT,4,4,4
+TabI_MM_144_40_4,144,40,z,EXACT,4,4,4

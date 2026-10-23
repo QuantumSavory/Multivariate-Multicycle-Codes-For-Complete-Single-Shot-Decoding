@@ -1,0 +1,39 @@
+{
+  "id": "TabI_MM_96_12_4_W12",
+  "n": 96,
+  "k": 12,
+  "hx_sha256": "119762adbe73aeb8a4d9f2143f024a2d0d8057b4860f3a588fa879e24627c5a2",
+  "hz_sha256": "f661b06ae13ed17a4d5a4e04aa498e7a52efa820e87b7c6d8c9bf1c92bd96654",
+  "sector": "x",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "lower_bound": 4,
+  "witness_support_one_based": [
+    17,
+    22,
+    28,
+    31
+  ],
+  "verified_upper_bound": 4,
+  "search_estimate": 4,
+  "status": "EXACT",
+  "evidence": [
+    {
+      "weight": 1,
+      "stderr": "TabI_MM_96_12_4_W12/x/w001_20261016T192854088723Z/stderr.log",
+      "stderr_sha256": "9f41b67d0f7db6adcab80abe88d9f4765c366a3b4e7e72754eefe7adddd423dd"
+    },
+    {
+      "weight": 2,
+      "stderr": "TabI_MM_96_12_4_W12/x/w002_20261016T192854332850Z/stderr.log",
+      "stderr_sha256": "5b94ee184ca6e92d64a4fbc3a03b6ba6f80eb8b5c6e7fbd5234f7a3164105999"
+    },
+    {
+      "weight": 3,
+      "stderr": "TabI_MM_96_12_4_W12/x/w003_20261016T192854585898Z/stderr.log",
+      "stderr_sha256": "9dd3db3f30047dfa56c9d8efcd4a52561d6863e129334bb873d6a010a1d38d78"
+    }
+  ],
+  "last_run": "TabI_MM_96_12_4_W12/x/w004_20261016T192854849358Z",
+  "witness_source": "TabI_MM_96_12_4_W12/x/w004_20261016T192854849358Z/witness.nz",
+  "updated_utc": "2026-10-16T19:28:55.101104+00:00"
+}
