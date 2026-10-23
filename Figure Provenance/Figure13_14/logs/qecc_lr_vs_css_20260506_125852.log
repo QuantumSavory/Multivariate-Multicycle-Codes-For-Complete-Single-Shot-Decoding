@@ -1,0 +1,171 @@
+2026-05-06 12:58:52,330 - INFO - Logging to LRCNEW133/logs/qecc_lr_vs_css_20260506_125852.log
+2026-05-06 12:58:52,330 - INFO - ============================================================
+2026-05-06 12:58:52,330 - INFO - MODE: threshold  |  CIRCUIT: both
+2026-05-06 12:58:52,330 - INFO - Decoder: tesseract-custom  |  Basis: X
+2026-05-06 12:58:52,331 - INFO - Codes: ['MM_144_6_8_W6', 'MM_216_6_12_W6', 'BB_144_12_12']
+2026-05-06 12:58:52,331 - INFO - ============================================================
+2026-05-06 12:58:52,332 - INFO - Error rates (11 pts): 1.0e-04 to 1.0e-01
+2026-05-06 12:58:52,332 - INFO - 
+Code: MM_144_6_8_W6
+2026-05-06 12:58:54,769 - INFO -   LDPC MM_144_6_8_W6: 11 tasks, T=16
+2026-05-06 12:58:54,815 - INFO - 
+[LR 1/6] find_best_split (36, 108) …
+2026-05-06 12:58:54,832 - INFO -   split=72  (0.0s)
+2026-05-06 12:58:54,844 - INFO - [LR 2/6] LR_colouring …
+2026-05-06 12:58:54,934 - INFO -   colour_profile={'left': {'X': 4, 'Z': 6}, 'right': {'X': 6, 'Z': 4}}
+2026-05-06 12:58:54,934 - INFO - [LR 3/6] find_LR_residuals …
+2026-05-06 12:58:54,955 - INFO - [LR 4/6] evaluate_residual_dists (attempts=100, workers=8) …
+2026-05-06 12:58:54,955 - INFO -   NOTE: this step uses BPOSD internally to score CNOT orderings.
+2026-05-06 12:58:54,955 - INFO -   The Tesseract decoder is NOT involved here.
+2026-05-06 13:02:09,045 - INFO -   Done (194.1s)
+2026-05-06 13:02:09,046 - INFO - [LR 5/6] find_CNOT_orders (N_col=1000, num_orders=5) …
+2026-05-06 13:02:11,924 - INFO -   Done (2.9s)
+2026-05-06 13:02:11,924 - INFO - [LR 6/6] filter_orders_with_extended_distance (attempts=1000) …
+2026-05-06 13:02:11,924 - INFO -   NOTE: this step also uses BPOSD internally.
+2026-05-06 13:02:41,847 - INFO -   Done (29.9s)
+2026-05-06 13:02:41,851 - INFO - ✅ Preprocessing complete.
+2026-05-06 13:02:41,854 - INFO - 
+============================================================
+2026-05-06 13:02:41,854 - INFO - INSPECT: MM_144_6_8_W6  p=0.01  T=16  basis=X
+2026-05-06 13:02:41,854 - INFO - ============================================================
+2026-05-06 13:02:42,405 - INFO - SVG saved: LRCNEW133/inspect/MM_144_6_8_W6_lr_circuit.svg
+2026-05-06 13:02:42,405 - INFO - 
+Circuit checks:
+2026-05-06 13:02:42,406 - INFO -   Code distance d = 8
+2026-05-06 13:02:42,419 - WARNING -   Could not compute d_circ: Failed to decompose errors into graphlike components with at most two symptoms.
+The error component that failed to decompose is 'D1440, D1447, D1454, D1463, D1464, D1472, D1481, D1485, L3, L5'.
+
+In Python, you can ignore this error by passing `ignore_decomposition_failures=True` to `stim.Circuit.detector_error_model(...)`.
+From the command line, you can ignore this error by passing the flag `--ignore_decomposition_failures` to `stim analyze_errors`.
+
+Circuit stack trace:
+    during TICK layer #188 of 198
+    at instruction #196 [which is a REPEAT 14 block]
+2026-05-06 13:02:42,455 - INFO -   Detectors expected ≈ 1536  actual = 1632  ✅
+2026-05-06 13:02:42,455 - INFO -   Observables = 6  (expected 6)
+2026-05-06 13:02:42,492 - INFO -   Error mechanisms in DEM = 20184
+2026-05-06 13:02:42,506 - INFO -   Detector trigger rate = 0.3566  ✅ GOOD
+2026-05-06 13:02:42,506 - INFO - 
+Comparison with CSS circuit at same p:
+2026-05-06 13:02:42,858 - INFO -   CSS error mechanisms: 17808
+2026-05-06 13:02:42,858 - INFO -   LR  error mechanisms: 20184
+2026-05-06 13:02:42,859 - INFO - 
+============================================================
+2026-05-06 13:02:42,859 - INFO - INSPECT DONE — open LRCNEW133/inspect/MM_144_6_8_W6_lr_circuit.svg in browser to view circuit
+2026-05-06 13:02:42,859 - INFO - ============================================================
+
+2026-05-06 13:02:47,182 - INFO -   LR  MM_144_6_8_W6: 11 tasks, T=16
+2026-05-06 13:02:47,182 - INFO - 
+Code: MM_216_6_12_W6
+2026-05-06 13:02:50,259 - INFO -   LDPC MM_216_6_12_W6: 11 tasks, T=24
+2026-05-06 13:02:50,281 - INFO - 
+[LR 1/6] find_best_split (54, 162) …
+2026-05-06 13:02:50,300 - INFO -   split=108  (0.0s)
+2026-05-06 13:02:50,309 - INFO - [LR 2/6] LR_colouring …
+2026-05-06 13:02:50,370 - INFO -   colour_profile={'left': {'X': 4, 'Z': 6}, 'right': {'X': 6, 'Z': 4}}
+2026-05-06 13:02:50,371 - INFO - [LR 3/6] find_LR_residuals …
+2026-05-06 13:02:50,394 - INFO - [LR 4/6] evaluate_residual_dists (attempts=100, workers=8) …
+2026-05-06 13:02:50,394 - INFO -   NOTE: this step uses BPOSD internally to score CNOT orderings.
+2026-05-06 13:02:50,394 - INFO -   The Tesseract decoder is NOT involved here.
+2026-05-06 13:09:09,987 - INFO -   Done (379.6s)
+2026-05-06 13:09:09,988 - INFO - [LR 5/6] find_CNOT_orders (N_col=1000, num_orders=5) …
+2026-05-06 13:09:15,120 - INFO -   Done (5.1s)
+2026-05-06 13:09:15,120 - INFO - [LR 6/6] filter_orders_with_extended_distance (attempts=1000) …
+2026-05-06 13:09:15,120 - INFO -   NOTE: this step also uses BPOSD internally.
+2026-05-06 13:10:00,863 - INFO -   Done (45.7s)
+2026-05-06 13:10:00,868 - INFO - ✅ Preprocessing complete.
+2026-05-06 13:10:00,870 - INFO - 
+============================================================
+2026-05-06 13:10:00,870 - INFO - INSPECT: MM_216_6_12_W6  p=0.01  T=24  basis=X
+2026-05-06 13:10:00,870 - INFO - ============================================================
+2026-05-06 13:10:01,669 - INFO - SVG saved: LRCNEW133/inspect/MM_216_6_12_W6_lr_circuit.svg
+2026-05-06 13:10:01,669 - INFO - 
+Circuit checks:
+2026-05-06 13:10:01,669 - INFO -   Code distance d = 12
+2026-05-06 13:10:01,686 - WARNING -   Could not compute d_circ: Failed to decompose errors into graphlike components with at most two symptoms.
+The error component that failed to decompose is 'D3312, D3315, D3349, D3356, D3370, D3371, L3'.
+
+In Python, you can ignore this error by passing `ignore_decomposition_failures=True` to `stim.Circuit.detector_error_model(...)`.
+From the command line, you can ignore this error by passing the flag `--ignore_decomposition_failures` to `stim analyze_errors`.
+
+Circuit stack trace:
+    during TICK layer #284 of 294
+    at instruction #244 [which is a REPEAT 22 block]
+2026-05-06 13:10:01,741 - INFO -   Detectors expected ≈ 3456  actual = 3600  ✅
+2026-05-06 13:10:01,741 - INFO -   Observables = 6  (expected 6)
+2026-05-06 13:10:01,827 - INFO -   Error mechanisms in DEM = 45228
+2026-05-06 13:10:01,841 - INFO -   Detector trigger rate = 0.3579  ✅ GOOD
+2026-05-06 13:10:01,841 - INFO - 
+Comparison with CSS circuit at same p:
+2026-05-06 13:10:02,384 - INFO -   CSS error mechanisms: 39960
+2026-05-06 13:10:02,384 - INFO -   LR  error mechanisms: 45228
+2026-05-06 13:10:02,385 - INFO - 
+============================================================
+2026-05-06 13:10:02,385 - INFO - INSPECT DONE — open LRCNEW133/inspect/MM_216_6_12_W6_lr_circuit.svg in browser to view circuit
+2026-05-06 13:10:02,385 - INFO - ============================================================
+
+2026-05-06 13:10:07,596 - INFO -   LR  MM_216_6_12_W6: 11 tasks, T=24
+2026-05-06 13:10:07,596 - INFO - 
+Code: BB_144_12_12
+2026-05-06 13:10:09,184 - INFO -   LDPC BB_144_12_12: 11 tasks, T=24
+2026-05-06 13:10:09,202 - INFO - 
+[LR 1/6] find_best_split (36, 108) …
+2026-05-06 13:10:09,209 - INFO -   split=72  (0.0s)
+2026-05-06 13:10:09,218 - INFO - [LR 2/6] LR_colouring …
+2026-05-06 13:10:09,277 - INFO -   colour_profile={'left': {'X': 3, 'Z': 3}, 'right': {'X': 3, 'Z': 3}}
+2026-05-06 13:10:09,277 - INFO - [LR 3/6] find_LR_residuals …
+2026-05-06 13:10:09,294 - INFO - [LR 4/6] evaluate_residual_dists (attempts=100, workers=8) …
+2026-05-06 13:10:09,294 - INFO -   NOTE: this step uses BPOSD internally to score CNOT orderings.
+2026-05-06 13:10:09,294 - INFO -   The Tesseract decoder is NOT involved here.
+2026-05-06 13:11:26,492 - INFO -   Done (77.2s)
+2026-05-06 13:11:26,493 - INFO - [LR 5/6] find_CNOT_orders (N_col=1000, num_orders=5) …
+2026-05-06 13:11:26,674 - INFO -   Done (0.2s)
+2026-05-06 13:11:26,674 - INFO - [LR 6/6] filter_orders_with_extended_distance (attempts=1000) …
+2026-05-06 13:11:26,674 - INFO -   NOTE: this step also uses BPOSD internally.
+2026-05-06 13:11:48,179 - INFO -   Done (21.5s)
+2026-05-06 13:11:48,183 - INFO - ✅ Preprocessing complete.
+2026-05-06 13:11:48,186 - INFO - 
+============================================================
+2026-05-06 13:11:48,186 - INFO - INSPECT: BB_144_12_12  p=0.01  T=24  basis=X
+2026-05-06 13:11:48,186 - INFO - ============================================================
+2026-05-06 13:11:48,592 - INFO - SVG saved: LRCNEW133/inspect/BB_144_12_12_lr_circuit.svg
+2026-05-06 13:11:48,592 - INFO - 
+Circuit checks:
+2026-05-06 13:11:48,592 - INFO -   Code distance d = 12
+2026-05-06 13:11:48,604 - WARNING -   Could not compute d_circ: Failed to decompose errors into graphlike components with at most two symptoms.
+The error component that failed to decompose is 'D1656, D1657, D1662, D1663, D1671, D1672'.
+
+In Python, you can ignore this error by passing `ignore_decomposition_failures=True` to `stim.Circuit.detector_error_model(...)`.
+From the command line, you can ignore this error by passing the flag `--ignore_decomposition_failures` to `stim analyze_errors`.
+
+Circuit stack trace:
+    during TICK layer #189 of 195
+    at instruction #133 [which is a REPEAT 22 block]
+2026-05-06 13:11:48,628 - INFO -   Detectors expected ≈ 1728  actual = 1800  ✅
+2026-05-06 13:11:48,629 - INFO -   Observables = 12  (expected 12)
+2026-05-06 13:11:48,674 - INFO -   Error mechanisms in DEM = 24048
+2026-05-06 13:11:48,680 - INFO -   Detector trigger rate = 0.2867  ✅ GOOD
+2026-05-06 13:11:48,680 - INFO - 
+Comparison with CSS circuit at same p:
+2026-05-06 13:11:48,982 - INFO -   CSS error mechanisms: 20880
+2026-05-06 13:11:48,982 - INFO -   LR  error mechanisms: 24048
+2026-05-06 13:11:48,983 - INFO - 
+============================================================
+2026-05-06 13:11:48,983 - INFO - INSPECT DONE — open LRCNEW133/inspect/BB_144_12_12_lr_circuit.svg in browser to view circuit
+2026-05-06 13:11:48,983 - INFO - ============================================================
+
+2026-05-06 13:11:52,154 - INFO -   LR  BB_144_12_12: 11 tasks, T=24
+2026-05-06 13:11:52,154 - INFO - 
+Total tasks: 66
+2026-05-06 13:11:52,155 - INFO - Running Tesseract sinter with 20 workers …
+2026-05-06 14:13:59,548 - INFO - Collected 66 result sets
+2026-05-06 14:13:59,549 - INFO -   BB [[144,12,12]] LRC: 0.438%
+2026-05-06 14:13:59,549 - INFO -   BB [[144,12,12]] default: 0.248%
+2026-05-06 14:13:59,549 - INFO -   MM [[144,6,8]] LRC: 0.356%
+2026-05-06 14:13:59,549 - INFO -   MM [[144,6,8]] default: 0.293%
+2026-05-06 14:13:59,549 - INFO -   MM [[216,6,12]] LRC: 0.238%
+2026-05-06 14:13:59,549 - INFO -   MM [[216,6,12]] default: 0.199%
+2026-05-06 14:13:59,549 - INFO - Generating plot ...
+2026-05-06 14:14:01,668 - INFO - Saved: LRCNEW133/figures/threshold_X_tesseract-custom_both_threshold.png
+2026-05-06 14:14:01,676 - INFO - Summary: LRCNEW133/results/summary_X_tesseract-custom_both_threshold.txt
+2026-05-06 14:14:01,676 - INFO - Done.

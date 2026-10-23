@@ -1,0 +1,47 @@
+2026-04-21 22:51:43,491 - INFO - Logging to PKNewZphenomZBasisALLCODES/logs/qecc_experiment_20260421_225143.log
+2026-04-21 22:51:43,491 - INFO - ============================================================
+2026-04-21 22:51:43,491 - INFO - QECC Memory Experiment - Cluster Version
+2026-04-21 22:51:43,492 - INFO - ============================================================
+2026-04-21 22:51:43,492 - INFO - Arguments: Namespace(data_path='./MM_QECC_Database', output_dir='PKNewZphenomZBasisALLCODES', codes=['MM_96_12_8', 'MM_144_12_12', 'MM_486_24_12', 'MM_648_60_9', 'TT_72_6_6', 'TT_135_12_6', 'TT_180_12_8'], basis='Z', decoder='tesseract-custom', ps_min=0.0001, ps_max=0.1, ps_num=9, max_shots=100000, max_errors=500, start_batch_size=1000, workers=21, resume=False)
+2026-04-21 22:51:43,492 - INFO - Output directory: PKNewZphenomZBasisALLCODES
+2026-04-21 22:51:43,493 - INFO - Creating decoder: tesseract-custom
+2026-04-21 22:51:43,494 - INFO - Error rates: [0.0001     0.00023714 0.00056234 0.00133352 0.00316228 0.00749894
+ 0.01778279 0.04216965 0.1       ]
+2026-04-21 22:51:43,494 - INFO - Preparing tasks for 7 codes...
+2026-04-21 22:51:43,494 - INFO -   Loading code: MM_96_12_8
+2026-04-21 22:51:43,508 - INFO -     n=96, k=12, d=8
+2026-04-21 22:51:44,371 - INFO -   Loading code: MM_144_12_12
+2026-04-21 22:51:44,391 - INFO -     n=144, k=12, d=12
+2026-04-21 22:51:45,663 - INFO -   Loading code: MM_486_24_12
+2026-04-21 22:51:45,708 - INFO -     n=486, k=24, d=12
+2026-04-21 22:51:49,179 - INFO -   Loading code: MM_648_60_9
+2026-04-21 22:51:49,213 - INFO -     n=648, k=60, d=9
+2026-04-21 22:51:55,000 - INFO -   Loading code: TT_72_6_6
+2026-04-21 22:51:55,008 - INFO -     n=72, k=6, d=6
+2026-04-21 22:51:55,462 - INFO -   Loading code: TT_135_12_6
+2026-04-21 22:51:55,476 - INFO -     n=135, k=12, d=6
+2026-04-21 22:51:56,308 - INFO -   Loading code: TT_180_12_8
+2026-04-21 22:51:56,316 - INFO -     n=180, k=12, d=8
+2026-04-21 22:51:57,418 - INFO - Total tasks: 63
+2026-04-21 22:51:57,418 - INFO - Running simulations with 21 workers...
+2026-04-21 23:56:30,141 - INFO - Collected 63 result sets
+2026-04-21 23:56:30,142 - INFO - Analyzing results...
+2026-04-21 23:56:30,142 - INFO - Computing pseudothresholds...
+2026-04-21 23:56:30,142 - WARNING -   MM [[144,12,12]]: No crossing found
+2026-04-21 23:56:30,142 - INFO -     p_L always below p — threshold above 1.0e-01.
+2026-04-21 23:56:30,142 - WARNING -   MM [[486,24,12]]: No crossing found
+2026-04-21 23:56:30,142 - INFO -     p_L always below p — threshold above 1.0e-01.
+2026-04-21 23:56:30,142 - WARNING -   MM [[648,60,9]]: No crossing found
+2026-04-21 23:56:30,142 - INFO -     p_L always below p — threshold above 1.0e-01.
+2026-04-21 23:56:30,143 - INFO -   MM [[96,12,8]]: 6.272%
+2026-04-21 23:56:30,143 - INFO -   TT [[135,12,6]]: 9.425%
+2026-04-21 23:56:30,143 - WARNING -   TT [[180,12,8]]: No crossing found
+2026-04-21 23:56:30,143 - INFO -     p_L always above p — threshold below 1.0e-04.
+2026-04-21 23:56:30,143 - WARNING -   TT [[72,6,6]]: No crossing found
+2026-04-21 23:56:30,143 - INFO -     p_L always below p — threshold above 1.0e-01.
+2026-04-21 23:56:30,143 - INFO - Generating plot: PKNewZphenomZBasisALLCODES/figures/pseudothreshold_Z_tesseract-custom.png
+2026-04-21 23:56:32,271 - INFO - Saved plot to PKNewZphenomZBasisALLCODES/figures/pseudothreshold_Z_tesseract-custom.png
+2026-04-21 23:56:32,276 - INFO - Summary saved to PKNewZphenomZBasisALLCODES/results/summary_Z_tesseract-custom.txt
+2026-04-21 23:56:32,276 - INFO - ============================================================
+2026-04-21 23:56:32,276 - INFO - Experiment complete!
+2026-04-21 23:56:32,276 - INFO - ============================================================

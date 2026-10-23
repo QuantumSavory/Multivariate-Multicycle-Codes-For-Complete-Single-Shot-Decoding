@@ -1,0 +1,18 @@
+2026-04-29 00:49:26,929 - INFO - Logging to NEW40/logs/plateau_owd_20260429_004926.log
+2026-04-29 00:49:26,929 - INFO - ======================================================================
+2026-04-29 00:49:26,929 - INFO - PLATEAU EXPERIMENT - FIND MINIMUM WINDOW SIZE
+2026-04-29 00:49:26,929 - INFO - ======================================================================
+2026-04-29 00:49:26,929 - INFO - OWD settings: window sizes=[1, 2, 3, 4, 5, 6], commit=1
+2026-04-29 00:49:26,929 - INFO - Fixed rounds T = 10
+2026-04-29 00:49:26,930 - INFO - BP settings: 1000 iters, method=min_sum, OSD_order=0
+2026-04-29 00:49:26,930 - INFO - Fixed physical error rate: p = 0.001
+2026-04-29 00:49:26,940 - INFO - Preparing tasks for 3 codes...
+2026-04-29 00:49:26,940 - INFO -   Loading code: MM_486_24_12
+2026-04-29 00:49:27,223 - INFO -     n=486, k=24, d=12
+2026-04-29 00:49:28,836 - INFO -   Loading code: BB_144_12_12
+2026-04-29 00:49:28,922 - INFO -     n=144, k=12, d=12
+2026-04-29 00:49:29,171 - INFO -   Loading code: TT_72_6_6
+2026-04-29 00:49:29,282 - INFO -     n=72, k=6, d=6
+2026-04-29 00:49:29,460 - INFO - Total tasks: 18
+2026-04-29 00:49:29,460 - INFO - Decoder instances: 18
+2026-04-29 00:49:29,460 - INFO - Running simulations with 2000 workers...
