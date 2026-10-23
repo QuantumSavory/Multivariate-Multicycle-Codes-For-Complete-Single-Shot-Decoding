@@ -1,112 +1,123 @@
 # Distance audit for multivariate multicycle codes
 
-This directory contains the construction inputs, saved matrices, randomized
-distance-search results, logical witnesses, and connected-cluster records
-used to audit the code parameters reported in the manuscript.
+This directory preserves the cluster results used to audit the code parameters
+reported in the manuscript. It includes construction inputs, parity-check
+matrices, randomized distance searches, logical witnesses, and
+connected-cluster certification records.
 
-We distinguish **verified upper bounds** from **certified exact distances**.
-A verified nontrivial logical operator establishes an upper bound on the
-distance. An exact distance requires a matching lower bound from completed
-connected-cluster searches.
+The original outputs are retained unchanged. This README explains how the
+different campaigns relate to one another and where to find their evidence.
+
+## Interpreting the results
+
+We distinguish two types of distance statements:
+
+- **Verified upper bound:** a nontrivial logical operator of weight `w`
+  establishes `dX <= w` or `dZ <= w`.
+- **Exact distance:** a verified upper bound matches a lower bound established
+  by completed connected-cluster searches.
+
+Randomized searches alone do not establish exact distances. A scalar estimate
+without a verified logical witness should not be treated as a certified
+upper bound.
+
+For a CSS code, the overall distance is `d = min(dX, dZ)`.
 
 ## Directory guide
 
 All paths below are relative to `Distance Audit/`.
 
-| Path | Contents |
+| Directory | Contents |
 |---|---|
-| `code/` | Construction registry, audit scripts, search wrappers, and witness-verification scripts |
-| `results/sqetch_100M/` | Original sQetch searches requesting 100 million trials per CSS sector |
-| `results/sqetch_150M_rerun38/` | Additional sQetch searches requesting 150 million trials per sector for 38 selected instances |
+| `code/` | Construction registry, structural-audit scripts, distance-search wrappers, and witness-verification scripts |
+| `results/sqetch_100M/` | Original sQetch campaign requesting 100 million trials per CSS sector |
+| `results/sqetch_150M_rerun38/` | Additional sQetch campaign requesting 150 million trials per sector for 38 selected instances |
 | `results/distm4ri/` | Earlier dist-m4ri random-window searches and saved outputs |
 | `connected_cluster/` | Original connected-cluster certification campaign |
 | `connected_cluster_tableI/` | Additional certification campaign for three Table I instances |
 | `four_codes_rw_20261016T195147Z/` | Additional random-window searches for four larger instances |
-| `final/` | Consolidated distance tables and logical-witness collections |
-| `Original Archives/` | Original ZIP archives of the uploaded cluster results |
+| `final/` | Historical consolidated tables and witness collections |
+| `Original Archives/` | Original ZIP archives of the additional cluster campaigns |
 
-The two connected-cluster folders contain separate campaigns. Each preserves
-its own input matrices, manifest, scripts, logs, and results.
+## Historical summaries and subsequent campaigns
 
-## Current status of the consolidated tables
+The CSV files in `final/` preserve summaries prepared at earlier stages of
+the audit. Despite the directory name, they do not incorporate every
+subsequent campaign.
 
-The Table I addendum and the four-code random-window campaign are now available
-in this directory, including their detailed search records.
+In particular, `final/distance_bounds_revised.csv` contains entries labelled
+`sQetch, unverified (dagger)` for:
 
-**The consolidated files in `final/` have not yet been fully reconciled with
-these additions.** In particular, `final/distance_bounds_revised.csv` still
-contains historical entries labelled `sQetch, unverified (dagger)` for
-`table3_row025`, `table3_row027`, `table4_row023`, and `table4_row026`.
-Those entries must not be interpreted as verified upper bounds.
+- `table3_row025`;
+- `table3_row027`;
+- `table4_row023`;
+- `table4_row026`.
 
-Until the consolidated tables are updated, consult the supporting campaign
-records for the additional results. Historical outputs are retained for
-provenance; their presence does not mean that every historical estimate remains
-a reported manuscript value.
+These historical estimates are not verified upper bounds. Additional
+random-window searches for these instances are preserved in
+`four_codes_rw_20261016T195147Z/`, together with their logical witnesses.
+
+The additional exact-distance results for three Table I instances are
+preserved separately in `connected_cluster_tableI/`.
+
+Readers should consult the relevant campaign records when interpreting these
+additions. A later search does not automatically replace an earlier verified
+bound: the smallest valid upper bound available for each sector remains
+applicable. Exactness additionally requires a matching certified lower bound.
 
 ## Construction and structural checks
 
-The construction registry records the defining polynomials and moduli for
-each instance. The Julia audit reconstructs the codes using the
+The registry in `code/` records the defining polynomials and moduli for each
+instance. The Julia audit reconstructs the codes using the
 `MultivariateMulticycle` constructor in QuantumClifford.jl with Oscar.
 
-The structural audit checks:
+The structural checks include:
 
 - CSS commutation over GF(2);
-- the number of physical qubits, obtained from the number of matrix columns;
+- the number of physical qubits, obtained from the matrix column count;
 - the number of logical qubits,
   `k = n - rank(HX) - rank(HZ)`, using ranks over GF(2);
 - parity-check row weights;
 - the applicable metacheck identities.
 
-An independent Python reconstruction is included in `code/`.
+An independent Python reconstruction is also included.
 
-## Sector conventions and logical witnesses
+## Sector conventions
 
-For the saved binary parity-check matrices `HX` and `HZ`:
+The saved matrices use the following conventions:
 
-- An **X-sector** logical support `v` satisfies `HZ * v = 0` and lies outside
-  the row space of `HX`.
-- A **Z-sector** logical support `v` satisfies `HX * v = 0` and lies outside
-  the row space of `HZ`.
-
-A verified support of weight `w` establishes `dX <= w` or `dZ <= w`,
-respectively. The overall CSS distance is `d = min(dX, dZ)`.
+- **X sector:** a logical support `v` satisfies `HZ * v = 0` over GF(2)
+  and lies outside the row space of `HX`.
+- **Z sector:** a logical support `v` satisfies `HX * v = 0` over GF(2)
+  and lies outside the row space of `HZ`.
 
 Witness supports recorded as one-based indices refer to columns of the
-associated saved matrices. A witness must be checked against those matrices
-and their qubit ordering.
+associated saved matrices.
 
-Code names, block lengths, and logical dimensions alone do not establish that
-two instances are the same code. Transferring a distance result requires an
-appropriate matrix comparison or an explicit equivalence.
+Distance results apply to those matrices and their qubit ordering.
+A shared code name, block length, or logical dimension is insufficient
+to establish that two instances have the same distance.
 
 ## Randomized distance searches
 
-### sQetch campaigns
+### sQetch
 
-The original sQetch campaign requested 100 million trials per CSS sector with
-sketch dimension 64. A subsequent campaign requested 150 million trials per
+The original campaign requested 100 million trials per CSS sector with
+sketch dimension 64. A further campaign requested 150 million trials per
 sector for 38 selected instances.
 
-The outputs, parameter records, and available environment information are
-preserved under `results/sqetch_100M/` and
-`results/sqetch_150M_rerun38/`.
+The outputs and available parameter and environment records are retained in:
 
-A scalar estimate does not itself provide a saved logical witness. Candidate
-values must be supported by a valid nontrivial logical operator before they
-are treated as verified upper bounds. Increasing the number of randomized
-trials does not establish a lower bound or certify an exact distance.
+- `results/sqetch_100M/`;
+- `results/sqetch_150M_rerun38/`.
 
-### dist-m4ri random-window searches
+These files document the searches as performed. Increasing the trial count
+can improve a candidate upper bound, but it does not prove that a lighter
+logical operator is absent.
 
-The random-window algorithm searches for nontrivial logical operators.
-Saved supports can be verified by checking their syndrome, stabilizer
-membership, and weight.
+### Additional random-window searches for four instances
 
-The earlier search outputs are stored under `results/distm4ri/`.
-
-The additional campaign in `four_codes_rw_20261016T195147Z/` covers:
+The campaign in `four_codes_rw_20261016T195147Z/` covers:
 
 | Registry ID | Physical qubits `n` | Logical qubits `k` |
 |---|---:|---:|
@@ -115,63 +126,61 @@ The additional campaign in `four_codes_rw_20261016T195147Z/` covers:
 | `table4_row023` | 672 | 12 |
 | `table4_row026` | 768 | 12 |
 
-Its saved script invokes dist-m4ri with:
+The saved script invokes dist-m4ri with:
 
-- random-window search: `method=1`;
-- a limit of `steps=100000000`;
-- a time limit of `timeout=1800` seconds per sector;
-- one thread per search: `threads=1`;
-- confinement-profile computation disabled: `smax=0`;
+- `method=1`: random-window search;
+- `steps=100000000`: maximum requested search steps;
+- `timeout=1800`: time limit in seconds per sector;
+- `threads=1`;
+- `smax=0`;
 - seeds 202610161 through 202610168 across the eight sector searches.
 
-The step count is a requested limit, not a statement that every run completed
-100 million steps. The saved output records the work actually performed.
+The requested step limit is not a statement that every run completed
+100 million steps. Consult the individual outputs for the work performed.
 
-The campaign preserves:
+The directory preserves:
 
-- `binary_sha256.txt` and `dist_m4ri_help.txt`;
-- `run_script.sh`;
-- the input `HX.mtx` and `HZ.mtx` for each instance;
-- matrix hashes;
-- per-sector commands, start and finish times, exit codes, standard output,
-  error logs, and witness files.
+- the executable hash and program help;
+- the run script;
+- input matrices and matrix hashes;
+- per-sector commands;
+- start and finish times;
+- exit codes;
+- standard output and error logs;
+- saved logical witnesses.
 
-These searches provide upper bounds only. When combining campaigns, retain
-the smallest verified upper bound for each sector. A later search need not
-improve an earlier result.
+These searches provide upper-bound evidence, not exact-distance certificates.
 
 ## Connected-cluster certification
 
-The connected-cluster campaigns use dist-m4ri to exclude successive weights.
-Completed exclusions establish lower bounds. When the lower bound matches
-the weight of a verified nontrivial logical operator, the sector distance
-is exact.
+The connected-cluster campaigns search successive weights using dist-m4ri.
+Completed exclusions establish lower bounds. A sector is reported as exact
+when its lower bound matches the weight of a verified nontrivial logical
+operator.
 
-A timeout or interruption does not exclude the weight that was still being
-searched. Only completed searches contribute to the recorded lower bound.
+A timed-out or interrupted search does not exclude the weight that was still
+being searched.
 
 ### Original campaign
 
-`connected_cluster/` contains the original certification campaign. Its
-`cc_results/summary.csv` records the status and bounds for each sector.
+`connected_cluster/` contains the original certification campaign.
 
-The supporting records include input matrices, commands, logs, exit records,
-and available logical witnesses. The directory also contains
-`validate_certificates.py` and a saved `validation.csv`.
+Its `cc_results/summary.csv` lists the recorded bounds and status for each
+sector. Supporting files include the input matrices, manifest, commands,
+logs, exit records, and available witnesses.
 
-From `Distance Audit/`, run:
+The directory also contains `validate_certificates.py` and saved validation
+results. From `Distance Audit/`, run:
 
 ```bash
 cd connected_cluster
 python3 validate_certificates.py
 ```
 
-The validator checks saved evidence, including logical-witness validity and
-the completed-weight records required by the reported exact distances.
-It does not independently rerun the exhaustive searches.
+This checks the saved certificate records. It does not independently rerun
+the exhaustive searches.
 
-See `connected_cluster/README.md` for the campaign's reproduction and
-continuation instructions.
+See `connected_cluster/README.md` for instructions specific to that campaign.
 
 ### Table I addendum
 
@@ -186,36 +195,35 @@ Its saved `cc_results/summary.csv` reports:
 | `TabI_MM_96_12_8` | 96 | 12 | 8 | 8 | Exact in both sectors |
 | `TabI_MM_144_40_4` | 144 | 40 | 4 | 4 | Exact in both sectors |
 
-The directory contains the complete extracted campaign records, including:
+The complete campaign records are included:
 
-- input matrices and the campaign manifest;
-- the Python runner, shell launcher, and Slurm submission script;
-- `campaign.log`;
-- the summary CSV and per-sector `result.json` files;
-- per-weight commands, standard output, error logs, exit records, and
-  witness files.
+- input matrices and manifest;
+- runner and submission scripts;
+- campaign log;
+- summary CSV;
+- per-sector `result.json` files;
+- per-weight commands, output, error logs, exit records, and witnesses.
 
-The per-sector JSON records include matrix hashes, distance bounds, recorded
+The per-sector JSON files record matrix hashes, lower and upper bounds,
 logical supports, and references to the supporting exclusion logs.
 
-The summary CSV is an index to the evidence. It should be distributed with
-the detailed records rather than used as a standalone certificate.
+The original campaign and the Table I addendum remain separate so that each
+campaign's inputs and outputs can be inspected in their original context.
 
-## How to check a distance claim
+## Checking a reported distance
 
 For an upper-bound claim:
 
-1. Identify the instance and sector.
-2. Locate the saved parity-check matrices and logical support.
-3. Verify that the support has zero syndrome.
-4. Verify that it lies outside the appropriate stabilizer row space.
-5. Count its weight.
+1. Locate the instance's saved matrices and logical support.
+2. Check that the support has zero syndrome.
+3. Check that it is outside the appropriate stabilizer row space.
+4. Count its weight.
 
-For an exact-distance claim, additionally inspect the completed
-connected-cluster exclusions establishing the matching lower bound.
+For an exact-distance claim, also inspect the completed connected-cluster
+exclusions establishing the matching lower bound.
 
-The existing witness-verification script checks the earlier consolidated
-witness collection. Run it from `Distance Audit/`:
+The earlier consolidated witness collection can be checked from
+`Distance Audit/` using:
 
 ```bash
 python3 code/verify_witnesses.py \
@@ -223,8 +231,8 @@ python3 code/verify_witnesses.py \
     results/sqetch_100M
 ```
 
-This command checks that specific collection. It does not automatically
-validate every later campaign or establish connected-cluster lower bounds.
+This command checks that particular witness collection. It does not
+automatically check the later campaigns or establish lower bounds.
 
 ## Original archives
 
@@ -233,16 +241,15 @@ validate every later campaign or establish connected-cluster lower bounds.
 - `tableI_CC_results_20261016.zip`;
 - `four_codes_rw_20261016T195147Z.zip`.
 
-The ZIP files preserve the original uploaded bundles. The extracted
-directories make the same campaign evidence accessible for inspection.
+The archives preserve the uploaded cluster bundles. Their extracted
+directories provide access to the individual records.
 
-## Relationship to decoding experiments
+## Relation to decoding experiments
 
-The repository's `Figure Provenance/` directory separately contains archived
-decoding experiments, including logs, result tables, plots, and available
-circuit files.
+The repository's `Figure Provenance/` directory contains archived decoding
+experiments, including logs, result tables, plots, and available circuit files.
 
-Distance certification and decoding performance are distinct checks.
-Historical distance labels in simulation logs are input metadata; they do
-not independently certify a distance. Their interpretation requires matching
-the simulated instance to the corresponding audited code.
+Distance certification and decoding performance are separate checks.
+Distance labels in historical simulation logs are input metadata; they do
+not independently certify a distance. They should be interpreted using the
+audit records for the corresponding code instance.
