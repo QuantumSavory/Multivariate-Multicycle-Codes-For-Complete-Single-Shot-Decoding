@@ -1,0 +1,14 @@
+Mode: threshold  Circuit: both
+Decoder: tesseract-custom  Basis: Z
+Codes: TT_135_12_6, MM_144_12_12_W9, AMC_180_6_12_W6, BB_144_12_12
+
+PSEUDO-THRESHOLDS
+----------------------------------------
+AMC [[180,6,12]] LRC: 0.393%
+AMC [[180,6,12]] default: 0.342%
+BB [[144,12,12]] LRC: 0.436%
+BB [[144,12,12]] default: 0.244%
+MM [[144,12,12]] LRC: 0.150%
+MM [[144,12,12]] default: 0.157%
+TT [[135,12,6]] LRC: 0.449%
+TT [[135,12,6]] default: 0.423%

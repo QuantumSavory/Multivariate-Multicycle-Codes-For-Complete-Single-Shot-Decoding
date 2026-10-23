@@ -1,0 +1,35 @@
+2026-04-26 07:15:12,921 - INFO - Logging to ExperimentPhenomenologicalA/logs/qecc_experiment_20260426_071512.log
+2026-04-26 07:15:12,922 - INFO - ============================================================
+2026-04-26 07:15:12,922 - INFO - QECC Memory Experiment - Cluster Version
+2026-04-26 07:15:12,922 - INFO - ============================================================
+2026-04-26 07:15:12,922 - INFO - Arguments: Namespace(data_path='./MM_QECC_Database', output_dir='ExperimentPhenomenologicalA', codes=['MM_144_12_12_W9', 'TT_135_12_6', 'AMC_180_6_12_W6', 'BB_144_12_12'], basis='Z', decoder='tesseract-custom', ps_min=0.0001, ps_max=0.1, ps_num=9, max_shots=100000, max_errors=1000, start_batch_size=1000, workers=570, resume=False)
+2026-04-26 07:15:12,922 - INFO - Output directory: ExperimentPhenomenologicalA
+2026-04-26 07:15:12,923 - INFO - Creating decoder: tesseract-custom
+2026-04-26 07:15:12,924 - INFO - Error rates: [0.0001     0.00023714 0.00056234 0.00133352 0.00316228 0.00749894
+ 0.01778279 0.04216965 0.1       ]
+2026-04-26 07:15:12,924 - INFO - Preparing tasks for 4 codes...
+2026-04-26 07:15:12,924 - INFO -   Loading code: MM_144_12_12_W9
+2026-04-26 07:15:12,953 - INFO -     n=144, k=12, d=12
+2026-04-26 07:15:13,995 - INFO -   Loading code: TT_135_12_6
+2026-04-26 07:15:14,021 - INFO -     n=135, k=12, d=6
+2026-04-26 07:15:14,863 - INFO -   Loading code: AMC_180_6_12_W6
+2026-04-26 07:15:14,883 - INFO -     n=180, k=6, d=12
+2026-04-26 07:15:15,840 - INFO -   Loading code: BB_144_12_12
+2026-04-26 07:15:15,870 - INFO -     n=144, k=12, d=12
+2026-04-26 07:15:16,490 - INFO - Total tasks: 36
+2026-04-26 07:15:16,491 - INFO - Running simulations with 570 workers...
+2026-04-26 07:23:55,274 - INFO - Collected 36 result sets
+2026-04-26 07:23:55,277 - INFO - Analyzing results...
+2026-04-26 07:23:55,277 - INFO - Computing pseudothresholds...
+2026-04-26 07:23:55,278 - INFO -   AMC [[180,6,12]]: 9.049%
+2026-04-26 07:23:55,278 - WARNING -   BB [[144,12,12]]: No crossing found
+2026-04-26 07:23:55,278 - INFO -     p_L always below p — threshold above 1.0e-01.
+2026-04-26 07:23:55,279 - WARNING -   MM [[144,12,12]]: No crossing found
+2026-04-26 07:23:55,279 - INFO -     p_L always below p — threshold above 1.0e-01.
+2026-04-26 07:23:55,279 - INFO -   TT [[135,12,6]]: 9.354%
+2026-04-26 07:23:55,279 - INFO - Generating plot: ExperimentPhenomenologicalA/figures/pseudothreshold_Z_tesseract-custom.png
+2026-04-26 07:23:57,471 - INFO - Saved plot to ExperimentPhenomenologicalA/figures/pseudothreshold_Z_tesseract-custom.png
+2026-04-26 07:23:57,483 - INFO - Summary saved to ExperimentPhenomenologicalA/results/summary_Z_tesseract-custom.txt
+2026-04-26 07:23:57,483 - INFO - ============================================================
+2026-04-26 07:23:57,483 - INFO - Experiment complete!
+2026-04-26 07:23:57,483 - INFO - ============================================================

@@ -1,0 +1,28 @@
+2026-04-29 06:26:23,246 - INFO - Logging to NEW40/logs/plateau_owd_20260429_062623.log
+2026-04-29 06:26:23,246 - INFO - ======================================================================
+2026-04-29 06:26:23,247 - INFO - PLATEAU EXPERIMENT - FIND MINIMUM WINDOW SIZE
+2026-04-29 06:26:23,247 - INFO - ======================================================================
+2026-04-29 06:26:23,247 - INFO - OWD settings: window sizes=[1, 2, 3, 4, 5, 6], commit=1
+2026-04-29 06:26:23,247 - INFO - Fixed rounds T = 10
+2026-04-29 06:26:23,247 - INFO - BP settings: 1000 iters, method=min_sum, OSD_order=0
+2026-04-29 06:26:23,247 - INFO - Fixed physical error rate: p = 0.001
+2026-04-29 06:26:23,252 - INFO - Preparing tasks for 3 codes...
+2026-04-29 06:26:23,252 - INFO -   Loading code: MM_486_24_12
+2026-04-29 06:26:23,351 - INFO -     n=486, k=24, d=12
+2026-04-29 06:26:24,230 - INFO -   Loading code: BB_144_12_12
+2026-04-29 06:26:24,363 - INFO -     n=144, k=12, d=12
+2026-04-29 06:26:24,506 - INFO -   Loading code: TT_72_6_6
+2026-04-29 06:26:24,580 - INFO -     n=72, k=6, d=6
+2026-04-29 06:26:24,680 - INFO - Total tasks: 18
+2026-04-29 06:26:24,680 - INFO - Decoder instances: 18
+2026-04-29 06:26:24,680 - INFO - Running simulations with 500 workers...
+2026-04-29 10:49:09,626 - INFO - Collected 18 result sets
+2026-04-29 10:49:09,628 - INFO - Creating plateau plot with sinter.plot_error_rate...
+2026-04-29 10:49:12,260 - INFO - Plot saved to NEW40/figures/plateau_X_T10.png
+2026-04-29 10:49:12,260 - INFO - MM [[486,24,12]] p=1e-03: min_w=2, plateau_rate=1.20e-04
+2026-04-29 10:49:12,260 - INFO - BB [[144,12,12]] p=1e-03: min_w=4, plateau_rate=2.80e-04
+2026-04-29 10:49:12,260 - INFO - TT [[72,6,6]] p=1e-03: min_w=2, plateau_rate=4.02e-01
+2026-04-29 10:49:12,283 - INFO - Summary saved to NEW40/results/plateau_summary_X_T10.txt
+2026-04-29 10:49:12,283 - INFO - ======================================================================
+2026-04-29 10:49:12,283 - INFO - Plateau experiment complete!
+2026-04-29 10:49:12,283 - INFO - ======================================================================

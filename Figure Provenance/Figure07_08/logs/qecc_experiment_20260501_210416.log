@@ -1,0 +1,34 @@
+2026-05-01 21:04:16,755 - INFO - Logging to FinalExp/logs/qecc_experiment_20260501_210416.log
+2026-05-01 21:04:16,755 - INFO - ============================================================
+2026-05-01 21:04:16,755 - INFO - QECC Memory Experiment - Cluster Version
+2026-05-01 21:04:16,756 - INFO - ============================================================
+2026-05-01 21:04:16,756 - INFO - Arguments: Namespace(data_path='./MM_QECC_Database', output_dir='FinalExp', codes=['MM_144_12_12_W9', 'AMC_180_6_12_W6', 'BB_144_12_12', 'TT_135_12_6'], basis='X', decoder='tesseract-custom', ps_min=0.0001, ps_max=0.1, ps_num=9, max_shots=20000, max_errors=500, start_batch_size=1000, workers=500, resume=False)
+2026-05-01 21:04:16,756 - INFO - Output directory: FinalExp
+2026-05-01 21:04:16,757 - INFO - Creating decoder: tesseract-custom
+2026-05-01 21:04:16,761 - INFO - Error rates: [0.0001     0.00023714 0.00056234 0.00133352 0.00316228 0.00749894
+ 0.01778279 0.04216965 0.1       ]
+2026-05-01 21:04:16,761 - INFO - Preparing tasks for 4 codes...
+2026-05-01 21:04:16,761 - INFO -   Loading code: MM_144_12_12_W9
+2026-05-01 21:04:16,847 - INFO -     n=144, k=12, d=12
+2026-05-01 21:04:20,257 - INFO -   Loading code: AMC_180_6_12_W6
+2026-05-01 21:04:20,302 - INFO -     n=180, k=6, d=12
+2026-05-01 21:04:23,114 - INFO -   Loading code: BB_144_12_12
+2026-05-01 21:04:23,148 - INFO -     n=144, k=12, d=12
+2026-05-01 21:04:24,415 - INFO -   Loading code: TT_135_12_6
+2026-05-01 21:04:24,441 - INFO -     n=135, k=12, d=6
+2026-05-01 21:04:26,072 - INFO - Total tasks: 36
+2026-05-01 21:04:26,072 - INFO - Running simulations with 500 workers...
+2026-05-01 21:29:00,368 - INFO - Collected 36 result sets
+2026-05-01 21:29:00,370 - INFO - Analyzing results...
+2026-05-01 21:29:00,370 - INFO - Computing pseudothresholds...
+2026-05-01 21:29:00,419 - INFO -   AMC [[180,6,12]]: 0.351%
+2026-05-01 21:29:00,420 - INFO -   BB [[144,12,12]]: 0.246%
+2026-05-01 21:29:00,420 - WARNING -   MM [[144,12,12]]: No crossing found
+2026-05-01 21:29:00,420 - INFO -     p_L always below p — threshold above 1.0e-01.
+2026-05-01 21:29:00,421 - INFO -   TT [[135,12,6]]: 0.022%
+2026-05-01 21:29:00,421 - INFO - Generating plot: FinalExp/figures/pseudothreshold_X_tesseract-custom.png
+2026-05-01 21:29:03,167 - INFO - Saved plot to FinalExp/figures/pseudothreshold_X_tesseract-custom.png
+2026-05-01 21:29:03,192 - INFO - Summary saved to FinalExp/results/summary_X_tesseract-custom.txt
+2026-05-01 21:29:03,192 - INFO - ============================================================
+2026-05-01 21:29:03,192 - INFO - Experiment complete!
+2026-05-01 21:29:03,192 - INFO - ============================================================

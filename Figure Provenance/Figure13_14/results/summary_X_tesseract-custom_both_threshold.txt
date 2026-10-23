@@ -1,0 +1,12 @@
+Mode: threshold  Circuit: both
+Decoder: tesseract-custom  Basis: X
+Codes: MM_144_6_8_W6, MM_216_6_12_W6, BB_144_12_12
+
+PSEUDO-THRESHOLDS
+----------------------------------------
+BB [[144,12,12]] LRC: 0.438%
+BB [[144,12,12]] default: 0.248%
+MM [[144,6,8]] LRC: 0.356%
+MM [[144,6,8]] default: 0.293%
+MM [[216,6,12]] LRC: 0.238%
+MM [[216,6,12]] default: 0.199%
