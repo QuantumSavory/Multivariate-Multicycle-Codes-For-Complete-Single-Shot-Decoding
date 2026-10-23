@@ -1,0 +1,66 @@
+{
+ "repo_commit": "a644de8",
+ "manuscript": "multivariate_multicycle_22",
+ "instances": [
+  {
+   "id": "TabI_MM_96_12_4_W12",
+   "n": 96,
+   "k": 12,
+   "hx": "matrices/TabI_MM_96_12_4_W12/HX.mtx",
+   "hz": "matrices/TabI_MM_96_12_4_W12/HZ.mtx",
+   "hx_sha256": "119762adbe73aeb8a4d9f2143f024a2d0d8057b4860f3a588fa879e24627c5a2",
+   "hz_sha256": "f661b06ae13ed17a4d5a4e04aa498e7a52efa820e87b7c6d8c9bf1c92bd96654",
+   "estimates": {
+    "x": 4,
+    "z": 4
+   },
+   "witnesses": {
+    "x": null,
+    "z": null
+   },
+   "reason": "Table I MM code (QECCs/MM/MM_96_12_4_W12); no identical audited instance; estimate = Table I upper bound from the original search, not a verified witness",
+   "priority": 0,
+   "source": "QECCs/MM/MM_96_12_4_W12"
+  },
+  {
+   "id": "TabI_MM_96_12_8",
+   "n": 96,
+   "k": 12,
+   "hx": "matrices/TabI_MM_96_12_8/HX.mtx",
+   "hz": "matrices/TabI_MM_96_12_8/HZ.mtx",
+   "hx_sha256": "4facb43197feb5440180b0ba130fd5c9678127a39b5464a01a862ff6437879ae",
+   "hz_sha256": "5e4447e01aa996907549a1fc3d2275e40fdd4e7c1e98950e135900890bcbd672",
+   "estimates": {
+    "x": 8,
+    "z": 8
+   },
+   "witnesses": {
+    "x": null,
+    "z": null
+   },
+   "reason": "Table I MM code (QECCs/MM/MM_96_12_8); no identical audited instance; estimate = Table I upper bound from the original search, not a verified witness",
+   "priority": 0,
+   "source": "QECCs/MM/MM_96_12_8"
+  },
+  {
+   "id": "TabI_MM_144_40_4",
+   "n": 144,
+   "k": 40,
+   "hx": "matrices/TabI_MM_144_40_4/HX.mtx",
+   "hz": "matrices/TabI_MM_144_40_4/HZ.mtx",
+   "hx_sha256": "cf6f3d4d48b43e871b0f6c5c6777b7e02e5715cc93b9822053f777a1bd571619",
+   "hz_sha256": "6903cf22f18e50b23d29b4b1f30933396d7f69cad22c0657a9e4db2fc775a452",
+   "estimates": {
+    "x": 4,
+    "z": 4
+   },
+   "witnesses": {
+    "x": null,
+    "z": null
+   },
+   "reason": "Table I MM code (QECCs/MM/MM_144_40_4); no identical audited instance; estimate = Table I upper bound from the original search, not a verified witness",
+   "priority": 0,
+   "source": "QECCs/MM/MM_144_40_4"
+  }
+ ]
+}

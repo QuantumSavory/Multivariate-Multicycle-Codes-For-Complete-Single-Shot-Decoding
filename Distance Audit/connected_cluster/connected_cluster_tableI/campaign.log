@@ -1,0 +1,78 @@
+RUN TabI_MM_96_12_4_W12 dX: weight 1, budget 899s
+RUN TabI_MM_96_12_4_W12 dX: weight 1, budget 899s
+RUN TabI_MM_96_12_4_W12 dZ: weight 1, budget 899s
+RUN TabI_MM_96_12_4_W12 dZ: weight 1, budget 899s
+RUN TabI_MM_96_12_8 dZ: weight 1, budget 899s
+RUN TabI_MM_96_12_8 dZ: weight 1, budget 899s
+RUN TabI_MM_96_12_4_W12 dX: weight 2, budget 899s
+RUN TabI_MM_96_12_4_W12 dX: weight 2, budget 899s
+RUN TabI_MM_96_12_4_W12 dZ: weight 2, budget 899s
+RUN TabI_MM_96_12_4_W12 dZ: weight 2, budget 899s
+RUN TabI_MM_96_12_8 dZ: weight 2, budget 899s
+RUN TabI_MM_96_12_8 dZ: weight 2, budget 899s
+RUN TabI_MM_96_12_4_W12 dX: weight 3, budget 899s
+RUN TabI_MM_96_12_4_W12 dX: weight 3, budget 899s
+RUN TabI_MM_96_12_8 dZ: weight 3, budget 899s
+RUN TabI_MM_96_12_8 dZ: weight 3, budget 899s
+RUN TabI_MM_96_12_4_W12 dZ: weight 3, budget 899s
+RUN TabI_MM_96_12_4_W12 dZ: weight 3, budget 899s
+RUN TabI_MM_96_12_4_W12 dX: weight 4, budget 899s
+RUN TabI_MM_96_12_4_W12 dX: weight 4, budget 899s
+RUN TabI_MM_96_12_8 dZ: weight 4, budget 899s
+RUN TabI_MM_96_12_8 dZ: weight 4, budget 899s
+RUN TabI_MM_96_12_4_W12 dZ: weight 4, budget 899s
+RUN TabI_MM_96_12_4_W12 dZ: weight 4, budget 899s
+EXACT TabI_MM_96_12_4_W12 dX: 4 <= d <= 4
+EXACT TabI_MM_96_12_4_W12 dX: 4 <= d <= 4
+EXACT TabI_MM_96_12_4_W12 dZ: 4 <= d <= 4
+EXACT TabI_MM_96_12_4_W12 dZ: 4 <= d <= 4
+RUN TabI_MM_96_12_8 dZ: weight 5, budget 898s
+RUN TabI_MM_96_12_8 dZ: weight 5, budget 898s
+RUN TabI_MM_96_12_8 dX: weight 1, budget 899s
+RUN TabI_MM_96_12_8 dX: weight 1, budget 899s
+RUN TabI_MM_144_40_4 dZ: weight 1, budget 899s
+RUN TabI_MM_144_40_4 dZ: weight 1, budget 899s
+RUN TabI_MM_96_12_8 dX: weight 2, budget 899s
+RUN TabI_MM_96_12_8 dX: weight 2, budget 899s
+RUN TabI_MM_96_12_8 dZ: weight 6, budget 898s
+RUN TabI_MM_96_12_8 dZ: weight 6, budget 898s
+RUN TabI_MM_144_40_4 dZ: weight 2, budget 899s
+RUN TabI_MM_144_40_4 dZ: weight 2, budget 899s
+RUN TabI_MM_96_12_8 dX: weight 3, budget 899s
+RUN TabI_MM_96_12_8 dX: weight 3, budget 899s
+RUN TabI_MM_144_40_4 dZ: weight 3, budget 899s
+RUN TabI_MM_144_40_4 dZ: weight 3, budget 899s
+RUN TabI_MM_96_12_8 dX: weight 4, budget 899s
+RUN TabI_MM_96_12_8 dX: weight 4, budget 899s
+RUN TabI_MM_144_40_4 dZ: weight 4, budget 899s
+RUN TabI_MM_144_40_4 dZ: weight 4, budget 899s
+RUN TabI_MM_96_12_8 dX: weight 5, budget 898s
+RUN TabI_MM_96_12_8 dX: weight 5, budget 898s
+EXACT TabI_MM_144_40_4 dZ: 4 <= d <= 4
+EXACT TabI_MM_144_40_4 dZ: 4 <= d <= 4
+RUN TabI_MM_144_40_4 dX: weight 1, budget 899s
+RUN TabI_MM_144_40_4 dX: weight 1, budget 899s
+RUN TabI_MM_96_12_8 dX: weight 6, budget 898s
+RUN TabI_MM_96_12_8 dX: weight 6, budget 898s
+RUN TabI_MM_144_40_4 dX: weight 2, budget 899s
+RUN TabI_MM_144_40_4 dX: weight 2, budget 899s
+RUN TabI_MM_144_40_4 dX: weight 3, budget 899s
+RUN TabI_MM_144_40_4 dX: weight 3, budget 899s
+RUN TabI_MM_96_12_8 dZ: weight 7, budget 897s
+RUN TabI_MM_96_12_8 dZ: weight 7, budget 897s
+RUN TabI_MM_144_40_4 dX: weight 4, budget 899s
+RUN TabI_MM_144_40_4 dX: weight 4, budget 899s
+EXACT TabI_MM_144_40_4 dX: 4 <= d <= 4
+EXACT TabI_MM_144_40_4 dX: 4 <= d <= 4
+RUN TabI_MM_96_12_8 dX: weight 7, budget 897s
+RUN TabI_MM_96_12_8 dX: weight 7, budget 897s
+RUN TabI_MM_96_12_8 dX: weight 8, budget 888s
+RUN TabI_MM_96_12_8 dX: weight 8, budget 888s
+EXACT TabI_MM_96_12_8 dX: 8 <= d <= 8
+EXACT TabI_MM_96_12_8 dX: 8 <= d <= 8
+RUN TabI_MM_96_12_8 dZ: weight 8, budget 882s
+RUN TabI_MM_96_12_8 dZ: weight 8, budget 882s
+EXACT TabI_MM_96_12_8 dZ: 8 <= d <= 8
+EXACT TabI_MM_96_12_8 dZ: 8 <= d <= 8
+Saved /home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/claude_repo_additions_v2/Distance Audit/connected_cluster_tableI/cc_results/summary.csv. Rerun the same command to resume.
+Saved /home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/claude_repo_additions_v2/Distance Audit/connected_cluster_tableI/cc_results/summary.csv. Rerun the same command to resume.

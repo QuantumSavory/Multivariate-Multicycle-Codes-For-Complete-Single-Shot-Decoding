@@ -1,0 +1,18 @@
+{
+  "binary": "/home/fmian_umass_edu/distm4ri_tools/dist-m4ri/src/dist_m4ri",
+  "binary_sha256": "6666b383d90f29a3f877395be2b187a1514481fce578e9676af4b19a41d1e164",
+  "version": "dist_m4ri version 0.9.0\n",
+  "manifest_sha256": "01621cddda1f0c9ca5b9ecec0bf22dee5ca7fa6eccf7291f384e2d8f21133a1d",
+  "args": {
+    "binary": "/home/fmian_umass_edu/distm4ri_tools/dist-m4ri/src/dist_m4ri",
+    "out": "/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/claude_repo_additions_v2/Distance Audit/connected_cluster_tableI/cc_results",
+    "jobs": 3,
+    "threads": 1,
+    "seconds": 900,
+    "session_seconds": 25200,
+    "max_weight": 0,
+    "ignore_estimates": false,
+    "ids": null,
+    "dry_run": false
+  }
+}
