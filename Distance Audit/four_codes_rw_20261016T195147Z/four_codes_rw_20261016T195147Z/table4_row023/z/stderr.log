@@ -1,0 +1,3 @@
+# read H <- file '/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/four_codes_rw_20261016T195147Z/table4_row023/HX.mtx'
+# read G <- file '/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/four_codes_rw_20261016T195147Z/table4_row023/HZ.mtx'
+# running method=1 (multithreaded RW) with 1 threads, total steps=100000000
