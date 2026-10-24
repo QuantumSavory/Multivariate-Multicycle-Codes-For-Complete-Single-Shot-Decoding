@@ -1,0 +1,38 @@
+{
+  "id": "MM_216_12_12",
+  "error_sector": "x",
+  "check_matrix": "HZ",
+  "check_sha256": "dee9395d16c5c847e7bb8f58037f03d94607a7b734a2823a29e2e81c0e079c09",
+  "stabilizer_sha256": "060df1ac42bddbbeff2cf21620f6cc007ec0bb130cef970f1fd66ca1ffc8ad7a",
+  "started_utc": "2026-10-24T04:00:30.172718+00:00",
+  "command": [
+    "/home/fmian_umass_edu/distm4ri_tools/dist-m4ri/src/dist_m4ri",
+    "method=2",
+    "finH=/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/distm4ri_confinement_20261023/distm4ri_results_20261024T040027771079Z/MM_216_12_12/x/H_check.mtx",
+    "finG=/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/distm4ri_confinement_20261023/distm4ri_results_20261024T040027771079Z/MM_216_12_12/x/H_stabilizer.mtx",
+    "wmax=6",
+    "smax=144",
+    "dmin=1",
+    "noscan=0",
+    "wmin=0",
+    "threads=4",
+    "timeout=900",
+    "debug=3",
+    "outC=/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/distm4ri_confinement_20261023/distm4ri_results_20261024T040027771079Z/MM_216_12_12/x/logical_codewords.nz"
+  ],
+  "requested_wmax": 6,
+  "smax": 144,
+  "budget_seconds": 900,
+  "finished_utc": "2026-10-24T04:00:30.295658+00:00",
+  "wall_seconds": 0.12286957001197152,
+  "exit_code": 0,
+  "process_status": "PROCESS_EXIT",
+  "observed_profile": {
+    "1": 4,
+    "2": 6,
+    "3": 8,
+    "4": 8,
+    "5": 10,
+    "6": 10
+  }
+}

@@ -1,0 +1,21 @@
+# read H <- file '/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/distm4ri_confinement_20261023/distm4ri_results_20261024T040027771079Z/MM_486_24_12/x/H_check.mtx'
+# read G <- file '/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/distm4ri_confinement_20261023/distm4ri_results_20261024T040027771079Z/MM_486_24_12/x/H_stabilizer.mtx'
+# running method=2 (multithreaded CC) with 4 threads, w_start=1 wmax=6
+# searching w=1 with 4 CC threads, columns [0, 485]
+# CC w=1 completed in 0.000s (4 CC threads): no codewords found -> dmin=2
+# searching w=2 with 4 CC threads, columns [0, 484]
+# CC w=2 completed in 0.000s (4 CC threads): no codewords found -> dmin=3
+# searching w=3 with 4 CC threads, columns [0, 483]
+# CC w=3 completed in 0.001s (4 CC threads): no codewords found -> dmin=4
+# searching w=4 with 4 CC threads, columns [0, 482]
+# CC w=4 completed in 0.003s (4 CC threads): no codewords found -> dmin=5
+# searching w=5 with 4 CC threads, columns [0, 481]
+# CC w=5 completed in 0.016s (4 CC threads): no codewords found -> dmin=6
+# searching w=6 with 4 CC threads, columns [0, 480]
+# CC w=6 completed in 0.077s (4 CC threads): no codewords found -> dmin=7
+# w=1 min non-zero syndrome weight 6
+# w=2 min non-zero syndrome weight 10
+# w=3 min non-zero syndrome weight 12
+# w=4 min non-zero syndrome weight 14
+# w=5 min non-zero syndrome weight 18
+# w=6 min non-zero syndrome weight 18
