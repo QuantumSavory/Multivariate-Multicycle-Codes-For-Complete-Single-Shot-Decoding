@@ -1,0 +1,215 @@
+{
+  "repo_commit": "5b9ee22c1d0ddcd6813451f03d8ea8642e38d225",
+  "instances": [
+    {
+      "id": "MM_96_12_4_W12",
+      "n": 96,
+      "k": 12,
+      "historical_profile_x": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "historical_profile_z": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "max_weight": 4,
+      "hx": "matrices/MM_96_12_4_W12/HX.mtx",
+      "hx_sha256": "119762adbe73aeb8a4d9f2143f024a2d0d8057b4860f3a588fa879e24627c5a2",
+      "hx_repo_path": "QECCs/MM/MM_96_12_4_W12/MM_96_12_4_HX_W12.mtx",
+      "hz": "matrices/MM_96_12_4_W12/HZ.mtx",
+      "hz_sha256": "f661b06ae13ed17a4d5a4e04aa498e7a52efa820e87b7c6d8c9bf1c92bd96654",
+      "hz_repo_path": "QECCs/MM/MM_96_12_4_W12/MM_96_12_4_HZ_W12.mtx"
+    },
+    {
+      "id": "MM_96_12_8",
+      "n": 96,
+      "k": 12,
+      "historical_profile_x": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "historical_profile_z": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "max_weight": 6,
+      "hx": "matrices/MM_96_12_8/HX.mtx",
+      "hx_sha256": "4facb43197feb5440180b0ba130fd5c9678127a39b5464a01a862ff6437879ae",
+      "hx_repo_path": "QECCs/MM/MM_96_12_8/MM_96_12_8_HX.mtx",
+      "hz": "matrices/MM_96_12_8/HZ.mtx",
+      "hz_sha256": "5e4447e01aa996907549a1fc3d2275e40fdd4e7c1e98950e135900890bcbd672",
+      "hz_repo_path": "QECCs/MM/MM_96_12_8/MM_96_12_8_HZ.mtx"
+    },
+    {
+      "id": "MM_96_44_4",
+      "n": 96,
+      "k": 44,
+      "historical_profile_x": [
+        8,
+        8,
+        8
+      ],
+      "historical_profile_z": [
+        8,
+        8,
+        8
+      ],
+      "max_weight": 3,
+      "hx": "matrices/MM_96_44_4/HX.mtx",
+      "hx_sha256": "4d161b0cbc064894aa22dbabed75970be519e516a1ee9dd8fcf8b1b62e3c6450",
+      "hx_repo_path": "QECCs/MM/MM_96_44_4/MM_96_44_4_HX.mtx",
+      "hz": "matrices/MM_96_44_4/HZ.mtx",
+      "hz_sha256": "164ddbc0674fde8a24a1646e5d79e6cbf9e471faa3a7bff48aaa34331ef8dff8",
+      "hz_repo_path": "QECCs/MM/MM_96_44_4/MM_96_44_4_HZ.mtx"
+    },
+    {
+      "id": "MM_144_40_4",
+      "n": 144,
+      "k": 40,
+      "historical_profile_x": [
+        8,
+        8,
+        8,
+        12
+      ],
+      "historical_profile_z": [
+        8,
+        8,
+        8,
+        12
+      ],
+      "max_weight": 4,
+      "hx": "matrices/MM_144_40_4/HX.mtx",
+      "hx_sha256": "cf6f3d4d48b43e871b0f6c5c6777b7e02e5715cc93b9822053f777a1bd571619",
+      "hx_repo_path": "QECCs/MM/MM_144_40_4/MM_144_40_4_HX.mtx",
+      "hz": "matrices/MM_144_40_4/HZ.mtx",
+      "hz_sha256": "6903cf22f18e50b23d29b4b1f30933396d7f69cad22c0657a9e4db2fc775a452",
+      "hz_repo_path": "QECCs/MM/MM_144_40_4/MM_144_40_4_HZ.mtx"
+    },
+    {
+      "id": "MM_216_12_12",
+      "n": 216,
+      "k": 12,
+      "historical_profile_x": [
+        4,
+        6,
+        8,
+        8,
+        10,
+        8
+      ],
+      "historical_profile_z": [
+        4,
+        6,
+        8,
+        8,
+        10,
+        8
+      ],
+      "max_weight": 6,
+      "hx": "matrices/MM_216_12_12/HX.mtx",
+      "hx_sha256": "060df1ac42bddbbeff2cf21620f6cc007ec0bb130cef970f1fd66ca1ffc8ad7a",
+      "hx_repo_path": "QECCs/MM/MM_216_12_12/MM_216_12_12_HX.mtx",
+      "hz": "matrices/MM_216_12_12/HZ.mtx",
+      "hz_sha256": "dee9395d16c5c847e7bb8f58037f03d94607a7b734a2823a29e2e81c0e079c09",
+      "hz_repo_path": "QECCs/MM/MM_216_12_12/MM_216_12_12_HZ.mtx"
+    },
+    {
+      "id": "MM_486_24_12",
+      "n": 486,
+      "k": 24,
+      "historical_profile_x": [
+        6,
+        10,
+        12,
+        14,
+        18,
+        18
+      ],
+      "historical_profile_z": [
+        6,
+        10,
+        12,
+        14,
+        18,
+        18
+      ],
+      "max_weight": 6,
+      "hx": "matrices/MM_486_24_12/HX.mtx",
+      "hx_sha256": "6f2f8ab84803ba76c7e3d555f24ccabf434f38465edc524151eedbace1ae9350",
+      "hx_repo_path": "QECCs/MM/MM_486_24_12/MM_486_24_12_HX.mtx",
+      "hz": "matrices/MM_486_24_12/HZ.mtx",
+      "hz_sha256": "bfb25321aecf745db0b40fd08e8ca55c6ea56fe0611fce32acec4f699c1ecfab",
+      "hz_repo_path": "QECCs/MM/MM_486_24_12/MM_486_24_12_HZ.mtx"
+    },
+    {
+      "id": "MM_486_66_9",
+      "n": 486,
+      "k": 66,
+      "historical_profile_x": [
+        8,
+        12,
+        12,
+        16,
+        16,
+        12
+      ],
+      "historical_profile_z": [
+        8,
+        12,
+        12,
+        16,
+        16,
+        12
+      ],
+      "max_weight": 6,
+      "hx": "matrices/MM_486_66_9/HX.mtx",
+      "hx_sha256": "e99e570dff997209c4004c702a4980545d5d8d0178c08f2e75f73f430d91c558",
+      "hx_repo_path": "QECCs/MM/MM_486_66_9/MM_486_66_9_HX.mtx",
+      "hz": "matrices/MM_486_66_9/HZ.mtx",
+      "hz_sha256": "25bf9f627e1d193e9f61f024351ce713dba12fced5923debb6fa1b3a48c65cd0",
+      "hz_repo_path": "QECCs/MM/MM_486_66_9/MM_486_66_9_HZ.mtx"
+    },
+    {
+      "id": "MM_576_64_6",
+      "n": 576,
+      "k": 64,
+      "historical_profile_x": [
+        8,
+        12,
+        12,
+        12,
+        8,
+        12
+      ],
+      "historical_profile_z": [
+        8,
+        12,
+        12,
+        12,
+        8,
+        12
+      ],
+      "max_weight": 6,
+      "hx": "matrices/MM_576_64_6/HX.mtx",
+      "hx_sha256": "68d833f04492dc9f1b75e34b2776ddb58c45fd69b30f2f1542bdafd95218b394",
+      "hx_repo_path": "QECCs/MM/MM_576_64_6/MM_576_64_6_HX.mtx",
+      "hz": "matrices/MM_576_64_6/HZ.mtx",
+      "hz_sha256": "c5b53e7cb3bdbcad3fad51d30ecf3757ad9cfcf7c82bc07272d1c784210e21d5",
+      "hz_repo_path": "QECCs/MM/MM_576_64_6/MM_576_64_6_HZ.mtx"
+    }
+  ]
+}

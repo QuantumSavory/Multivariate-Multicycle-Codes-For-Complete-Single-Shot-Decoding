@@ -1,0 +1,35 @@
+OUTPUT: /home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/distm4ri_confinement_20261023/distm4ri_results_20261024T040027771079Z
+RUN MM_96_12_4_W12 Z errors via HX: dist-m4ri, 900s, 4 threads
+FINISHED MM_96_12_4_W12 Z: exit=0, observed profile={1: 8, 2: 8, 3: 8, 4: 8}
+RUN MM_96_12_4_W12 X errors via HZ: dist-m4ri, 900s, 4 threads
+FINISHED MM_96_12_4_W12 X: exit=0, observed profile={1: 8, 2: 8, 3: 8, 4: 8}
+RUN MM_96_12_8 Z errors via HX: dist-m4ri, 900s, 4 threads
+FINISHED MM_96_12_8 Z: exit=0, observed profile={1: 8, 2: 8, 3: 8, 4: 8, 5: 8, 6: 8}
+RUN MM_96_12_8 X errors via HZ: dist-m4ri, 900s, 4 threads
+FINISHED MM_96_12_8 X: exit=0, observed profile={1: 8, 2: 8, 3: 8, 4: 8, 5: 8, 6: 8}
+RUN MM_96_44_4 Z errors via HX: dist-m4ri, 900s, 4 threads
+FINISHED MM_96_44_4 Z: exit=0, observed profile={1: 8, 2: 8, 3: 8}
+RUN MM_96_44_4 X errors via HZ: dist-m4ri, 900s, 4 threads
+FINISHED MM_96_44_4 X: exit=0, observed profile={1: 8, 2: 8, 3: 8}
+RUN MM_144_40_4 Z errors via HX: dist-m4ri, 900s, 4 threads
+FINISHED MM_144_40_4 Z: exit=0, observed profile={1: 8, 2: 8, 3: 8, 4: 8}
+RUN MM_144_40_4 X errors via HZ: dist-m4ri, 900s, 4 threads
+FINISHED MM_144_40_4 X: exit=0, observed profile={1: 8, 2: 8, 3: 8, 4: 8}
+RUN MM_216_12_12 Z errors via HX: dist-m4ri, 900s, 4 threads
+FINISHED MM_216_12_12 Z: exit=0, observed profile={1: 4, 2: 6, 3: 8, 4: 8, 5: 10, 6: 8}
+RUN MM_216_12_12 X errors via HZ: dist-m4ri, 900s, 4 threads
+FINISHED MM_216_12_12 X: exit=0, observed profile={1: 4, 2: 6, 3: 8, 4: 8, 5: 10, 6: 10}
+RUN MM_486_24_12 Z errors via HX: dist-m4ri, 900s, 4 threads
+FINISHED MM_486_24_12 Z: exit=0, observed profile={1: 6, 2: 10, 3: 12, 4: 14, 5: 18, 6: 18}
+RUN MM_486_24_12 X errors via HZ: dist-m4ri, 900s, 4 threads
+FINISHED MM_486_24_12 X: exit=0, observed profile={1: 6, 2: 10, 3: 12, 4: 14, 5: 18, 6: 18}
+RUN MM_486_66_9 Z errors via HX: dist-m4ri, 900s, 4 threads
+FINISHED MM_486_66_9 Z: exit=0, observed profile={1: 8, 2: 12, 3: 12, 4: 16, 5: 16, 6: 12}
+RUN MM_486_66_9 X errors via HZ: dist-m4ri, 900s, 4 threads
+FINISHED MM_486_66_9 X: exit=0, observed profile={1: 8, 2: 12, 3: 12, 4: 16, 5: 16, 6: 12}
+RUN MM_576_64_6 Z errors via HX: dist-m4ri, 900s, 4 threads
+FINISHED MM_576_64_6 Z: exit=0, observed profile={1: 8, 2: 12, 3: 12, 4: 12, 5: 8, 6: 12}
+RUN MM_576_64_6 X errors via HZ: dist-m4ri, 900s, 4 threads
+FINISHED MM_576_64_6 X: exit=0, observed profile={1: 8, 2: 8, 3: 12, 4: 8, 5: 8, 6: 8}
+SAVED: /home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/distm4ri_confinement_20261023/distm4ri_results_20261024T040027771079Z
+These are observed CC profiles, not certified minima over all connected supports.

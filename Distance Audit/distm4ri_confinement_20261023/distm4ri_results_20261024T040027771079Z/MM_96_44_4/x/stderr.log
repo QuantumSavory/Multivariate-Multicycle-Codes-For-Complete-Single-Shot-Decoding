@@ -1,0 +1,12 @@
+# read H <- file '/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/distm4ri_confinement_20261023/distm4ri_results_20261024T040027771079Z/MM_96_44_4/x/H_check.mtx'
+# read G <- file '/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/distm4ri_confinement_20261023/distm4ri_results_20261024T040027771079Z/MM_96_44_4/x/H_stabilizer.mtx'
+# running method=2 (multithreaded CC) with 4 threads, w_start=1 wmax=3
+# searching w=1 with 4 CC threads, columns [0, 95]
+# CC w=1 completed in 0.000s (4 CC threads): no codewords found -> dmin=2
+# searching w=2 with 4 CC threads, columns [0, 94]
+# CC w=2 completed in 0.000s (4 CC threads): no codewords found -> dmin=3
+# searching w=3 with 4 CC threads, columns [0, 93]
+# CC w=3 completed in 0.000s (4 CC threads): no codewords found -> dmin=4
+# w=1 min non-zero syndrome weight 8
+# w=2 min non-zero syndrome weight 8
+# w=3 min non-zero syndrome weight 8
