@@ -1,0 +1,18 @@
+{
+  "sinter_version": "1.15.0",
+  "matplotlib_version": "3.10.8",
+  "plotting": "sinter.plot_error_rate; failure_units_per_shot_func = metadata r; highlight_max_likelihood_factor=1000",
+  "warning": "This restores the original Sinter plotting convention, not the rerun script's Wilson plotting convention. Raw counts are unchanged.",
+  "figures": [
+    {
+      "figure": 8,
+      "source": "/work/pi_skrastanov_umass_edu/feroz/qecc_suite/mm_figures_sinter_200k_20261024/revision_sinter_200k/results/circuit_Z.csv",
+      "csv_sha256": "e6ebf5486056d2b0e2879e99025a48a33521c12ef8ee042a1f670f7012b72b14",
+      "complete": true,
+      "tasks_found": 36,
+      "tasks_expected": 36,
+      "total_shots": 3612847,
+      "total_errors": 107020
+    }
+  ]
+}
