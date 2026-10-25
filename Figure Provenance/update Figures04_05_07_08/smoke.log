@@ -1,0 +1,851 @@
+PREPARED phenomenological X MM_144_12_12_W9 p=0.01
+PREPARED phenomenological Z MM_144_12_12_W9 p=0.01
+PREPARED circuit X MM_144_12_12_W9 p=0.01
+PREPARED circuit Z MM_144_12_12_W9 p=0.01
+PREPARED phenomenological X AMC_180_6_12_W6 p=0.01
+PREPARED phenomenological Z AMC_180_6_12_W6 p=0.01
+PREPARED circuit X AMC_180_6_12_W6 p=0.01
+PREPARED circuit Z AMC_180_6_12_W6 p=0.01
+PREPARED phenomenological X BB_144_12_12 p=0.01
+PREPARED phenomenological Z BB_144_12_12 p=0.01
+PREPARED circuit X BB_144_12_12 p=0.01
+PREPARED circuit Z BB_144_12_12 p=0.01
+PREPARED phenomenological X TT_135_12_6 p=0.01
+PREPARED phenomenological Z TT_135_12_6 p=0.01
+PREPARED circuit X TT_135_12_6 p=0.01
+PREPARED circuit Z TT_135_12_6 p=0.01
+RUN phenomenological_X: 4 tasks, 2 workers
+[31mStarting 2 workers...[0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom <1m        199          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=425ac866dea0c371c07c87874a493afde38f383f22c3787d4822d9be29371561,run_type=new_revision_run
+        1 tesseract-custom   ?        200          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=1b2bc0b610092c9bc394e00fb8a024d98cccb7333355dada18e2212265d7cf2e,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=phenomenological,circuit_sha256=d350b842a222082e2f5e3935a155267df6b76a916175fba72a7af680c321916f,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom <1m        183          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=425ac866dea0c371c07c87874a493afde38f383f22c3787d4822d9be29371561,run_type=new_revision_run
+        1 tesseract-custom   ?        200          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=1b2bc0b610092c9bc394e00fb8a024d98cccb7333355dada18e2212265d7cf2e,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=phenomenological,circuit_sha256=d350b842a222082e2f5e3935a155267df6b76a916175fba72a7af680c321916f,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom <1m        183          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=425ac866dea0c371c07c87874a493afde38f383f22c3787d4822d9be29371561,run_type=new_revision_run
+        1 tesseract-custom <1m        183          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=1b2bc0b610092c9bc394e00fb8a024d98cccb7333355dada18e2212265d7cf2e,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=phenomenological,circuit_sha256=d350b842a222082e2f5e3935a155267df6b76a916175fba72a7af680c321916f,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom <1m        119          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=425ac866dea0c371c07c87874a493afde38f383f22c3787d4822d9be29371561,run_type=new_revision_run
+        1 tesseract-custom <1m        183          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=1b2bc0b610092c9bc394e00fb8a024d98cccb7333355dada18e2212265d7cf2e,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=phenomenological,circuit_sha256=d350b842a222082e2f5e3935a155267df6b76a916175fba72a7af680c321916f,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom <1m        119          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=425ac866dea0c371c07c87874a493afde38f383f22c3787d4822d9be29371561,run_type=new_revision_run
+        1 tesseract-custom <1m        119          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=1b2bc0b610092c9bc394e00fb8a024d98cccb7333355dada18e2212265d7cf2e,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=phenomenological,circuit_sha256=d350b842a222082e2f5e3935a155267df6b76a916175fba72a7af680c321916f,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom <1m         55          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=425ac866dea0c371c07c87874a493afde38f383f22c3787d4822d9be29371561,run_type=new_revision_run
+        1 tesseract-custom <1m        119          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=1b2bc0b610092c9bc394e00fb8a024d98cccb7333355dada18e2212265d7cf2e,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=phenomenological,circuit_sha256=d350b842a222082e2f5e3935a155267df6b76a916175fba72a7af680c321916f,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom <1m         55          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=425ac866dea0c371c07c87874a493afde38f383f22c3787d4822d9be29371561,run_type=new_revision_run
+        1 tesseract-custom <1m         55          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=1b2bc0b610092c9bc394e00fb8a024d98cccb7333355dada18e2212265d7cf2e,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=phenomenological,circuit_sha256=d350b842a222082e2f5e3935a155267df6b76a916175fba72a7af680c321916f,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                          
+        1 tesseract-custom <1m         55          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=1b2bc0b610092c9bc394e00fb8a024d98cccb7333355dada18e2212265d7cf2e,run_type=new_revision_run
+        1 tesseract-custom   ?        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run  
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=phenomenological,circuit_sha256=d350b842a222082e2f5e3935a155267df6b76a916175fba72a7af680c321916f,run_type=new_revision_run   [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                          
+        1 tesseract-custom <1m         55          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=1b2bc0b610092c9bc394e00fb8a024d98cccb7333355dada18e2212265d7cf2e,run_type=new_revision_run
+        1 tesseract-custom <1m        183          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run  
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=phenomenological,circuit_sha256=d350b842a222082e2f5e3935a155267df6b76a916175fba72a7af680c321916f,run_type=new_revision_run   [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                        
+        1 tesseract-custom <1m        183          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run
+        1 tesseract-custom   ?        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=phenomenological,circuit_sha256=d350b842a222082e2f5e3935a155267df6b76a916175fba72a7af680c321916f,run_type=new_revision_run [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                        
+        1 tesseract-custom <1m        183          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run
+        1 tesseract-custom <1m        183          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=phenomenological,circuit_sha256=d350b842a222082e2f5e3935a155267df6b76a916175fba72a7af680c321916f,run_type=new_revision_run [0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                        
+        2 tesseract-custom <1m        183          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                        
+        2 tesseract-custom <1m         55          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                        
+        2 tesseract-custom <1m         38          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                        
+        2 tesseract-custom   ?          0          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=phenomenological,circuit_sha256=b0d7c91055346d5fc15ba41232e476d02d605f539019cad70d7382ac6850c1bd,run_type=new_revision_run[0m
+SAVED SMOKE_figure04.pdf and .png; complete=True
+OUTPUT: /work/pi_skrastanov_umass_edu/feroz/qecc_suite/mm_figures_sinter_200k_20261024/smoke_sinter_200k/plot_records/phenomenological_X_20261024T220908140893Z
+SAVED Figure 4: all stopping targets met=True
+RUN phenomenological_Z: 4 tasks, 2 workers
+[31mStarting 2 workers...[0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom   ?        200          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=0ef2b2d79dcfa6d7b4e8031cbe76566108268360abc51c5a8b34fff2e2bf7d10,run_type=new_revision_run
+        1 tesseract-custom <1m        199          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=d86013921bd04a227df60a90b175088b8d747bf7a83e73072c7d345b74d81988,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=phenomenological,circuit_sha256=52c15ed1b291dd549a11b678ffe0ed23fc63d4ddb7172404ff73b60f8d8cd929,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom <1m        183          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=0ef2b2d79dcfa6d7b4e8031cbe76566108268360abc51c5a8b34fff2e2bf7d10,run_type=new_revision_run
+        1 tesseract-custom <1m        199          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=d86013921bd04a227df60a90b175088b8d747bf7a83e73072c7d345b74d81988,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=phenomenological,circuit_sha256=52c15ed1b291dd549a11b678ffe0ed23fc63d4ddb7172404ff73b60f8d8cd929,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom <1m        183          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=0ef2b2d79dcfa6d7b4e8031cbe76566108268360abc51c5a8b34fff2e2bf7d10,run_type=new_revision_run
+        1 tesseract-custom <1m        183          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=d86013921bd04a227df60a90b175088b8d747bf7a83e73072c7d345b74d81988,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=phenomenological,circuit_sha256=52c15ed1b291dd549a11b678ffe0ed23fc63d4ddb7172404ff73b60f8d8cd929,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom <1m        119          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=0ef2b2d79dcfa6d7b4e8031cbe76566108268360abc51c5a8b34fff2e2bf7d10,run_type=new_revision_run
+        1 tesseract-custom <1m        183          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=d86013921bd04a227df60a90b175088b8d747bf7a83e73072c7d345b74d81988,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=phenomenological,circuit_sha256=52c15ed1b291dd549a11b678ffe0ed23fc63d4ddb7172404ff73b60f8d8cd929,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom <1m        119          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=0ef2b2d79dcfa6d7b4e8031cbe76566108268360abc51c5a8b34fff2e2bf7d10,run_type=new_revision_run
+        1 tesseract-custom <1m        119          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=d86013921bd04a227df60a90b175088b8d747bf7a83e73072c7d345b74d81988,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=phenomenological,circuit_sha256=52c15ed1b291dd549a11b678ffe0ed23fc63d4ddb7172404ff73b60f8d8cd929,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom <1m         55          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=0ef2b2d79dcfa6d7b4e8031cbe76566108268360abc51c5a8b34fff2e2bf7d10,run_type=new_revision_run
+        1 tesseract-custom <1m        119          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=d86013921bd04a227df60a90b175088b8d747bf7a83e73072c7d345b74d81988,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=phenomenological,circuit_sha256=52c15ed1b291dd549a11b678ffe0ed23fc63d4ddb7172404ff73b60f8d8cd929,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                           
+        1 tesseract-custom <1m         55          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=0ef2b2d79dcfa6d7b4e8031cbe76566108268360abc51c5a8b34fff2e2bf7d10,run_type=new_revision_run
+        1 tesseract-custom <1m         55          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=d86013921bd04a227df60a90b175088b8d747bf7a83e73072c7d345b74d81988,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=phenomenological,circuit_sha256=52c15ed1b291dd549a11b678ffe0ed23fc63d4ddb7172404ff73b60f8d8cd929,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                          
+        1 tesseract-custom <1m         55          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=d86013921bd04a227df60a90b175088b8d747bf7a83e73072c7d345b74d81988,run_type=new_revision_run
+        1 tesseract-custom   ?        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run  
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=phenomenological,circuit_sha256=52c15ed1b291dd549a11b678ffe0ed23fc63d4ddb7172404ff73b60f8d8cd929,run_type=new_revision_run   [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                          
+        1 tesseract-custom <1m         55          20 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=d86013921bd04a227df60a90b175088b8d747bf7a83e73072c7d345b74d81988,run_type=new_revision_run
+        1 tesseract-custom <1m        183          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run  
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=phenomenological,circuit_sha256=52c15ed1b291dd549a11b678ffe0ed23fc63d4ddb7172404ff73b60f8d8cd929,run_type=new_revision_run   [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                        
+        1 tesseract-custom <1m        183          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run
+        1 tesseract-custom   ?        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=phenomenological,circuit_sha256=52c15ed1b291dd549a11b678ffe0ed23fc63d4ddb7172404ff73b60f8d8cd929,run_type=new_revision_run [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                        
+        1 tesseract-custom <1m        183          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run
+        1 tesseract-custom <1m        183          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=phenomenological,circuit_sha256=52c15ed1b291dd549a11b678ffe0ed23fc63d4ddb7172404ff73b60f8d8cd929,run_type=new_revision_run [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                        
+        1 tesseract-custom <1m         55          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run
+        1 tesseract-custom <1m        183          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=phenomenological,circuit_sha256=52c15ed1b291dd549a11b678ffe0ed23fc63d4ddb7172404ff73b60f8d8cd929,run_type=new_revision_run [0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                        
+        2 tesseract-custom <1m         55          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                        
+        2 tesseract-custom   ?          0          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=phenomenological,circuit_sha256=679fb42709e2200e912441e9a811c277cf2439a5dc9e5c5f6b939455dc94cc1f,run_type=new_revision_run[0m
+SAVED SMOKE_figure05.pdf and .png; complete=True
+OUTPUT: /work/pi_skrastanov_umass_edu/feroz/qecc_suite/mm_figures_sinter_200k_20261024/smoke_sinter_200k/plot_records/phenomenological_Z_20261024T220913043007Z
+SAVED Figure 5: all stopping targets met=True
+RUN circuit_X: 4 tasks, 2 workers
+[31mStarting 2 workers...[0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom   ?        200          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        199          19 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom   ?        200          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        198          18 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        199          19 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        198          18 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        199          19 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        197          17 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        199          19 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        196          16 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        199          19 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        195          15 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        198          18 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        195          15 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        198          18 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        194          14 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        198          18 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        193          13 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        198          18 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        192          12 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        197          17 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        192          12 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        197          17 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        191          11 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        197          17 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        190          10 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        196          16 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        190          10 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        196          16 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        189           9 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        196          16 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        188           8 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        196          16 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        187           7 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        195          15 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        187           7 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        195          15 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        186           7 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        195          15 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        184           5 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        194          14 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        184           5 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        194          14 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        182           3 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        193          13 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        182           3 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        193          13 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom   ?        179           0 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=de4ceacb3aa3bd5dfd654fde05c7a252a691b777a9e6695865d64fba271680cb,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        192          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom   ?        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        192          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        199          19 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        192          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        198          18 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        192          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        197          17 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        192          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        196          16 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        192          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        195          15 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        192          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        194          14 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          11 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        194          14 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          11 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        193          13 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          11 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        192          12 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          11 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        191          11 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          11 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        190          10 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          11 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        189           9 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        190          10 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        189           9 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        190          10 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        187           7 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        190          10 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        185           5 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        190          10 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        182           2 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        189           9 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        182           2 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        189           9 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom   ?        180           0 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=be5fbc0c75ba35b8b6f473a9d28efa5196ee69080c1a9894e27599d3c166ae2f,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        189           9 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        199          19 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        189           9 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        197          17 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        189           9 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        195          15 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        189           9 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        193          13 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        188           8 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        193          13 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        188           8 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        191          11 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        188           8 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        189           9 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        188           8 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        187           7 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        188           8 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        185           5 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        188           8 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        183           3 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        187           7 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        183           3 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        187           7 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom <1m        181           1 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder        eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom        <1m        187           7 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run
+        1 tesseract-custom [draining]        179          -1 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=X,model=circuit,circuit_sha256=b93be434202af8dc6ad6ee18fe4b9a713c9cd0120ea8701a666929af86cc081c,run_type=new_revision_run    [0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        2 tesseract-custom <1m        186           6 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        2 tesseract-custom <1m        185           5 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        2 tesseract-custom <1m        184           4 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        2 tesseract-custom <1m        183           3 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        2 tesseract-custom <1m        182           2 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        2 tesseract-custom <1m        181           1 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        2 tesseract-custom   ?        180           0 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder        eta shots_left errors_left json_metadata                                                                                                                                                                  
+        2 tesseract-custom [draining]        179          -1 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder        eta shots_left errors_left json_metadata                                                                                                                                                                  
+        2 tesseract-custom [draining]        178          -2 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=X,model=circuit,circuit_sha256=6d3c2fb9ef573752bb4125f3742ee6a887a2e191d6e7f6276400244ffb137584,run_type=new_revision_run[0m
+SAVED SMOKE_figure07.pdf and .png; complete=True
+OUTPUT: /work/pi_skrastanov_umass_edu/feroz/qecc_suite/mm_figures_sinter_200k_20261024/smoke_sinter_200k/plot_records/circuit_X_20261024T221003217765Z
+SAVED Figure 7: all stopping targets met=True
+RUN circuit_Z: 4 tasks, 2 workers
+[31mStarting 2 workers...[0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom   ?        200          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        199          19 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom   ?        200          20 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        198          18 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        199          19 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        198          18 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        199          19 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        197          17 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        199          19 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        196          16 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        199          19 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        195          15 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        198          18 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        195          15 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        198          18 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        194          14 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        198          18 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        193          13 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom  1m        197          18 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        193          13 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom  1m        197          18 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        192          12 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom  1m        197          18 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        191          11 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom  1m        197          18 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        190          10 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom  1m        196          17 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        190          10 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom  1m        196          17 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        189          10 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom  1m        196          17 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        188           9 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        195          16 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        188           9 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        195          16 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        187           8 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        195          16 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        186           7 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        195          16 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        185           6 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        194          15 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        185           6 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        194          15 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        183           4 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        193          14 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        183           4 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        193          14 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        180           1 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        192          13 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        180           1 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m4 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        192          13 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom   ?        179           0 code_key=AMC_180_6_12_W6,n=180,k=6,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=af84c095b0575f008314d8fe73c0b7619a1daf67108266e4f5fc8c1a50a938f0,run_type=new_revision_run 
+        0 tesseract-custom ?·∞        200          20 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        192          13 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        199          19 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        192          13 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        198          18 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        192          13 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        197          17 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        197          17 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        196          16 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        195          15 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        194          14 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        193          13 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        192          12 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        191          11 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        191          12 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        190          10 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        190          11 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        190          10 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        190          11 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        189           9 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        190          11 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        187           7 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        190          11 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        185           5 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        189          10 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        185           5 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        189          10 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        183           3 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m3 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        189          10 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom   ?        180           0 code_key=BB_144_12_12,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=08d74d2cfa358a3e3e1b6c4005047b6dcf96d3cf0da2ac7bc8c7fda5382cb372,run_type=new_revision_run   
+        0 tesseract-custom ?·∞        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        188           9 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom   ?        200          20 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        188           9 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        199          19 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        188           9 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        198          18 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        187           8 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        198          18 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        187           8 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        197          17 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        187           8 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        196          16 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        186           7 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        196          16 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        186           7 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        195          15 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        186           7 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        194          14 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        185           6 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        194          14 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        185           6 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        193          13 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        185           6 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        192          12 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        184           5 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        192          12 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        184           5 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        191          11 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        183           4 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        191          11 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        183           4 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        190          10 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        183           4 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        189           9 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        183           4 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        188           8 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        183           4 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        187           7 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        181           2 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        187           7 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        181           2 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        186           6 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        181           2 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        185           5 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom <1m        181           2 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        183           3 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m2 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                                  
+        1 tesseract-custom   ?        179           0 code_key=MM_144_12_12_W9,n=144,k=12,r=24,p=0.01,basis=Z,model=circuit,circuit_sha256=050c6a7b6dc54e6bbb88ce69f52ec14675ed9176614cacbcbf08f0c2dfffbf77,run_type=new_revision_run
+        1 tesseract-custom <1m        183           3 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run    [0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                              
+        2 tesseract-custom <1m        182           2 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder eta shots_left errors_left json_metadata                                                                                                                                                              
+        2 tesseract-custom   ?        180           0 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder        eta shots_left errors_left json_metadata                                                                                                                                                              
+        2 tesseract-custom [draining]        179          -1 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run[0m
+[31m1 tasks left:
+  workers          decoder        eta shots_left errors_left json_metadata                                                                                                                                                              
+        2 tesseract-custom [draining]        178          -2 code_key=TT_135_12_6,n=135,k=12,r=12,p=0.01,basis=Z,model=circuit,circuit_sha256=ea202174c7cfd9f35cda4e80eab040800d632ce6a1f94521b12c82de59df72fa,run_type=new_revision_run[0m
+SAVED SMOKE_figure08.pdf and .png; complete=True
+OUTPUT: /work/pi_skrastanov_umass_edu/feroz/qecc_suite/mm_figures_sinter_200k_20261024/smoke_sinter_200k/plot_records/circuit_Z_20261024T221107594349Z
+SAVED Figure 8: all stopping targets met=True
+DONE /work/pi_skrastanov_umass_edu/feroz/qecc_suite/mm_figures_sinter_200k_20261024/smoke_sinter_200k (smoke-only=True)
