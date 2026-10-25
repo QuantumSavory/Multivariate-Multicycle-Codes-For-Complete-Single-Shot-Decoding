@@ -1,204 +1,161 @@
 [![Paper](https://img.shields.io/badge/paper-arXiv%3A2601.18879-B31B1B.svg)](https://arxiv.org/abs/2601.18879)
 
-# Multivariate Multicycle Codes For Complete Single-Shot Decoding
+# Multivariate Multicycle Codes for Complete Single-Shot Decoding
 
-**Authors:**
+**Feroz Ahmed Mian, Owen Gwilliam, and Stefan Krastanov**
 
-Feroz Ahmed Mian, Owen Gwilliam, Stefan Krastanov
+Code matrices, numerical experiments, and computational records accompanying
+[the paper](https://arxiv.org/abs/2601.18879).
 
----
+The paper develops a Koszul-complex formulation of multivariate multicycle (MM)
+codes. Over finite abelian group algebras, this is a reformulation of abelian
+multicycle (AMC) codes at the corresponding homological degree. The repository
+contains explicit code instances, distance searches and certification records,
+and finite-instance confinement and decoding experiments.
 
-This repository provides a database of X-type and Z-type **parity check** matrices (`HX`, `HZ`) and **metacheck matrices** for the **Multivariate Multicycle (MM)** family of new quantum error-correcting codes. All matrices are stored in the standard **Matrix Market (`.mtx`) format**, ensuring direct usage with modern tools such as [Stim](https://github.com/quantumlib/Stim).
+## Finding the data
 
-The dataset can be directly used for running **code distance** algorithms and calculating **confinement profiles** using the [dist‑m4ri](https://github.com/QEC-pages/dist-m4ri) program.
+| To inspect or reproduce | Start here |
+|---|---|
+| Code matrices and examples | [QECCs](QECCs/) and [HDF5 loading notebook](Loading_QECCs_from_HDF5.ipynb) |
+| Defining polynomials, moduli, and structural checks | [Distance audit code and registry](Distance%20Audit/code/) |
+| Distance bounds, witnesses, and certification records | [Distance audit guide](Distance%20Audit/README.md) |
+| Revised Figures 4, 5, 7, and 8 | [24 October simulation archive](Figure%20Provenance/update%20Figures04_05_07_08/README.md) |
+| Single-shot metacheck experiments | [Single-shot decoding guide](Single-Shot%20Decoding/README.md) |
+| Historical figure data and logs | [Figure provenance](Figure%20Provenance/) |
+| Native dist-m4ri confinement runs | [Confinement campaign](Distance%20Audit/distm4ri_confinement_20261023/README.md) |
+| Additional experiment notebooks | [Numerical experiments](Numerical%20Experiments/) |
 
-All code instances in this database were generated explicitly using [QuantumClifford.jl](https://github.com/QuantumSavory/QuantumClifford.jl). For a comprehensive overview of the Multivariate Multicycle code construction and its subfamilies, please refer to the [MM code documentation](https://qc.quantumsavory.org/dev/ECC_API/#QuantumCliffordOscarExt.MultivariateMulticycle).
+## Code construction and matrix files
 
-## Confinement Profile Computation using [dist‑m4ri](https://github.com/QEC-pages/dist-m4ri) 
+MM instances are constructed with
+[QuantumClifford.jl](https://github.com/QuantumSavory/QuantumClifford.jl)
+and Oscar. See the
+[`MultivariateMulticycle` documentation](https://qc.quantumsavory.org/stable/ECC_API/#QuantumCliffordOscarExt.MultivariateMulticycle)
+for the constructor and examples.
 
-A convenient method to compute confinement is using Google Colab. Here is a simple guide:
+The repository includes Matrix Market (`.mtx`) files and HDF5 (`.h5`) files.
+`HX` and `HZ` denote the X- and Z-type parity-check matrices; metacheck and
+logical-operator matrices are included where available. The
+[loading notebook](Loading_QECCs_from_HDF5.ipynb) describes the HDF5 data.
+Use the loading code associated with an experiment to preserve its matrix
+orientation and qubit ordering. Stim simulations use circuits generated from
+these matrices; the matrix files themselves are not Stim circuits.
 
-### Install Dependencies and Clone [dist‑m4ri](https://github.com/QEC-pages/dist-m4ri) Program
+For binary parity-check matrices with qubits as columns,
 
-```bash
-!apt-get update
-!apt-get install -y libm4ri-dev build-essential git
-!git clone https://github.com/QEC-pages/dist-m4ri.git
-%cd dist-m4ri/src
-!make dist_m4ri
-```
+$$
+H_X H_Z^{\mathsf{T}} = 0,
+\qquad
+k = n - \operatorname{rank}_{\mathbb{F}_2}(H_X)
+      - \operatorname{rank}_{\mathbb{F}_2}(H_Z).
+$$
+Historical filenames and plot labels are retained. A distance appearing in a
+filename is not, by itself, a distance certificate. Match an instance using its
+defining data or saved matrices, not only its label or its values of `n` and `k`.
 
-### Verify Installation
+## Distance results
 
-```bash
-!ls -l dist_m4ri
-!./dist_m4ri --help
-```
+Distance records distinguish three kinds of evidence:
 
-### Find Installation Path of [dist‑m4ri](https://github.com/QEC-pages/dist-m4ri) Program
+- **Search estimate:** a value returned by a randomized search.
+- **Verified upper bound:** a saved nontrivial logical operator whose weight,
+  zero syndrome, and nonmembership in the stabilizer row space have been checked.
+- **Exact distance:** a verified upper bound matching a lower bound established
+  by completed connected-cluster exclusions.
 
-```bash
-%%bash
-find /content -name dist_m4ri 2>/dev/null
-```
+For an X logical operator, check membership in `ker(HZ)` and nonmembership in
+`rowspan(HX)`; interchange X and Z for a Z logical operator. The overall CSS
+distance is `min(dX, dZ)`. A timeout does not exclude the weight still being
+searched, and randomized trials alone do not establish exactness.
 
-## Running Confinement Computation
+The [distance audit guide](Distance%20Audit/README.md) explains the original
+sQetch searches, later dist-m4ri searches, and witness-verification commands.
+The following records are especially useful:
 
-Once installed, navigate to your QEC code directory and run the computation:
+| Campaign | Evidence |
+|---|---|
+| Original connected-cluster campaign | [Records and verification instructions](Distance%20Audit/connected_cluster/) |
+| Three additional Table I instances | [Table I certification records](Distance%20Audit/connected_cluster_tableI/) |
+| Four larger instances with historical unverified estimates | [Additional random-window runs and witnesses](Distance%20Audit/four_codes_rw_20261016T195147Z/) |
 
-```bash
-%%bash
-cd "/content/drive/MyDrive/QEC_CODE"
-DIST="/content/dist-m4ri/src/dist_m4ri" # Example path
-HZ="MM_96_12_4_HZ.mtx"
-echo "Using dist-4mri:"
-ls -l "$DIST"
-$DIST method=2 finH="$HZ" wmax=6
-```
+**The CSV files in `Distance Audit/final/` are historical summaries.** They do not
+include every later campaign. In particular, the unverified dagger entries for
+`table3_row025`, `table3_row027`, `table4_row023`, and `table4_row026` must be read
+alongside the additional random-window records linked above. Earlier verified
+upper bounds remain valid for the same matrices; use the smallest verified bound
+available for each sector and check for a matching certified lower bound.
 
-### Output
+## Decoding experiments and figures
 
-```bash
-Using dist-4mri:
--rwxr-xr-x 1 root root 229688 Jan 29 05:56 /content/dist-m4ri/src/dist-m4ri/src/dist_m4ri
-# read H <- file 'MM_96_12_4_HZ.mtx'
-# recursively searching for w=1 codewords wmax=6 beg=0 end=95
-# recursively searching for w=2 codewords wmax=6 beg=0 end=94
-# recursively searching for w=3 codewords wmax=6 beg=0 end=93
-# recursively searching for w=4 codewords wmax=6 beg=0 end=92
-# w=1 min non-zero syndrome weight 8
-# w=2 min non-zero syndrome weight 8
-# w=3 min non-zero syndrome weight 8
-# w=4 min non-zero syndrome weight 8
-### Cluster (actual min-weight codeword found): d=4
-```
+### Revised Figures 4, 5, 7, and 8
 
-### And
+The [24 October 2026 rerun](Figure%20Provenance/update%20Figures04_05_07_08/README.md)
+contains the phenomenological and circuit-level memory experiments for these
+figures. It records the circuits actually sampled, detector error models,
+decoder settings, software versions, raw Sinter statistics, circuit resources,
+and plotting inputs.
 
-```bash
-%%bash
-cd "/content/drive/MyDrive/mm_codes"
-DIST="/content/dist-m4ri/src/dist-m4ri/src/dist_m4ri"
-HZ="MM_96_12_4_HZ.mtx"
-echo "Using binary:"
-ls -l "$DIST"
-$DIST method=2 finH="$HZ" wmax=6 debug=0
-```
+Use its [run and plotting instructions](Figure%20Provenance/update%20Figures04_05_07_08/RUN_INSTRUCTIONS.md)
+to reproduce the experiment or redraw the saved results. The earlier
+`Figure04/`, `Figure05/`, and `Figure07_08/` directories remain as historical
+records; the linked revision campaign is the source for the updated figures.
 
-### Output
+### Single-shot decoding
 
-```bash
-Using binary:
--rwxr-xr-x 1 root root 229688 Jan 29 05:56 /content/dist-m4ri/src/dist-m4ri/src/dist_m4ri
-# confinement: 8,8,8,8,
-4 # code distance 
-```
+[Single-Shot Decoding](Single-Shot%20Decoding/README.md) contains the metacheck
+experiments, exported matrices, simulation and plotting scripts, raw counts, and
+run log. Its README describes the noise model, decoder variants, stopping rules,
+and statistical intervals.
 
-### Example I: Confinement Profile of `[[96, 12, 4]]` **multivariate multicycle** code from Table I of [reference](https://arxiv.org/pdf/2601.18879)
+### Other archived figures
 
-```
-%%bash
-cd "PATH_TO_QEC_CODE_DIR"
-DIST="PATH_TO_DIST_M4RI_BINARY"
+[Figure Provenance](Figure%20Provenance/) groups the earlier experiments by
+figure number, with result tables, logs, plots, and available circuit files.
+For example, the saved overlapping-window experiments are in
+[Figure09](Figure%20Provenance/Figure09/) and
+[Figure10](Figure%20Provenance/Figure10/).
+Figure numbers refer to the manuscript versions used when the archives were
+created.
 
-hx="MM_96_12_4_HX.mtx"
-hz="MM_96_12_4_HZ.mtx"
+Use each campaign's recorded settings and plotting convention: the experiments
+do not all use the same decoder, per-round normalization, or uncertainty
+interval. Historical records vary in completeness. A configuration in a later
+script or notebook does not establish the settings of an earlier run.
 
-if [ -f "$hx" ] && [ -f "$hz" ]; then
-    for wmax in 6; do
-        $DIST method=2 finH="$hx" finG="$hz" wmax=$wmax 2>&1 debug=0
-    done
+## Confinement profiles
 
-    $DIST method=2 finH="$hx" finG="$hz" wmax=6  2>&1 debug=0
+The [native dist-m4ri campaign](Distance%20Audit/distm4ri_confinement_20261023/README.md)
+preserves the input matrices, executable and version information, commands,
+logs, and observed profiles for eight MM instances in both sectors.
 
-else
-    echo "Files not found!"
-fi
-```
+These profiles report the minimum **nonzero syndrome weight observed** at each
+reported cluster weight during the search. They are not automatically certified
+minima over all connected supports, and a missing entry does not mean zero.
+The campaign README explains the search settings and stopping conditions.
 
-### Output
+Finite-instance distance, confinement, and decoding results provide different
+kinds of evidence. The presence of metachecks or a finite observed profile does
+not by itself prove complete single-shot decoding for an asymptotic family.
 
-```
-# confinement: 8,8,8,8,
-4 # code distance
-# confinement: 8,8,8,8,
-4 # code distance
-```
+## Reproducing and citing a run
 
-### Example II: Confinement Profile of `[[96, 6, 4]]` **4D toric** code from Table I of [reference](https://arxiv.org/pdf/2506.16910)
+Start with the README for the relevant campaign and its saved inputs. Use its
+recorded software versions where available, preserve the original outputs, and
+save new runs separately. When reporting a result, identify the repository
+commit and the campaign directory so the matrices, settings, and outputs can be
+located together.
 
-```
-%%bash
-cd "PATH_TO_QEC_CODE_DIR"
-DIST="PATH_TO_DIST_M4RI_BINARY"
+If you use these constructions or data, please cite:
 
-hx="T_96_6_4_HX.mtx"
-hz="T_96_6_4_HZ.mtx"
-
-if [ -f "$hx" ] && [ -f "$hz" ]; then
-    for wmax in 6; do
-        $DIST method=2 finH="$hx" finG="$hz" wmax=$wmax 2>&1 debug=0
-    done
-
-    $DIST method=2 finH="$hx" finG="$hz" wmax=6  2>&1 debug=0
-
-else
-    echo "Files not found!"
-fi
-```
-
-### Output
-
-```
-# confinement: 4,4,4,
-4 # code distance
-# confinement: 4,4,4,
-4 # code distance
-```
-
-### Example III: Confinement Profile of `[[84, 6, 7]]` **abelian multicycle** code from Table I of [reference](https://arxiv.org/pdf/2506.16910)
-
-```
-%%bash
-cd "PATH_TO_QEC_CODE_DIR"
-DIST="PATH_TO_DIST_M4RI_BINARY"
-
-hx="AM_84_6_7_HX.mtx"
-hz="AM_84_6_7_HZ.mtx"
-
-if [ -f "$hx" ] && [ -f "$hz" ]; then
-    for wmax in 7; do
-        $DIST method=2 finH="$hx" finG="$hz" wmax=$wmax 2>&1 debug=0
-    done
-
-    $DIST method=2 finH="$hx" finG="$hz" wmax=7  2>&1 debug=0
-
-else
-    echo "Files not found!"
-fi
-```
-
-### Output
-
-```
-# confinement: 4,6,6,6,4,4,4
-7 # code distance
-# confinement: 4,6,6,6,4,4,4
-7 # code distance
-```
-
-## Citation
-
-In any publication or work that utilizes this database, please cite the following.
-
-```latex
-@misc{mian2026multivariatemulticyclecodescomplete,
-      title={Multivariate Multicycle Codes for Complete Single-Shot Decoding}, 
-      author={Feroz Ahmed Mian and Owen Gwilliam and Stefan Krastanov},
-      year={2026},
-      eprint={2601.18879},
-      archivePrefix={arXiv},
-      primaryClass={quant-ph},
-      url={https://arxiv.org/abs/2601.18879}, 
+```bibtex
+@article{mian2026multivariate,
+  title={Multivariate Multicycle Codes for Complete Single-Shot Decoding},
+  author={Mian, Feroz Ahmed and Gwilliam, Owen and Krastanov, Stefan},
+  journal={arXiv preprint arXiv:2601.18879},
+  year={2026}
 }
 ```
+
+See [LICENSE](LICENSE) for the repository license. Questions and corrections can
+be raised through [GitHub issues](https://github.com/QuantumSavory/Multivariate-Multicycle-Codes-For-Complete-Single-Shot-Decoding/issues).
