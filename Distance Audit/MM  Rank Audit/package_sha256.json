@@ -1,0 +1,18 @@
+{
+  "source_commit.txt": "81481be382d7ee7b65351827c4b76bcf8014d94eb3a176fb5013b6af79d6748d",
+  "audit_ranks.jl": "3eed5ff6e428c9b9b0b18ca86a089ce77b602db7bf5b1c7adcbea8eadd5939a6",
+  "README.md": "92092d17516c8497834a43d1d71afaaf4c47302bf87cea54614a141593680dbc",
+  "cases.toml": "4a0f6d82ef2d6a2f8f4b1e7e9b3db2221c2909f509621ba1b75a3a2e17a68e20",
+  "source_provenance.json": "0fa483255e79fe44fcdb68b7a567aa82be9dccd0e537c017729b07c604c38095",
+  "inputs/codes_qc.json": "c4dd34a0065c4ae3ca82fd0055cfd0e1fcad0630f3cf516b0b767a0e69de5560",
+  "inputs/export_from_quantumclifford.jl": "7a74ee77bcbc9274463ec6c786c4ddbbd206be07fd9919b2d193ffc2ef818428",
+  "inputs/qc_matrices/TT_135_12_6_HX.mtx": "b469d120ea51939e1106c867b230472206ec4a157b713c4f3b9f08abaa01e607",
+  "inputs/qc_matrices/MM_144_12_12_HZ.mtx": "86ed5279db0674d48827015bd422d1efee30d6ab6795ffcd43d93cbc4f833fce",
+  "inputs/qc_matrices/TT_135_12_6_MZ.mtx": "a0f665b26d7a9ec0c4e86436d0182b3170e3721770a207ed4ae2d4d908ab33a8",
+  "inputs/qc_matrices/BB_144_12_12_HX.mtx": "b97f9221c4db80f4e95d0f1cea7e3ba82b48cdc9461bc3dd43fd252a69900ea3",
+  "inputs/qc_matrices/BB_144_12_12_HZ.mtx": "9bdf01df003e8162a36196f0926a630bcea9cd1f77d2d953a09c0793522c0032",
+  "inputs/qc_matrices/TT_135_12_6_HZ.mtx": "72995aa11565272f895adf14adb226ab580f7e032d404007dd7d0e4fa29e4f01",
+  "inputs/qc_matrices/MM_144_12_12_HX.mtx": "850e0884dcbed3e945f632c2d4b0d937fb7d69eeb2d9871ec394702a1721d3df",
+  "inputs/qc_matrices/MM_144_12_12_MX.mtx": "eff947562306d146ad805aea6c3cb8a8746acb09d276d4f985d081346105d722",
+  "inputs/qc_matrices/MM_144_12_12_MZ.mtx": "6b5c6250f5ba70579af7be33f9bb7792c07c462a6ace77032584ca782c6e0f0c"
+}

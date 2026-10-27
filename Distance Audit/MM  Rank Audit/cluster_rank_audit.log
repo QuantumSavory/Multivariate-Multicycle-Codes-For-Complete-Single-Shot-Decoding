@@ -1,0 +1,17 @@
+PASS self-tests: Nemo exact GF(2) rank (including binary vs rational rank).
+PASS MM_144_12_12: n=144, k=12, rank(HX)=66, rank(HZ)=66
+  X checks: 30 independent relations
+  rank(MX)=22; MH=0: true; missing relation dimension: 8
+  Z checks: 30 independent relations
+  rank(MZ)=22; MH=0: true; missing relation dimension: 8
+PASS TT_135_12_6: n=135, k=12, rank(HX)=41, rank(HZ)=82
+  X checks: 4 independent relations
+  No metacheck matrix supplied for this sector.
+  Z checks: 53 independent relations
+  rank(MZ)=41; MH=0: true; missing relation dimension: 12
+PASS BB_144_12_12: n=144, k=12, rank(HX)=66, rank(HZ)=66
+  X checks: 6 independent relations
+  No metacheck matrix supplied for this sector.
+  Z checks: 6 independent relations
+  No metacheck matrix supplied for this sector.
+Saved /home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/mm_rank_audit/cluster_rank_results

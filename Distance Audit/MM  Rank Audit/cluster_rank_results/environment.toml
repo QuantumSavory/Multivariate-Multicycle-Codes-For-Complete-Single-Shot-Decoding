@@ -1,0 +1,10 @@
+active_project = "/home/fmian_umass_edu/sqetch_work/Project.toml"
+command_arguments = ["--out", "cluster_rank_results"]
+field = "Prime field of characteristic 2"
+julia_version = "1.12.6"
+manifest_sha256 = "4a0f6d82ef2d6a2f8f4b1e7e9b3db2221c2909f509621ba1b75a3a2e17a68e20"
+nemo_path = "/home/fmian_umass_edu/.julia/packages/Nemo/i8LKC/src/Nemo.jl"
+nemo_version = "0.52.4"
+rank_backend = "Nemo.rank(Nemo.matrix(Nemo.GF(2), A))"
+script_sha256 = "3eed5ff6e428c9b9b0b18ca86a089ce77b602db7bf5b1c7adcbea8eadd5939a6"
+started_utc = "2026-10-27T00:54:09.441"

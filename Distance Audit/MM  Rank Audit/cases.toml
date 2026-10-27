@@ -1,0 +1,30 @@
+# Expected values are claims to TEST, never inputs to the rank calculation.
+[[cases]]
+id = "MM_144_12_12"
+HX = "MM_144_12_12_HX.mtx"
+HZ = "MM_144_12_12_HZ.mtx"
+MX = "MM_144_12_12_MX.mtx"
+MZ = "MM_144_12_12_MZ.mtx"
+[cases.expected]
+n = 144
+k_rank_formula = 12
+rank_mx = 22
+redundancy_x = 30
+mx_hx_zero = true
+
+[[cases]]
+id = "TT_135_12_6"
+HX = "TT_135_12_6_HX.mtx"
+HZ = "TT_135_12_6_HZ.mtx"
+MZ = "TT_135_12_6_MZ.mtx"
+[cases.expected]
+n = 135
+k_rank_formula = 12
+
+[[cases]]
+id = "BB_144_12_12"
+HX = "BB_144_12_12_HX.mtx"
+HZ = "BB_144_12_12_HZ.mtx"
+[cases.expected]
+n = 144
+k_rank_formula = 12
