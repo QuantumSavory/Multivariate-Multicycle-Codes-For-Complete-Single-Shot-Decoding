@@ -1,0 +1,4 @@
+id,status,n,k_rank_formula,rank_hx,rank_hz,redundancy_x,redundancy_z,rank_mx,rank_mz,mx_hx_zero,mz_hz_zero,missing_relation_dimension_x,missing_relation_dimension_z
+"MM_144_12_12","PASS","144","12","66","66","30","30","22","22","true","true","8","8"
+"TT_135_12_6","PASS","135","12","41","82","4","53","","41","","true","","12"
+"BB_144_12_12","PASS","144","12","66","66","6","6","","","","","",""

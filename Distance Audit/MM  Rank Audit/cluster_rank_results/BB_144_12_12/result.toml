@@ -1,0 +1,60 @@
+css_commutation = true
+field = "GF(2)"
+id = "BB_144_12_12"
+k_is_css_dimension = true
+k_rank_formula = 12
+metachecks_x_supplied = false
+metachecks_z_supplied = false
+n = 144
+rank_backend = "Nemo.rank"
+rank_hx = 66
+rank_hz = 66
+redundancy_x = 6
+redundancy_z = 6
+status = "PASS"
+
+[expected_claim_checks.k_rank_formula]
+available = true
+expected = 12
+matches = true
+observed = 12
+
+[expected_claim_checks.n]
+available = true
+expected = 144
+matches = true
+observed = 144
+
+[input_files.HX]
+path = "/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/mm_rank_audit/inputs/qc_matrices/BB_144_12_12_HX.mtx"
+saved_copy = "inputs/HX.mtx"
+sha256 = "b97f9221c4db80f4e95d0f1cea7e3ba82b48cdc9461bc3dd43fd252a69900ea3"
+
+[input_files.HZ]
+path = "/home/fmian_umass_edu/sqetch_work/mm_manuscript_audit/mm_rank_audit/inputs/qc_matrices/BB_144_12_12_HZ.mtx"
+saved_copy = "inputs/HZ.mtx"
+sha256 = "9bdf01df003e8162a36196f0926a630bcea9cd1f77d2d953a09c0793522c0032"
+
+[matrices.HX]
+column_weight_max = 3
+column_weight_min = 3
+column_weights = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+columns = 144
+nemo_matrix_type = "Nemo.FqMatrix"
+rank_gf2 = 66
+row_weight_max = 6
+row_weight_min = 6
+row_weights = [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+rows = 72
+
+[matrices.HZ]
+column_weight_max = 3
+column_weight_min = 3
+column_weights = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+columns = 144
+nemo_matrix_type = "Nemo.FqMatrix"
+rank_gf2 = 66
+row_weight_max = 6
+row_weight_min = 6
+row_weights = [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+rows = 72

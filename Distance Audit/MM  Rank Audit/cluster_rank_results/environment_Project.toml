@@ -1,0 +1,7 @@
+[deps]
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+Oscar = "f1435218-dba5-11e9-1e4d-f1a5fab5fc13"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+QECCore = "b50d4dc9-2544-401f-bae9-a24ba40d0c7a"
+QuantumClifford = "0525e862-1e90-11e9-3e4d-1b39d7109de1"
+QuantumExpanders = "144928dd-1f60-4b66-8c4c-f5ae7409097b"
