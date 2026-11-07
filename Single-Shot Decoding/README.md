@@ -17,11 +17,17 @@ nontrivial logical operator. The logical error rate per round is `p_L = 1 - (1 -
 All check and metacheck matrices are exported directly from QuantumClifford.jl
 (`MultivariateMulticycle`, `parity_matrix_x/z`, `metacheck_matrix_x/z`).
 
-| Name in the files     | Code in the paper        | Metachecks  | Distances (sQetch, upper bounds) |
-|-----------------------|--------------------------|-------------|----------------------------------|
-| `MM [[144,12,12]] W9` | MM [[144,12,(≤12,≤12)]]  | M_X and M_Z | d_X ≤ 12, d_Z ≤ 12               |
-| `TT [[135,12,6]]`     | TT [[135,12,(14,6)]]     | M_Z only    | d_X ≤ 14, d_Z ≤ 6                |
-| `BB [[144,12,12]]`    | BB [[144,12,12]]         | none        | d_X ≤ 12, d_Z ≤ 12               |
+| Name in the files     | Code in the paper        | Metachecks  | Distances |
+|-----------------------|--------------------------|-------------|-----------|
+| `MM [[144,12,12]] W9` | MM [[144,12,(12,12)]]    | M_X and M_Z | d_X = d_Z = 12 |
+| `TT [[135,12,6]]`     | TT [[135,12,(14,6)]]     | M_Z only    | d_X = 14, d_Z = 6 |
+| `BB [[144,12,12]]`    | BB [[144,12,(12,12)]]    | none        | d_X = d_Z = 12 |
+
+The distances are exact: the connected-cluster dist-m4ri campaign certifies them for these same
+matrices (`Distance Audit/connected_cluster/cc_results/simulation_{MM_144_12_12,TT_135_12_6,BB_144_12_12}`;
+`Distance Audit/connected_cluster/match_simulation_matrices.csv` shows that `qc_matrices/MM_144_12_12_*`
+has the same row spaces as the certified instance). The sQetch values in `distances_sqetch.csv`
+are the earlier upper bounds; they agree with the certified distances.
 
 ## Files
 
@@ -37,7 +43,7 @@ All check and metacheck matrices are exported directly from QuantumClifford.jl
 | `run_qc.log` | Log of the run that produced `results_qc.csv`. |
 | `qc_single_shot_main.pdf/.png` | Fig. 6 of the paper. |
 | `qc_single_shot_decoders.pdf/.png` | Fig. 18 of the paper. |
-| `verify_distances_sqetch.jl` | Distance check of the exported matrices with sQetch (100 million trials per sector, sketch dimension 64). |
+| `verify_distances_sqetch.jl` | Earlier distance check of the exported matrices with sQetch (100 million trials per sector, sketch dimension 64); superseded by the connected-cluster certificates above. |
 | `distances_sqetch.csv` | Its output. |
 
 ## Settings
@@ -62,7 +68,7 @@ several hours. To only redraw the figures from the stored results:
 ```bash
 python3 make_figures.py --vs-p results_qc.csv \
     --codes "MM [[144,12,12]] W9" "TT [[135,12,6]]" "BB [[144,12,12]]" \
-    --labels "MM [[144,12,≤12]]" "TT [[135,12,(14,6)]]" "BB [[144,12,12]]" \
+    --labels "MM [[144,12,12]]" "TT [[135,12,(14,6)]]" "BB [[144,12,12]]" \
     --rounds 8 --decoder-code "MM [[144,12,12]] W9" --out-prefix qc_
 ```
 

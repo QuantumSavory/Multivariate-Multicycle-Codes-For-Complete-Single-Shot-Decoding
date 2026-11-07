@@ -1,11 +1,13 @@
 # Connected-cluster addendum: the three Table I MM codes without a certified counterpart
 
-`../connected_cluster/match_simulation_matrices.py` shows that five MM codes of Table I
+`../connected_cluster/match_simulation_matrices.py` (output: `../connected_cluster/match_simulation_matrices.csv`)
+shows that five MM codes of Table I
 ([[96,44]], [[216,12]], [[486,24]], [[486,66]], [[576,64]]) and the MM [[144,12]] code of the
 simulations have exactly the same X- and Z-check row spaces as instances whose distances the
 connected-cluster campaign certified. The remaining three MM codes of Table I have no such
-counterpart, and their Table I distances are still the upper bounds of the original search,
-with no saved logical operator:
+counterpart; before this addendum their Table I distances were upper bounds of the original
+search with no saved logical operator. This addendum certified all three: (4,4), (8,8) and (4,4)
+(see `cc_results/summary.csv`).
 
 | id | matrices | Table I entry |
 |---|---|---|

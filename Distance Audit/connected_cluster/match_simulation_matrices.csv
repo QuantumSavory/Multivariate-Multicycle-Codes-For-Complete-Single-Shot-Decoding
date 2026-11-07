@@ -1,0 +1,18 @@
+label,source_matrices,audited_instance,row_spaces
+"Table I MM [[96,44]]",QECCs/MM/MM_96_44_4/MM_96_44_4_HX.mtx,Distance Audit/connected_cluster/matrices/table4_row001,same
+"Table I MM [[216,12]]",QECCs/MM/MM_216_12_12/MM_216_12_12_HX.mtx,Distance Audit/connected_cluster/matrices/table4_row004,same
+"Table I MM [[486,24]]",QECCs/MM/MM_486_24_12/MM_486_24_12_HX.mtx,Distance Audit/connected_cluster/matrices/table4_row017,same
+"Table I MM [[486,66]]",QECCs/MM/MM_486_66_9/MM_486_66_9_HX.mtx,Distance Audit/connected_cluster/matrices/table4_row018,same
+"Table I MM [[576,64]]",QECCs/MM/MM_576_64_6/MM_576_64_6_HX.mtx,Distance Audit/connected_cluster/matrices/table4_row020,same
+"Worked example MM [[648,60]]",QECCs/MM/MM_648_60_9/MM_648_60_9_HX.mtx,Distance Audit/connected_cluster/matrices/table4_row022,same
+"Single-shot MM [[144,12]] W9",Single-Shot Decoding/qc_matrices/MM_144_12_12_HX.mtx,Distance Audit/connected_cluster/matrices/simulation_MM_144_12_12,same
+"Simulation MM [[144,12]] W9 vs Table III",Distance Audit/connected_cluster/matrices/simulation_MM_144_12_12/HX.mtx,Distance Audit/connected_cluster/matrices/table3_row002,same
+QECCs/MM/MM_144_6_4 vs table2_row002,QECCs/MM/MM_144_6_4/MM_144_6_4_HX.mtx,Distance Audit/results/sqetch_100M/table2_row002,different
+DB MM_QECC_144_6_8_W6 (Figs. 13-14),Figure Provenance/MM_QECC_Database/MM_QECC_144_6_8_W6.h5,Distance Audit/results/sqetch_100M/table2_row002,same
+DB MM_QECC_96_12_8 (Figs. 11-12),Figure Provenance/MM_QECC_Database/MM_QECC_96_12_8.h5,Distance Audit/results/sqetch_100M/table5_row002,same
+DB MM_QECC_144_12_12 (Figs. 11-12),Figure Provenance/MM_QECC_Database/MM_QECC_144_12_12.h5,Distance Audit/results/sqetch_100M/table5_row010,same
+DB MM_QECC_144_12_12_W9,Figure Provenance/MM_QECC_Database/MM_QECC_144_12_12_W9.h5,Distance Audit/results/sqetch_100M/table3_row002,same
+DB MM_QECC_486_24_12,Figure Provenance/MM_QECC_Database/MM_QECC_486_24_12.h5,Distance Audit/results/sqetch_100M/table4_row017,same
+DB MM_QECC_486_66_9,Figure Provenance/MM_QECC_Database/MM_QECC_486_66_9.h5,Distance Audit/results/sqetch_100M/table4_row018,same
+DB MM_QECC_648_60_9,Figure Provenance/MM_QECC_Database/MM_QECC_648_60_9.h5,Distance Audit/results/sqetch_100M/table4_row022,same
+DB MM_QECC_216_6_12_W6 (Figs. 13-14) vs table2_row004,Figure Provenance/MM_QECC_Database/MM_QECC_216_6_12_W6.h5,Distance Audit/results/sqetch_100M/table2_row004,different

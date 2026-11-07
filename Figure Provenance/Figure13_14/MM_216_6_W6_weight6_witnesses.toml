@@ -1,0 +1,16 @@
+# Weight-6 nontrivial logical operators of the weight-6 MM [[216,6]] code used in Figs. 13-14 (LRC appendix).
+# Matrices: Figure Provenance/MM_QECC_Database/MM_QECC_216_6_12_W6.h5 (parity_matrix_x/z, transposed on load),
+# identical row spaces to the checks measured in Figure13_14/lr_cache/MM_216_6_12_W6 circuits.
+# ONE-BASED supports. sector "x": HZ*v = 0, v outside rowspace(HX); sector "z": HX*v = 0, v outside rowspace(HZ).
+
+[[witness]]
+id = "MM_QECC_216_6_12_W6"
+sector = "x"
+weight = 6
+support_one_based = [47, 50, 53, 65, 68, 71]
+
+[[witness]]
+id = "MM_QECC_216_6_12_W6"
+sector = "z"
+weight = 6
+support_one_based = [155, 158, 161, 173, 176, 179]

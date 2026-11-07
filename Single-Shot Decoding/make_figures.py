@@ -15,7 +15,7 @@ Figure 2 (single_shot_decoders.pdf/.png): the decoder comparison for one code, a
 Usage:
   python3 make_figures.py --vs-p results_vs_p.csv \
       --codes "MM [[144,12,12]] W9" "TT [[135,12,6]]" "BB [[144,12,12]]" \
-      --labels "MM $[[144,12,\\leq 12]]$" "TT $[[135,12,(14,6)]]$" "BB $[[144,12,12]]$" \
+      --labels "MM $[[144,12,12]]$" "TT $[[135,12,(14,6)]]$" "BB $[[144,12,12]]$" \
       --rounds 8 --decoder-code "MM [[144,12,12]] W9"
 """
 import argparse, csv
