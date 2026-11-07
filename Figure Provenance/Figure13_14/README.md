@@ -11,7 +11,7 @@ circuit (LRC) schedule with the default coloration schedule for three codes:
 
 ## Correction: the distance of `MM_216_6_12_W6` is 6, not 12
 
-The historical filename and PNG legends retain the original distance label of 12. The simulation used 24 noisy rounds. The corrected submission figures identify this code as MM [[216,6]], check weight 6. Only the legend text changed; the plotted data and the round count are unchanged.
+The historical filename and PNG legends retain the original distance label of 12. The simulation used 24 noisy rounds. The corrected submission figures label this code MM [[216,6,6]]. They were redrawn from the archived Sinter CSVs without changing any shot or failure counts. The plotting script uses the round count stored in each record (24 for this code), not a duration inferred from the corrected distance.
 
 The [Unity verification archive](MM_216_6_W6_exact_distance_Unity.zip) establishes **dX = dZ = 6** for this instance. In all 24 rounds of the archived LRC circuit at p = 0.0001, the measured X and Z checks matched those in the HDF5 input up to row ordering. Both binary check matrices have rank 105, giving k = 216 − 105 − 105 = 6.
 
@@ -33,6 +33,10 @@ This code is a different instance from the [[216,6]] entry `table2_row004` of Ta
 (see `Distance Audit/connected_cluster/match_simulation_matrices.csv`). The label `12` in the files
 below is the value used to set the number of rounds; the sampled data themselves are unaffected.
 The pseudo-thresholds in `results/summary_*` remain valid as measured.
+
+## Redraw the submission figures
+
+From this directory, run `python replot_fig13_14.py --data-dir results --output-dir figures` with Matplotlib and Sinter 1.15.0. The shaded regions use Sinter’s likelihood factor of 1000.
 
 ## Contents
 

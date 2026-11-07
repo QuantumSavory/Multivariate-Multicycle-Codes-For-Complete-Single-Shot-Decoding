@@ -14,8 +14,7 @@ Decoder: min-sum BP (at most 1000 iterations) followed by OSD of order 0. Runs o
 | `figures/plateau_{X,Z}_T10.png` | Single-basis plots made at run time. |
 | `logs/` | Run logs. |
 
-**Stopping rule.** Not stored in the logs. Every point with `w >= 2` has exactly 50,000 shots, so the
-runs used a fixed budget of 5 x 10^4 shots per point. At `w = 2` the MM code has only 6 (X) and 5 (Z)
+**Stopping rule.** Not stored in the logs. Every archived point with `w >= 2` contains exactly 50,000 shots. At `w = 2` the MM code has only 6 (X) and 5 (Z)
 failures, hence the wide confidence bands. At `w = 1` every code fails in most shots
 (MM 100%, BB and TT about 80%).
 
