@@ -14,6 +14,6 @@ COMMON=(--rounds 8 --max-shots 2000000 --max-failures 1000 --batch 2000 --worker
 python3 -W ignore single_shot_metachecks.py --codes codes_qc.json --variants meta nometa --ps $PS "${COMMON[@]}"
 python3 -W ignore single_shot_metachecks.py --codes codes_qc.json --only "MM [[144,12,12]] W9" --variants twostage --ps $PS "${COMMON[@]}"
 python3 make_figures.py --vs-p results_qc.csv \
-    --codes "${MAIN[@]}" --labels "MM [[144,12,≤12]]" "TT [[135,12,(14,6)]]" "BB [[144,12,12]]" \
+    --codes "${MAIN[@]}" --labels "MM [[144,12,12]]" "TT [[135,12,(14,6)]]" "BB [[144,12,12]]" \
     --rounds 8 --decoder-code "MM [[144,12,12]] W9" --out-prefix qc_
 echo "done: results_qc.csv qc_single_shot_main.pdf qc_single_shot_decoders.pdf"

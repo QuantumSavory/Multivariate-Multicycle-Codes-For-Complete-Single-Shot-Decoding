@@ -118,6 +118,28 @@ For example, the saved overlapping-window experiments are in
 Figure numbers refer to the manuscript versions used when the archives were
 created.
 
+Folders with a README describe the current paper's figures:
+[Figure03](Figure%20Provenance/Figure03/README.md) (code capacity; run data not yet archived),
+[Figure09](Figure%20Provenance/Figure09/README.md) and
+[Figure10](Figure%20Provenance/Figure10/README.md) (overlapping windows; published images,
+inferred stopping rules, and [plot_plateau_xz.py](Figure%20Provenance/plot_plateau_xz.py) to redraw
+them), and [Figure13_14](Figure%20Provenance/Figure13_14/README.md) (LRC, weight-6 codes).
+
+### Corrections of 6 November 2026
+
+* The weight-6 MM code labelled `MM_216_6_12_W6` / `MM [[216,6,12]]` in Figs. 13-14 has nontrivial
+  logical operators of weight 6 in both sectors, so its distance is at most 6 (an exact search gives 6),
+  not 12. The operators and a checker are in
+  [Figure13_14](Figure%20Provenance/Figure13_14/README.md). The sampled data are unaffected.
+* [match_simulation_matrices.py](Distance%20Audit/connected_cluster/match_simulation_matrices.py),
+  cited by the Table I addendum, is now included with its output
+  (`match_simulation_matrices.csv`). It records which saved matrices (Table I, simulation codes,
+  HDF5 database) have the same row spaces as certified instances.
+* Single-shot Fig. 6: the MM label is now [[144,12,12]] (certified) instead of [[144,12,≤12]];
+  the README lists the certified distances of all three codes.
+* `QECCs/MM/MM_144_6_4` is documented as a distinct [[144,6,(4,4)]] instance, not the certified
+  [[144,6,(8,8)]] of Table II and Figs. 13-14.
+
 Use each campaign's recorded settings and plotting convention: the experiments
 do not all use the same decoder, per-round normalization, or uncertainty
 interval. Historical records vary in completeness. A configuration in a later
