@@ -23,8 +23,25 @@ and finite-instance confinement and decoding experiments.
 | Revised Figures 4, 5, 7, and 8 | [24 October simulation archive](Figure%20Provenance/update%20Figures04_05_07_08/README.md) |
 | Single-shot metacheck experiments | [Single-shot decoding guide](Single-Shot%20Decoding/README.md) |
 | Historical figure data and logs | [Figure provenance](Figure%20Provenance/) |
-| Native dist-m4ri confinement runs | [Confinement campaign](Distance%20Audit/distm4ri_confinement_20261023/README.md) |
+| Native dist-m4ri confinement runs | [Confinement runs](Distance%20Audit/distm4ri_confinement_20261023/README.md) |
+| Complete code tables, pseudocode, and code examples moved out of the paper | [Paper supplement](Paper%20Supplement/README.md) |
 | Additional experiment notebooks | [Numerical experiments](Numerical%20Experiments/) |
+
+## Where each part of the paper is supported
+
+Section and appendix labels refer to the revised manuscript.
+
+| Paper | Repository |
+|---|---|
+| Sec. VI.C (subfamilies of MM codes) | [Paper Supplement/subfamily_examples.md](Paper%20Supplement/subfamily_examples.md) |
+| Sec. VII (implementation and pseudocode) | [Paper Supplement/MM_generating_algorithms.pdf](Paper%20Supplement/MM_generating_algorithms.pdf) |
+| Sec. VII.C and Fig. 6 (single-shot decoding) | [Single-Shot Decoding](Single-Shot%20Decoding/README.md); it also contains a comparison with a two-stage decoder that is not shown in the paper |
+| Sec. VII.F and Table I (syndrome profiles) | [Confinement runs](Distance%20Audit/distm4ri_confinement_20261023/README.md) and [Table I certification records](Distance%20Audit/connected_cluster_tableI/) |
+| Appendix C (search procedure and distance verification) | [Distance Audit](Distance%20Audit/README.md) |
+| Appendix D (code tables) | [Paper Supplement/MM_code_tables_full.pdf](Paper%20Supplement/MM_code_tables_full.pdf) and the [registry](Distance%20Audit/code/) |
+| Appendix E and Table XII (simulation settings), Figs. 4, 5, 7 and 8 | [Rerun of Figs. 4, 5, 7 and 8](Figure%20Provenance/update%20Figures04_05_07_08/README.md) |
+| Other figures | [Figure Provenance](Figure%20Provenance/) and [Numerical Experiments](Numerical%20Experiments/) |
+| Appendix F (lifted-product structure) | [Paper Supplement/lifted_product_examples.jl](Paper%20Supplement/lifted_product_examples.jl) |
 
 ## Code construction and matrix files
 
@@ -73,14 +90,14 @@ The [distance audit guide](Distance%20Audit/README.md) explains the original
 sQetch searches, later dist-m4ri searches, and witness-verification commands.
 The following records are especially useful:
 
-| Campaign | Evidence |
+| Search | Evidence |
 |---|---|
-| Original connected-cluster campaign | [Records and verification instructions](Distance%20Audit/connected_cluster/) |
+| Original connected-cluster search | [Records and verification instructions](Distance%20Audit/connected_cluster/) |
 | Three additional Table I instances | [Table I certification records](Distance%20Audit/connected_cluster_tableI/) |
 | Four larger instances with historical unverified estimates | [Additional random-window runs and witnesses](Distance%20Audit/four_codes_rw_20261016T195147Z/) |
 
 **The CSV files in `Distance Audit/final/` are historical summaries.** They do not
-include every later campaign. In particular, the unverified dagger entries for
+include every later search. In particular, the unverified dagger entries for
 `table3_row025`, `table3_row027`, `table4_row023`, and `table4_row026` must be read
 alongside the additional random-window records linked above. Earlier verified
 upper bounds remain valid for the same matrices; use the smallest verified bound
@@ -99,7 +116,7 @@ and plotting inputs.
 Use its [run and plotting instructions](Figure%20Provenance/update%20Figures04_05_07_08/RUN_INSTRUCTIONS.md)
 to reproduce the experiment or redraw the saved results. The earlier
 `Figure04/`, `Figure05/`, and `Figure07_08/` directories remain as historical
-records; the linked revision campaign is the source for the updated figures.
+records; the linked rerun is the source for the updated figures.
 
 ### Single-shot decoding
 
@@ -140,21 +157,21 @@ them), and [Figure13_14](Figure%20Provenance/Figure13_14/README.md) (LRC, weight
 * `QECCs/MM/MM_144_6_4` is documented as a distinct [[144,6,(4,4)]] instance, not the certified
   [[144,6,(8,8)]] of Table II and Figs. 13-14.
 
-Use each campaign's recorded settings and plotting convention: the experiments
+Use each experiment's recorded settings and plotting convention: the experiments
 do not all use the same decoder, per-round normalization, or uncertainty
 interval. Historical records vary in completeness. A configuration in a later
 script or notebook does not establish the settings of an earlier run.
 
 ## Confinement profiles
 
-The [native dist-m4ri campaign](Distance%20Audit/distm4ri_confinement_20261023/README.md)
+The [native dist-m4ri runs](Distance%20Audit/distm4ri_confinement_20261023/README.md)
 preserves the input matrices, executable and version information, commands,
 logs, and observed profiles for eight MM instances in both sectors.
 
 These profiles report the minimum **nonzero syndrome weight observed** at each
 reported cluster weight during the search. They are not automatically certified
 minima over all connected supports, and a missing entry does not mean zero.
-The campaign README explains the search settings and stopping conditions.
+Their README explains the search settings and stopping conditions.
 
 Finite-instance distance, confinement, and decoding results provide different
 kinds of evidence. The presence of metachecks or a finite observed profile does
@@ -162,10 +179,10 @@ not by itself prove complete single-shot decoding for an asymptotic family.
 
 ## Reproducing and citing a run
 
-Start with the README for the relevant campaign and its saved inputs. Use its
+Start with the README for the relevant experiment and its saved inputs. Use its
 recorded software versions where available, preserve the original outputs, and
 save new runs separately. When reporting a result, identify the repository
-commit and the campaign directory so the matrices, settings, and outputs can be
+commit and the directory so the matrices, settings, and outputs can be
 located together.
 
 If you use these constructions or data, please cite:

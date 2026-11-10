@@ -1,0 +1,357 @@
+\documentclass[%
+ reprint,
+ superscriptaddress, 
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+%preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+ pra,
+%prb,
+%rmp,
+%prstab,
+%prstper,
+ floatfix,
+]{revtex4-2}
+% Rules of thumb that make it easier when you have to deal with journal submissions
+%
+% These are not all "good LaTeX" rules of thumb,
+% but they help when working with antiquated journal submission systems.
+%
+% Have a single tex file
+% Always have 0 errors and work hard to have 0 warnings - "a float is stuck" is probably the only warning it is ok to accept after an attempt or two to fix it
+% Use only the automatic placement location for floats, figures, tables until the very last edit
+% Have only alpha-numerical characters or underscores in your file names (no spaces).
+% Do not use sub-directories, have everything in a single folder (do not put images in a separate folder).
+% Use ~\cite and ~\ref (a fixed width non-breaking ~, not a generic whitespace in front of the command)
+% Use \cite, not \citep or others
+% Be consistent in abreviation, e.g. use only Fig. not Fig/Fig./fig/figure; only Eq. not (eq)/equation/eq./Eq
+%
+% Math:
+% Avoid defining custom math commands
+% In math formulas, use \mathrm for subscripts, unless the subscript is a dummy variable like an index
+% In math formulas, use align, not eqarray, for systems of equations
+% Always use numbered equations
+%
+% Images:
+% Have a single image per figure (not two images included one after the other)
+% Have your images be high DPI (>400) raster files or vector EPS files
+% Avoid vector images if they are heatmaps or have more than hundred points or lines
+% !IMPORTANT! Set the width of your images in your plotting software to the correct width in inches or cm not pixels, otherwise it would scale weirdly when imported in latex
+% Set width=\linewidth for your images in your figures
+% Set the font size of text in your images to one fixed value for all images, in pt, around 10-14pt is probably good
+\usepackage{adjustbox}
+\usepackage[table,dvipsnames]{xcolor}
+\usepackage{array}
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{hyperref}
+\hypersetup{hidelinks,hypertexnames=false}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{stackengine}
+\DeclareMathOperator{\kernel}{ker}
+\DeclareMathOperator{\Hom}{Hom}
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+\usepackage{amsmath,amsthm}
+\usepackage{float}
+\usepackage{epstopdf}
+\usepackage{longtable}
+\usepackage{mathtools}
+\usepackage{colortbl}
+\usepackage{booktabs}
+\usepackage{mathtools,amssymb}
+\usepackage{amsthm}
+\usepackage[caption=false]{subfig}
+% Unused nicematrix package removed for portable compilation.
+\usepackage{tikz}
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{positioning,arrows.meta,decorations.pathreplacing,calligraphy,calc}
+\usetikzlibrary{cd}
+\DeclareMathOperator{\im}{im}
+\usepackage{tikz}
+\usetikzlibrary{cd}
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% align table columns on decimal point
+\usepackage{bm}% bold math
+\newtheorem{statement}[lemma]{Statement}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{csquotes}% to use normal quotes
+\usepackage[T1]{fontenc}
+% allow long URLs (e.g. the repository URL in the bibliography) to break after hyphens
+\makeatletter\AtBeginDocument{\g@addto@macro{\UrlBreaks}{\do\-}}\makeatother
+\MakeOuterQuote{"}
+
+\usepackage[linesnumbered, ruled, vlined]{algorithm2e}
+\SetKw{KwDownTo}{downto}
+\SetKwInput{KwInput}{Input}
+\SetKwInput{KwOutput}{Output}
+\usepackage{graphicx} 
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{makecell}
+\usepackage{physics}
+% \newcommand\editcolor[1]{\textcolor{blue}{\textbf{#1}}}
+\newcommand\editcolor[1]{{\color{blue}#1}}
+\newcommand{\dhor}{\mathsf{h}}
+\newcommand{\dver}{\mathsf{v}}
+\newcommand{\hor}{\mathsf{v}}
+\newcommand{\ver}{\mathsf{h}}
+\newcommand{\lmp}[1]{\operatorname{L}_{#1}}
+\newcommand{\ann}[1]{\operatorname{ann}(#1)}
+\newcommand{\Code}{\mathcal{C}}
+\newcommand{\ftwo}{\mathbb{F}_2}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\Tor}{Tor}
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{observation}[theorem]{Observation}
+\newtheorem{remark}{Remark}
+\theoremstyle{definition}
+\newtheorem{example}{Example}
+\theoremstyle{definition}
+\def\id{{\mathchoice {\rm 1\mskip-4mu l} {\rm 1\mskip-4mu l} {\rm 1\mskip-4.5mu l} {\rm 1\mskip-5mu l}}}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+\usepackage{braket}
+
+\usepackage{listings}
+\usepackage{color}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{myred}{rgb}{0.9,0.2,0.3}
+\definecolor{mymauve}{rgb}{0.28,0,0.92}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+
+\lstdefinelanguage{JuliaREPL}{
+  keywords={julia},
+  keywordstyle=\color{mygreen}\bfseries,
+  keywords=[2]{Stabilizer, GeneralizedStabilizer, naive_encoding_circuit, PauliOperator, Destabilizer, project, CliffordOperator, apply},
+  keywordstyle=[2]\color{mymauve}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=true,
+  mathescape=true,
+  comment=[l]{\#},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{mygray}\ttfamily,
+  stringstyle=\color{myred}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+\lstset{
+   language=JuliaREPL,
+   extendedchars=true,
+   basicstyle=\footnotesize\ttfamily,
+   showstringspaces=false,
+   showspaces=false,
+   tabsize=2,
+   breaklines=true,
+   showtabs=false
+}
+
+\usepackage{csquotes}% to use normal quotes
+
+% a package for neat todo notes
+% comment this out when finishing the manuscript
+\usepackage[textsize=tiny]{todonotes}
+
+% a setup to mark edited lines when resubmitting to a journal after review
+% disable this when you want to hide edit colors
+% colors from tableau 10 scheme
+% if there are yet more rounds of reviews add yet another command
+\definecolor{customcolorblue}{HTML}{4573ae}
+%\newcommand\editcolor[1]{\textcolor{customcolorblue}{\textbf{#1}}}
+
+% Uniform table typography. Adjust these settings once for every table.
+
+\newcommand{\MMTableStyle}{%
+  \color{black}%
+  \fontsize{9}{11}\selectfont
+  \renewcommand{\arraystretch}{1.2}%
+  \setlength{\tabcolsep}{2pt}%
+  \setlength{\extrarowheight}{2pt}%
+  \setlength{\LTleft}{\fill}%
+  \setlength{\LTright}{\fill}%
+}
+
+
+% Revision markup: replace the body by #1 to produce a clean manuscript.
+\DeclareRobustCommand{\revisionblue}[1]{{\color{blue}#1}}
+
+\begin{document}
+\title{Generating algorithms for multivariate multicycle codes}
+\author{F. A. Mian, O. Gwilliam, and S. Krastanov}
+\begin{abstract}Pseudocode accompanying ``Multivariate Multicycle Codes for Complete Single-Shot Decoding'' (formerly Appendix A of the manuscript).\end{abstract}
+\maketitle
+
+In this appendix, we present Algorithm~\ref{alg:mm-css-quo} for constructing Multivariate Multicycle (MM) codes via Koszul complexes over quotient rings. The algorithm takes polynomials $F_1, \ldots, F_t$ in the quotient ring 
+\begin{equation}
+S = \mathbb{F}_2[x_1, \ldots, x_D] / \langle x_1^{\ell_1} - 1, \ldots, x_D^{\ell_D} - 1 \rangle,
+\end{equation}
+where $t \geq 2$ is the number of polynomials, {$D \geq 1$} is the number of variables, and $\ell_1, \ldots, \ell_D \in \mathbb{Z}_{\geq 1}$ are exponents defining the ideal $I = \langle x_1^{\ell_1} - 1, \ldots, x_D^{\ell_D} - 1 \rangle$. It then constructs the Koszul complex $K_\bullet([F_1, \ldots, F_t]; S)$ over $S$, where each boundary map $\partial_k$ is a matrix with entries in $S$. {Each entry is expanded in the regular representation of the finite abelian group. The resulting binary blocks are multilevel circulant matrices; for one cyclic factor they are ordinary circulant matrices.}
+
+{Throughout the main text, $\partial_k$ denotes the matrix of the boundary map acting on column vectors, so that $P_X = \partial_q$, $P_Z = \partial_{q+1}^{\top}$, $M_X = \partial_{q-1}$ and $M_Z = \partial_{q+2}^{\top}$. \texttt{Oscar.jl} represents module homomorphisms by matrices acting on row vectors; the array $\partial[k]$ in Algorithms~\ref{alg:mm-css-quo} and~\ref{alg:mm-css} therefore stores the transpose $\partial_k^{\top}$, which is why the assignments there read $P_X \gets \partial[q]^{\top}$ and $P_Z \gets \partial[q+1]$. }Algorithm~\ref{alg:mm-css} presents an alternative ``symbolic'' approach: it constructs the Koszul complex over the polynomial ring $\mathbb{F}_2[y_1, \ldots, y_t]$ with standard boundary maps having entries in $\{0, y_1, \ldots, y_t\}$, then substitutes each $y_i$ with the circulant matrix corresponding to $F_i \in S$. Both methods employ Algorithm~\ref{alg:polynomial-to-circulant} to convert polynomials to circulant matrices. After conversion, we verify pairwise commutativity of the resulting matrices. The algorithms are implemented in the open-source \texttt{QuantumClifford.jl} library using the OSCAR computer algebra system [OSCAR] and the Julia programming language.
+\begin{algorithm}[H]
+    \DontPrintSemicolon
+    \SetAlgoLined
+    \KwInput{$\ell_1, \dots, \ell_D$, $F_1, \dots, F_t \in S = \mathbb{F}_2[x_1, \dots, x_D] / \langle x_i^{\ell_i} - 1, \cdots x_D^{\ell_D} -1\rangle$}
+    \KwOutput{$P_X$, $P_Z$, $M_X$, $M_Z$}
+    $s \gets \prod_{i=1}^D \ell_i, t \gets \text{length}(F_1, \dots, F_t)$\;
+    \For{$i \gets 1$ \KwTo $t$}{
+        $C_i \gets \text{PolynomialToCirculant}(F_i, \ell_1, \dots, \ell_D)$
+    }
+    \tcp{Check pairwise commutativity}
+    \For{$i \gets 1$ \KwTo $t$}{
+        \For{$j \gets i+1$ \KwTo $t$}{
+            \textbf{assert} $C_i C_j \equiv C_j C_i \pmod{2}$
+        }
+    }
+    \tcp{Construct Koszul complex over S}
+    $K \gets \text{KoszulComplex}([F_1, \dots, F_t], S)$
+    $\partial \gets \text{Array}(t)$\;
+    \For{$k \gets 1$ \KwTo $t$}{
+        $\partial_k \gets \text{map}(K, k)$
+        $B_k \gets \text{matrix}(\partial_k)$
+        $(r,c) \gets \text{size}(B_k)$\;
+        $M_k \gets \mathbf{0}_{r s \times c s}(\mathbb{Z})$\;
+        \For{$i \gets 1$ \KwTo $r$}{
+            \For{$j \gets 1$ \KwTo $c$}{
+                $f \gets B_k[i,j]$\;
+                \If{$f \neq 0$}{
+                    $C \gets \text{PolynomialToCirculant}(f, \ell_1, \dots, \ell_D)$\;
+                    $M_k[(i-1)s+1:is, (j-1)s+1:js] \gets C$\;
+                }
+            }
+        }
+        $\partial[k] \gets M_k \bmod 2$\;
+    }
+    \For{$k \gets 2$ \KwTo $t$}{
+        \textbf{assert} $\partial[k] \cdot \partial[k-1] \equiv 0 \pmod{2}$
+    }
+    \eIf{$t = 2$}{
+        $P_X \gets \partial[1]^\top$, $P_Z \gets \partial[2]$\;
+        $M_X \gets \varnothing$, $M_Z \gets \varnothing$\;
+    }{
+        $q \gets \lfloor t/2 \rfloor$\;
+        $P_X \gets \partial[q]^\top$, $P_Z \gets \partial[q+1]$\;
+        \If{$t \geq 4$}{$M_X \gets \partial[q-1]^\top$}
+        \If{$t \geq 3$}{$M_Z \gets \partial[q+2]$}
+    }    
+    \textbf{assert} $P_X P_Z^\top \equiv 0 \pmod{2}$\;
+    \If{$M_X \neq \varnothing$}{\textbf{assert} $M_X P_X \equiv 0 \pmod{2}$}
+    \If{$M_Z \neq \varnothing$}{\textbf{assert} $M_Z P_Z \equiv 0 \pmod{2}$}
+    \KwRet{$(P_X, P_Z, M_X, M_Z)$}
+    \caption{MM code via Koszul complex over quotient ring}
+    \label{alg:mm-css-quo}
+\end{algorithm}
+
+\begin{algorithm}
+    \DontPrintSemicolon
+    \SetAlgoLined
+    \SetKwComment{Comment}{// }{}
+    \KwInput{$\ell_1, \dots, \ell_D$, $F_1, \dots, F_t \in R = \mathbb{F}_2[x_1, \dots, x_D] / \langle x_i^{\ell_i} - 1, \cdots x_D^{\ell_D} -1\rangle$}
+    \KwOutput{$P_X$, $P_Z$, $M_X$, $M_Z$}
+    $s \gets \prod_{i=1}^D \ell_i, t \gets \text{length}(F_1, \dots, F_t)$\;
+    \BlankLine
+    \For{$i \gets 1$ \KwTo $t$}{
+        $C_i \gets \text{PolynomialToCirculant}(F_i, \ell_1, \dots, \ell_D)$\;
+    }
+    \BlankLine
+    \Comment*[l]{Check pairwise commutativity}
+    \For{$i \gets 1$ \KwTo $t$}{
+        \For{$j \gets i+1$ \KwTo $t$}{
+            \textbf{assert} $C_i C_j \equiv C_j C_i \pmod{2}$
+        }
+    }
+    \BlankLine
+    \Comment*[l]{Construct Koszul complex boundary maps}
+    $R, y \gets \mathbb{F}_2[y_1, \dots, y_t]$\;
+    $K \gets \text{KoszulComplex}(y)$\;
+    $\partial \gets \text{Array}(t)$\;
+    \For{$k \gets 1$ \KwTo $t$}{
+        $B_k \gets \text{matrix}(\text{map}(K, k))$ 
+        $(r,c) \gets \text{size}(B_k)$\;
+        $\partial_k \gets \mathbf{0}_{rs \times cs}(\mathbb{Z})$\;
+        \For{$i \gets 1$ \KwTo $r$}{
+            \For{$j \gets 1$ \KwTo $c$}{
+                \If{$B_k[i,j] = y_m$}{
+                    $\partial_k[(i-1)s+1:is, (j-1)s+1:js] \gets C_m$\;
+                }
+            }
+        }
+        $\partial[k] \gets \partial_k \bmod 2$\;
+    }
+    \For{$k \gets 2$ \KwTo $t$}{
+        \textbf{assert} $\partial[k] \cdot \partial[k-1] \equiv 0 \pmod{2}$
+    }
+    \BlankLine
+    \eIf{$t = 2$}{
+        $P_X \gets \partial[1]^\top$, $P_Z \gets \partial[2]$\;
+        $M_X \gets \varnothing$, $M_Z \gets \varnothing$\;
+    }{
+        $q \gets \lfloor t/2 \rfloor$\;
+        $P_X \gets \partial[q]^\top$, $P_Z \gets \partial[q+1]$\;
+        \If{$t \geq 4$}{$M_X \gets \partial[q-1]^\top$}
+        \If{$t \geq 3$}{$M_Z \gets \partial[q+2]$}
+    }    
+    \textbf{assert} $P_X P_Z^\top \equiv 0 \pmod{2}$\;
+    \If{$M_X \neq \varnothing$}{\textbf{assert} $M_X P_X \equiv 0 \pmod{2}$}
+    \If{$M_Z \neq \varnothing$}{\textbf{assert} $M_Z P_Z \equiv 0 \pmod{2}$}
+    \KwRet{$(P_X, P_Z, M_X, M_Z)$}
+    \caption{MM code via Koszul complex over polynomial ring}
+    \label{alg:mm-css}
+\end{algorithm}
+
+\begin{algorithm}
+    \DontPrintSemicolon
+    \SetAlgoLined
+    \KwInput{Polynomial $F$, orders $\ell_1, \dots, \ell_D$}
+    \KwOutput{{Multilevel circulant matrix (circulant for $D=1$)} $C \in \mathbb{F}_2^{s \times s}$ s.t. $s = \prod_{i=1}^D \ell_i$}
+    \BlankLine
+    $s \gets \prod_{i=1}^D \ell_i$\;
+    $C \gets \mathbf{0}_{s \times s}(\mathbb{F}_2)$\;
+    $f \gets \text{lift}(F)$\;
+    \For{$j \gets 0$ \KwTo $s-1$}{
+        $tmp \gets j$\;
+        \For{$k \gets D$ \KwDownTo $1$}{
+            $idxs[k] \gets tmp \bmod \ell_k$\;
+            $tmp \gets \lfloor tmp / \ell_k \rfloor$\;
+        }
+        \For{$\mathit{term} \in \text{terms}(f)$}{
+            $c \gets \text{coeff}(\mathit{term},1)$\;
+            \If{$c = 0$}{continue}
+            $e_k \gets \text{degree}(\mathit{term},k)$ for $k = 1, \dots, D$\;
+            $row \gets 0$\;
+            \For{$k \gets 1$ \KwTo $D$}{
+                $row \gets row \cdot \ell_k + ((idxs[k] + e_k) \bmod \ell_k)$\;
+            }
+            $C[row+1,j+1] \gets C[row+1,j+1] + c$\;
+        }
+    }
+    \KwRet{$C$}
+    \caption{PolynomialToCirculant}
+    \label{alg:polynomial-to-circulant}
+\end{algorithm}
+
+\end{document}

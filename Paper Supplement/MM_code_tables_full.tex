@@ -1,0 +1,1165 @@
+\documentclass[%
+ reprint,
+ superscriptaddress, 
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+%preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+ pra,
+%prb,
+%rmp,
+%prstab,
+%prstper,
+ floatfix,
+]{revtex4-2}
+% Rules of thumb that make it easier when you have to deal with journal submissions
+%
+% These are not all "good LaTeX" rules of thumb,
+% but they help when working with antiquated journal submission systems.
+%
+% Have a single tex file
+% Always have 0 errors and work hard to have 0 warnings - "a float is stuck" is probably the only warning it is ok to accept after an attempt or two to fix it
+% Use only the automatic placement location for floats, figures, tables until the very last edit
+% Have only alpha-numerical characters or underscores in your file names (no spaces).
+% Do not use sub-directories, have everything in a single folder (do not put images in a separate folder).
+% Use ~\cite and ~\ref (a fixed width non-breaking ~, not a generic whitespace in front of the command)
+% Use \cite, not \citep or others
+% Be consistent in abreviation, e.g. use only Fig. not Fig/Fig./fig/figure; only Eq. not (eq)/equation/eq./Eq
+%
+% Math:
+% Avoid defining custom math commands
+% In math formulas, use \mathrm for subscripts, unless the subscript is a dummy variable like an index
+% In math formulas, use align, not eqarray, for systems of equations
+% Always use numbered equations
+%
+% Images:
+% Have a single image per figure (not two images included one after the other)
+% Have your images be high DPI (>400) raster files or vector EPS files
+% Avoid vector images if they are heatmaps or have more than hundred points or lines
+% !IMPORTANT! Set the width of your images in your plotting software to the correct width in inches or cm not pixels, otherwise it would scale weirdly when imported in latex
+% Set width=\linewidth for your images in your figures
+% Set the font size of text in your images to one fixed value for all images, in pt, around 10-14pt is probably good
+\usepackage{adjustbox}
+\usepackage[table,dvipsnames]{xcolor}
+\usepackage{array}
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{hyperref}
+\hypersetup{hidelinks,hypertexnames=false}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{stackengine}
+\DeclareMathOperator{\kernel}{ker}
+\DeclareMathOperator{\Hom}{Hom}
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+\usepackage{amsmath,amsthm}
+\usepackage{float}
+\usepackage{epstopdf}
+\usepackage{longtable}
+\usepackage{mathtools}
+\usepackage{colortbl}
+\usepackage{booktabs}
+\usepackage{mathtools,amssymb}
+\usepackage{amsthm}
+\usepackage[caption=false]{subfig}
+% Unused nicematrix package removed for portable compilation.
+\usepackage{tikz}
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{positioning,arrows.meta,decorations.pathreplacing,calligraphy,calc}
+\usetikzlibrary{cd}
+\DeclareMathOperator{\im}{im}
+\usepackage{tikz}
+\usetikzlibrary{cd}
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% align table columns on decimal point
+\usepackage{bm}% bold math
+\newtheorem{statement}[lemma]{Statement}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{csquotes}% to use normal quotes
+\usepackage[T1]{fontenc}
+% allow long URLs (e.g. the repository URL in the bibliography) to break after hyphens
+\makeatletter\AtBeginDocument{\g@addto@macro{\UrlBreaks}{\do\-}}\makeatother
+\MakeOuterQuote{"}
+
+\usepackage[linesnumbered, ruled, vlined]{algorithm2e}
+\SetKw{KwDownTo}{downto}
+\SetKwInput{KwInput}{Input}
+\SetKwInput{KwOutput}{Output}
+\usepackage{graphicx} 
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{makecell}
+\usepackage{physics}
+% \newcommand\editcolor[1]{\textcolor{blue}{\textbf{#1}}}
+\newcommand\editcolor[1]{{\color{blue}#1}}
+\newcommand{\dhor}{\mathsf{h}}
+\newcommand{\dver}{\mathsf{v}}
+\newcommand{\hor}{\mathsf{v}}
+\newcommand{\ver}{\mathsf{h}}
+\newcommand{\lmp}[1]{\operatorname{L}_{#1}}
+\newcommand{\ann}[1]{\operatorname{ann}(#1)}
+\newcommand{\Code}{\mathcal{C}}
+\newcommand{\ftwo}{\mathbb{F}_2}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\Tor}{Tor}
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{observation}[theorem]{Observation}
+\newtheorem{remark}{Remark}
+\theoremstyle{definition}
+\newtheorem{example}{Example}
+\theoremstyle{definition}
+\def\id{{\mathchoice {\rm 1\mskip-4mu l} {\rm 1\mskip-4mu l} {\rm 1\mskip-4.5mu l} {\rm 1\mskip-5mu l}}}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+\usepackage{braket}
+
+\usepackage{listings}
+\usepackage{color}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{myred}{rgb}{0.9,0.2,0.3}
+\definecolor{mymauve}{rgb}{0.28,0,0.92}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+
+\lstdefinelanguage{JuliaREPL}{
+  keywords={julia},
+  keywordstyle=\color{mygreen}\bfseries,
+  keywords=[2]{Stabilizer, GeneralizedStabilizer, naive_encoding_circuit, PauliOperator, Destabilizer, project, CliffordOperator, apply},
+  keywordstyle=[2]\color{mymauve}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=true,
+  mathescape=true,
+  comment=[l]{\#},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{mygray}\ttfamily,
+  stringstyle=\color{myred}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+\lstset{
+   language=JuliaREPL,
+   extendedchars=true,
+   basicstyle=\footnotesize\ttfamily,
+   showstringspaces=false,
+   showspaces=false,
+   tabsize=2,
+   breaklines=true,
+   showtabs=false
+}
+
+\usepackage{csquotes}% to use normal quotes
+
+% a package for neat todo notes
+% comment this out when finishing the manuscript
+\usepackage[textsize=tiny]{todonotes}
+
+% a setup to mark edited lines when resubmitting to a journal after review
+% disable this when you want to hide edit colors
+% colors from tableau 10 scheme
+% if there are yet more rounds of reviews add yet another command
+\definecolor{customcolorblue}{HTML}{4573ae}
+%\newcommand\editcolor[1]{\textcolor{customcolorblue}{\textbf{#1}}}
+
+% Uniform table typography. Adjust these settings once for every table.
+
+\newcommand{\MMTableStyle}{%
+  \color{black}%
+  \fontsize{9}{11}\selectfont
+  \renewcommand{\arraystretch}{1.2}%
+  \setlength{\tabcolsep}{2pt}%
+  \setlength{\extrarowheight}{2pt}%
+  \setlength{\LTleft}{\fill}%
+  \setlength{\LTright}{\fill}%
+}
+
+
+% Revision markup: replace the body by #1 to produce a clean manuscript.
+\DeclareRobustCommand{\revisionblue}[1]{{\color{blue}#1}}
+
+\begin{document}
+\title{Multivariate multicycle codes: complete code tables}
+\author{F. A. Mian, O. Gwilliam, and S. Krastanov}
+\begin{abstract}
+Complete versions of Tables II--XI of ``Multivariate Multicycle Codes for Complete Single-Shot Decoding''. The paper lists a selection of these instances. An entry $\leq d$ denotes an upper bound given by the weight of a verified nontrivial logical operator; an entry without $\leq$ denotes an exact distance established by matching upper and lower bounds (Appendix C of the paper and the \texttt{Distance Audit} directory of this repository).
+\end{abstract}
+\maketitle
+\setcounter{table}{1}
+\clearpage
+\onecolumngrid
+\definecolor{A}{RGB}{248, 248, 255}
+\definecolor{B}{RGB}{245, 255, 250}
+\definecolor{C}{RGB}{255, 250, 240}
+\definecolor{D}{RGB}{240, 248, 255}
+\definecolor{E}{RGB}{255, 245, 238}
+\definecolor{F}{RGB}{240, 255, 240}
+\definecolor{G}{RGB}{255, 250, 250}
+\definecolor{H}{RGB}{248, 248, 247}
+\definecolor{I}{RGB}{245, 245, 245}
+\definecolor{J}{RGB}{250, 250, 250}
+\definecolor{K}{RGB}{245, 248, 255}
+\definecolor{L}{RGB}{255, 248, 240}
+\definecolor{M}{RGB}{240, 252, 245}
+\definecolor{N}{RGB}{250, 245, 255}
+\definecolor{O}{RGB}{245, 250, 255}
+\definecolor{P}{RGB}{255, 252, 245}
+\definecolor{Q}{RGB}{248, 255, 248}
+\definecolor{R}{RGB}{255, 248, 248}
+\definecolor{S}{RGB}{245, 250, 245}
+\definecolor{T}{RGB}{250, 248, 255}
+\definecolor{U}{RGB}{252, 252, 250}
+\definecolor{V}{RGB}{248, 250, 255}
+\definecolor{W}{RGB}{255, 252, 250}
+\definecolor{X}{RGB}{250, 252, 248}
+\definecolor{Y}{RGB}{252, 250, 248}
+\definecolor{Z}{RGB}{248, 252, 250}
+\clearpage
+\onecolumngrid
+
+\begingroup
+\MMTableStyle
+\begin{longtable}{|*{8}{>{\columncolor{white}[\tabcolsep]}c|}}
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $(\ell,m,p,q)$ & $k/n$ & {$kd^2/n$} & $F$ & $G$ & $H$ & $I$\\ \hline
+\endfirsthead
+\multicolumn{8}{c}{\tablename~\thetable\ (continued)}\\
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $(\ell,m,p,q)$ & $k/n$ & {$kd^2/n$} & $F$ & $G$ & $H$ & $I$\\ \hline
+\endhead
+\hline
+\endfoot
+\caption{\textbf{Small instances of multivariate multicycle (MM) codes with stabilizer check weight $w = 6$.} The code rate is $\frac{k}{n}$, the efficiency ratio is $\frac{kd^2}{n}${, with $d=\min(d_X,d_Z)$; it is an upper bound when $d$ is}.}\label{tab:table2}\\
+\endlastfoot
+$[[96, 12, (4,4)]]$ &  (2, 2, 2, 2)  & {0.125} & {$2.00$} &  \shortstack[c]{$wz + xyz$}  &  \shortstack[c]{$w + xyz$}  &  \shortstack[c]{$wyz + xy$}  &  \shortstack[c]{$xyz + xz$} \\ %ID:table2_row001
+\hline
+$[[144, 6, (8,8)]]$ &  (2, 2, 3, 2)  & {0.042} & {$2.67$} &  \shortstack[c]{$wxy + z$}  &  \shortstack[c]{$wx + wyz$}  &  \shortstack[c]{$wx + xy^2$}  &  \shortstack[c]{$xyz + y^2z$} \\ %ID:table2_row002
+\hline
+{$[[216, 6, (\leq 12,\leq 12)]]$} &  (2, 2, 3, 3)  & {0.028} & {$4.00$} &  \shortstack[c]{$wxy + xy^2$}  &  \shortstack[c]{$wy + xyz^2$}  &  \shortstack[c]{$xy^2 + y^2z$}  &  \shortstack[c]{$wxyz^2 + xz$} \\ %ID:table2_row004
+\hline
+{$[[240, 12, (\leq 7,\leq 7)]]$} &  (5, 2, 2, 2)  & {0.050} & {$2.45$} &  \shortstack[c]{$w^4y + w^3x$}  &  \shortstack[c]{$w^4x + w^3$}  &  \shortstack[c]{$w^4y + wx$}  &  \shortstack[c]{$w^4z + w^2yz$} \\ %ID:table2_row005
+\hline
+{$[[240, 6, (\leq 12,\leq 12)]]$} &  (5, 2, 2, 2)  & {0.025} & {$3.60$} &  \shortstack[c]{$w^4xy + xz$}  &  \shortstack[c]{$w^3 + w^2z$}  &  \shortstack[c]{$w^3xyz + wy$}  &  \shortstack[c]{$w^2y + w$} \\ %ID:table2_row006
+\hline
+{$[[288, 6, (\leq 12,\leq 12)]]$} &  (2, 2, 3, 4)  & {0.021} & {$3.00$} &  \shortstack[c]{$wxy + xz^2$}  &  \shortstack[c]{$wxz^2 + wy^2$}  &  \shortstack[c]{$xyz^3 + z^2$}  &  \shortstack[c]{$wxy + w$} \\ %ID:table2_row007
+\hline
+$[[288, 12, (8,8)]]$ &  (2, 2, 2, 6)  & {0.042} & {$2.67$} &  \shortstack[c]{$wz^3 + xyz^2$}  &  \shortstack[c]{$wxz^2 + xyz$}  &  \shortstack[c]{$wxz^2 + w$}  &  \shortstack[c]{$wyz^5 + xyz^3$} \\ %ID:table2_row008
+\hline
+{$[[324, 6, (\leq 12,\leq 12)]]$} &  (2, 3, 3, 3)  & {0.019} & {$2.67$} &  \shortstack[c]{$wxz + yz^2$}  &  \shortstack[c]{$wxyz + xz$}  &  \shortstack[c]{$wx^2z + y^2z^2$}  &  \shortstack[c]{$wxy^2 + wxz^2$} \\ %ID:table2_row009
+\hline
+{$[[336, 6, (\leq 12,\leq 12)]]$} &  (2, 2, 2, 7)  & {0.018} & {$2.57$} &  \shortstack[c]{$wx + z^2$}  &  \shortstack[c]{$wxz^2 + z^6$}  &  \shortstack[c]{$wx + wz^2$}  &  \shortstack[c]{$wxz^4 + wyz^6$} \\ %ID:table2_row010
+\hline
+{$[[360, 6, (\leq 12,\leq 12)]]$} &  (2, 2, 3, 5)  & {0.017} & {$2.40$} &  \shortstack[c]{$xz^3 + y^2z$}  &  \shortstack[c]{$wx + wz^2$}  &  \shortstack[c]{$wxy^2 + y^2z^2$}  &  \shortstack[c]{$wxyz^3 + wxz^2$} \\ %ID:table2_row011
+\hline
+{$[[360, 12, (\leq 11,\leq 11)]]$} &  (2, 2, 3, 5)  & {0.033} & {$4.03$} &  \shortstack[c]{$y^2z + yz^3$}  &  \shortstack[c]{$wy^2z^3 + xy^2$}  &  \shortstack[c]{$wz^3 + xyz^2$}  &  \shortstack[c]{$wyz^3 + xy^2$} \\ %ID:table2_row012
+\hline
+$[[432, 12, (12,12)]]$ &  (2, 2, 2, 9)  & {0.028} & {$4.00$} &  \shortstack[c]{$wyz^3 + xz^7$}  &  \shortstack[c]{$wyz + yz^5$}  &  \shortstack[c]{$xyz^5 + z^7$}  &  \shortstack[c]{$wxz^7 + wyz^3$} \\ %ID:table2_row015
+\hline
+{$[[432, 6, (\leq 18,\leq 18)]]$} &  (2, 3, 3, 4)  & {0.014} & {$4.50$} &  \shortstack[c]{$wx + x^2z$}  &  \shortstack[c]{$wy^2z^3 + xyz$}  &  \shortstack[c]{$x^2yz + y^2$}  &  \shortstack[c]{$xy^2z^3 + xyz$} \\ %ID:table2_row016
+\hline
+{$[[480, 6, (\leq 16,\leq 16)]]$} &  (2, 2, 2, 10)  & {0.013} & {$3.20$} &  \shortstack[c]{$w + xz^8$}  &  \shortstack[c]{$wxz^7 + w$}  &  \shortstack[c]{$wxz^7 + xyz^3$}  &  \shortstack[c]{$wyz + wz^7$} \\ %ID:table2_row017
+\hline
+{$[[480, 12, (\leq 12,\leq 12)]]$} &  (2, 2, 4, 5)  & {0.025} & {$3.60$} &  \shortstack[c]{$wxy^2z^4 + wz^2$}  &  \shortstack[c]{$wxz + xy^2z^4$}  &  \shortstack[c]{$wxy^2z^2 + xy^2$}  &  \shortstack[c]{$xy^3z + xyz^3$} \\ %ID:table2_row018
+\hline
+{$[[480, 24, (\leq 8,\leq 8)]]$} &  (2, 2, 4, 5)  & {0.050} & {$3.20$} &  \shortstack[c]{$wxy^3z^2 + xz$}  &  \shortstack[c]{$wz^3 + yz$}  &  \shortstack[c]{$wy^2z^3 + y^3z^4$}  &  \shortstack[c]{$wyz^4 + y^2z$} \\ %ID:table2_row019
+\hline
+{$[[504, 6, (\leq 17,\leq 17)]]$} &  (2, 2, 3, 7)  & {0.012} & {$3.44$} &  \shortstack[c]{$wxyz^4 + wz$}  &  \shortstack[c]{$wy^2z^3 + xz^3$}  &  \shortstack[c]{$wy^2z^5 + xy^2z$}  &  \shortstack[c]{$wyz^2 + yz$} \\ %ID:table2_row020
+\hline
+{$[[504, 12, (\leq 10,\leq 10)]]$} &  (2, 2, 3, 7)  & {0.024} & {$2.38$} &  \shortstack[c]{$wx + xyz^4$}  &  \shortstack[c]{$wyz^2 + y$}  &  \shortstack[c]{$wy^2z^4 + wyz$}  &  \shortstack[c]{$wyz^5 + z^2$} \\ %ID:table2_row021
+\hline
+{$[[528, 6, (\leq 16,\leq 16)]]$} &  (2, 2, 2, 11)  & {0.011} & {$2.91$} &  \shortstack[c]{$xyz^5 + z^2$}  &  \shortstack[c]{$y + z^9$}  &  \shortstack[c]{$wxz^3 + xyz^7$}  &  \shortstack[c]{$wyz^{10} + xyz^4$} \\ %ID:table2_row022
+\hline
+{$[[528, 12, (\leq 12,\leq 12)]]$} &  (2, 2, 2, 11)  & {0.023} & {$3.27$} &  \shortstack[c]{$wz^{10} + wz^9$}  &  \shortstack[c]{$yz^{10} + z^6$}  &  \shortstack[c]{$wz^5 + xyz$}  &  \shortstack[c]{$wxyz^6 + yz^{10}$} \\ %ID:table2_row023
+\hline
+{$[[540, 6, (\leq 18,\leq 18)]]$} &  (2, 3, 3, 5)  & {0.011} & {$3.60$} &  \shortstack[c]{$wx^2yz + wxy^2z^2$}  &  \shortstack[c]{$xz + 1$}  &  \shortstack[c]{$wz + x^2yz^2$}  &  \shortstack[c]{$wx^2yz + wx$} \\ %ID:table2_row024
+\hline
+{$[[540, 18, (\leq 7,\leq 7)]]$} &  (2, 3, 3, 5)  & {0.033} & {$1.63$} &  \shortstack[c]{$wxy^2z^2 + x^2y^2z^2$}  &  \shortstack[c]{$wxyz^2 + xy$}  &  \shortstack[c]{$x^2y + xyz^2$}  &  \shortstack[c]{$x^2y^2 + y^2z^2$} \\ %ID:table2_row025
+\hline
+{$[[600, 6, (\leq 17,\leq 17)]]$} &  (2, 2, 5, 5)  & {0.010} & {$2.89$} &  \shortstack[c]{$xy^2 + xz$}  &  \shortstack[c]{$wz^4 + yz^4$}  &  \shortstack[c]{$xz^2 + y^2z^3$}  &  \shortstack[c]{$wxz^4 + y^2z$} \\ %ID:table2_row029
+\hline
+{$[[600, 24, (\leq 9,\leq 9)]]$} &  (2, 2, 5, 5)  & {0.040} & {$3.24$} &  \shortstack[c]{$y^4z^3 + yz$}  &  \shortstack[c]{$xy^3 + xy^2z^4$}  &  \shortstack[c]{$wy^3z^4 + wy^3$}  &  \shortstack[c]{$y^3z^2 + yz$} \\ %ID:table2_row030
+\hline
+{$[[600, 12, (\leq 10,\leq 10)]]$} &  (2, 2, 5, 5)  & {0.020} & {$2.00$} &  \shortstack[c]{$y^3z^3 + yz$}  &  \shortstack[c]{$wyz + xy^3z$}  &  \shortstack[c]{$wy^3z^2 + wy^2z^2$}  &  \shortstack[c]{$wy^2z + wy^2$} \\ %ID:table2_row031
+\hline
+{$[[624, 6, (\leq 18,\leq 18)]]$} &  (2, 2, 2, 13)  & {0.010} & {$3.12$} &  \shortstack[c]{$xz^6 + yz^9$}  &  \shortstack[c]{$xyz^7 + xz$}  &  \shortstack[c]{$wxyz^{11} + wyz^{12}$}  &  \shortstack[c]{$wyz^{10} + xz^5$} \\ %ID:table2_row032
+\hline
+{$[[624, 12, (\leq 14,\leq 14)]]$} &  (2, 2, 2, 13)  & {0.019} & {$3.77$} &  \shortstack[c]{$wyz^{12} + xz^7$}  &  \shortstack[c]{$wz^9 + wz$}  &  \shortstack[c]{$xz^11 + yz^8$}  &  \shortstack[c]{$wxyz^3 + xyz^4$} \\ %ID:table2_row033
+\hline
+{$[[648, 6, (\leq 18,\leq 18)]]$} &  (2, 3, 3, 6)  & {0.009} & {$3.00$} &  \shortstack[c]{$wx^2y^2z + xz$}  &  \shortstack[c]{$wyz^2 + y^2z^2$}  &  \shortstack[c]{$w + x^2yz$}  &  \shortstack[c]{$wxyz^4 + xy^2$} \\ %ID:table2_row034
+\hline
+$[[648, 12, (12,12)]]$ &  (2, 2, 3, 9)  & {0.019} & {$2.67$} &  \shortstack[c]{$xy^2z^4 + xy^2z^3$}  &  \shortstack[c]{$wx + xz^8$}  &  \shortstack[c]{$wz^7 + y^2z^2$}  &  \shortstack[c]{$wy^2z^2 + z^5$} \\ %ID:table2_row035
+\hline
+{$[[672, 6, (\leq 18,\leq 18)]]$} &  (2, 2, 4, 7)  & {0.009} & {$2.89$} &  \shortstack[c]{$wxy^3z^3 + w$}  &  \shortstack[c]{$wy^3z + y^2z^4$}  &  \shortstack[c]{$xyz^2 + xz^3$}  &  \shortstack[c]{$xy + y^3z^2$} \\ %ID:table2_row036
+\hline
+{$[[672, 12, (\leq 12,\leq 12)]]$} &  (2, 2, 2, 14)  & {0.018} & {$2.57$} &  \shortstack[c]{$wz^{13} + xz^9$}  &  \shortstack[c]{$wxyz^5 + yz^{13}$}  &  \shortstack[c]{$wxz^8 + wyz^{11}$}  &  \shortstack[c]{$wxz^8 + yz^{11}$} \\ %ID:table2_row037
+\hline
+{$[[672, 24, (\leq 11,\leq 11)]]$} &  (2, 2, 4, 7)  & {0.036} & {$4.32$} &  \shortstack[c]{$wy^3z + wy^3$}  &  \shortstack[c]{$wxyz^4 + wz^6$}  &  \shortstack[c]{$y^2z^2 + 1$}  &  \shortstack[c]{$wxy^3 + wz^2$} \\ %ID:table2_row038
+\hline
+{$[[720, 6, (\leq 20,\leq 20)]]$} &  (2, 2, 5, 6)  & {0.008} & {$3.33$} &  \shortstack[c]{$wxy^2z^4 + xyz^4$}  &  \shortstack[c]{$wxy^4z + yz^3$}  &  \shortstack[c]{$wxyz^5 + xyz^4$}  &  \shortstack[c]{$wxy^2z^3 + yz$} \\ %ID:table2_row039
+\hline
+{$[[720, 12, (\leq 13,\leq 13)]]$} &  (2, 2, 2, 15)  & {0.017} & {$2.82$} &  \shortstack[c]{$wxz^6 + wy$}  &  \shortstack[c]{$xyz^3 + y$}  &  \shortstack[c]{$xyz^7 + xz^5$}  &  \shortstack[c]{$yz^5 + z^4$} \\ %ID:table2_row040
+\hline
+{$[[720, 12, (\leq 15,\leq 15)]]$} &  (2, 2, 3, 10)  & {0.017} & {$3.75$} &  \shortstack[c]{$wxz^8 + wxz^6$}  &  \shortstack[c]{$wyz^5 + wz^2$}  &  \shortstack[c]{$wxz^6 + xy^2z^6$}  &  \shortstack[c]{$wxz^5 + xyz^6$} \\ %ID:table2_row041
+\hline
+{$[[756, 6, (\leq 18,\leq 18)]]$} &  (2, 3, 3, 7)  & {0.008} & {$2.57$} &  \shortstack[c]{$wy^2z + wyz^6$}  &  \shortstack[c]{$wxz^3 + x^2$}  &  \shortstack[c]{$x^2yz^5 + xz^6$}  &  \shortstack[c]{$yz^3 + z^5$} \\ %ID:table2_row042
+\hline
+{$[[756, 18, (\leq 13,\leq 13)]]$} &  (2, 3, 3, 7)  & {0.024} & {$4.02$} &  \shortstack[c]{$wx^2y^2z^2 + x^2y^2$}  &  \shortstack[c]{$wy^2 + x^2yz^5$}  &  \shortstack[c]{$wx^2z^2 + x^2z^3$}  &  \shortstack[c]{$x^2yz^3 + xz^4$} \\ %ID:table2_row043
+\hline
+{$[[792, 6, (\leq 22,\leq 22)]]$} &  (2, 2, 3, 11)  & {0.008} & {$3.67$} &  \shortstack[c]{$wxyz^2 + wxz$}  &  \shortstack[c]{$xyz^5 + y^2z^7$}  &  \shortstack[c]{$wxz^4 + z^3$}  &  \shortstack[c]{$xy^2z^3 + y^2z$} \\ %ID:table2_row046
+\hline
+{$[[792, 12, (\leq 14,\leq 14)]]$} &  (2, 2, 3, 11)  & {0.015} & {$2.97$} &  \shortstack[c]{$wxyz^3 + wxyz$}  &  \shortstack[c]{$wx + y^2z^3$}  &  \shortstack[c]{$wxyz^9 + y^2z^{10}$}  &  \shortstack[c]{$wz^5 + xy^2z^5$} \\ %ID:table2_row047
+\hline
+{$[[792, 12, (\leq 15,\leq 15)]]$} &  (2, 2, 3, 11)  & {0.015} & {$3.41$} &  \shortstack[c]{$wz + z^{10}$}  &  \shortstack[c]{$wxy^2z^4 + xyz^7$}  &  \shortstack[c]{$xy^2z^9 + xz^{10}$}  &  \shortstack[c]{$wyz^6 + wyz^5$} \\ %ID:table2_row048
+\hline
+{$[[810, 18, (\leq 12,\leq 12)]]$} &  (3, 3, 3, 5)  & {0.022} & {$3.20$} &  \shortstack[c]{$w^2x^2y^2 + w^2x^2yz^3$}  &  \shortstack[c]{$w^2xyz + yz$}  &  \shortstack[c]{$w^2yz^4 + wxz$}  &  \shortstack[c]{$x^2y^2z^3 + x^2y^2z$} \\ %ID:table2_row049
+\hline
+{$[[810, 6, (\leq 21,\leq 21)]]$} &  (3, 3, 3, 5)  & {0.007} & {$3.27$} &  \shortstack[c]{$w^2xy^2z^3 + y^2z$}  &  \shortstack[c]{$wz + xy^2z^2$}  &  \shortstack[c]{$wyz^4 + x^2yz^2$}  &  \shortstack[c]{$wx^2y + wxy^2z$} \\ %ID:table2_row050
+\hline
+{$[[816, 6, (\leq 20,\leq 20)]]$} &  (2, 2, 2, 17)  & {0.007} & {$2.94$} &  \shortstack[c]{$wxyz^4 + z^9$}  &  \shortstack[c]{$xyz^{16} + xyz^2$}  &  \shortstack[c]{$wxyz + x$}  &  \shortstack[c]{$wxyz^9 + wxz^5$} \\ %ID:table2_row051
+\hline
+{$[[816, 12, (\leq 12,\leq 12)]]$} &  (2, 2, 2, 17)  & {0.015} & {$2.12$} &  \shortstack[c]{$yz^{15} + yz$}  &  \shortstack[c]{$wyz^7 + z^6$}  &  \shortstack[c]{$wyz^6 + 1$}  &  \shortstack[c]{$wxz^2 + xz^3$} \\ %ID:table2_row052
+\hline
+{$[[816, 24, (\leq 10,\leq 10)]]$} &  (2, 2, 2, 17)  & {0.029} & {$2.94$} &  \shortstack[c]{$wxz^2 + 1$}  &  \shortstack[c]{$wxyz^4 + yz^8$}  &  \shortstack[c]{$wz^8 + xz^7$}  &  \shortstack[c]{$wxyz^4 + yz$} \\ %ID:table2_row053
+\hline
+{$[[840, 6, (\leq 20,\leq 20)]]$} &  (2, 2, 5, 7)  & {0.007} & {$2.86$} &  \shortstack[c]{$wxy^4z + wy^4z^5$}  &  \shortstack[c]{$wy + z^5$}  &  \shortstack[c]{$wxz^2 + xy^4z^2$}  &  \shortstack[c]{$wxy^4 + wy^3z^3$} \\ %ID:table2_row054
+\hline
+{$[[840, 24, (\leq 10,\leq 10)]]$} &  (2, 2, 5, 7)  & {0.029} & {$2.86$} &  \shortstack[c]{$y^4 + y^3z^2$}  &  \shortstack[c]{$wxy^3z^4 + wxy^2z^2$}  &  \shortstack[c]{$wy^3z^6 + wy^3$}  &  \shortstack[c]{$y^4z^3 + y^3z^2$} \\ %ID:table2_row055
+\hline
+{$[[840, 12, (\leq 14,\leq 14)]]$} &  (2, 2, 5, 7)  & {0.014} & {$2.80$} &  \shortstack[c]{$wxy^3z + wyz^6$}  &  \shortstack[c]{$wxyz^4 + wxz^3$}  &  \shortstack[c]{$xz^4 + xz^3$}  &  \shortstack[c]{$xy^3z + y^2z^4$} \\ %ID:table2_row056
+\hline
+{$[[864, 6, (\leq 24,\leq 24)]]$} &  (2, 2, 6, 6)  & {0.007} & {$4.00$} &  \shortstack[c]{$wy^2z^4 + wyz^3$}  &  \shortstack[c]{$xy^5z^3 + xy^4z^3$}  &  \shortstack[c]{$xy^3z + y^5z^5$}  &  \shortstack[c]{$wz^5 + 1$} \\ %ID:table2_row057
+\hline
+{$[[864, 12, (\leq 14,\leq 14)]]$} &  (2, 2, 2, 18)  & {0.014} & {$2.72$} &  \shortstack[c]{$wz^3 + xyz^7$}  &  \shortstack[c]{$wxyz^{14} + xyz^6$}  &  \shortstack[c]{$wxyz^7 + yz^{14}$}  &  \shortstack[c]{$wyz + xz^{17}$} \\ %ID:table2_row058
+\hline
+{$[[864, 18, (\leq 12,\leq 12)]]$} &  (2, 3, 4, 6)  & {0.021} & {$3.00$} &  \shortstack[c]{$wx^2y^3z^4 + wz^2$}  &  \shortstack[c]{$wx^2yz^4 + xy^2$}  &  \shortstack[c]{$x^2y^3 + y^2z$}  &  \shortstack[c]{$wx^2y^3z + wxy^3z^3$} \\ %ID:table2_row059
+\hline
+{$[[864, 24, (\leq 10,\leq 10)]]$} &  (2, 2, 2, 18)  & {0.028} & {$2.78$} &  \shortstack[c]{$wxyz^6 + yz^8$}  &  \shortstack[c]{$wxyz^{12} + yz^5$}  &  \shortstack[c]{$z^4 + z^2$}  &  \shortstack[c]{$wxz^9 + z^6$} \\ %ID:table2_row060
+\hline
+{$[[900, 6, (\leq 24,\leq 24)]]$} &  (2, 3, 5, 5)  & {0.007} & {$3.84$} &  \shortstack[c]{$x^2y^4z^4 + x^2y^2z$}  &  \shortstack[c]{$wx^2y^4z^3 + wy^4z^2$}  &  \shortstack[c]{$wx^2z^2 + z^4$}  &  \shortstack[c]{$wxy^3 + wxz^2$} \\ %ID:table2_row061
+\hline
+{$[[900, 12, (\leq 11,\leq 11)]]$} &  (2, 3, 5, 5)  & {0.013} & {$1.61$} &  \shortstack[c]{$wxz^4 + wyz^3$}  &  \shortstack[c]{$x^2y^4z^3 + x^2yz^2$}  &  \shortstack[c]{$wy^3z^3 + wy^3z$}  &  \shortstack[c]{$x^2y^3z^4 + xy$} \\ %ID:table2_row062
+\hline
+{$[[912, 12, (\leq 16,\leq 16)]]$} &  (2, 2, 2, 19)  & {0.013} & {$3.37$} &  \shortstack[c]{$w + z^{10}$}  &  \shortstack[c]{$w + z^{11}$}  &  \shortstack[c]{$wyz^{12} + yz^{10}$}  &  \shortstack[c]{$wyz^{12} + w$} \\ %ID:table2_row063
+\hline
+{$[[936, 6, (\leq 25,\leq 25)]]$} &  (2, 2, 3, 13)  & {0.006} & {$4.01$} &  \shortstack[c]{$wz^{12} + y^2z^{11}$}  &  \shortstack[c]{$wz^3 + z^5$}  &  \shortstack[c]{$wy^2z^{11} + z^2$}  &  \shortstack[c]{$wx + wy^2z^2$} \\ %ID:table2_row064
+\hline
+{$[[936, 12, (\leq 16,\leq 16)]]$} &  (2, 2, 3, 13)  & {0.013} & {$3.28$} &  \shortstack[c]{$wy^2z^2 + y^2z^{11}$}  &  \shortstack[c]{$y^2z^6 + z^{11}$}  &  \shortstack[c]{$wy^2z^2 + wyz^6$}  &  \shortstack[c]{$xy^2z^6 + xz^3$} \\ %ID:table2_row065
+\hline
+{$[[972, 36, (\leq 9,\leq 9)]]$} &  (2, 3, 3, 9)  & {0.037} & {$3.00$} &  \shortstack[c]{$wx^2z^8 + wxy^2z^5$}  &  \shortstack[c]{$wxz^6 + wyz^3$}  &  \shortstack[c]{$x^2y^2z^5 + z^5$}  &  \shortstack[c]{$wx^2y^2 + wy^2$} \\ %ID:table2_row069
+\hline
+{$[[972, 18, (\leq 13,\leq 13)]]$} &  (2, 3, 3, 9)  & {0.019} & {$3.13$} &  \shortstack[c]{$wx^2y^2z^6 + wx^2yz$}  &  \shortstack[c]{$wx^2y^2z^7 + x^2yz^3$}  &  \shortstack[c]{$wxy^2z^8 + xyz$}  &  \shortstack[c]{$wxy^2z^5 + wxy^2z^3$} \\ %ID:table2_row070
+\hline
+{$[[972, 6, (\leq 24,\leq 24)]]$} &  (2, 3, 3, 9)  & {0.006} & {$3.56$} &  \shortstack[c]{$x^2z^5 + xy^2z^3$}  &  \shortstack[c]{$wz^3 + y^2z^8$}  &  \shortstack[c]{$wx^2z^4 + wxz^2$}  &  \shortstack[c]{$xyz^4 + y^2z^6$} \\ %ID:table2_row071
+\hline
+\end{longtable}
+\endgroup
+
+\bigskip
+
+\begingroup
+\MMTableStyle
+\begin{longtable}{|*{7}{>{\columncolor{white}[\tabcolsep]}c|}}
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $(\ell,m,p,q)$ & $k/n$ & $F$ & $G$ & $H$ & $I$\\ \hline
+\endfirsthead
+\multicolumn{7}{c}{\tablename~\thetable\ (continued)}\\
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $(\ell,m,p,q)$ & $k/n$ & $F$ & $G$ & $H$ & $I$\\ \hline
+\endhead
+\hline
+\endfoot
+\caption{\textbf{Small instances of multivariate multicycle (MM) codes with stabilizer weight $w = 9$.}}\label{tab:table3}\\
+\endlastfoot
+$[[144, 12, (8,8)]]$ &  3, 2, 2, 2  & {0.083} &  \shortstack[c]{$w^2xyz + wy$\\$+ yz$}  &  \shortstack[c]{$w^2y + wxz$\\$+ x$}  &  \shortstack[c]{$w^2x + wz$\\$+ xy$}  &  \shortstack[c]{$w^2yz + w$\\$+ 1$} \\ %ID:table3_row001
+\hline
+$[[144, 12, (12,12)]]$ &  3, 2, 2, 2  & {0.083} &  \shortstack[c]{$w^2xy + w$\\$+ xyz$}  &  \shortstack[c]{$w^2x + wxy$\\$+ z$}  &  \shortstack[c]{$w^2xz + wx$\\$+ xyz$}  &  \shortstack[c]{$w^2yz + wxy$\\$+ xyz$} \\ %ID:table3_row002
+\hline
+$[[216, 12, (12,12)]]$ &  2, 2, 3, 3  & {0.056} &  \shortstack[c]{$wxy^2 + wz^2$\\$+ x$}  &  \shortstack[c]{$wxyz^2 + wy^2z$\\$+ x$}  &  \shortstack[c]{$wxy^2z^2 + xyz^2$\\$+ xz^2$}  &  \shortstack[c]{$wz + w$\\$+ xy^2z$} \\ %ID:table3_row003
+\hline
+{$[[216, 24, (\leq 9,\leq 9)]]$} &  2, 2, 3, 3  & {0.111} &  \shortstack[c]{$wy^2z^2 + x$\\$+ yz^2$}  &  \shortstack[c]{$wxz^2 + xy^2z$\\$+ y$}  &  \shortstack[c]{$wxy^2z + wxyz^2$\\$+ wxz^2$}  &  \shortstack[c]{$wyz + xy^2$\\$+ z$} \\ %ID:table3_row004
+\hline
+{$[[324, 12, (\leq 18,\leq 18)]]$} &  2, 3, 3, 3  & {0.037} &  \shortstack[c]{$wx^2y + x^2y^2$\\$+ z$}  &  \shortstack[c]{$wy + xy$\\$+ y^2z^2$}  &  \shortstack[c]{$wx^2z + wyz$\\$+ yz^2$}  &  \shortstack[c]{$wx^2y^2 + wxyz^2$\\$+ xy^2z$} \\ %ID:table3_row006
+\hline
+{$[[336, 18, (\leq 12,\leq 12)]]$} &  2, 2, 2, 7  & {0.054} &  \shortstack[c]{$wxyz^6 + wx$\\$+ z^2$}  &  \shortstack[c]{$wz^3 + xyz^6$\\$+ z^4$}  &  \shortstack[c]{$xy + xz^5$\\$+ yz^4$}  &  \shortstack[c]{$wxyz^3 + wyz$\\$+ wy$} \\ %ID:table3_row007
+\hline
+{$[[432, 12, (\leq 21,\leq 21)]]$} &  2, 3, 3, 4  & {0.028} &  \shortstack[c]{$wx^2yz^3 + wx^2z $\\$ + y^2$}  &  \shortstack[c]{$wxz^2 + x^2y $\\$ + y^2z^2$}  &  \shortstack[c]{$wxz^2 + wy $\\$ + xy^2z$}  &  \shortstack[c]{$wy + wz $\\$ + x^2y^2z^3$}\\ %ID:table3_row008
+\hline
+{$[[432, 24, (\leq 18,\leq 18)]]$} &  2, 2, 3, 6  & {0.056} &  \shortstack[c]{$wxz + wy^2z^4 $\\$ + xy$}  &  \shortstack[c]{$wxy^2 + wxyz $\\$ + wx$}  &  \shortstack[c]{$wxy^2z^4 + wyz $\\$ + xz^2$}  &  \shortstack[c]{$wxy^2z^5 + wyz^4 $\\$ + xz^4$}\\ %ID:table3_row009
+\hline
+{$[[486, 12, (\leq 18,\leq 18)]]$} &  3, 3, 3, 3  & {0.025} &  \shortstack[c]{$wx^2z + wxz $\\$ + x^2y^2z^2$}  &  \shortstack[c]{$w^2xy + w^2  $\\$ + wx^2y$}  &  \shortstack[c]{$w^2xyz^2 + wxy  $\\$ + xz^2$}  &  \shortstack[c]{$w^2yz + w^2 $\\$ + yz$}\\ %ID:table3_row010
+\hline
+$[[486, 24, (12,12)]]$ &  3, 3, 3, 3  & {0.049} &  \shortstack[c]{$wyz + y^2z^2   $\\$+ y^2$}  &  \shortstack[c]{$w^2z^2 + x^2y^2z^2   $\\$+ z$}  &  \shortstack[c]{$w^2x^2z^2 + wx^2y^2z   $\\$+ wy^2z$}  &  \shortstack[c]{$w^2x^2y^2z + wz   $\\$+ x^2z^2$}\\ %ID:table3_row011
+\hline
+{$[[504, 12, (\leq 18,\leq 18)]]$} &  2, 2, 3, 7  & {0.024} &  \shortstack[c]{$y^2z^4 + yz^5  $\\$+ z$}  &  \shortstack[c]{$xy^2z^3 + xz^6  $\\$+ yz^4$}  &  \shortstack[c]{$wxz + xy^2z^4  $\\$+ yz^2$}  &  \shortstack[c]{$wz^3 + xy^2z^5  $\\$+ xyz$}\\ %ID:table3_row012
+\hline
+{$[[504, 12, (\leq 28,\leq 28)]]$} &  2, 2, 3, 7  & {0.024} &  \shortstack[c]{$wyz^2 + y^2z $\\$+ z^4$}  &  \shortstack[c]{$wxy^2z^3 + xz^5 $\\$+ yz^6$}  &  \shortstack[c]{$wxyz^6 + xy^2z^6 $\\$+ xz^3$}  &  \shortstack[c]{$wxz^2 + wy^2z^2 $\\$+ yz^3$}\\ %ID:table3_row013
+\hline
+{$[[540, 12, (\leq 31,\leq 31)]]$} &  2, 3, 3, 5  & {0.022} &  \shortstack[c]{$y^2z^4 + yz + $\\$z$}  &  \shortstack[c]{$wx^2yz^4 + x^2y^2z^3 $\\$ + xy$}  &  \shortstack[c]{$wx^2y^2 + xy^2z^2 $\\$ + xyz^3$}  &  \shortstack[c]{$wxz^3 + x^2yz $\\$ + xy$}\\ %ID:table3_row014
+\hline
+{$[[576, 12, (\leq 24,\leq 24)]]$} &  2, 2, 3, 8  & {0.021} &  \shortstack[c]{$wxz^7 + y^2z$ \\$ + yz^6$}  &  \shortstack[c]{$wxz^7 + wy^2z^4$ \\$ + yz^4$}  &  \shortstack[c]{$wx + wyz^3 $\\$ + y^2z^3$}  &  \shortstack[c]{$wxy^2z^4 + wxyz^2$\\$ + wxz^3$}\\ %ID:table3_row015
+\hline
+{$[[648, 12, (\leq 22,\leq 22)]]$} &  3, 9, 2, 2  & {0.019} &  \shortstack[c]{$w^2x^4yz + w^2x^2y$ \\ $+ wx^5yz$}  &  \shortstack[c]{$w^2xz + wx^7yz$ \\$+ wx^5yz$}  &  \shortstack[c]{$wx^5yz + x^8y$ $+ y$}  &  \shortstack[c]{$w^2x^8z + wx^8yz$ \\$ +x^5$}\\ %ID:table3_row016
+\hline
+{$[[648, 12, (\leq 24,\leq 24)]]$} &  3, 3, 3, 4  & {0.019} &  \shortstack[c]{$w^2x^2z + w^2yz^2$\\ $+z^3$}  &  \shortstack[c]{$w^2x^2z^2 + w^2xyz^2$ \\$+x^2z^2$}  &  \shortstack[c]{$w^2x^2y^2z^2 + x^2yz$ \\$+y^2z$}  &  \shortstack[c]{$w^2x^2y^2 + wx^2yz^3$ \\ $+x^2yz^3$} \\ %ID:table3_row017
+\hline
+{$[[648, 12, (\leq 31,\leq 31)]]$} &  3, 3, 3, 4  & {0.019} &  \shortstack[c]{$w^2y^2z + wy^2 $\\$+ yz$}  &  \shortstack[c]{$1 + w^2xy^2z^2 $\\$+ wx^2y^2z^3$}  &  \shortstack[c]{$wx^2y + wxy^2z $\\$+ x^2y^2$}  &  \shortstack[c]{$w^2yz^2 + wxz $\\$ + wz$}\\ %ID:table3_row018
+\hline
+{$[[672, 18, (\leq 20,\leq 20)]]$} &  2, 2, 2, 14  & {0.027} &  \shortstack[c]{$xz^5 + xz^3 $\\$+ z^{13}$}  &  \shortstack[c]{$wyz^6 + wz^5 $\\$+xyz^3$}  &  \shortstack[c]{$wxz^6 + z^{10} $\\$+ z^5$}  &  \shortstack[c]{$wxyz^{10} + wxz^4$\\$ + yz$}\\ %ID:table3_row019
+\hline
+{$[[720, 12, (\leq 22,\leq 22)]]$} &  2, 2, 5, 6  & {0.017} &  \shortstack[c]{$wz^4 + x $\\$+ y^2z^2$}  &  \shortstack[c]{$wxy^2z^2 + wxz^3 $\\$+ wyz$}  &  \shortstack[c]{$wy^4z^2 + xy^3 $\\$+ xy^2z^4$}  &  \shortstack[c]{$wxyz^5 + xy^3 $\\$+ yz^4$}\\ %ID:table3_row020
+\hline
+{$[[720, 12, (\leq 40,\leq 40)]]$} &  2, 2, 2, 15  & {0.017} &  \shortstack[c]{$wxz^2 + wz^3 $\\$+ z^4$}  &  \shortstack[c]{$wyz^4 + xz^5 $\\$+ yz^3$}  &  \shortstack[c]{$wz^{14} + x $\\$+ yz^4$}  &  \shortstack[c]{$wxyz^6 + yz^{10} $\\$+ z^{14}$}\\ %ID:table3_row021
+\hline
+{$[[756, 12, (\leq 22,\leq 22)]]$} &  2, 3, 3, 7  & {0.016} &  \shortstack[c]{$wx^2z^3 + wxy^2z^5 $\\$+ xyz^6$}  &  \shortstack[c]{$wy^2 + wyz^3 $\\$+ x^2$}  &  \shortstack[c]{$wy^2 + wz^3 $\\$+ xyz^6$}  &  \shortstack[c]{$wxz^6 + wy^2z^2$\\$ + x^2yz^2$}\\ %ID:table3_row022
+\hline
+{$[[756, 12, (\leq 37,\leq 37)]]$} &  2, 3, 3, 7  & {0.016} &  \shortstack[c]{$wxy^2z^4 + x^2yz^2 $\\$+ z^3$}  &  \shortstack[c]{$wz^4 + x^2yz^5 $\\$+ yz^6$}  &  \shortstack[c]{$wy^2 + wyz^6 $\\$+ z^5$}  &  \shortstack[c]{$wx^2y + wyz^6 $\\$+ z^2$}\\ %ID:table3_row023
+\hline
+{$[[810, 12, (\leq 38,\leq 38)]]$} &  3, 3, 3, 5  & {0.015} &  \shortstack[c]{$w^2x^2y + wx^2yz^2 $\\$+ z$}  &  \shortstack[c]{$w^2x^2z^4 + wyz $\\$+ y^2z^2$}  &  \shortstack[c]{$w^2xyz^2 + wyz^4 $\\$+ y^2z^2$}  &  \shortstack[c]{$w^2x^2z^3 + wxyz^2 $\\$+ yz^3$}\\ %ID:table3_row024
+\hline
+{$[[840, 18, (\leq 46,\leq 46)]]$} &  2, 2, 5, 7  & {0.021} &  \shortstack[c]{$wxy^4z^3 + wxy + z^2$}  &  \shortstack[c]{$wxyz + wy^2 $\\$+ yz^5$}  &  \shortstack[c]{$wz^4 + y^3z^3 $\\$+ yz$}  &  \shortstack[c]{$wxy^3z^6 + wxy^2z^2 $\\$+ wy^4z$}\\ %ID:table3_row025
+\hline
+{$[[864, 12, (\leq 18,\leq 18)]]$} &  2, 2, 3, 12  & {0.014} &  \shortstack[c]{$wy^2z^5 + xz^{11}$\\$+ z^3$}  &  \shortstack[c]{$wxz^{10} + wy^2z^4$\\$+ xz^5$}  &  \shortstack[c]{$wxyz^5 + wyz^9$\\$+ yz^7$}  &  \shortstack[c]{$wxz^4 + wyz^{11}$\\$+ z^{11}$} \\ %ID:table3_row026
+\hline
+{$[[864, 12, (\leq 48,\leq 48)]]$} &  2, 2, 3, 12  & {0.014} &  \shortstack[c]{$wxyz^4 + xyz^9 $\\$+ y^2z^6$}  &  \shortstack[c]{$wy + xz^6 $\\$+ z^7$}  &  \shortstack[c]{$wyz^4 + yz^6 $\\$+ yz^5$}  &  \shortstack[c]{$wxyz^{11} + wxz^2 $\\$+ wx$}\\ %ID:table3_row027
+\hline
+{$[[972, 12, (\leq 24,\leq 24)]]$} &  3, 3, 3, 6  & {0.012} &  \shortstack[c]{$w^2x^2y^2z^5 + wxy^2z^3$ \\$+xy^2z^4$}  &  \shortstack[c]{$w^2xz^3 + wy^2$ \\$+xy^2z$}  &  \shortstack[c]{$w^2x^2 + w^2y^2z^3$\\ $+w^2y$}  &  \shortstack[c]{$w^2x^2y^2z + w^2yz$ \\$+wx^2$}\\ %ID:table3_row028
+\hline
+{$[[972, 24, (\leq 24,\leq 24)]]$} &  3, 3, 3, 6  & {0.025} &  \shortstack[c]{$w^2x^2y^2z^5 + w^2x^2z^3$ \\ $+wz^3$}  &  \shortstack[c]{$w^2xyz + wx^2yz^4$ \\$+wx^2z^5$}  &  \shortstack[c]{$w^2x^2y^2z^4 + wxyz$\\ $+yz^4$}  &  \shortstack[c]{$w^2x^2y + w^2x^2z^4$\\$+wy^2z$}\\ %ID:table3_row029
+\hline
+{$[[972, 24, (\leq 24,\leq 24)]]$} &  3, 3, 3, 6  & {0.025} &  \shortstack[c]{$wyz^2 + wz $\\$+ z^2$}  &  \shortstack[c]{$w^2xy^2z + x^2yz^4 $\\$+ yz^3$}  &  \shortstack[c]{$w^2xz^2 + wx^2z $\\$+ wy^2z^4$}  &  \shortstack[c]{$wz^5 + wz $\\$+ xyz^3$}\\ %ID:table3_row030
+\hline
+\end{longtable}
+\endgroup
+
+\bigskip
+
+\begingroup
+\MMTableStyle
+\begin{longtable}{|*{9}{>{\columncolor{white}[\tabcolsep]}c|}}
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $(\ell,m,p,q)$ & $k/n$ & $w^{\mathrm{med}}$ & $w^{\max}$ & $F$ & $G$ & $H$ & $I$\\ \hline
+\endfirsthead
+\multicolumn{9}{c}{\tablename~\thetable\ (continued)}\\
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $(\ell,m,p,q)$ & $k/n$ & $w^{\mathrm{med}}$ & $w^{\max}$ & $F$ & $G$ & $H$ & $I$\\ \hline
+\endhead
+\hline
+\endfoot
+\caption{\textbf{Parameters and explicit instances of MM codes {with metachecks for both types of checks}.} Here, $n$ is the number of physical qubits, $k$ the number of logical qubits, {the pairs give the $X$-type and $Z$-type distances or upper bounds on them, and $w^{\mathrm{med}}$ and $w^{\max}$ are the median and maximum row weights of the stabilizer checks}. The multivariate quotient ring polynomials $F(w,x,y,z)$, $G(w,x,y,z)$, $H(w,x,y,z)$, and $I(w,x,y,z)$ are defined over $\mathbb{F}_2[w, x, y, z]/\langle w^\ell-1, x^m-1, y^p-1, z^r-1 \rangle$.}\label{tab:table4}\\
+\endlastfoot
+$[[96, 44, (4,4)]]$ &  2, 2, 2, 2  & {0.458} & {12} & {12} &  $(1 + x)(1 + yz)$  &  $(1 + y)(1 + zw)$  &  $(1 + z)(1 + wx)$  &  $(1 + w)(1 + xy)$ \\ %ID:table4_row001
+\hline
+$[[144, 12, (8,8)]]$ &  2, 2, 2, 3  & {0.083} & {9} & {10} &  \shortstack[c]{$wxy + xyz$}  &  \shortstack[c]{$y + zx$\\$+ yx + zw$}  &  \shortstack[c]{$x + zyxw$}  &  \shortstack[c]{$z + y$\\$+ x + zyx$} \\ %ID:table4_row002
+\hline
+{$[[192, 12, (\leq 12,\leq 12)]]$} &  2, 2, 2, 4  & {0.062} & {12} & {12} &  \shortstack[c]{$wxyz^3 + xyz $\\$+ xz^3 + xz^2$}  &  \shortstack[c]{$wxz^2 + wyz^3 $\\$+ w + 1$}  &  \shortstack[c]{$wy + wz^2 $\\$+ xyz^2 + xz$}  &  \shortstack[c]{$wxyz + wy $\\$+ xz^3 + z^3$} \\ %ID:table4_row003
+\hline
+$[[216, 12, (12,12)]]$ &  2, 2, 3, 3  & {0.056} & {9} & {10} &  \shortstack[c]{$wxy + xyz$}  &  \shortstack[c]{$y + zx$\\$+ yx + zw$}  &  \shortstack[c]{$x + zyxw$}  &  \shortstack[c]{$z + y$\\$+ x + zyx$} \\ %ID:table4_row004
+\hline
+{$[[216, 12, (\leq 14,\leq 14)]]$} &  2, 2, 3, 3  & {0.056} & {12} & {12} &  \shortstack[c]{$wz^2 + xy^2z $\\$+ xy^2 + y $}  &  \shortstack[c]{$wxy^2z^2 + wxz^2 $\\$+ wy^2z + y^2z^2$}  &  \shortstack[c]{$wxy^2z^2 + wxyz $\\$+ xy^2z + x$}  &  \shortstack[c]{$wxz^2 + wyz $\\$+ wz^2 + xz$} \\ %ID:table4_row005
+\hline
+{$[[240, 6, (\leq 20,\leq 20)]]$} &  2, 2, 2, 5  & {0.025} & {12} & {12} &  \shortstack[c]{$wxz^4 + wyz^3 $\\$+ wy + xyz^4$}  &  \shortstack[c]{$wyz^4 + wz $\\$+ w + xz^3$}  &  \shortstack[c]{$wxz + wyz^4 $\\$+ wz^4 + xz^4$}  &  \shortstack[c]{$wxyz^4 + wxyz^3 $\\$+ wyz + w$} \\ %ID:table4_row006
+\hline
+{$[[240, 12, (\leq 16,\leq 16)]]$} &  2, 2, 2, 5  & {0.050} & {12} & {12} &  \shortstack[c]{$wxz + wz^4 $\\$+ xyz^3 + yz$}  &  \shortstack[c]{$wz^3 + xz^4 $\\$+ yz^2 + z$}  &  \shortstack[c]{$wz^2 + xz $\\$+ yz^4 + z$}  &  \shortstack[c]{$xz^4 + yz^3 $\\$+ z^3 + z^2$}\\ %ID:table4_row007
+\hline
+{$[[240, 18, (\leq 10,\leq 10)]]$} &  2, 2, 2, 5  & {0.075} & {12} & {12} &  \shortstack[c]{$wxyz^3 + wxz^2 $\\$+ wz^3 + z$}  &  \shortstack[c]{$wxyz^4 + wxy $\\$+ wx + xy$}  &  \shortstack[c]{$wyz^4 + wyz^3 $\\$+ wz^2 + yz^3$}  &  \shortstack[c]{$wxyz + wx $\\$+ wyz^4 + wz$} \\ %ID:table4_row008
+\hline
+{$[[288, 24, (\leq 12,\leq 12)]]$} &  2, 2, 2, 6  & {0.083} & {12} & {12} &  \shortstack[c]{$wxyz^5 + wyz^2 $\\$+ xyz^4 + y$}  &  \shortstack[c]{$wxyz^5 + wxy $\\$+ wz + xyz$}  &  \shortstack[c]{$wxyz^4 + wyz^5 $\\$+ wyz^4 + z^4$}  &  \shortstack[c]{$wxz^4 + wyz^4 $\\$+ wz^3 + z^5$} \\ %ID:table4_row009
+\hline
+{$[[324, 6, (\leq 18,\leq 18)]]$} &  2, 3, 3, 3  & {0.019} & {12} & {12} &  \shortstack[c]{$wx^2z^2 + x^2y^2 $\\$+ x^2yz^2 + y$}  &  \shortstack[c]{$wxz + wx $\\$+ x^2y^2z + xy^2z$}  &  \shortstack[c]{$wyz + x^2y^2z^2 $\\$+ x^2z + y$}  &  \shortstack[c]{$wx^2yz^2 + wxy^2z $\\$+ x^2y + y^2z^2$} \\ %ID:table4_row010
+\hline
+{$[[324, 18, (\leq 18,\leq 18)]]$} &  2, 3, 3, 3  & {0.056} & {12} & {12} &  \shortstack[c]{$wx^2z + wy^2z$\\$+ wz^2 + x^2yz^2$}  &  \shortstack[c]{$wx^2y^2z + wx^2yz^2 $\\$+ wxy^2z^2 + x^2z$}  &  \shortstack[c]{$wxy + wxz $\\$+ wx + y^2z$}  &  \shortstack[c]{$wx^2y^2z + wy^2 $\\$+ wz + w$} \\ %ID:table4_row011
+\hline
+{$[[336, 6, (\leq 28,\leq 28)]]$} &  2, 2, 2, 7  & {0.018} & {12} & {12} &  \shortstack[c]{$wxyz^4 + wz^4$ \\$+ yz^6 + yz^3$}  &  \shortstack[c]{$wyz^6 + w$ \\$+ xz^3 + yz^5$}  &  \shortstack[c]{$wz^3 + xyz^6$ \\$+ xz^3 + xz$}  &  \shortstack[c]{$wxz^4 + wz^2 $\\$+ xyz^2 + 1$}\\ %ID:table4_row012
+\hline
+{$[[336, 12, (\leq 24,\leq 24)]]$} &  2, 2, 2, 7  & {0.036} & {12} & {12} &  \shortstack[c]{$wxyz^5 + wxyz$ \\$+ wyz^3 + wz^4$}  &  \shortstack[c]{$wxz^5 + xy$ \\$+ yz^6 + z^4$}  &  \shortstack[c]{$wxyz^2 + wz^5$ \\$+ xz^3 + yz^5$}  &  \shortstack[c]{$wxyz^3 + wxz^3$ \\$+ wyz^6 + y$} \\ %ID:table4_row013
+\hline
+{$[[384, 24, (\leq 16,\leq 16)]]$} &  2, 2, 4, 4  & {0.062} & {12} & {12} &  \shortstack[c]{$wxyz^3 + wy^2z^3$ \\$+ xy^2 + y^2z$}  &  \shortstack[c]{$wxyz^2 + wxz^3$ \\$+ wy^3z + xyz^3$}  &  \shortstack[c]{$wxy^3z + wxz^2$ \\$+ wy^2z^3 + xyz^2$}  &  \shortstack[c]{$wxy^3z + wxz^3$ \\$+ xy^2z^2 + xy^2z$} \\ %ID:table4_row014
+\hline
+{$[[432, 12, (\leq 18,\leq 18)]]$} &  2, 2, 2, 9  & {0.028} & {12} & {12} &  \shortstack[c]{$wxyz^6 + wxyz$ \\$+ y + z^8$}  &  \shortstack[c]{$wxyz^5 + wyz^8$ \\$+ xz^2 + yz^3$}  &  \shortstack[c]{$wxz^2 + wz^3$ \\$+ xyz^2 + yz^6$}  &  \shortstack[c]{$wyz^3 + xz^7$ \\$+ xz^2 + x$} \\ %ID:table4_row015
+\hline
+{$[[480, 12, (\leq 20,\leq 20)]]$} &  2, 2, 2, 10  & {0.025} & {12} & {12} &  \shortstack[c]{$wxyz^9 + wxz^7$ \\$+ w + z$}  &  \shortstack[c]{$wxz^4 + wyz^5$ \\$+ xz + z^5$}  &  \shortstack[c]{$xyz^6 + xyz^5$ \\$+ xy + z^7$}  &  \shortstack[c]{$wxyz^8 + wyz^9$ \\$+ w + z^8$} \\ %ID:table4_row016
+\hline
+$[[486, 24, (12,12)]]$ &  3, 3, 3, 3  & {0.049} & {9} & {9} &  \shortstack[c]{$1 + wx$\\$+ x^2y$}  &  \shortstack[c]{$1 + xy$\\$+ y^2z$}  &  \shortstack[c]{$1 + yz$\\$+ wz^2$}  &  \shortstack[c]{$1 + wz$\\$+ w^2x$} \\ %ID:table4_row017
+\hline
+$[[486, 66, (9,9)]]$ &  3, 3, 3, 3  & {0.136} & {12} & {12} &  $(1 + x)(1 + yz)$  &  $(1 + y)(1 + zw)$  &  $(1 + z)(1 + wx)$  &  $(1 + w)(1 + xy)$ \\ %ID:table4_row018
+\hline
+{$[[480, 12, (\leq 20,\leq 20)]]$} &  2, 2, 2, 10  & {0.025} & {12} & {12} &  \shortstack[c]{$wxz^5 + wz^7 $\\$+ xz^8 + 1$}  &  \shortstack[c]{$xy + yz^3 $\\$+ yz^2 + 1$}  &  \shortstack[c]{$w + xyz^8 $\\$+ yz^3 + z^4$}  &  \shortstack[c]{$wz^8 + xz^9 $\\$+ xz^4 + z^6$} \\ %ID:table4_row019
+\hline
+$[[576, 64, (6,6)]]$ &  2, 3, 4, 4  & {0.111} & {12} & {12} &  $(1 + x)(1 + yz)$  &  $(1 + y)(1 + zw)$  &  $(1 + z)(1 + wx)$  &  $(1 + w)(1 + xy)$ \\ %ID:table4_row020
+\hline
+{$[[624, 12, (\leq 28,\leq 28)]]$} &  2, 2, 2, 13  & {0.019} & {12} & {12} &  \shortstack[c]{$wxyz^{10} + wxz^6 $\\$+ wz^4 + z^{12}$}  &  \shortstack[c]{$wxz^7 + wxz^5 $\\$+ wz + yz^3$}  &  \shortstack[c]{$wxyz^4 + xyz^6 $\\$+ xz^{10} + yz^5$}  &  \shortstack[c]{$wxyz^2 + xyz^{11} $\\$+ yz^7 + z^2$} \\ %ID:table4_row021
+\hline
+{$[[648, 60, (9,9)]]$} &  3, 3, 3, 4  & {0.093} & {12} & {12} &  $(1 + x)(1 + yz)$  &  $(1 + y)(1 + zw)$  &  $(1 + z)(1 + wx)$  &  $(1 + w)(1 + xy)$ \\ %ID:table4_row022
+\hline
+{$[[672, 12, (\leq 28,\leq 28)]]$} &  2, 2, 4, 7  & {0.018} & {12} & {12} &  \shortstack[c]{$wxz^3 + wyz^4 $\\$+ xy^3 + z^4$}  &  \shortstack[c]{$wxy^2z^4 + wxyz^2 $\\$+ wz^3 + yz$}  &  \shortstack[c]{$wxy^3z^4 + wxy^2z^6 $\\$+ wyz^6 + yz^6$}  &  \shortstack[c]{$wxyz + x $\\$+ y^2z^5 + yz^4$} \\ %ID:table4_row023
+\hline
+{$[[720, 12, (\leq 27,\leq 27)]]$} &  2, 3, 4, 5  & {0.017} & {12} & {12} &  \shortstack[c]{$wx^2z^4 + wyz^3 $\\$+ x^2y^3z^2 + y^3$}  &  \shortstack[c]{$wx^2yz^4 + wx^2y $\\$+ wxyz^2 + wy^2z^3$}  &  \shortstack[c]{$wx^2y^3z + wx^2z^3 $\\$ +x^2y^3z + x^2y^2$}  &  \shortstack[c]{$wxy^2z^3 + wxyz^2 $\\$+ x^2y + xy^2z^4$}\\ %ID:table4_row024
+\hline
+{$[[768, 12, (\leq 30,\leq 30)]]$} &  2, 2, 2, 16  & {0.016} & {12} & {12} &  \shortstack[c]{$wyz^{13} + wyz^{12} $\\$+ xyz^{11} + z^{15}$}  &  \shortstack[c]{$wxz^2 + wz^6 + $\\$xyz^{11} + yz^{12}$}  &  \shortstack[c]{$wxyz^{11} + xyz^{10} $\\$+xz^7 + z^{14}$}  &  \shortstack[c]{$wxy + wxz^9 $\\$+ wy + yz$} \\ %ID:table4_row026
+\hline
+\end{longtable}
+\endgroup
+
+\bigskip
+
+\begingroup
+\MMTableStyle
+\begin{longtable}{|*{7}{>{\columncolor{white}[\tabcolsep]}c|}}
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $(\ell,m,p,q)$ & $k/n$ & $F$ & $G$ & $H$ & $I$\\ \hline
+\endfirsthead
+\multicolumn{7}{c}{\tablename~\thetable\ (continued)}\\
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $(\ell,m,p,q)$ & $k/n$ & $F$ & $G$ & $H$ & $I$\\ \hline
+\endhead
+\hline
+\endfoot
+\caption{\textbf{Multivariate multicycle (MM) codes with stabilizer weight $w = 12$.}}\label{tab:table5}\\
+\endlastfoot
+$[[96, 12, (8,8)]]$ &  2, 2, 2, 2  & {0.125} &  \shortstack[c]{$wy + wz$\\$+ w + 1$}  &  \shortstack[c]{$wxz + wy$\\$+ wz + w$}  &  \shortstack[c]{$wxyz + w$\\$+ xyz + y$}  &  \shortstack[c]{$wxyz + w$\\$+ yz + 1$} \\ %ID:table5_row002
+\hline
+$[[144, 6, (8,8)]]$ &  3, 2, 2, 2  & {0.042} &  \shortstack[c]{$wxyz + wxy$\\$+ wy + yz$}  &  \shortstack[c]{$w^2z + xyz$\\$+ xy + yz$}  &  \shortstack[c]{$w^2x + w^2yz$\\$+ w^2 + 1$}  &  \shortstack[c]{$w^2z + wy$\\$+ w + xz$} \\ %ID:table5_row004
+\hline
+$[[144, 6, (10,10)]]$ &  3, 2, 2, 2  & {0.042} &  \shortstack[c]{$w^2xz + w^2yz$\\$+ wx + z$}  &  \shortstack[c]{$w^2yz + wxz$\\$+ w + xy$}  &  \shortstack[c]{$wxy + wy$\\$+ x + y$}  &  \shortstack[c]{$wxz + xy$\\$+ x + z$} \\ %ID:table5_row005
+\hline
+{$[[144, 6, (\leq 12,\leq 12)]]$} &  3, 2, 2, 2  & {0.042} &  \shortstack[c]{$w^2 + wyz$\\$+ wz + w$}  &  \shortstack[c]{$w^2z + wxy$\\$+ yz + z$}  &  \shortstack[c]{$w^2y + wz$\\$+ w + 1$}  &  \shortstack[c]{$w^2z + wx$\\$+ wy + 1$} \\ %ID:table5_row006
+\hline
+$[[144, 12, (8,8)]]$ &  2, 3, 2, 2  & {0.083} &  \shortstack[c]{$x^2z + x^2$\\$+ yz + z$}  &  \shortstack[c]{$wx^2y + w$\\$+ x^2 + yz$}  &  \shortstack[c]{$wxy + w$\\$+ x^2y + z$}  &  $wxyz + wxy + x^2y + xz$\\ % %ID:table5_row008
+\hline
+$[[144, 12, (10,10)]]$ &  3, 2, 2, 2  & {0.083} &  \shortstack[c]{$w^2x + xyz$\\$+ x + y$}  &  \shortstack[c]{$w^2y + wxy$\\$+ wx + z$}  &  \shortstack[c]{$w^2yz + w^2$\\$+ yz + z$}  &  $w^2x + wxyz + wyz + 1$\\ % %ID:table5_row009
+\hline
+{$[[144, 12, (\leq 12,\leq 12)]]$} &  3, 2, 2, 2  & {0.083} &  \shortstack[c]{$w^2xz + w^2yz$\\$+ wy + xy$}  &  \shortstack[c]{$wxy + wyz$\\$+ wz + xy$}  &  \shortstack[c]{$w^2xy + w^2$\\$+ wyz + 1$}  &  $w^2xz + w^2z + wxz + xy$\\ % %ID:table5_row010
+\hline
+\end{longtable}
+\endgroup
+
+\bigskip
+
+\begingroup
+\MMTableStyle
+\begin{longtable}{|*{7}{>{\columncolor{white}[\tabcolsep]}c|}}
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $\ell$ & $k/n$ & $F$ & $G$ & $H$ & $I$\\ \hline
+\endfirsthead
+\multicolumn{7}{c}{\tablename~\thetable\ (continued)}\\
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $\ell$ & $k/n$ & $F$ & $G$ & $H$ & $I$\\ \hline
+\endhead
+\hline
+\endfoot
+\caption{\textbf{Collapsed 4-dimensional AMC codes via the Multivariate Multicycle (MM) framework.} {These codes include instances related to Lin \emph{et al.}, arXiv:2506.16910; the distances given here are from our own search.} The multivariate quotient ring polynomials $F(w,x,y,z)$, $G(w,x,y,z)$, $H(w,x,y,z)$, and $I(w,x,y,z)$ are defined over $\mathbb{F}_2[w, x, y, z]/\langle w^\ell-1, x-1, y-1, z-1 \rangle$. {All these codes have weight-6 $X$ and $Z$ stabilizer checks.}}\label{tab:table6}\\
+\endlastfoot
+$[[162, 6, (9,9)]]$ &  27  & {0.037} &  \shortstack[c]{$1 + w^{7}$}  &  \shortstack[c]{$1 + w^{13}$}  &  \shortstack[c]{$1 + w^{15}$}  &  \shortstack[c]{$1 + w^{24}$} \\ %ID:table6_row002
+\hline
+$[[168, 6, (9,9)]]$ &  28  & {0.036} &  \shortstack[c]{$1 + w^{4}$}  &  \shortstack[c]{$1 + w^{7}$}  &  \shortstack[c]{$1 + w^{13}$}  &  \shortstack[c]{$1 + w^{19}$} \\ %ID:table6_row003
+\hline
+$[[168, 12, (7,7)]]$ &  28  & {0.071} &  \shortstack[c]{$1 + w^{4}$}  &  \shortstack[c]{$1 + w^{6}$}  &  \shortstack[c]{$1 + w^{8}$}  &  \shortstack[c]{$1 + w^{18}$} \\ %ID:table6_row004
+\hline
+$[[174, 6, (11,11)]]$ &  29  & {0.034} &  \shortstack[c]{$1 + w^{2}$}  &  \shortstack[c]{$1 + w^{8}$}  &  \shortstack[c]{$1 + w^{20}$}  &  \shortstack[c]{$1 + w^{24}$} \\ %ID:table6_row005
+\hline
+$[[180, 6, (10,10)]]$ &  30  & {0.033} &  \shortstack[c]{$1 + w^{3}$}  &  \shortstack[c]{$1 + w^{13}$}  &  \shortstack[c]{$1 + w^{21}$}  &  \shortstack[c]{$1 + w^{28}$} \\ %ID:table6_row006
+\hline
+$[[186, 6, (11,11)]]$ &  31  & {0.032} &  \shortstack[c]{$1 + w$}  &  \shortstack[c]{$1 + w^{14}$}  &  \shortstack[c]{$1 + w^{19}$}  &  \shortstack[c]{$1 + w^{23}$} \\ %ID:table6_row007
+\hline
+$[[198, 6, (10,10)]]$ &  33  & {0.030} &  \shortstack[c]{$1 + w^{3}$}  &  \shortstack[c]{$1 + w^{7}$}  &  \shortstack[c]{$1 + w^{16}$}  &  \shortstack[c]{$1 + w^{21}$} \\ %ID:table6_row009
+\hline
+{$[[204, 6, (\leq 12,\leq 12)]]$} &  34  & {0.029} &  \shortstack[c]{$1 + w^{5}$}  &  \shortstack[c]{$1 + w^{8}$}  &  \shortstack[c]{$1 + w^{9}$}  &  \shortstack[c]{$1 + w^{23}$} \\ %ID:table6_row010
+\hline
+{$[[210, 6, (\leq 11,\leq 11)]]$} &  35  & {0.029} &  \shortstack[c]{$1 + w^{13}$}  &  \shortstack[c]{$1 + w^{25}$}  &  \shortstack[c]{$1 + w^{29}$}  &  \shortstack[c]{$1 + w^{34}$} \\ %ID:table6_row011
+\hline
+{$[[216, 6, (\leq 12,\leq 12)]]$} &  36  & {0.028} &  \shortstack[c]{$1 + w^{3}$}  &  \shortstack[c]{$1 + w^{21}$}  &  \shortstack[c]{$1 + w^{26}$}  &  \shortstack[c]{$1 + w^{35}$} \\ %ID:table6_row012
+\hline
+{$[[222, 6, (\leq 11,\leq 11)]]$} &  37  & {0.027} &  \shortstack[c]{$1 + w^{4}$}  &  \shortstack[c]{$1 + w^{17}$}  &  \shortstack[c]{$1 + w^{22}$}  &  \shortstack[c]{$1 + w^{34}$} \\ %ID:table6_row013
+\hline
+{$[[228, 6, (\leq 12,\leq 12)]]$} &  38  & {0.026} &  \shortstack[c]{$1 + w^{3}$}  &  \shortstack[c]{$1 + w^{24}$}  &  \shortstack[c]{$1 + w^{30}$}  &  \shortstack[c]{$1 + w^{37}$} \\ %ID:table6_row014
+\hline
+{$[[234, 6, (\leq 13,\leq 13)]]$} &  39  & {0.026} &  \shortstack[c]{$1 + w$}  &  \shortstack[c]{$1 + w^{14}$}  &  \shortstack[c]{$1 + w^{30}$}  &  \shortstack[c]{$1 + w^{36}$} \\ %ID:table6_row015
+\hline
+{$[[240, 6, (\leq 12,\leq 12)]]$} &  40  & {0.025} &  \shortstack[c]{$1 + w^{2}$}  &  \shortstack[c]{$1 + w^{5}$}  &  \shortstack[c]{$1 + w^{11}$}  &  \shortstack[c]{$1 + w^{26}$} \\ %ID:table6_row016
+\hline
+{$[[246, 6, (\leq 12,\leq 12)]]$} &  41  & {0.024} &  \shortstack[c]{$1 + w$}  &  \shortstack[c]{$1 + w^{12}$}  &  \shortstack[c]{$1 + w^{23}$}  &  \shortstack[c]{$1 + w^{37}$} \\ %ID:table6_row017
+\hline
+{$[[252, 6, (\leq 12,\leq 12)]]$} &  42  & {0.024} &  \shortstack[c]{$1 + w^{9}$}  &  \shortstack[c]{$1 + w^{17}$}  &  \shortstack[c]{$1 + w^{19}$}  &  \shortstack[c]{$1 + w^{30}$} \\ %ID:table6_row018
+\hline
+{$[[258, 6, (\leq 12,\leq 12)]]$} &  43  & {0.023} &  \shortstack[c]{$1 + w^{15}$}  &  \shortstack[c]{$1 + w^{16}$}  &  \shortstack[c]{$1 + w^{34}$}  &  \shortstack[c]{$1 + w^{39}$} \\ %ID:table6_row019
+\hline
+{$[[264, 6, (\leq 13,\leq 13)]]$} &  44  & {0.023} &  \shortstack[c]{$1 + w^{6}$}  &  \shortstack[c]{$1 + w^{7}$}  &  \shortstack[c]{$1 + w^{21}$}  &  \shortstack[c]{$1 + w^{26}$} \\ %ID:table6_row020
+\hline
+{$[[270, 6, (\leq 14,\leq 14)]]$} &  45  & {0.022} &  \shortstack[c]{$1 + w^{9}$}  &  \shortstack[c]{$1 + w^{24}$}  &  \shortstack[c]{$1 + w^{32}$}  &  \shortstack[c]{$1 + w^{38}$} \\ %ID:table6_row021
+\hline
+{$[[276, 6, (\leq 14,\leq 14)]]$} &  46  & {0.022} &  \shortstack[c]{$1 + w^{19}$}  &  \shortstack[c]{$1 + w^{32}$}  &  \shortstack[c]{$1 + w^{34}$}  &  \shortstack[c]{$1 + w^{43}$} \\ %ID:table6_row022
+\hline
+{$[[282, 6, (\leq 13,\leq 13)]]$} &  47  & {0.021} &  \shortstack[c]{$1 + w^{23}$}  &  \shortstack[c]{$1 + w^{25}$}  &  \shortstack[c]{$1 + w^{28}$}  &  \shortstack[c]{$1 + w^{39}$} \\ %ID:table6_row023
+\hline
+{$[[288, 6, (\leq 13,\leq 13)]]$} &  48  & {0.021} &  \shortstack[c]{$1 + w^{22}$}  &  \shortstack[c]{$1 + w^{23}$}  &  \shortstack[c]{$1 + w^{41}$}  &  \shortstack[c]{$1 + w^{43}$} \\ %ID:table6_row024
+\hline
+{$[[294, 6, (\leq 14,\leq 14)]]$} &  49  & {0.020} &  \shortstack[c]{$1 + w^{9}$}  &  \shortstack[c]{$1 + w^{15}$}  &  \shortstack[c]{$1 + w^{22}$}  &  \shortstack[c]{$1 + w^{48}$} \\ %ID:table6_row025
+\hline
+{$[[300, 6, (\leq 13,\leq 13)]]$} &  50  & {0.020} &  \shortstack[c]{$1 + w^{12}$}  &  \shortstack[c]{$1 + w^{16}$}  &  \shortstack[c]{$1 + w^{21}$}  &  \shortstack[c]{$1 + w^{23}$} \\ %ID:table6_row026
+\hline
+{$[[306, 6, (\leq 14,\leq 14)]]$} &  51  & {0.020} &  \shortstack[c]{$1 + w$}  &  \shortstack[c]{$1 + w^{36}$}  &  \shortstack[c]{$1 + w^{39}$}  &  \shortstack[c]{$1 + w^{46}$} \\ %ID:table6_row027
+\hline
+{$[[312, 6, (\leq 13,\leq 13)]]$} &  52  & {0.019} &  \shortstack[c]{$1 + w^{8}$}  &  \shortstack[c]{$1 + w^{17}$}  &  \shortstack[c]{$1 + w^{41}$}  &  \shortstack[c]{$1 + w^{42}$} \\ %ID:table6_row028
+\hline
+{$[[318, 6, (\leq 13,\leq 13)]]$} &  53  & {0.019} &  \shortstack[c]{$1 + w$}  &  \shortstack[c]{$1 + w^{19}$}  &  \shortstack[c]{$1 + w^{21}$}  &  \shortstack[c]{$1 + w^{29}$} \\ %ID:table6_row029
+\hline
+{$[[324, 6, (\leq 14,\leq 14)]]$} &  54  & {0.019} &  \shortstack[c]{$1 + w^{9}$}  &  \shortstack[c]{$1 + w^{11}$}  &  \shortstack[c]{$1 + w^{44}$}  &  \shortstack[c]{$1 + w^{48}$} \\ %ID:table6_row030
+\hline
+{$[[330, 6, (\leq 14,\leq 14)]]$} &  55  & {0.018} &  \shortstack[c]{$1 + w^{15}$}  &  \shortstack[c]{$1 + w^{39}$}  &  \shortstack[c]{$1 + w^{46}$}  &  \shortstack[c]{$1 + w^{51}$} \\ %ID:table6_row031
+\hline
+{$[[342, 6, (\leq 14,\leq 14)]]$} &  57  & {0.018} &  \shortstack[c]{$1 + w$}  &  \shortstack[c]{$1 + w^{15}$}  &  \shortstack[c]{$1 + w^{46}$}  &  \shortstack[c]{$1 + w^{49}$} \\ %ID:table6_row033
+\hline
+{$[[348, 6, (\leq 15,\leq 15)]]$} &  58  & {0.017} &  \shortstack[c]{$1 + w^{22}$}  &  \shortstack[c]{$1 + w^{43}$}  &  \shortstack[c]{$1 + w^{55}$}  &  \shortstack[c]{$1 + w^{56}$} \\ %ID:table6_row034
+\hline
+{$[[354, 6, (\leq 15,\leq 15)]]$} &  59  & {0.017} &  \shortstack[c]{$1 + w^{33}$}  &  \shortstack[c]{$1 + w^{39}$}  &  \shortstack[c]{$1 + w^{42}$}  &  \shortstack[c]{$1 + w^{47}$} \\ %ID:table6_row035
+\hline
+{$[[360, 6, (\leq 15,\leq 15)]]$} &  60  & {0.017} &  \shortstack[c]{$1 + w^{4}$}  &  \shortstack[c]{$1 + w^{18}$}  &  \shortstack[c]{$1 + w^{25}$}  &  \shortstack[c]{$1 + w^{44}$} \\ %ID:table6_row036
+\hline
+{$[[366, 6, (\leq 15,\leq 15)]]$} &  61  & {0.016} &  \shortstack[c]{$1 + w^{30}$}  &  \shortstack[c]{$1 + w^{38}$}  &  \shortstack[c]{$1 + w^{47}$}  &  \shortstack[c]{$1 + w^{48}$} \\ %ID:table6_row037
+\hline
+{$[[372, 6, (\leq 16,\leq 16)]]$} &  62  & {0.016} &  \shortstack[c]{$1 + w^{42}$}  &  \shortstack[c]{$1 + w^{46}$}  &  \shortstack[c]{$1 + w^{55}$}  &  \shortstack[c]{$1 + w^{57}$} \\ %ID:table6_row038
+\hline
+{$[[378, 6, (\leq 17,\leq 17)]]$} &  63  & {0.016} &  \shortstack[c]{$1 + w^{11}$}  &  \shortstack[c]{$1 + w^{44}$}  &  \shortstack[c]{$1 + w^{46}$}  &  \shortstack[c]{$1 + w^{56}$} \\ %ID:table6_row039
+\hline
+{$[[390, 6, (\leq 15,\leq 15)]]$} &  65  & {0.015} &  \shortstack[c]{$1 + w^{8}$}  &  \shortstack[c]{$1 + w^{15}$}  &  \shortstack[c]{$1 + w^{39}$}  &  \shortstack[c]{$1 + w^{59}$} \\ %ID:table6_row041
+\hline
+{$[[396, 6, (\leq 15,\leq 15)]]$} &  66  & {0.015} &  \shortstack[c]{$1 + w^{12}$}  &  \shortstack[c]{$1 + w^{13}$}  &  \shortstack[c]{$1 + w^{32}$}  &  \shortstack[c]{$1 + w^{38}$} \\ %ID:table6_row042
+\hline
+{$[[402, 6, (\leq 16,\leq 16)]]$} &  67  & {0.015} &  \shortstack[c]{$1 + w^{7}$}  &  \shortstack[c]{$1 + w^{9}$}  &  \shortstack[c]{$1 + w^{45}$}  &  \shortstack[c]{$1 + w^{57}$} \\ %ID:table6_row043
+\hline
+{$[[408, 6, (\leq 15,\leq 15)]]$} &  68  & {0.015} &  \shortstack[c]{$1 + w^{4}$}  &  \shortstack[c]{$1 + w^{46}$}  &  \shortstack[c]{$1 + w^{49}$}  &  \shortstack[c]{$1 + w^{52}$} \\ %ID:table6_row044
+\hline
+{$[[414, 6, (\leq 16,\leq 16)]]$} &  69  & {0.014} &  \shortstack[c]{$1 + w^{9}$}  &  \shortstack[c]{$1 + w^{19}$}  &  \shortstack[c]{$1 + w^{24}$}  &  \shortstack[c]{$1 + w^{53}$} \\ %ID:table6_row045
+\hline
+{$[[420, 6, (\leq 15,\leq 15)]]$} &  70  & {0.014} &  \shortstack[c]{$1 + w^{2}$}  &  \shortstack[c]{$1 + w^{13}$}  &  \shortstack[c]{$1 + w^{32}$}  &  \shortstack[c]{$1 + w^{56}$} \\ %ID:table6_row046
+\hline
+{$[[426, 6, (\leq 17,\leq 17)]]$} &  71  & {0.014} &  \shortstack[c]{$1 + w^{15}$}  &  \shortstack[c]{$1 + w^{19}$}  &  \shortstack[c]{$1 + w^{29}$}  &  \shortstack[c]{$1 + w^{35}$} \\ %ID:table6_row047
+\hline
+{$[[432, 6, (\leq 16,\leq 16)]]$} &  72  & {0.014} &  \shortstack[c]{$1 + w^{5}$}  &  \shortstack[c]{$1 + w^{13}$}  &  \shortstack[c]{$1 + w^{50}$}  &  \shortstack[c]{$1 + w^{60}$} \\ %ID:table6_row048
+\hline
+{$[[438, 6, (\leq 17,\leq 17)]]$} &  73  & {0.014} &  \shortstack[c]{$1 + w^{18}$}  &  \shortstack[c]{$1 + w^{29}$}  &  \shortstack[c]{$1 + w^{32}$}  &  \shortstack[c]{$1 + w^{63}$} \\ %ID:table6_row049
+\hline
+{$[[444, 6, (\leq 17,\leq 17)]]$} &  74  & {0.014} &  \shortstack[c]{$1 + w^{6}$}  &  \shortstack[c]{$1 + w^{26}$}  &  \shortstack[c]{$1 + w^{49}$}  &  \shortstack[c]{$1 + w^{59}$} \\ %ID:table6_row050
+\hline
+{$[[450, 6, (\leq 16,\leq 16)]]$} &  75  & {0.013} &  \shortstack[c]{$1 + w^{5}$}  &  \shortstack[c]{$1 + w^{49}$}  &  \shortstack[c]{$1 + w^{63}$}  &  \shortstack[c]{$1 + w^{64}$} \\ %ID:table6_row051
+\hline
+{$[[456, 6, (\leq 16,\leq 16)]]$} &  76  & {0.013} &  \shortstack[c]{$1 + w^{17}$}  &  \shortstack[c]{$1 + w^{28}$}  &  \shortstack[c]{$1 + w^{68}$}  &  \shortstack[c]{$1 + w^{74}$} \\ %ID:table6_row052
+\hline
+{$[[462, 6, (\leq 17,\leq 17)]]$} &  77  & {0.013} &  \shortstack[c]{$1 + w^{9}$}  &  \shortstack[c]{$1 + w^{26}$}  &  \shortstack[c]{$1 + w^{37}$}  &  \shortstack[c]{$1 + w^{53}$} \\ %ID:table6_row053
+\hline
+{$[[468, 6, (\leq 17,\leq 17)]]$} &  78  & {0.013} &  \shortstack[c]{$1 + w^{24}$}  &  \shortstack[c]{$1 + w^{33}$}  &  \shortstack[c]{$1 + w^{38}$}  &  \shortstack[c]{$1 + w^{65}$} \\ %ID:table6_row054
+\hline
+{$[[474, 6, (\leq 17,\leq 17)]]$} &  79  & {0.013} &  \shortstack[c]{$1 + w^{7}$}  &  \shortstack[c]{$1 + w^{10}$}  &  \shortstack[c]{$1 + w^{12}$}  &  \shortstack[c]{$1 + w^{61}$} \\ %ID:table6_row055
+\hline
+{$[[480, 6, (\leq 16,\leq 16)]]$} &  80  & {0.013} &  \shortstack[c]{$1 + w^{7}$}  &  \shortstack[c]{$1 + w^{13}$}  &  \shortstack[c]{$1 + w^{35}$}  &  \shortstack[c]{$1 + w^{44}$} \\ %ID:table6_row056
+\hline
+{$[[486, 6, (\leq 17,\leq 17)]]$} &  81  & {0.012} &  \shortstack[c]{$1 + w$}  &  \shortstack[c]{$1 + w^{14}$}  &  \shortstack[c]{$1 + w^{21}$}  &  \shortstack[c]{$1 + w^{64}$} \\ %ID:table6_row057
+\hline
+{$[[492, 6, (\leq 16,\leq 16)]]$} &  82  & {0.012} &  \shortstack[c]{$1 + w^{8}$}  &  \shortstack[c]{$1 + w^{21}$}  &  \shortstack[c]{$1 + w^{27}$}  &  \shortstack[c]{$1 + w^{38}$} \\ %ID:table6_row058
+\hline
+{$[[498, 6, (\leq 18,\leq 18)]]$} &  83  & {0.012} &  \shortstack[c]{$1 + w^{7}$}  &  \shortstack[c]{$1 + w^{9}$}  &  \shortstack[c]{$1 + w^{31}$}  &  \shortstack[c]{$1 + w^{79}$} \\ %ID:table6_row059
+\hline
+{$[[504, 6, (\leq 18,\leq 18)]]$} &  84  & {0.012} &  \shortstack[c]{$1 + w^{15}$}  &  \shortstack[c]{$1 + w^{45}$}  &  \shortstack[c]{$1 + w^{68}$}  &  \shortstack[c]{$1 + w^{73}$} \\ %ID:table6_row060
+\hline
+{$[[510, 6, (\leq 17,\leq 17)]]$} &  85  & {0.012} &  \shortstack[c]{$1 + w^{5}$}  &  \shortstack[c]{$1 + w^{22}$}  &  \shortstack[c]{$1 + w^{55}$}  &  \shortstack[c]{$1 + w^{84}$} \\ %ID:table6_row061
+\hline
+{$[[516, 6, (\leq 18,\leq 18)]]$} &  86  & {0.012} &  \shortstack[c]{$1 + w^{5}$}  &  \shortstack[c]{$1 + w^{13}$}  &  \shortstack[c]{$1 + w^{62}$}  &  \shortstack[c]{$1 + w^{69}$} \\ %ID:table6_row062
+\hline
+{$[[522, 6, (\leq 20,\leq 20)]]$} &  87  & {0.011} &  \shortstack[c]{$1 + w^{39}$}  &  \shortstack[c]{$1 + w^{54}$}  &  \shortstack[c]{$1 + w^{77}$}  &  \shortstack[c]{$1 + w^{80}$} \\ %ID:table6_row063
+\hline
+\end{longtable}
+\endgroup
+
+\bigskip
+
+\begingroup
+\MMTableStyle
+\begin{longtable}{|*{8}{>{\columncolor{white}[\tabcolsep]}c|}}
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $\ell$ & $k/n$ & $F$ & $G$ & $H$ & $I$ & $J$\\ \hline
+\endfirsthead
+\multicolumn{8}{c}{\tablename~\thetable\ (continued)}\\
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $\ell$ & $k/n$ & $F$ & $G$ & $H$ & $I$ & $J$\\ \hline
+\endhead
+\hline
+\endfoot
+\caption{\textbf{Collapsed 5-dimensional (5D) multivariate multicycle (MM) codes.} The multivariate quotient ring polynomials $F(v,w,x,y,z)$, $G(v,w,x,y,z)$, $H(v,w,x,y,z)$, $I(v,w,x,y,z)$ and $J(v,w,x,y,z)$ are defined over $\mathbb{F}_2[v,w, x, y, z]/\langle v^\ell-1, w-1, x-1, y-1, z-1 \rangle$. Notably, all these 5D MM codes have weight-8 X stabilizer checks and weight-6 Z stabilizer checks.}\label{tab:table7}\\
+\endlastfoot
+$[[180, 10, (12,7)]]$ &  18  & {0.056} &  \shortstack[c]{$1 + v$}  &  \shortstack[c]{$1 + v^5$}  &  \shortstack[c]{$1 + v^{10}$}  &  \shortstack[c]{$1 + v^{11}$}  &  \shortstack[c]{$1 + v^{14}$} \\ %ID:table7_row018
+\hline
+$[[190, 10, (12,7)]]$ &  19  & {0.053} &  \shortstack[c]{$1 + v$}  &  \shortstack[c]{$1 + v^4$}  &  \shortstack[c]{$1 + v^{5}$}  &  \shortstack[c]{$1 + v^{11}$}  &  \shortstack[c]{$1 + v^{17}$} \\ %ID:table7_row020
+\hline
+$[[190, 10, (13,7)]]$ &  19  & {0.053} &  \shortstack[c]{$1 + v^4$}  &  \shortstack[c]{$1 + v^{10}$}  &  \shortstack[c]{$1 + v^{12}$}  &  \shortstack[c]{$1 + v^{16}$}  &  \shortstack[c]{$1 + v^{18}$} \\ %ID:table7_row021
+\hline
+{$[[200, 10, (\leq 12,\leq 7)]]$} &  20  & {0.050} &  \shortstack[c]{$1 + v$}  &  \shortstack[c]{$1 + v^2$}  &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{14}$}  &  \shortstack[c]{$1 + v^{15}$} \\ %ID:table7_row022
+\hline
+{$[[210, 10, (\leq 14,\leq 7)]]$} &  21  & {0.048} &  \shortstack[c]{$1 + v^3$}  &  \shortstack[c]{$1 + v^4$}  &  \shortstack[c]{$1 + v^{8}$}  &  \shortstack[c]{$1 + v^{10}$}  &  \shortstack[c]{$1 + v^{15}$} \\ %ID:table7_row025
+\hline
+{$[[220, 10, (\leq 14,\leq 7)]]$} &  22  & {0.045} &  \shortstack[c]{$1 + v^{4}$}  &  \shortstack[c]{$1 + v^{7}$}  &  \shortstack[c]{$1 + v^{10}$}  &  \shortstack[c]{$1 + v^{19}$}  &  \shortstack[c]{$1 + v^{21}$} \\ %ID:table7_row027
+\hline
+{$[[230, 10, (\leq 13,\leq 7)]]$} &  23  & {0.043} &  \shortstack[c]{$1 + v^{3}$}  &  \shortstack[c]{$1 + v^{5}$}  &  \shortstack[c]{$1 + v^{12}$}  &  \shortstack[c]{$1 + v^{16}$}  &  \shortstack[c]{$1 + v^{19}$} \\ %ID:table7_row028
+\hline
+{$[[240, 10, (\leq 13,\leq 7)]]$} &  24  & {0.042} &  \shortstack[c]{$1 + v^{4}$}  &  \shortstack[c]{$1 + v^{7}$}  &  \shortstack[c]{$1 + v^{13}$}  &  \shortstack[c]{$1 + v^{21}$}  &  \shortstack[c]{$1 + v^{23}$} \\ %ID:table7_row030
+\hline
+{$[[240, 10, (\leq 14,\leq 7)]]$} &  24  & {0.042} &  \shortstack[c]{$1 + v$}  &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{10}$}  &  \shortstack[c]{$1 + v^{17}$}  &  \shortstack[c]{$1 + v^{20}$} \\ %ID:table7_row031
+\hline
+{$[[250, 10, (\leq 13,\leq 7)]]$} &  25  & {0.040} &  \shortstack[c]{$1 + v^8$}  &  \shortstack[c]{$1 + v^{11}$}  &  \shortstack[c]{$1 + v^{12}$}  &  \shortstack[c]{$1 + v^{15}$}  &  \shortstack[c]{$1 + v^{23}$} \\ %ID:table7_row032
+\hline
+{$[[250, 10, (\leq 14,\leq 7)]]$} &  25  & {0.040} &  \shortstack[c]{$1 + v^4$}  &  \shortstack[c]{$1 + v^5$}  &  \shortstack[c]{$1 + v^{6}$}  &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{14}$} \\ %ID:table7_row033
+\hline
+{$[[250, 10, (\leq 15,\leq 8)]]$} &  25  & {0.040} &  \shortstack[c]{$1 + v$}  &  \shortstack[c]{$1 + v^4$}  &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{15}$}  &  \shortstack[c]{$1 + v^{22}$} \\ %ID:table7_row034
+\hline
+{$[[250, 10, (\leq 16,\leq 8)]]$} &  25  & {0.040} &  \shortstack[c]{$1 + v^4$}  &  \shortstack[c]{$1 + v^9$}  &  \shortstack[c]{$1 + v^{13}$}  &  \shortstack[c]{$1 + v^{14}$}  &  \shortstack[c]{$1 + v^{19}$} \\ %ID:table7_row035
+\hline
+{$[[260, 10, (\leq 13,\leq 7)]]$} &  26  & {0.038} &  \shortstack[c]{$1 + v^5$}  &  \shortstack[c]{$1 + v^6$}  &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{12}$}  &  \shortstack[c]{$1 + v^{24}$} \\ %ID:table7_row036
+\hline
+{$[[260, 10, (\leq 14,\leq 7)]]$} &  26  & {0.038} &  \shortstack[c]{$1 + v^8$}  &  \shortstack[c]{$1 + v^{15}$}  &  \shortstack[c]{$1 + v^{20}$}  &  \shortstack[c]{$1 + v^{23}$}  &  \shortstack[c]{$1 + v^{25}$} \\ %ID:table7_row037
+\hline
+{$[[260, 10, (\leq 15,\leq 8)]]$} &  26  & {0.038} &  \shortstack[c]{$1 + v^3$}  &  \shortstack[c]{$1 + v^5$}  &  \shortstack[c]{$1 + v^{6}$}  &  \shortstack[c]{$1 + v^{7}$}  &  \shortstack[c]{$1 + v^{11}$} \\ %ID:table7_row038
+\hline
+{$[[270, 10, (\leq 13,\leq 7)]]$} &  27  & {0.037} &  \shortstack[c]{$1 + v^7$}  &  \shortstack[c]{$1 + v^{10}$}  &  \shortstack[c]{$1 + v^{11}$}  &  \shortstack[c]{$1 + v^{12}$}  &  \shortstack[c]{$1 + v^{23}$} \\ %ID:table7_row039
+\hline
+{$[[270, 10, (\leq 16,\leq 7)]]$} &  27  & {0.037} &  \shortstack[c]{$1 + v^5$}  &  \shortstack[c]{$1 + v^6$}  &  \shortstack[c]{$1 + v^{17}$}  &  \shortstack[c]{$1 + v^{18}$}  &  \shortstack[c]{$1 + v^{20}$} \\ %ID:table7_row041
+\hline
+{$[[280, 10, (\leq 15,\leq 7)]]$} &  28  & {0.036} &  \shortstack[c]{$1 + v^3$}  &  \shortstack[c]{$1 + v^{5}$}  &  \shortstack[c]{$1 + v^{15}$}  &  \shortstack[c]{$1 + v^{16}$}  &  \shortstack[c]{$1 + v^{26}$} \\ %ID:table7_row043
+\hline
+{$[[290, 10, (\leq 15,\leq 8)]]$} &  29  & {0.034} &  \shortstack[c]{$1 + v$}  &  \shortstack[c]{$1 + v^{3}$}  &  \shortstack[c]{$1 + v^{5}$}  &  \shortstack[c]{$1 + v^{6}$}  &  \shortstack[c]{$1 + v^{15}$} \\ %ID:table7_row044
+\hline
+{$[[300, 10, (\leq 15,\leq 9)]]$} &  30  & {0.033} &  \shortstack[c]{$1 + v^{4}$}  &  \shortstack[c]{$1 + v^{5}$}  &  \shortstack[c]{$1 + v^{18}$}  &  \shortstack[c]{$1 + v^{19}$}  &  \shortstack[c]{$1 + v^{28}$} \\ %ID:table7_row045
+\hline
+{$[[310, 10, (\leq 15,\leq 8)]]$} &  31  & {0.032} &  \shortstack[c]{$1 + v^{3}$}  &  \shortstack[c]{$1 + v^{15}$}  &  \shortstack[c]{$1 + v^{18}$}  &  \shortstack[c]{$1 + v^{22}$}  &  \shortstack[c]{$1 + v^{23}$} \\ %ID:table7_row046
+\hline
+{$[[330, 10, (\leq 18,\leq 9)]]$} &  33  & {0.030} &  \shortstack[c]{$1 + v^{2}$}  &  \shortstack[c]{$1 + v^{7}$}  &  \shortstack[c]{$1 + v^{8}$}  &  \shortstack[c]{$1 + v^{11}$}  &  \shortstack[c]{$1 + v^{12}$} \\ %ID:table7_row048
+\hline
+{$[[340, 10, (\leq 20,\leq 9)]]$} &  34  & {0.029} &  \shortstack[c]{$1 + v^{3}$}  &  \shortstack[c]{$1 + v^{7}$}  &  \shortstack[c]{$1 + v^{18}$}  &  \shortstack[c]{$1 + v^{19}$}  &  \shortstack[c]{$1 + v^{29}$} \\ %ID:table7_row049
+\hline
+{$[[350, 10, (\leq 18,\leq 9)]]$} &  35  & {0.029} &  \shortstack[c]{$1 + v^{3}$}  &  \shortstack[c]{$1 + v^{5}$}  &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{19}$}  &  \shortstack[c]{$1 + v^{34}$} \\ %ID:table7_row050
+\hline
+{$[[360, 10, (\leq 20,\leq 8)]]$} &  36  & {0.028} &  \shortstack[c]{$1 + v^{8}$}  &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{15}$}  &  \shortstack[c]{$1 + v^{19}$}  &  \shortstack[c]{$1 + v^{31}$} \\ %ID:table7_row051
+\hline
+{$[[370, 10, (\leq 16,\leq 8)]]$} &  37  & {0.027} &  \shortstack[c]{$1 + v^{2}$}  &  \shortstack[c]{$1 + v^{4}$}  &  \shortstack[c]{$1 + v^{21}$}  &  \shortstack[c]{$1 + v^{27}$}  &  \shortstack[c]{$1 + v^{28}$} \\ %ID:table7_row052
+\hline
+{$[[380, 10, (\leq 20,\leq 8)]]$} &  38  & {0.026} &  \shortstack[c]{$1 + v^{2}$}  &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{16}$}  &  \shortstack[c]{$1 + v^{17}$}  &  \shortstack[c]{$1 + v^{35}$} \\ %ID:table7_row053
+\hline
+{$[[390, 10, (\leq 21,\leq 9)]]$} &  39  & {0.026} &  \shortstack[c]{$1 + v^{5}$}  &  \shortstack[c]{$1 + v^{15}$}  &  \shortstack[c]{$1 + v^{21}$}  &  \shortstack[c]{$1 + v^{23}$}  &  \shortstack[c]{$1 + v^{35}$} \\ %ID:table7_row054
+\hline
+{$[[400, 10, (\leq 21,\leq 9)]]$} &  40  & {0.025} &  \shortstack[c]{$1 + v^{18}$}  &  \shortstack[c]{$1 + v^{28}$}  &  \shortstack[c]{$1 + v^{31}$}  &  \shortstack[c]{$1 + v^{33}$}  &  \shortstack[c]{$1 + v^{39}$} \\ %ID:table7_row055
+\hline
+{$[[410, 10, (\leq 21,\leq 10)]]$} &  41  & {0.024} &  \shortstack[c]{$1 + v^{7}$}  &  \shortstack[c]{$1 + v^{14}$}  &  \shortstack[c]{$1 + v^{25}$}  &  \shortstack[c]{$1 + v^{26}$}  &  \shortstack[c]{$1 + v^{38}$} \\ %ID:table7_row056
+\hline
+{$[[420, 10, (\leq 22,\leq 9)]]$} &  42  & {0.024} &  \shortstack[c]{$1 + v^{15}$}  &  \shortstack[c]{$1 + v^{23}$}  &  \shortstack[c]{$1 + v^{29}$}  &  \shortstack[c]{$1 + v^{31}$}  &  \shortstack[c]{$1 + v^{37}$} \\ %ID:table7_row057
+\hline
+{$[[430, 10, (\leq 22,\leq 10)]]$} &  43  & {0.023} &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{10}$}  &  \shortstack[c]{$1 + v^{13}$}  &  \shortstack[c]{$1 + v^{16}$}  &  \shortstack[c]{$1 + v^{28}$} \\ %ID:table7_row058
+\hline
+{$[[440, 10, (\leq 22,\leq 10)]]$} &  44  & {0.023} &  \shortstack[c]{$1 + v$}  &  \shortstack[c]{$1 + v^{10}$}  &  \shortstack[c]{$1 + v^{16}$}  &  \shortstack[c]{$1 + v^{21}$}  &  \shortstack[c]{$1 + v^{25}$} \\ %ID:table7_row059
+\hline
+{$[[450, 10, (\leq 20,\leq 9)]]$} &  45  & {0.022} &  \shortstack[c]{$1 + v^{4}$}  &  \shortstack[c]{$1 + v^{10}$}  &  \shortstack[c]{$1 + v^{84}$}  &  \shortstack[c]{$1 + v^{21}$}  &  \shortstack[c]{$1 + v^{26}$} \\ %ID:table7_row060
+\hline
+{$[[460, 10, (\leq 22,\leq 10)]]$} &  46  & {0.022} &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{16}$}  &  \shortstack[c]{$1 + v^{20}$}  &  \shortstack[c]{$1 + v^{42}$}  &  \shortstack[c]{$1 + v^{43}$} \\ %ID:table7_row061
+\hline
+{$[[470, 10, (\leq 21,\leq 9)]]$} &  47  & {0.021} &  \shortstack[c]{$1 + v^{17}$}  &  \shortstack[c]{$1 + v^{38}$}  &  \shortstack[c]{$1 + v^{39}$}  &  \shortstack[c]{$1 + v^{40}$}  &  \shortstack[c]{$1 + v^{44}$} \\ %ID:table7_row062
+\hline
+{$[[480, 10, (\leq 24,\leq 10)]]$} &  48  & {0.021} &  \shortstack[c]{$1 + v^{8}$}  &  \shortstack[c]{$1 + v^{11}$}  &  \shortstack[c]{$1 + v^{15}$}  &  \shortstack[c]{$1 + v^{17}$}  &  \shortstack[c]{$1 + v^{38}$} \\ %ID:table7_row063
+\hline
+{$[[490, 10, (\leq 24,\leq 10)]]$} &  49  & {0.020} &  \shortstack[c]{$1 + v^{8}$}  &  \shortstack[c]{$1 + v^{10}$}  &  \shortstack[c]{$1 + v^{21}$}  &  \shortstack[c]{$1 + v^{34}$}  &  \shortstack[c]{$1 + v^{45}$} \\ %ID:table7_row064
+\hline
+{$[[500, 10, (\leq 23,\leq 11)]]$} &  50  & {0.020} &  \shortstack[c]{$1 + v^{3}$}  &  \shortstack[c]{$1 + v^{21}$}  &  \shortstack[c]{$1 + v^{36}$}  &  \shortstack[c]{$1 + v^{41}$}  &  \shortstack[c]{$1 + v^{49}$} \\ %ID:table7_row065
+\hline
+{$[[510, 10, (\leq 25,\leq 11)]]$} &  51  & {0.020} &  \shortstack[c]{$1 + v^{8}$}  &  \shortstack[c]{$1 + v^{18}$}  &  \shortstack[c]{$1 + v^{20}$}  &  \shortstack[c]{$1 + v^{27}$}  &  \shortstack[c]{$1 + v^{37}$} \\ %ID:table7_row066
+\hline
+{$[[520, 10, (\leq 24,\leq 10)]]$} &  52  & {0.019} &  \shortstack[c]{$1 + v^{5}$}  &  \shortstack[c]{$1 + v^{23}$}  &  \shortstack[c]{$1 + v^{39}$}  &  \shortstack[c]{$1 + v^{45}$}  &  \shortstack[c]{$1 + v^{51}$} \\ %ID:table7_row067
+\hline
+{$[[530, 10, (\leq 13,\leq 7)]]$} &  53  & {0.019} &  \shortstack[c]{$1 + v^{8}$}  &  \shortstack[c]{$1 + v^{21}$}  &  \shortstack[c]{$1 + v^{29}$}  &  \shortstack[c]{$1 + v^{39}$}  &  \shortstack[c]{$1 + v^{40}$} \\ %ID:table7_row068
+\hline
+{$[[540, 10, (\leq 25,\leq 12)]]$} &  54  & {0.019} &  \shortstack[c]{$1 + v$}  &  \shortstack[c]{$1 + v^{8}$}  &  \shortstack[c]{$1 + v^{37}$}  &  \shortstack[c]{$1 + v^{41}$}  &  \shortstack[c]{$1 + v^{51}$} \\ %ID:table7_row069
+\hline
+{$[[550, 10, (\leq 26,\leq 10)]]$} &  55  & {0.018} &  \shortstack[c]{$1 + v^{26}$}  &  \shortstack[c]{$1 + v^{35}$}  &  \shortstack[c]{$1 + v^{37}$}  &  \shortstack[c]{$1 + v^{39}$}  &  \shortstack[c]{$1 + v^{41}$} \\ %ID:table7_row070
+\hline
+{$[[560, 10, (\leq 25,\leq 11)]]$} &  56  & {0.018} &  \shortstack[c]{$1 + v^{30}$}  &  \shortstack[c]{$1 + v^{35}$}  &  \shortstack[c]{$1 + v^{46}$}  &  \shortstack[c]{$1 + v^{48}$}  &  \shortstack[c]{$1 + v^{53}$} \\ %ID:table7_row071
+\hline
+{$[[570, 10, (\leq 28,\leq 11)]]$} &  57  & {0.018} &  \shortstack[c]{$1 + v^{8}$}  &  \shortstack[c]{$1 + v^{17}$}  &  \shortstack[c]{$1 + v^{30}$}  &  \shortstack[c]{$1 + v^{45}$}  &  \shortstack[c]{$1 + v^{56}$} \\ %ID:table7_row072
+\hline
+{$[[580, 10, (\leq 28,\leq 12)]]$} &  58  & {0.017} &  \shortstack[c]{$1 + v^{21}$}  &  \shortstack[c]{$1 + v^{32}$}  &  \shortstack[c]{$1 + v^{39}$}  &  \shortstack[c]{$1 + v^{43}$}  &  \shortstack[c]{$1 + v^{46}$} \\ %ID:table7_row073
+\hline
+{$[[590, 10, (\leq 25,\leq 11)]]$} &  59  & {0.017} &  \shortstack[c]{$1 + v^{5}$}  &  \shortstack[c]{$1 + v^{6}$}  &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{31}$}  &  \shortstack[c]{$1 + v^{38}$} \\ %ID:table7_row074
+\hline
+{$[[600, 10, (\leq 24,\leq 10)]]$} &  60  & {0.017} &  \shortstack[c]{$1 + v^{5}$}  &  \shortstack[c]{$1 + v^{12}$}  &  \shortstack[c]{$1 + v^{21}$}  &  \shortstack[c]{$1 + v^{35}$}  &  \shortstack[c]{$1 + v^{59}$} \\ %ID:table7_row075
+\hline
+{$[[610, 10, (\leq 26,\leq 11)]]$} &  61  & {0.016} &  \shortstack[c]{$1 + v^{23}$}  &  \shortstack[c]{$1 + v^{32}$}  &  \shortstack[c]{$1 + v^{39}$}  &  \shortstack[c]{$1 + v^{43}$}  &  \shortstack[c]{$1 + v^{49}$} \\ %ID:table7_row076
+\hline
+{$[[620, 10, (\leq 26,\leq 11)]]$} &  62  & {0.016} &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{13}$}  &  \shortstack[c]{$1 + v^{35}$}  &  \shortstack[c]{$1 + v^{42}$}  &  \shortstack[c]{$1 + v^{50}$} \\ %ID:table7_row077
+\hline
+{$[[630, 10, (\leq 28,\leq 12)]]$} &  63  & {0.016} &  \shortstack[c]{$1 + v$}  &  \shortstack[c]{$1 + v^{16}$}  &  \shortstack[c]{$1 + v^{36}$}  &  \shortstack[c]{$1 + v^{44}$}  &  \shortstack[c]{$1 + v^{50}$} \\ %ID:table7_row078
+\hline
+{$[[650, 10, (\leq 28,\leq 10)]]$} &  65  & {0.015} &  \shortstack[c]{$1 + v^{18}$}  &  \shortstack[c]{$1 + v^{41}$}  &  \shortstack[c]{$1 + v^{55}$}  &  \shortstack[c]{$1 + v^{61}$}  &  \shortstack[c]{$1 + v^{64}$} \\ %ID:table7_row080
+\hline
+{$[[660, 10, (\leq 30,\leq 11)]]$} &  66  & {0.015} &  \shortstack[c]{$1 + v^{36}$}  &  \shortstack[c]{$1 + v^{38}$}  &  \shortstack[c]{$1 + v^{49}$}  &  \shortstack[c]{$1 + v^{50}$}  &  \shortstack[c]{$1 + v^{57}$} \\ %ID:table7_row081
+\hline
+{$[[670, 10, (\leq 30,\leq 12)]]$} &  67  & {0.015} &  \shortstack[c]{$1 + v^{4}$}  &  \shortstack[c]{$1 + v^{44}$}  &  \shortstack[c]{$1 + v^{51}$}  &  \shortstack[c]{$1 + v^{53}$}  &  \shortstack[c]{$1 + v^{66}$} \\ %ID:table7_row082
+\hline
+{$[[680, 10, (\leq 30,\leq 11)]]$} &  68  & {0.015} &  \shortstack[c]{$1 + v^{11}$}  &  \shortstack[c]{$1 + v^{14}$}  &  \shortstack[c]{$1 + v^{16}$}  &  \shortstack[c]{$1 + v^{61}$}  &  \shortstack[c]{$1 + v^{67}$} \\ %ID:table7_row083
+\hline
+{$[[690, 10, (\leq 23,\leq 12)]]$} &  69  & {0.014} &  \shortstack[c]{$1 + v^{3}$}  &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{25}$}  &  \shortstack[c]{$1 + v^{42}$}  &  \shortstack[c]{$1 + v^{65}$} \\ %ID:table7_row084
+\hline
+{$[[700, 10, (\leq 27,\leq 11)]]$} &  70  & {0.014} &  \shortstack[c]{$1 + v^{26}$}  &  \shortstack[c]{$1 + v^{36}$}  &  \shortstack[c]{$1 + v^{41}$}  &  \shortstack[c]{$1 + v^{46}$}  &  \shortstack[c]{$1 + v^{59}$} \\ %ID:table7_row085
+\hline
+{$[[710, 10, (\leq 30,\leq 13)]]$} &  71  & {0.014} &  \shortstack[c]{$1 + v^{7}$}  &  \shortstack[c]{$1 + v^{18}$}  &  \shortstack[c]{$1 + v^{24}$}  &  \shortstack[c]{$1 + v^{45}$}  &  \shortstack[c]{$1 + v^{61}$} \\ %ID:table7_row086
+\hline
+{$[[720, 10, (\leq 30,\leq 12)]]$} &  72  & {0.014} &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{28}$}  &  \shortstack[c]{$1 + v^{33}$}  &  \shortstack[c]{$1 + v^{47}$}  &  \shortstack[c]{$1 + v^{68}$} \\ %ID:table7_row087
+\hline
+{$[[730, 10, (\leq 29,\leq 12)]]$} &  73  & {0.014} &  \shortstack[c]{$1 + v^{43}$}  &  \shortstack[c]{$1 + v^{52}$}  &  \shortstack[c]{$1 + v^{56}$}  &  \shortstack[c]{$1 + v^{59}$}  &  \shortstack[c]{$1 + v^{71}$} \\ %ID:table7_row088
+\hline
+{$[[740, 10, (\leq 28,\leq 10)]]$} &  74  & {0.014} &  \shortstack[c]{$1 + v^{6}$}  &  \shortstack[c]{$1 + v^{18}$}  &  \shortstack[c]{$1 + v^{21}$}  &  \shortstack[c]{$1 + v^{43}$}  &  \shortstack[c]{$1 + v^{54}$} \\ %ID:table7_row089
+\hline
+{$[[750, 10, (\leq 32,\leq 13)]]$} &  75  & {0.013} &  \shortstack[c]{$1 + v^{5}$}  &  \shortstack[c]{$1 + v^{22}$}  &  \shortstack[c]{$1 + v^{41}$}  &  \shortstack[c]{$1 + v^{59}$}  &  \shortstack[c]{$1 + v^{62}$} \\ %ID:table7_row090
+\hline
+{$[[760, 10, (\leq 24,\leq 8)]]$} &  76  & {0.013} &  \shortstack[c]{$1 + v^{19}$}  &  \shortstack[c]{$1 + v^{29}$}  &  \shortstack[c]{$1 + v^{44}$}  &  \shortstack[c]{$1 + v^{67}$}  &  \shortstack[c]{$1 + v^{74}$} \\ %ID:table7_row091
+\hline
+{$[[770, 10, (\leq 32,\leq 13)]]$} &  77  & {0.013} &  \shortstack[c]{$1 + v^{21}$}  &  \shortstack[c]{$1 + v^{40}$}  &  \shortstack[c]{$1 + v^{48}$}  &  \shortstack[c]{$1 + v^{62}$}  &  \shortstack[c]{$1 + v^{65}$} \\ %ID:table7_row092
+\hline
+{$[[780, 10, (\leq 26,\leq 11)]]$} &  78  & {0.013} &  \shortstack[c]{$1 + v^{43}$}  &  \shortstack[c]{$1 + v^{48}$}  &  \shortstack[c]{$1 + v^{50}$}  &  \shortstack[c]{$1 + v^{59}$}  &  \shortstack[c]{$1 + v^{72}$} \\ %ID:table7_row093
+\hline
+{$[[790, 10, (\leq 34,\leq 12)]]$} &  79  & {0.013} &  \shortstack[c]{$1 + v^{12}$}  &  \shortstack[c]{$1 + v^{22}$}  &  \shortstack[c]{$1 + v^{23}$}  &  \shortstack[c]{$1 + v^{42}$}  &  \shortstack[c]{$1 + v^{63}$} \\ %ID:table7_row094
+\hline
+{$[[800, 10, (\leq 32,\leq 12)]]$} &  80  & {0.013} &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{15}$}  &  \shortstack[c]{$1 + v^{17}$}  &  \shortstack[c]{$1 + v^{20}$}  &  \shortstack[c]{$1 + v^{47}$} \\ %ID:table7_row095
+\hline
+{$[[810, 10, (\leq 27,\leq 12)]]$} &  81  & {0.012} &  \shortstack[c]{$1 + v^{6}$}  &  \shortstack[c]{$1 + v^{34}$}  &  \shortstack[c]{$1 + v^{48}$}  &  \shortstack[c]{$1 + v^{55}$}  &  \shortstack[c]{$1 + v^{63}$} \\ %ID:table7_row096
+\hline
+{$[[820, 10, (\leq 31,\leq 11)]]$} &  82  & {0.012} &  \shortstack[c]{$1 + v^{3}$}  &  \shortstack[c]{$1 + v^{7}$}  &  \shortstack[c]{$1 + v^{40}$}  &  \shortstack[c]{$1 + v^{66}$}  &  \shortstack[c]{$1 + v^{77}$} \\ %ID:table7_row097
+\hline
+{$[[830, 10, (\leq 28,\leq 13)]]$} &  83  & {0.012} &  \shortstack[c]{$1 + v^{39}$}  &  \shortstack[c]{$1 + v^{47}$}  &  \shortstack[c]{$1 + v^{55}$}  &  \shortstack[c]{$1 + v^{70}$}  &  \shortstack[c]{$1 + v^{82}$} \\ %ID:table7_row098
+\hline
+{$[[840, 10, (\leq 29,\leq 12)]]$} &  84  & {0.012} &  \shortstack[c]{$1 + v^{18}$}  &  \shortstack[c]{$1 + v^{29}$}  &  \shortstack[c]{$1 + v^{61}$}  &  \shortstack[c]{$1 + v^{68}$}  &  \shortstack[c]{$1 + v^{69}$} \\ %ID:table7_row099
+\hline
+{$[[850, 10, (\leq 35,\leq 14)]]$} &  85  & {0.012} &  \shortstack[c]{$1 + v$}  &  \shortstack[c]{$1 + v^{12}$}  &  \shortstack[c]{$1 + v^{31}$}  &  \shortstack[c]{$1 + v^{34}$}  &  \shortstack[c]{$1 + v^{47}$} \\ %ID:table7_row100
+\hline
+{$[[860, 10, (\leq 28,\leq 12)]]$} &  86  & {0.012} &  \shortstack[c]{$1 + v^{20}$}  &  \shortstack[c]{$1 + v^{23}$}  &  \shortstack[c]{$1 + v^{49}$}  &  \shortstack[c]{$1 + v^{55}$}  &  \shortstack[c]{$1 + v^{64}$} \\ %ID:table7_row101
+\hline
+{$[[870, 10, (\leq 33,\leq 14)]]$} &  87  & {0.011} &  \shortstack[c]{$1 + v^{5}$}  &  \shortstack[c]{$1 + v^{18}$}  &  \shortstack[c]{$1 + v^{26}$}  &  \shortstack[c]{$1 + v^{72}$}  &  \shortstack[c]{$1 + v^{73}$} \\ %ID:table7_row102
+\hline
+{$[[880, 10, (\leq 34,\leq 13)]]$} &  88  & {0.011} &  \shortstack[c]{$1 + v^{16}$}  &  \shortstack[c]{$1 + v^{53}$}  &  \shortstack[c]{$1 + v^{57}$}  &  \shortstack[c]{$1 + v^{63}$}  &  \shortstack[c]{$1 + v^{65}$} \\ %ID:table7_row103
+\hline
+{$[[890, 10, (\leq 34,\leq 14)]]$} &  89  & {0.011} &  \shortstack[c]{$1 + v^{10}$}  &  \shortstack[c]{$1 + v^{19}$}  &  \shortstack[c]{$1 + v^{66}$}  &  \shortstack[c]{$1 + v^{72}$}  &  \shortstack[c]{$1 + v^{78}$} \\ %ID:table7_row104
+\hline
+{$[[900, 10, (\leq 30,\leq 13)]]$} &  90  & {0.011} &  \shortstack[c]{$1 + v^{6}$}  &  \shortstack[c]{$1 + v^{9}$}  &  \shortstack[c]{$1 + v^{39}$}  &  \shortstack[c]{$1 + v^{40}$}  &  \shortstack[c]{$1 + v^{58}$} \\ %ID:table7_row105
+\hline
+{$[[910, 10, (\leq 38,\leq 16)]]$} &  91  & {0.011} &  \shortstack[c]{$1 + v^{24}$}  &  \shortstack[c]{$1 + v^{35}$}  &  \shortstack[c]{$1 + v^{47}$}  &  \shortstack[c]{$1 + v^{73}$}  &  \shortstack[c]{$1 + v^{81}$} \\ %ID:table7_row106
+\hline
+{$[[920, 10, (\leq 34,\leq 12)]]$} &  92  & {0.011} &  \shortstack[c]{$1 + v^{33}$}  &  \shortstack[c]{$1 + v^{35}$}  &  \shortstack[c]{$1 + v^{37}$}  &  \shortstack[c]{$1 + v^{49}$}  &  \shortstack[c]{$1 + v^{52}$} \\ %ID:table7_row107
+\hline
+{$[[930, 10, (\leq 33,\leq 13)]]$} &  93  & {0.011} &  \shortstack[c]{$1 + v^{7}$}  &  \shortstack[c]{$1 + v^{10}$}  &  \shortstack[c]{$1 + v^{16}$}  &  \shortstack[c]{$1 + v^{64}$}  &  \shortstack[c]{$1 + v^{72}$} \\ %ID:table7_row108
+\hline
+\end{longtable}
+\endgroup
+
+\bigskip
+
+\begingroup
+\MMTableStyle
+\begin{longtable}{|*{9}{>{\columncolor{white}[\tabcolsep]}c|}}
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $\ell$ & $k/n$ & $F$ & $G$ & $H$ & $I$ & $J$ & $K$\\ \hline
+\endfirsthead
+\multicolumn{9}{c}{\tablename~\thetable\ (continued)}\\
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $\ell$ & $k/n$ & $F$ & $G$ & $H$ & $I$ & $J$ & $K$\\ \hline
+\endhead
+\hline
+\endfoot
+\caption{\textbf{Collapsed 6-dimensional (6D) multivariate multicycle (MM) codes.} The multivariate quotient ring polynomials $F(u,v,w,x,y,z)$, $G(u,v,w,x,y,z)$, $H(u,v,w,x,y,z)$, $I(u,v,w,x,y,z)$, $J(u,v,w,x,y,z)$ and $K(u,v,w,x,y,z)$ are defined over $\mathbb{F}_2[u,v,w, x, y, z]/\langle u^\ell-1,v-1, w-1, x-1, y-1, z-1 \rangle$. All these 6D MM codes have weight-8 X stabilizer checks and weight-8 Z stabilizer checks.}\label{tab:table8}\\
+\endlastfoot
+{$[[200, 20, (\leq 7,\leq 7)]]$} &  10  & {0.100} &  \shortstack[c]{$1 + u$}  &  \shortstack[c]{$1 + u^3$}  &  \shortstack[c]{$1 + u^6$}  &  \shortstack[c]{$1 + u^7$}  &  \shortstack[c]{$1 + u^8$}  &  \shortstack[c]{$1 + u^9$} \\ %ID:table8_row004
+\hline
+{$[[220, 20, (\leq 8,\leq 8)]]$} &  11  & {0.091} &  \shortstack[c]{$1 + u$}  &  \shortstack[c]{$1 + u^3$}  &  \shortstack[c]{$1 + u^5$}  &  \shortstack[c]{$1 + u^7$}  &  \shortstack[c]{$1 + u^8$}  &  \shortstack[c]{$1 + u^{10}$} \\ %ID:table8_row005
+\hline
+{$[[240, 20, (\leq 8,\leq 8)]]$} &  12  & {0.083} &  \shortstack[c]{$1 + u$}  &  \shortstack[c]{$1 + u^2$}  &  \shortstack[c]{$1 + u^3$}  &  \shortstack[c]{$1 + u^5$}  &  \shortstack[c]{$1 + u^9$}  &  \shortstack[c]{$1 + u^{10}$} \\ %ID:table8_row006
+\hline
+{$[[260, 20, (\leq 10,\leq 10)]]$} &  13  & {0.077} &  \shortstack[c]{$1 + u^5$}  &  \shortstack[c]{$1 + u^7$}  &  \shortstack[c]{$1 + u^9$}  &  \shortstack[c]{$1 + u^{10}$}  &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{12}$} \\ %ID:table8_row007
+\hline
+{$[[280, 20, (\leq 9,\leq 9)]]$} &  14  & {0.071} &  \shortstack[c]{$1 + u$}  &  \shortstack[c]{$1 + u^2$}  &  \shortstack[c]{$1 + u^3$}  &  \shortstack[c]{$1 + u^4$}  &  \shortstack[c]{$1 + u^{5}$}  &  \shortstack[c]{$1 + u^{11}$} \\ %ID:table8_row008
+\hline
+{$[[300, 20, (\leq 9,\leq 9)]]$} &  15  & {0.067} &  \shortstack[c]{$1 + u$}  &  \shortstack[c]{$1 + u^3$}  &  \shortstack[c]{$1 + u^5$}  &  \shortstack[c]{$1 + u^6$}  &  \shortstack[c]{$1 + u^{8}$}  &  \shortstack[c]{$1 + u^{11}$} \\ %ID:table8_row009
+\hline
+{$[[320, 20, (\leq 9,\leq 9)]]$} &  16  & {0.062} &  \shortstack[c]{$1 + u$}  &  \shortstack[c]{$1 + u^3$}  &  \shortstack[c]{$1 + u^5$}  &  \shortstack[c]{$1 + u^7$}  &  \shortstack[c]{$1 + u^{10}$}  &  \shortstack[c]{$1 + u^{15}$} \\ %ID:table8_row010
+\hline
+{$[[340, 20, (\leq 10,\leq 10)]]$} &  17  & {0.059} &  \shortstack[c]{$1 + u^5$}  &  \shortstack[c]{$1 + u^7$}  &  \shortstack[c]{$1 + u^9$}  &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{15}$} \\ %ID:table8_row011
+\hline
+{$[[360, 20, (\leq 10,\leq 10)]]$} &  18  & {0.056} &  \shortstack[c]{$1 + u^3$}  &  \shortstack[c]{$1 + u^7$}  &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{13}$}  &  \shortstack[c]{$1 + u^{16}$}  &  \shortstack[c]{$1 + u^{17}$} \\ %ID:table8_row012
+\hline
+{$[[380, 20, (\leq 10,\leq 10)]]$} &  19  & {0.053} &  \shortstack[c]{$1 + u^2$}  &  \shortstack[c]{$1 + u^3$}  &  \shortstack[c]{$1 + u^5$}  &  \shortstack[c]{$1 + u^{6}$}  &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{12}$} \\ %ID:table8_row013
+\hline
+{$[[380, 20, (\leq 11,\leq 11)]]$} &  19  & {0.053} &  \shortstack[c]{$1 + u^9$}  &  \shortstack[c]{$1 + u^{13}$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{15}$}  &  \shortstack[c]{$1 + u^{16}$}  &  \shortstack[c]{$1 + u^{17}$} \\ %ID:table8_row014
+\hline
+{$[[400, 20, (\leq 10,\leq 10)]]$} &  20  & {0.050} &  \shortstack[c]{$1 + u^{8}$}  &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{15}$}  &  \shortstack[c]{$1 + u^{17}$}  &  \shortstack[c]{$1 + u^{18}$} \\ %ID:table8_row015
+\hline
+{$[[400, 20, (\leq 12,\leq 12)]]$} &  20  & {0.050} &  \shortstack[c]{$1 + u^{3}$}  &  \shortstack[c]{$1 + u^{7}$}  &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{16}$}  &  \shortstack[c]{$1 + u^{19}$} \\ %ID:table8_row016
+\hline
+{$[[400, 20, (\leq 11,\leq 11)]]$} &  20  & {0.050} &  \shortstack[c]{$1 + u$}  &  \shortstack[c]{$1 + u^{2}$}  &  \shortstack[c]{$1 + u^{3}$}  &  \shortstack[c]{$1 + u^{6}$}  &  \shortstack[c]{$1 + u^{9}$}  &  \shortstack[c]{$1 + u^{15}$} \\ %ID:table8_row017
+\hline
+{$[[420, 20, (\leq 12,\leq 12)]]$} &  21  & {0.048} &  \shortstack[c]{$1 + u^{7}$}  &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{13}$}  &  \shortstack[c]{$1 + u^{15}$}  &  \shortstack[c]{$1 + u^{18}$}  &  \shortstack[c]{$1 + u^{19}$} \\ %ID:table8_row018
+\hline
+{$[[440, 20, (\leq 11,\leq 11)]]$} &  22  & {0.045} &  \shortstack[c]{$1 + u^{7}$}  &  \shortstack[c]{$1 + u^{9}$}  &  \shortstack[c]{$1 + u^{12}$}  &  \shortstack[c]{$1 + u^{17}$}  &  \shortstack[c]{$1 + u^{18}$}  &  \shortstack[c]{$1 + u^{19}$} \\ %ID:table8_row019
+\hline
+{$[[460, 20, (\leq 12,\leq 12)]]$} &  23  & {0.043} &  \shortstack[c]{$1 + u^{4}$}  &  \shortstack[c]{$1 + u^{7}$}  &  \shortstack[c]{$1 + u^{12}$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{18}$}  &  \shortstack[c]{$1 + u^{20}$} \\ %ID:table8_row020
+\hline
+{$[[480, 20, (\leq 12,\leq 12)]]$} &  24  & {0.042} &  \shortstack[c]{$1 + u^{15}$}  &  \shortstack[c]{$1 + u^{16}$}  &  \shortstack[c]{$1 + u^{19}$}  &  \shortstack[c]{$1 + u^{20}$}  &  \shortstack[c]{$1 + u^{22}$}  &  \shortstack[c]{$1 + u^{23}$} \\ %ID:table8_row021
+\hline
+{$[[520, 20, (\leq 14,\leq 14)]]$} &  26  & {0.038} &  \shortstack[c]{$1 + u^{3}$}  &  \shortstack[c]{$1 + u^{5}$}  &  \shortstack[c]{$1 + u^{7}$}  &  \shortstack[c]{$1 + u^{16}$}  &  \shortstack[c]{$1 + u^{17}$}  &  \shortstack[c]{$1 + u^{22}$} \\ %ID:table8_row022
+\hline
+{$[[540, 20, (\leq 13,\leq 13)]]$} &  27  & {0.037} &  \shortstack[c]{$1 + u^{3}$}  &  \shortstack[c]{$1 + u^4$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{19}$}  &  \shortstack[c]{$1 + u^{22}$}  &  \shortstack[c]{$1 + u^{25}$} \\ %ID:table8_row023
+\hline
+{$[[560, 20, (\leq 14,\leq 14)]]$} &  28  & {0.036} &  \shortstack[c]{$1 + u$}  &  \shortstack[c]{$1 + u^{6}$}  &  \shortstack[c]{$1 + u^{12}$}  &  \shortstack[c]{$1 + u^{13}$}  &  \shortstack[c]{$1 + u^{23}$}  &  \shortstack[c]{$1 + u^{24}$} \\ %ID:table8_row024
+\hline
+{$[[580, 20, (\leq 14,\leq 14)]]$} &  29  & {0.034} &  \shortstack[c]{$1 + u^{3}$}  &  \shortstack[c]{$1 + u^{5}$}  &  \shortstack[c]{$1 + u^{9}$}  &  \shortstack[c]{$1 + u^{12}$}  &  \shortstack[c]{$1 + u^{18}$}  &  \shortstack[c]{$1 + u^{25}$} \\ %ID:table8_row025
+\hline
+{$[[600, 20, (\leq 14,\leq 14)]]$} &  30  & {0.033} &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{12}$}  &  \shortstack[c]{$1 + u^{16}$}  &  \shortstack[c]{$1 + u^{17}$}  &  \shortstack[c]{$1 + u^{21}$}  &  \shortstack[c]{$1 + u^{29}$} \\ %ID:table8_row026
+\hline
+{$[[620, 20, (\leq 15,\leq 15)]]$} &  31  & {0.032} &  \shortstack[c]{$1 + u^{4}$}  &  \shortstack[c]{$1 + u^{5}$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{16}$}  &  \shortstack[c]{$1 + u^{19}$}  &  \shortstack[c]{$1 + u^{28}$} \\ %ID:table8_row027
+\hline
+{$[[640, 20, (\leq 15,\leq 15)]]$} &  32  & {0.031} &  \shortstack[c]{$1 + u$}  &  \shortstack[c]{$1 + u^{2}$}  &  \shortstack[c]{$1 + u^{5}$}  &  \shortstack[c]{$1 + u^{7}$}  &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{13}$} \\ %ID:table8_row028
+\hline
+{$[[660, 20, (\leq 15,\leq 15)]]$} &  33  & {0.030} &  \shortstack[c]{$1 + u^{5}$}  &  \shortstack[c]{$1 + u^{8}$}  &  \shortstack[c]{$1 + u^{13}$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{29}$}  &  \shortstack[c]{$1 + u^{32}$} \\ %ID:table8_row029
+\hline
+{$[[680, 20, (\leq 15,\leq 15)]]$} &  34  & {0.029} &  \shortstack[c]{$1 + u^{9}$}  &  \shortstack[c]{$1 + u^{20}$}  &  \shortstack[c]{$1 + u^{22}$}  &  \shortstack[c]{$1 + u^{23}$}  &  \shortstack[c]{$1 + u^{26}$}  &  \shortstack[c]{$1 + u^{27}$} \\ %ID:table8_row030
+\hline
+{$[[700, 20, (\leq 15,\leq 15)]]$} &  35  & {0.029} &  \shortstack[c]{$1 + u^{2}$}  &  \shortstack[c]{$1 + u^{10}$}  &  \shortstack[c]{$1 + u^{16}$}  &  \shortstack[c]{$1 + u^{23}$}  &  \shortstack[c]{$1 + u^{27}$}  &  \shortstack[c]{$1 + u^{32}$} \\ %ID:table8_row031
+\hline
+{$[[720, 20, (\leq 15,\leq 15)]]$} &  36  & {0.028} &  \shortstack[c]{$1 + u^{4}$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{15}$}  &  \shortstack[c]{$1 + u^{19}$}  &  \shortstack[c]{$1 + u^{25}$}  &  \shortstack[c]{$1 + u^{31}$} \\ %ID:table8_row032
+\hline
+{$[[740, 20, (\leq 18,\leq 18)]]$} &  37  & {0.027} &  \shortstack[c]{$1 + u^{5}$}  &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{20}$}  &  \shortstack[c]{$1 + u^{23}$}  &  \shortstack[c]{$1 + u^{33}$}  &  \shortstack[c]{$1 + u^{35}$} \\ %ID:table8_row033
+\hline
+{$[[760, 20, (\leq 18,\leq 18)]]$} &  38  & {0.026} &  \shortstack[c]{$1 + u^{22}$}  &  \shortstack[c]{$1 + u^{24}$}  &  \shortstack[c]{$1 + u^{25}$}  &  \shortstack[c]{$1 + u^{33}$}  &  \shortstack[c]{$1 + u^{34}$}  &  \shortstack[c]{$1 + u^{37}$} \\ %ID:table8_row034
+\hline
+{$[[780, 20, (\leq 18,\leq 18)]]$} &  39  & {0.026} &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{15}$}  &  \shortstack[c]{$1 + u^{19}$}  &  \shortstack[c]{$1 + u^{23}$}  &  \shortstack[c]{$1 + u^{26}$}  &  \shortstack[c]{$1 + u^{30}$} \\ %ID:table8_row035
+\hline
+{$[[800, 20, (\leq 15,\leq 15)]]$} &  40  & {0.025} &  \shortstack[c]{$1 + u^{3}$}  &  \shortstack[c]{$1 + u^{13}$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{15}$}  &  \shortstack[c]{$1 + u^{22}$}  &  \shortstack[c]{$1 + u^{30}$} \\ %ID:table8_row036
+\hline
+{$[[820, 20, (\leq 18,\leq 18)]]$} &  41  & {0.024} &  \shortstack[c]{$1 + u^{2}$}  &  \shortstack[c]{$1 + u^{3}$}  &  \shortstack[c]{$1 + u^{4}$}  &  \shortstack[c]{$1 + u^{9}$}  &  \shortstack[c]{$1 + u^{16}$}  &  \shortstack[c]{$1 + u^{26}$} \\ %ID:table8_row037
+\hline
+{$[[840, 20, (\leq 18,\leq 18)]]$} &  42  & {0.024} &  \shortstack[c]{$1 + u^{13}$}  &  \shortstack[c]{$1 + u^{15}$}  &  \shortstack[c]{$1 + u^{18}$}  &  \shortstack[c]{$1 + u^{19}$}  &  \shortstack[c]{$1 + u^{35}$}  &  \shortstack[c]{$1 + u^{40}$} \\ %ID:table8_row038
+\hline
+{$[[860, 20, (\leq 20,\leq 20)]]$} &  43  & {0.023} &  \shortstack[c]{$1 + u^{3}$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{16}$}  &  \shortstack[c]{$1 + u^{17}$}  &  \shortstack[c]{$1 + u^{25}$}  &  \shortstack[c]{$1 + u^{38}$} \\ %ID:table8_row039
+\hline
+{$[[880, 20, (\leq 15,\leq 15)]]$} &  44  & {0.023} &  \shortstack[c]{$1 + u^{13}$}  &  \shortstack[c]{$1 + u^{20}$}  &  \shortstack[c]{$1 + u^{21}$}  &  \shortstack[c]{$1 + u^{25}$}  &  \shortstack[c]{$1 + u^{26}$}  &  \shortstack[c]{$1 + u^{41}$} \\ %ID:table8_row040
+\hline
+{$[[900, 20, (\leq 18,\leq 18)]]$} &  45  & {0.022} &  \shortstack[c]{$1 + u^{7}$}  &  \shortstack[c]{$1 + u^{17}$}  &  \shortstack[c]{$1 + u^{21}$}  &  \shortstack[c]{$1 + u^{22}$}  &  \shortstack[c]{$1 + u^{32}$}  &  \shortstack[c]{$1 + u^{43}$} \\ %ID:table8_row041
+\hline
+{$[[920, 20, (\leq 18,\leq 18)]]$} &  46  & {0.022} &  \shortstack[c]{$1 + u^{3}$}  &  \shortstack[c]{$1 + u^{31}$}  &  \shortstack[c]{$1 + u^{33}$}  &  \shortstack[c]{$1 + u^{34}$}  &  \shortstack[c]{$1 + u^{36}$}  &  \shortstack[c]{$1 + u^{45}$} \\ %ID:table8_row042
+\hline
+{$[[940, 20, (\leq 18,\leq 18)]]$} &  47  & {0.021} &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{23}$}  &  \shortstack[c]{$1 + u^{32}$}  &  \shortstack[c]{$1 + u^{37}$}  &  \shortstack[c]{$1 + u^{44}$} \\ %ID:table8_row043
+\hline
+{$[[960, 20, (\leq 19,\leq 19)]]$} &  48  & {0.021} &  \shortstack[c]{$1 + u^{7}$}  &  \shortstack[c]{$1 + u^{10}$}  &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{33}$}  &  \shortstack[c]{$1 + u^{34}$}  &  \shortstack[c]{$1 + u^{47}$} \\ %ID:table8_row044
+\hline
+{$[[980, 20, (\leq 19,\leq 19)]]$} &  49  & {0.020} &  \shortstack[c]{$1 + u^{6}$}  &  \shortstack[c]{$1 + u^{9}$}  &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{32}$}  &  \shortstack[c]{$1 + u^{48}$} \\ %ID:table8_row045
+\hline
+{$[[1000, 20, (\leq 20,\leq 20)]]$} &  50  & {0.020} &  \shortstack[c]{$1 + u^{13}$}  &  \shortstack[c]{$1 + u^{17}$}  &  \shortstack[c]{$1 + u^{19}$}  &  \shortstack[c]{$1 + u^{23}$}  &  \shortstack[c]{$1 + u^{39}$}  &  \shortstack[c]{$1 + u^{41}$} \\ %ID:table8_row046
+\hline
+{$[[1020, 20, (\leq 19,\leq 19)]]$} &  51  & {0.020} &  \shortstack[c]{$1 + u^{16}$}  &  \shortstack[c]{$1 + u^{26}$}  &  \shortstack[c]{$1 + u^{27}$}  &  \shortstack[c]{$1 + u^{30}$}  &  \shortstack[c]{$1 + u^{31}$}  &  \shortstack[c]{$1 + u^{44}$} \\ %ID:table8_row047
+\hline
+{$[[1040, 20, (\leq 18,\leq 18)]]$} &  52  & {0.019} &  \shortstack[c]{$1 + u^{4}$}  &  \shortstack[c]{$1 + u^{21}$}  &  \shortstack[c]{$1 + u^{35}$}  &  \shortstack[c]{$1 + u^{42}$}  &  \shortstack[c]{$1 + u^{47}$}  &  \shortstack[c]{$1 + u^{50}$} \\ %ID:table8_row048
+\hline
+{$[[1060, 20, (\leq 20,\leq 20)]]$} &  53  & {0.019} &  \shortstack[c]{$1 + u^{6}$}  &  \shortstack[c]{$1 + u^{25}$}  &  \shortstack[c]{$1 + u^{32}$}  &  \shortstack[c]{$1 + u^{43}$}  &  \shortstack[c]{$1 + u^{44}$}  &  \shortstack[c]{$1 + u^{49}$} \\ %ID:table8_row049
+\hline
+{$[[1080, 20, (\leq 20,\leq 20)]]$} &  54  & {0.019} &  \shortstack[c]{$1 + u^{5}$}  &  \shortstack[c]{$1 + u^{32}$}  &  \shortstack[c]{$1 + u^{34}$}  &  \shortstack[c]{$1 + u^{38}$}  &  \shortstack[c]{$1 + u^{41}$}  &  \shortstack[c]{$1 + u^{53}$} \\ %ID:table8_row050
+\hline
+{$[[1100, 20, (\leq 21,\leq 21)]]$} &  55  & {0.018} &  \shortstack[c]{$1 + u^{6}$}  &  \shortstack[c]{$1 + u^{25}$}  &  \shortstack[c]{$1 + u^{27}$}  &  \shortstack[c]{$1 + u^{31}$}  &  \shortstack[c]{$1 + u^{32}$}  &  \shortstack[c]{$1 + u^{35}$} \\ %ID:table8_row051
+\hline
+{$[[1120, 20, (\leq 20,\leq 20)]]$} &  56  & {0.018} &  \shortstack[c]{$1 + u$}  &  \shortstack[c]{$1 + u^{10}$}  &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{26}$}  &  \shortstack[c]{$1 + u^{34}$}  &  \shortstack[c]{$1 + u^{37}$} \\ %ID:table8_row052
+\hline
+{$[[1140, 20, (\leq 21,\leq 21)]]$} &  57  & {0.018} &  \shortstack[c]{$1 + u^{4}$}  &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{25}$}  &  \shortstack[c]{$1 + u^{29}$}  &  \shortstack[c]{$1 + u^{44}$}  &  \shortstack[c]{$1 + u^{48}$} \\ %ID:table8_row053
+\hline
+{$[[1160, 20, (\leq 21,\leq 21)]]$} &  58  & {0.017} &  \shortstack[c]{$1 + u^{4}$}  &  \shortstack[c]{$1 + u^{11}$}  &  \shortstack[c]{$1 + u^{17}$}  &  \shortstack[c]{$1 + u^{25}$}  &  \shortstack[c]{$1 + u^{48}$}  &  \shortstack[c]{$1 + u^{52}$} \\ %ID:table8_row054
+\hline
+{$[[1180, 20, (\leq 22,\leq 22)]]$} &  59  & {0.017} &  \shortstack[c]{$1 + u^{14}$}  &  \shortstack[c]{$1 + u^{29}$}  &  \shortstack[c]{$1 + u^{36}$}  &  \shortstack[c]{$1 + u^{40}$}  &  \shortstack[c]{$1 + u^{47}$}  &  \shortstack[c]{$1 + u^{51}$} \\ %ID:table8_row055
+\hline
+{$[[1200, 20, (\leq 20,\leq 20)]]$} &  60  & {0.017} &  \shortstack[c]{$1 + u^{3}$}  &  \shortstack[c]{$1 + u^{18}$}  &  \shortstack[c]{$1 + u^{27}$}  &  \shortstack[c]{$1 + u^{52}$}  &  \shortstack[c]{$1 + u^{53}$}  &  \shortstack[c]{$1 + u^{55}$} \\ %ID:table8_row056
+\hline
+{$[[1220, 20, (\leq 20,\leq 20)]]$} &  61  & {0.016} &  \shortstack[c]{$1 + u^{10}$}  &  \shortstack[c]{$1 + u^{19}$}  &  \shortstack[c]{$1 + u^{26}$}  &  \shortstack[c]{$1 + u^{29}$}  &  \shortstack[c]{$1 + u^{46}$}  &  \shortstack[c]{$1 + u^{49}$} \\ %ID:table8_row057
+\hline
+{$[[1240, 20, (\leq 24,\leq 24)]]$} &  62  & {0.016} &  \shortstack[c]{$1 + u^{4}$}  &  \shortstack[c]{$1 + u^{17}$}  &  \shortstack[c]{$1 + u^{35}$}  &  \shortstack[c]{$1 + u^{51}$}  &  \shortstack[c]{$1 + u^{53}$}  &  \shortstack[c]{$1 + u^{59}$} \\ %ID:table8_row058
+\hline
+{$[[1260, 20, (\leq 21,\leq 21)]]$} &  63  & {0.016} &  \shortstack[c]{$1 + u$}  &  \shortstack[c]{$1 + u^{7}$}  &  \shortstack[c]{$1 + u^{20}$}  &  \shortstack[c]{$1 + u^{37}$}  &  \shortstack[c]{$1 + u^{51}$}  &  \shortstack[c]{$1 + u^{60}$} \\ %ID:table8_row059
+\hline
+{$[[1280, 20, (\leq 23,\leq 23)]]$} &  64  & {0.016} &  \shortstack[c]{$1 + u^{15}$}  &  \shortstack[c]{$1 + u^{20}$}  &  \shortstack[c]{$1 + u^{29}$}  &  \shortstack[c]{$1 + u^{38}$}  &  \shortstack[c]{$1 + u^{48}$}  &  \shortstack[c]{$1 + u^{57}$} \\ %ID:table8_row060
+\hline
+{$[[1300, 20, (\leq 23,\leq 23)]]$} &  65  & {0.015} &  \shortstack[c]{$1 + u^{12}$}  &  \shortstack[c]{$1 + u^{20}$}  &  \shortstack[c]{$1 + u^{22}$}  &  \shortstack[c]{$1 + u^{24}$}  &  \shortstack[c]{$1 + u^{26}$}  &  \shortstack[c]{$1 + u^{35}$} \\ %ID:table8_row061
+\hline
+{$[[1320, 20, (\leq 22,\leq 22)]]$} &  66  & {0.015} &  \shortstack[c]{$1 + u^{18}$}  &  \shortstack[c]{$1 + u^{25}$}  &  \shortstack[c]{$1 + u^{31}$}  &  \shortstack[c]{$1 + u^{39}$}  &  \shortstack[c]{$1 + u^{45}$}  &  \shortstack[c]{$1 + u^{47}$} \\ %ID:table8_row062
+\hline
+\end{longtable}
+\endgroup
+
+\bigskip
+
+\begingroup
+\MMTableStyle
+\begin{longtable}{|*{10}{>{\columncolor{white}[\tabcolsep]}c|}}
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $\ell$ & $k/n$ & $F$ & $G$ & $H$ & $I$ & $J$ & $K$ & $L$\\ \hline
+\endfirsthead
+\multicolumn{10}{c}{\tablename~\thetable\ (continued)}\\
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $\ell$ & $k/n$ & $F$ & $G$ & $H$ & $I$ & $J$ & $K$ & $L$\\ \hline
+\endhead
+\hline
+\endfoot
+\caption{\textbf{Collapsed 7-dimensional (7D) multivariate multicycle (MM) codes.} {The multivariate quotient ring polynomials $F(\tau,u,v,w,x,y,z)$, $G(\tau,u,v,w,x,y,z)$, $H(\tau,u,v,w,x,y,z)$, $I(\tau,u,v,w,x,y,z)$, $J(\tau,u,v,w,x,y,z)$, $K(\tau,u,v,w,x,y,z)$ and $L(\tau,u,v,w,x,y,z)$ are defined over $\mathbb{F}_2[\tau,u,v,w, x, y, z]/\langle \tau^\ell-1,u-1,v-1, w-1, x-1, y-1, z-1 \rangle$.} All these 7D MM codes have weight-10 X stabilizer checks and weight-8 Z stabilizer checks.}\label{tab:table9}\\
+\endlastfoot
+{$[[385, 35, (\leq 10,\leq 7)]]$} &  11  & {0.091} &  {\shortstack[c]{$1+ \tau$}}  &  {\shortstack[c]{$1+ \tau^2$}}  &  {\shortstack[c]{$1+ \tau^3$}}  &  {\shortstack[c]{$1+ \tau^4$}}  &  {\shortstack[c]{$1+ \tau^6$}}  &  {\shortstack[c]{$1+ \tau^8$}}  &  {\shortstack[c]{$1+ \tau^{10}$}} \\ %ID:table9_row004
+\hline
+{$[[455, 35, (\leq 10,\leq 7)]]$} &  13  & {0.077} &  {\shortstack[c]{$1+ \tau^2$}}  &  {\shortstack[c]{$1+ \tau^6$}}  &  {\shortstack[c]{$1+ \tau^7$}}  &  {\shortstack[c]{$1+ \tau^8$}}  &  {\shortstack[c]{$1+ \tau^9$}}  &  {\shortstack[c]{$1+ \tau^{10}$}}  &  {\shortstack[c]{$1+ \tau^{11}$}} \\ %ID:table9_row006
+\hline
+{$[[455, 35, (\leq 11,\leq 7)]]$} &  13  & {0.077} &  {\shortstack[c]{$1+ \tau$}}  &  {\shortstack[c]{$1+ \tau^2$}}  &  {\shortstack[c]{$1+ \tau^4$}}  &  {\shortstack[c]{$1+ \tau^5$}}  &  {\shortstack[c]{$1+ \tau^6$}}  &  {\shortstack[c]{$1+ \tau^{10}$}}  &  {\shortstack[c]{$1+ \tau^{12}$}} \\ %ID:table9_row007
+\hline
+{$[[490, 35, (\leq 11,\leq 7)]]$} &  14  & {0.071} &  {\shortstack[c]{$1+ \tau$}}  &  {\shortstack[c]{$1+ \tau^3$}}  &  {\shortstack[c]{$1+ \tau^7$}}  &  {\shortstack[c]{$1+ \tau^8$}}  &  {\shortstack[c]{$1+ \tau^9$}}  &  {\shortstack[c]{$1+ \tau^{11}$}}  &  {\shortstack[c]{$1+ \tau^{12}$}} \\ %ID:table9_row008
+\hline
+{$[[490, 35, (\leq 12,\leq 7)]]$} &  14  & {0.071} &  {\shortstack[c]{$1+ \tau^3$}}  &  {\shortstack[c]{$1+ \tau^4$}}  &  {\shortstack[c]{$1+ \tau^6$}}  &  {\shortstack[c]{$1+ \tau^7$}}  &  {\shortstack[c]{$1+ \tau^9$}}  &  {\shortstack[c]{$1+ \tau^{12}$}}  &  {\shortstack[c]{$1+ \tau^{13}$}} \\ %ID:table9_row009
+\hline
+{$[[525, 35, (\leq 12,\leq 8)]]$} &  15  & {0.067} &  {\shortstack[c]{$1+ \tau^2$}}  &  {\shortstack[c]{$1+ \tau^3$}}  &  {\shortstack[c]{$1+ \tau^6$}}  &  {\shortstack[c]{$1+ \tau^7$}}  &  {\shortstack[c]{$1+ \tau^8$}}  &  {\shortstack[c]{$1+ \tau^{10}$}}  &  {\shortstack[c]{$1+ \tau^{11}$}} \\ %ID:table9_row010
+\hline
+{$[[525, 35, (\leq 15,\leq 9)]]$} &  15  & {0.067} &  {\shortstack[c]{$1+ \tau$}}  &  {\shortstack[c]{$1+ \tau^2$}}  &  {\shortstack[c]{$1+ \tau^3$}}  &  {\shortstack[c]{$1+ \tau^4$}}  &  {\shortstack[c]{$1+ \tau^5$}}  &  {\shortstack[c]{$1+ \tau^{8}$}}  &  {\shortstack[c]{$1+ \tau^{9}$}} \\ %ID:table9_row011
+\hline
+{$[[560, 35, (\leq 15,\leq 8)]]$} &  16  & {0.062} &  {\shortstack[c]{$1+ \tau^{2}$}}  &  {\shortstack[c]{$1+ \tau^{4}$}}  &  {\shortstack[c]{$1+ \tau^{6}$}}  &  {\shortstack[c]{$1+ \tau^{7}$}}  &  {\shortstack[c]{$1+ \tau^{11}$}}  &  {\shortstack[c]{$1+ \tau^{13}$}}  &  {\shortstack[c]{$1+ \tau^{15}$}} \\ %ID:table9_row012
+\hline
+{$[[595, 35, (\leq 15,\leq 10)]]$} &  17  & {0.059} &  {\shortstack[c]{$1+ \tau^{2}$}}  &  {\shortstack[c]{$1+ \tau^{5}$}}  &  {\shortstack[c]{$1+ \tau^{8}$}}  &  {\shortstack[c]{$1+ \tau^{10}$}}  &  {\shortstack[c]{$1+ \tau^{11}$}}  &  {\shortstack[c]{$1+ \tau^{13}$}}  &  {\shortstack[c]{$1+ \tau^{16}$}} \\ %ID:table9_row013
+\hline
+{$[[630, 35, (\leq 15,\leq 9)]]$} &  18  & {0.056} &  {\shortstack[c]{$1+ \tau^{3}$}}  &  {\shortstack[c]{$1+ \tau^{4}$}}  &  {\shortstack[c]{$1+ \tau^{6}$}}  &  {\shortstack[c]{$1+ \tau^{8}$}}  &  {\shortstack[c]{$1+ \tau^{11}$}}  &  {\shortstack[c]{$1+ \tau^{13}$}}  &  {\shortstack[c]{$1+ \tau^{17}$}} \\ %ID:table9_row014
+\hline
+{$[[665, 35, (\leq 15,\leq 10)]]$} &  19  & {0.053} &  {\shortstack[c]{$1+ \tau^{8}$}}  &  {\shortstack[c]{$1+ \tau^{9}$}}  &  {\shortstack[c]{$1+ \tau^{13}$}}  &  {\shortstack[c]{$1+ \tau^{14}$}}  &  {\shortstack[c]{$1+ \tau^{16}$}}  &  {\shortstack[c]{$1+ \tau^{17}$}}  &  {\shortstack[c]{$1+ \tau^{18}$}} \\ %ID:table9_row015
+\hline
+{$[[700, 35, (\leq 16,\leq 10)]]$} &  20  & {0.050} &  {\shortstack[c]{$1+ \tau^{6}$}}  &  {\shortstack[c]{$1+ \tau^{9}$}}  &  {\shortstack[c]{$1+ \tau^{12}$}}  &  {\shortstack[c]{$1+ \tau^{13}$}}  &  {\shortstack[c]{$1+ \tau^{17}$}}  &  {\shortstack[c]{$1+ \tau^{18}$}}  &  {\shortstack[c]{$1+ \tau^{19}$}} \\ %ID:table9_row016
+\hline
+{$[[735, 35, (\leq 15,\leq 10)]]$} &  21  & {0.048} &  {\shortstack[c]{$1+ \tau$}}  &  {\shortstack[c]{$1+ \tau^{5}$}}  &  {\shortstack[c]{$1+ \tau^{6}$}}  &  {\shortstack[c]{$1+ \tau^{11}$}}  &  {\shortstack[c]{$1+ \tau^{13}$}}  &  {\shortstack[c]{$1+ \tau^{17}$}}  &  {\shortstack[c]{$1+ \tau^{18}$}} \\ %ID:table9_row017
+\hline
+{$[[770, 35, (\leq 17,\leq 10)]]$} &  22  & {0.045} &  {\shortstack[c]{$1+ \tau$}}  &  {\shortstack[c]{$1+ \tau^{5}$}}  &  {\shortstack[c]{$1+ \tau^{7}$}}  &  {\shortstack[c]{$1+ \tau^{12}$}}  &  {\shortstack[c]{$1+ \tau^{14}$}}  &  {\shortstack[c]{$1+ \tau^{16}$}}  &  {\shortstack[c]{$1+ \tau^{19}$}} \\ %ID:table9_row018
+\hline
+{$[[805, 35, (\leq 18,\leq 11)]]$} &  23  & {0.043} &  {\shortstack[c]{$1+ \tau^{4}$}}  &  {\shortstack[c]{$1+ \tau^{7}$}}  &  {\shortstack[c]{$1+ \tau^{10}$}}  &  {\shortstack[c]{$1+ \tau^{12}$}}  &  {\shortstack[c]{$1+ \tau^{18}$}}  &  {\shortstack[c]{$1+ \tau^{20}$}}  &  {\shortstack[c]{$1+ \tau^{22}$}} \\ %ID:table9_row019
+\hline
+{$[[840, 35, (\leq 19,\leq 12)]]$} &  24  & {0.042} &  {\shortstack[c]{$1+ \tau^{2}$}}  &  {\shortstack[c]{$1+ \tau^{5}$}}  &  {\shortstack[c]{$1+ \tau^{7}$}}  &  {\shortstack[c]{$1+ \tau^{13}$}}  &  {\shortstack[c]{$1+ \tau^{14}$}}  &  {\shortstack[c]{$1+ \tau^{20}$}}  &  {\shortstack[c]{$1+ \tau^{23}$}} \\ %ID:table9_row020
+\hline
+{$[[875, 35, (\leq 18,\leq 11)]]$} &  25  & {0.040} &  {\shortstack[c]{$1+ \tau^{2}$}}  &  {\shortstack[c]{$1+ \tau^{3}$}}  &  {\shortstack[c]{$1+ \tau^{8}$}}  &  {\shortstack[c]{$1+ \tau^{11}$}}  &  {\shortstack[c]{$1+ \tau^{13}$}}  &  {\shortstack[c]{$1+ \tau^{18}$}}  &  {\shortstack[c]{$1+ \tau^{20}$}} \\ %ID:table9_row021
+\hline
+{$[[910, 35, (\leq 19,\leq 11)]]$} &  26  & {0.038} &  {\shortstack[c]{$1+ \tau^{2}$}}  &  {\shortstack[c]{$1+ \tau^{6}$}}  &  {\shortstack[c]{$1+ \tau^{9}$}}  &  {\shortstack[c]{$1+ \tau^{15}$}}  &  {\shortstack[c]{$1+ \tau^{16}$}}  &  {\shortstack[c]{$1+ \tau^{23}$}}  &  {\shortstack[c]{$1+ \tau^{25}$}} \\ %ID:table9_row022
+\hline
+{$[[945, 35, (\leq 18,\leq 9)]]$} &  27  & {0.037} &  {\shortstack[c]{$1+ \tau^{6}$}}  &  {\shortstack[c]{$1+ \tau^{7}$}}  &  {\shortstack[c]{$1+ \tau^{9}$}}  &  {\shortstack[c]{$1+ \tau^{10}$}}  &  {\shortstack[c]{$1+ \tau^{12}$}}  &  {\shortstack[c]{$1+ \tau^{16}$}}  &  {\shortstack[c]{$1+ \tau^{23}$}} \\ %ID:table9_row023
+\hline
+{$[[980, 35, (\leq 20,\leq 12)]]$} &  28  & {0.036} &  {\shortstack[c]{$1+ \tau$}}  &  {\shortstack[c]{$1+ \tau^{4}$}}  &  {\shortstack[c]{$1+ \tau^{10}$}}  &  {\shortstack[c]{$1+ \tau^{13}$}}  &  {\shortstack[c]{$1+ \tau^{17}$}}  &  {\shortstack[c]{$1+ \tau^{18}$}}  &  {\shortstack[c]{$1+ \tau^{25}$}} \\ %ID:table9_row024
+\hline
+{$[[1015, 35, (\leq 22,\leq 13)]]$} &  29  & {0.034} &  {\shortstack[c]{$1+ \tau^{8}$}}  &  {\shortstack[c]{$1+ \tau^{13}$}}  &  {\shortstack[c]{$1+ \tau^{18}$}}  &  {\shortstack[c]{$1+ \tau^{19}$}}  &  {\shortstack[c]{$1+ \tau^{23}$}}  &  {\shortstack[c]{$1+ \tau^{25}$}}  &  {\shortstack[c]{$1+ \tau^{28}$}} \\ %ID:table9_row025
+\hline
+{$[[1050, 35, (\leq 20,\leq 13)]]$} &  30  & {0.033} &  {\shortstack[c]{$1+ \tau^{2}$}}  &  {\shortstack[c]{$1+ \tau^{5}$}}  &  {\shortstack[c]{$1+ \tau^{7}$}}  &  {\shortstack[c]{$1+ \tau^{13}$}}  &  {\shortstack[c]{$1+ \tau^{21}$}}  &  {\shortstack[c]{$1+ \tau^{24}$}}  &  {\shortstack[c]{$1+ \tau^{29}$}} \\ %ID:table9_row026
+\hline
+\end{longtable}
+\endgroup
+
+\bigskip
+
+\begingroup
+\MMTableStyle
+\begin{longtable}{|*{11}{>{\columncolor{white}[\tabcolsep]}c|}}
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $\ell$ & $k/n$ & $F$ & $G$ & $H$ & $I$ & $J$ & $K$ & $L$ & $M$\\ \hline
+\endfirsthead
+\multicolumn{11}{c}{\tablename~\thetable\ (continued)}\\
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $\ell$ & $k/n$ & $F$ & $G$ & $H$ & $I$ & $J$ & $K$ & $L$ & $M$\\ \hline
+\endhead
+\hline
+\endfoot
+\caption{\textbf{Collapsed 8-dimensional (8D) multivariate multicycle (MM) codes.} {The multivariate quotient ring polynomials $F(s,\tau,u,v,w,x,y,z)$, $G(s,\tau,u,v,w,x,y,z)$, $H(s,\tau,u,v,w,x,y,z)$, $I(s,\tau,u,v,w,x,y,z)$, $J(s,\tau,u,v,w,x,y,z)$, $K(s,\tau,u,v,w,x,y,z)$, $L(s,\tau,u,v,w,x,y,z)$ and $M(s,\tau,u,v,w,x,y,z)$ are defined over $\mathbb{F}_2[s,\tau,u,v,w, x, y, z]/\langle s^\ell-1, \tau-1,u-1,v-1, w-1, x-1, y-1, z-1 \rangle$.} All these 8D MM codes have weight-10 X stabilizer checks and weight-10 Z stabilizer checks.}\label{tab:table10}\\
+\endlastfoot
+$[[630, 70, (9,9)]]$ &  9  & {0.111} &  {\shortstack[c]{$1+ s$}}  &  {\shortstack[c]{$1+ s^2$}}  &  {\shortstack[c]{$1+ s^3$}}  &  {\shortstack[c]{$1+ s^4$}}  &  {\shortstack[c]{$1+ s^5$}}  &  {\shortstack[c]{$1+ s^6$}}  &  {\shortstack[c]{$1+ s^7$}}  &  {\shortstack[c]{$1+ s^8$}} \\ %ID:table10_row001
+\hline
+{$[[700, 70, (\leq 8,\leq 8)]]$} &  10  & {0.100} &  {\shortstack[c]{$1+ s$}}  &  {\shortstack[c]{$1+ s^2$}}  &  {\shortstack[c]{$1+ s^3$}}  &  {\shortstack[c]{$1+ s^4$}}  &  {\shortstack[c]{$1+ s^5$}}  &  {\shortstack[c]{$1+ s^6$}}  &  {\shortstack[c]{$1+ s^7$}}  &  {\shortstack[c]{$1+ s^9$}} \\ %ID:table10_row002
+\hline
+{$[[770, 70, (\leq 9,\leq 9)]]$} &  11  & {0.091} &  {\shortstack[c]{$1+ s$}}  &  {\shortstack[c]{$1+ s^2$}}  &  {\shortstack[c]{$1+ s^4$}}  &  {\shortstack[c]{$1+ s^6$}}  &  {\shortstack[c]{$1+ s^7$}}  &  {\shortstack[c]{$1+ s^8$}}  &  {\shortstack[c]{$1+ s^{9}$}}  &  {\shortstack[c]{$1+ s^{10}$}} \\ %ID:table10_row003
+\hline
+{$[[840, 70, (\leq 10,\leq 10)]]$} &  12  & {0.083} &  {\shortstack[c]{$1+ s$}}  &  {\shortstack[c]{$1+ s^2$}}  &  {\shortstack[c]{$1+ s^3$}}  &  {\shortstack[c]{$1+ s^4$}}  &  {\shortstack[c]{$1+ s^5$}}  &  {\shortstack[c]{$1+ s^7$}}  &  {\shortstack[c]{$1+ s^{9}$}}  &  {\shortstack[c]{$1+ s^{11}$}} \\ %ID:table10_row004
+\hline
+{$[[910, 70, (\leq 11,\leq 11)]]$} &  13  & {0.077} &  {\shortstack[c]{$1+ s^{2}$}}  &  {\shortstack[c]{$1+ s^{3}$}}  &  {\shortstack[c]{$1+ s^{6}$}}  &  {\shortstack[c]{$1+ s^{8}$}}  &  {\shortstack[c]{$1+ s^{9}$}}  &  {\shortstack[c]{$1+ s^{10}$}}  &  {\shortstack[c]{$1+ s^{11}$}}  &  {\shortstack[c]{$1+ s^{12}$}} \\ %ID:table10_row005
+\hline
+{$[[980, 70, (\leq 10,\leq 10)]]$} &  14  & {0.071} &  {\shortstack[c]{$1+ s^{2}$}}  &  {\shortstack[c]{$1+ s^{3}$}}  &  {\shortstack[c]{$1+ s^{7}$}}  &  {\shortstack[c]{$1+ s^{9}$}}  &  {\shortstack[c]{$1+ s^{10}$}}  &  {\shortstack[c]{$1+ s^{11}$}}  &  {\shortstack[c]{$1+ s^{12}$}}  &  {\shortstack[c]{$1+ s^{13}$}} \\ %ID:table10_row006
+\hline
+{$[[1050, 70, (\leq 11,\leq 11)]]$} &  15  & {0.067} &  {\shortstack[c]{$1+ s$}}  &  {\shortstack[c]{$1+ s^{2}$}}  &  {\shortstack[c]{$1+ s^{4}$}}  &  {\shortstack[c]{$1+ s^{5}$}}  &  {\shortstack[c]{$1+ s^{6}$}}  &  {\shortstack[c]{$1+ s^{8}$}}  &  {\shortstack[c]{$1+ s^{12}$}}  &  {\shortstack[c]{$1+ s^{14}$}} \\ %ID:table10_row007
+\hline
+{$[[1120, 70, (\leq 11,\leq 11)]]$} &  16  & {0.062} &  {\shortstack[c]{$1+ s$}}  &  {\shortstack[c]{$1+ s^{2}$}}  &  {\shortstack[c]{$1+ s^{3}$}}  &  {\shortstack[c]{$1+ s^{4}$}}  &  {\shortstack[c]{$1+ s^{7}$}}  &  {\shortstack[c]{$1+ s^{9}$}}  &  {\shortstack[c]{$1+ s^{11}$}}  &  {\shortstack[c]{$1+ s^{15}$}} \\ %ID:table10_row008
+\hline
+{$[[1190, 70, (\leq 13,\leq 13)]]$} &  17  & {0.059} &  {\shortstack[c]{$1+ s$}}  &  {\shortstack[c]{$1+ s^{3}$}}  &  {\shortstack[c]{$1+ s^{4}$}}  &  {\shortstack[c]{$1+ s^{5}$}}  &  {\shortstack[c]{$1+ s^{9}$}}  &  {\shortstack[c]{$1+ s^{10}$}}  &  {\shortstack[c]{$1+ s^{12}$}}  &  {\shortstack[c]{$1+ s^{16}$}} \\ %ID:table10_row009
+\hline
+{$[[1260, 70, (\leq 12,\leq 12)]]$} &  18  & {0.056} &  {\shortstack[c]{$1+ s^{4}$}}  &  {\shortstack[c]{$1+ s^{5}$}}  &  {\shortstack[c]{$1+ s^{6}$}}  &  {\shortstack[c]{$1+ s^{7}$}}  &  {\shortstack[c]{$1+ s^{11}$}}  &  {\shortstack[c]{$1+ s^{13}$}}  &  {\shortstack[c]{$1+ s^{15}$}}  &  {\shortstack[c]{$1+ s^{16}$}} \\ %ID:table10_row010
+\hline
+{$[[1330, 70, (\leq 13,\leq 13)]]$} &  19  & {0.053} &  {\shortstack[c]{$1+ s^{3}$}}  &  {\shortstack[c]{$1+ s^{6}$}}  &  {\shortstack[c]{$1+ s^{8}$}}  &  {\shortstack[c]{$1+ s^{10}$}}  &  {\shortstack[c]{$1+ s^{13}$}}  &  {\shortstack[c]{$1+ s^{14}$}}  &  {\shortstack[c]{$1+ s^{15}$}}  &  {\shortstack[c]{$1+ s^{17}$}} \\ %ID:table10_row011
+\hline
+{$[[1400, 70, (\leq 10,\leq 10)]]$} &  20  & {0.050} &  {\shortstack[c]{$1+ s^{3}$}}  &  {\shortstack[c]{$1+ s^{4}$}}  &  {\shortstack[c]{$1+ s^{7}$}}  &  {\shortstack[c]{$1+ s^{9}$}}  &  {\shortstack[c]{$1+ s^{10}$}}  &  {\shortstack[c]{$1+ s^{11}$}}  &  {\shortstack[c]{$1+ s^{14}$}}  &  {\shortstack[c]{$1+ s^{17}$}} \\ %ID:table10_row012
+\hline
+{$[[1470, 70, (\leq 13,\leq 13)]]$} &  21  & {0.048} &  {\shortstack[c]{$1+ s^{2}$}}  &  {\shortstack[c]{$1+ s^{4}$}}  &  {\shortstack[c]{$1+ s^{5}$}}  &  {\shortstack[c]{$1+ s^{9}$}}  &  {\shortstack[c]{$1+ s^{11}$}}  &  {\shortstack[c]{$1+ s^{15}$}}  &  {\shortstack[c]{$1+ s^{17}$}}  &  {\shortstack[c]{$1+ s^{20}$}} \\ %ID:table10_row013
+\hline
+{$[[1540, 70, (\leq 12,\leq 12)]]$} &  22  & {0.045} &  {\shortstack[c]{$1+ s^{3}$}}  &  {\shortstack[c]{$1+ s^{5}$}}  &  {\shortstack[c]{$1+ s^{7}$}}  &  {\shortstack[c]{$1+ s^{8}$}}  &  {\shortstack[c]{$1+ s^{14}$}}  &  {\shortstack[c]{$1+ s^{15}$}}  &  {\shortstack[c]{$1+ s^{17}$}}  &  {\shortstack[c]{$1+ s^{20}$}} \\ %ID:table10_row014
+\hline
+{$[[1610, 70, (\leq 16,\leq 16)]]$} &  23  & {0.043} &  {\shortstack[c]{$1+ s$}}  &  {\shortstack[c]{$1+ s^{2}$}}  &  {\shortstack[c]{$1+ s^{3}$}}  &  {\shortstack[c]{$1+ s^{6}$}}  &  {\shortstack[c]{$1+ s^{7}$}}  &  {\shortstack[c]{$1+ s^{8}$}}  &  {\shortstack[c]{$1+ s^{12}$}}  &  {\shortstack[c]{$1+ s^{13}$}} \\ %ID:table10_row015
+\hline
+{$[[1680, 70, (\leq 15,\leq 15)]]$} &  24  & {0.042} &  {\shortstack[c]{$1+ s$}}  &  {\shortstack[c]{$1+ s^{6}$}}  &  {\shortstack[c]{$1+ s^{9}$}}  &  {\shortstack[c]{$1+ s^{13}$}}  &  {\shortstack[c]{$1+ s^{15}$}}  &  {\shortstack[c]{$1+ s^{16}$}}  &  {\shortstack[c]{$1+ s^{19}$}}  &  {\shortstack[c]{$1+ s^{22}$}} \\ %ID:table10_row016
+\hline
+{$[[1750, 70, (\leq 17,\leq 17)]]$} &  25  & {0.040} &  {\shortstack[c]{$1+ s^{3}$}}  &  {\shortstack[c]{$1+ s^{5}$}}  &  {\shortstack[c]{$1+ s^{7}$}}  &  {\shortstack[c]{$1+ s^{16}$}}  &  {\shortstack[c]{$1+ s^{17}$}}  &  {\shortstack[c]{$1+ s^{19}$}}  &  {\shortstack[c]{$1+ s^{21}$}}  &  {\shortstack[c]{$1+ s^{23}$}} \\ %ID:table10_row017
+\hline
+{$[[1820, 70, (\leq 13,\leq 13)]]$} &  26  & {0.038} &  {\shortstack[c]{$1+ s^{3}$}}  &  {\shortstack[c]{$1+ s^{9}$}}  &  {\shortstack[c]{$1+ s^{10}$}}  &  {\shortstack[c]{$1+ s^{12}$}}  &  {\shortstack[c]{$1+ s^{15}$}}  &  {\shortstack[c]{$1+ s^{18}$}}  &  {\shortstack[c]{$1+ s^{19}$}}  &  {\shortstack[c]{$1+ s^{22}$}} \\ %ID:table10_row018
+\hline
+{$[[1890, 70, (\leq 15,\leq 15)]]$} &  27  & {0.037} &  {\shortstack[c]{$1+ s$}}  &  {\shortstack[c]{$1+ s^{5}$}}  &  {\shortstack[c]{$1+ s^{8}$}}  &  {\shortstack[c]{$1+ s^{11}$}}  &  {\shortstack[c]{$1+ s^{13}$}}  &  {\shortstack[c]{$1+ s^{18}$}}  &  {\shortstack[c]{$1+ s^{23}$}}  &  {\shortstack[c]{$1+ s^{24}$}} \\ %ID:table10_row019
+\hline
+{$[[1960, 70, (\leq 14,\leq 14)]]$} &  28  & {0.036} &  {\shortstack[c]{$1+ s^{3}$}}  &  {\shortstack[c]{$1+ s^{11}$}}  &  {\shortstack[c]{$1+ s^{12}$}}  &  {\shortstack[c]{$1+ s^{17}$}}  &  {\shortstack[c]{$1+ s^{18}$}}  &  {\shortstack[c]{$1+ s^{20}$}}  &  {\shortstack[c]{$1+ s^{23}$}}  &  {\shortstack[c]{$1+ s^{26}$}} \\ %ID:table10_row020
+\hline
+{$[[2030, 70, (\leq 18,\leq 18)]]$} &  29  & {0.034} &  {\shortstack[c]{$1+ s^{4}$}}  &  {\shortstack[c]{$1+ s^{7}$}}  &  {\shortstack[c]{$1+ s^{11}$}}  &  {\shortstack[c]{$1+ s^{13}$}}  &  {\shortstack[c]{$1+ s^{14}$}}  &  {\shortstack[c]{$1+ s^{17}$}}  &  {\shortstack[c]{$1+ s^{20}$}}  &  {\shortstack[c]{$1+ s^{28}$}} \\ %ID:table10_row021
+\hline
+\end{longtable}
+\endgroup
+
+\bigskip
+
+\begingroup
+\MMTableStyle
+\begin{longtable}{|*{12}{>{\columncolor{white}[\tabcolsep]}c|}}
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $\ell$ & $k/n$ & $F$ & $G$ & $H$ & $I$ & $J$ & $K$ & $L$ & $M$ & $N$\\ \hline
+\endfirsthead
+\multicolumn{12}{c}{\tablename~\thetable\ (continued)}\\
+\hline
+{$[[n,k,(\leq d_X,\leq d_Z)]]$} & $\ell$ & $k/n$ & $F$ & $G$ & $H$ & $I$ & $J$ & $K$ & $L$ & $M$ & $N$\\ \hline
+\endhead
+\hline
+\endfoot
+\caption{\textbf{Collapsed 9-dimensional (9D) multivariate multicycle (MM) codes.} All these 9D MM codes have weight-12 X stabilizer checks and weight-10 Z stabilizer checks. {The multivariate quotient ring polynomials $F(r,s,\tau,u,v,w,x,y,z)$, $G(r,s,\tau,u,v,w,x,y,z)$, $H(r,s,\tau,u,v,w,x,y,z)$, $I(r,s,\tau,u,v,w,x,y,z)$, $J(r,s,\tau,u,v,w,x,y,z)$, $K(r,s,\tau,u,v,w,x,y,z)$, $L(r,s,\tau,u,v,w,x,y,z)$, $M(r,s,\tau,u,v,w,x,y,z)$ and $N(r,s,\tau,u,v,w,x,y,z)$ are defined over $\mathbb{F}_2[r,s,\tau,u,v,w, x, y, z]/\langle r^\ell-1, s-1, \tau-1,u-1,v-1, w-1, x-1, y-1, z-1 \rangle$.}}\label{tab:table11}\\
+\endlastfoot
+{$[[1386, 126, (\leq 11,\leq 9)]]$} &  11  & {0.091} &  {\shortstack[c]{$1+ r^2$}}  &  {\shortstack[c]{$1+ r^3$}}  &  {\shortstack[c]{$1+ r^4$}}  &  {\shortstack[c]{$1+ r^5$}}  &  {\shortstack[c]{$1+ r^6$}}  &  {\shortstack[c]{$1+ r^7$}}  &  {\shortstack[c]{$1+ r^8$}}  &  {\shortstack[c]{$1+ r^9$}}  &  {\shortstack[c]{$1+ r^{10}$}} \\ %ID:table11_row002
+\hline
+{$[[1512, 126, (\leq 12,\leq 9)]]$} &  12  & {0.083} &  {\shortstack[c]{$1+ r$}}  &  {\shortstack[c]{$1+ r^2$}}  &  {\shortstack[c]{$1+ r^3$}}  &  {\shortstack[c]{$1+ r^5$}}  &  {\shortstack[c]{$1+ r^7$}}  &  {\shortstack[c]{$1+ r^8$}}  &  {\shortstack[c]{$1+ r^9$}}  &  {\shortstack[c]{$1+ r^{10}$}}  &  {\shortstack[c]{$1+ r^{11}$}} \\ %ID:table11_row003
+\hline
+{$[[1638, 126, (\leq 13,\leq 10)]]$} &  13  & {0.077} &  {\shortstack[c]{$1+ r$}}  &  {\shortstack[c]{$1+ r^2$}}  &  {\shortstack[c]{$1+ r^4$}}  &  {\shortstack[c]{$1+ r^5$}}  &  {\shortstack[c]{$1+ r^6$}}  &  {\shortstack[c]{$1+ r^7$}}  &  {\shortstack[c]{$1+ r^8$}}  &  {\shortstack[c]{$1+ r^{10}$}}  &  {\shortstack[c]{$1+ r^{11}$}} \\ %ID:table11_row004
+\hline
+{$[[1764, 126, (\leq 14,\leq 10)]]$} &  14  & {0.071} &  {\shortstack[c]{$1+ r$}}  &  {\shortstack[c]{$1+ r^2$}}  &  {\shortstack[c]{$1+ r^3$}}  &  {\shortstack[c]{$1+ r^4$}}  &  {\shortstack[c]{$1+ r^5$}}  &  {\shortstack[c]{$1+ r^6$}}  &  {\shortstack[c]{$1+ r^7$}}  &  {\shortstack[c]{$1+ r^{9}$}}  &  {\shortstack[c]{$1+ r^{13}$}} \\ %ID:table11_row005
+\hline
+\end{longtable}
+\endgroup
+
+\end{document}
